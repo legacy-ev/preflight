@@ -41,3 +41,9 @@ Entry format:
 - **Next:** Merge reviewed branch, enable GitHub Actions as Pages source if needed, and integrate scanner/MCP data when those directories land.
 - **Blocked / needs Michael:** Nothing for this site build. MCP runtime is absent in this worktree, so its setup documentation explicitly marks build/entry-point assumptions.
 - **Push result:** `git push -u origin HEAD` was attempted on `feat/site`; GitHub rejected the branch because the current OAuth App credential lacks `workflow` scope to create `.github/workflows/pages.yml`. All changes remain committed locally. Retry the same push with a credential permitted to update workflows; no push to main was attempted.
+## 2026-10-14 — Codex (stdio MCP)
+- **Did:** Built mcp/ with five static-description tools, Ed25519 verification, expiry/intent cautions, filtered results and isolated evidence; validated non-storing outcome stub; fixed shared outcome domain regex. Added Claude Desktop README and a prioritised 15-item phased BACKLOG.md. Committed dependency lockfile.
+- **Validation:** Node 20 `npm test --prefix mcp`: nine tests passed with mocked fetch, including real SDK client/server calls and subprocess stdio negotiation. npm install audit found zero vulnerabilities. No paid APIs or environment API keys used.
+- **Live now:** Local stdio server; upstream static API availability remains an external dependency, not asserted by mocked tests.
+- **Next:** Live static scan publication and outcome ingestion infrastructure; validate Desktop configuration on a machine running Claude Desktop.
+- **Blocked / needs Michael:** nothing for this task.
