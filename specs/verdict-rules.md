@@ -63,3 +63,16 @@ Version these rules (`ruleset_version`). Every change gets a dated entry in `DEC
 - Store the matched pattern code and a short span. The span is marked `untrusted_evidence: true` and is **never** passed to an LLM as instructions.
 
 Maintain a fixture set (`/fixtures/injection/*.html`), with known-bad and known-good pages, and run it in CI.
+
+## Static scanner ruleset 0.1.0-static.1 (2026-10-14)
+
+The threat model's golden rules override the fallback GO rule when positive independent agreement is unavailable. The static scanner adds:
+
+| Code | Severity | Fires when |
+|---|---|---|
+| `DATA_INCOMPLETE` | CAUTION, low confidence | Required safety/access/route scan coverage is missing, truncated or failed |
+| `INDEPENDENT_SAFETY_UNVERIFIED` | CAUTION | No explicit independent safety agreement is available |
+| `UNSIGNED_SCAN` | CAUTION | Requests could not be signed because no signing key was supplied |
+| `SAFETY_REVIEW_REQUIRED` | CAUTION | A previous safety finding remains pending human review; its original reason/severity and evidence are retained |
+
+Outcome rules are applied only when the threat-model diversity, quarantine, per-operator weight and confirming-probe bounds are met. Static scans have no outcomes. Phase 3 returns-policy rules require an actual commerce check, not missing Phase 3 data. ToS remains `unknown` with `not yet classified`. See D-004 through D-007 in DECISIONS.md for limitations and contract-envelope precedence.

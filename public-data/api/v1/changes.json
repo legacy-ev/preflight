@@ -1,0 +1,44 @@
+[
+  {
+    "at": "2026-10-14T16:56:46.312Z",
+    "domain": "shopify.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA",
+      "UNSIGNED_SCAN"
+    ],
+    "prev_hash": "e72d8e25719d2367f1a787e053bb30e39443bafb1bfc8a48831d6d5a9ec538d3",
+    "hash": "77c750db96842e0b2ee2a14a3eb709419ceee9e94227c3fe678ec23c20affe56"
+  },
+  {
+    "at": "2026-10-14T16:56:46.312Z",
+    "domain": "apple.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA",
+      "UNSIGNED_SCAN"
+    ],
+    "prev_hash": "cee4153df30a7926d4e35569497a432d6a6e3794de739380cc64fff2d7643fd1",
+    "hash": "e72d8e25719d2367f1a787e053bb30e39443bafb1bfc8a48831d6d5a9ec538d3"
+  },
+  {
+    "at": "2026-10-14T16:56:46.312Z",
+    "domain": "amazon.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA",
+      "UNSIGNED_SCAN"
+    ],
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "cee4153df30a7926d4e35569497a432d6a6e3794de739380cc64fff2d7643fd1"
+  }
+]
