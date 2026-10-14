@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://<domain>/schemas/outcome-report.v1.json",
+  "title": "OutcomeReport",
+  "description": "What an agent sends after attempting a task. ENUMS ONLY — no free text, no PII, no full URLs, no user content. Reject anything else.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["domain", "intent", "route_used", "result", "attempted_at", "reporter"],
+  "properties": {
+    "domain": { "type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}$" },
+    "intent": {
+      "type": "string",
+      "enum": ["read", "search", "compare", "account_login", "account_create", "purchase", "book", "cancel", "submit_form", "download", "api_call"]
+    },
+    "route_used": { "type": "string", "enum": ["api", "mcp", "ucp", "acp", "pap", "a2a", "nlweb", "webmcp", "structured_feed", "markdown", "browser"] },
+    "path_template": {
+      "type": "string",
+      "maxLength": 120,
+      "description": "Optional. Templated path only, e.g. /product/{id} or /checkout. Server MUST strip query strings, fragments, numbers > 4 digits, emails and anything resembling an ID token before storing."
+    },
+    "result": { "type": "string", "enum": ["success", "partial", "blocked", "challenged", "failed", "aborted_safety", "aborted_user"] },
+    "failure_stage": {
+      "type": ["string", "null"],
+      "enum": ["access", "auth", "navigation", "search", "form", "cart", "payment", "confirmation", "rate_limited", "other", null]
+    },
+    "http_status": { "type": ["integer", "null"], "minimum": 100, "maximum": 599 },
+    "challenge_vendor": { "type": ["string", "null"], "enum": ["cloudflare", "akamai", "datadome", "human", "kasada", "imperva", "aws_waf", "other", "unknown", null] },
+    "self_identified": { "type": "boolean", "description": "Did the agent identify itself as an AI agent (UA and/or Web Bot Auth)?" },
+    "signed_requests": { "type": "boolean", "description": "Did the agent sign requests with Web Bot Auth?" },
+    "duration_ms": { "type": ["integer", "null"], "minimum": 0 },
+    "steps": { "type": ["integer", "null"], "minimum": 0, "maximum": 500 },
+    "followed_preflight": { "type": ["boolean", "null"], "description": "Did the agent use the route Preflight recommended? Used for the benchmark." },
+    "preflight_verdict_seen": { "type": ["string", "null"], "enum": ["GO", "CAUTION", "STOP", null] },
+    "attempted_at": { "type": "string", "format": "date-time" },
+    "reporter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operator", "agent_family"],
+      "properties": {
+        "operator": { "type": "string", "maxLength": 64, "description": "Company/developer running the agent. Verified via API key or Web Bot Auth Signature-Agent." },
+        "agent_family": { "type": "string", "maxLength": 64, "description": "e.g. claude-code, muse, chatgpt-agent, browser-use, custom" },
+        "agent_version": { "type": ["string", "null"], "maxLength": 32 },
+        "model_family": { "type": ["string", "null"], "maxLength": 32 }
+      }
+    }
+  }
+}

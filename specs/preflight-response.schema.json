@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://<domain>/schemas/preflight-response.v1.json",
+  "title": "PreflightResponse",
+  "description": "Answer to preflight(domain, intent). Verdict comes ONLY from deterministic rules in specs/verdict-rules.md.",
+  "type": "object",
+  "required": ["domain", "intent", "verdict", "reasons", "best_route", "freshness", "ruleset_version", "generated_at", "signature"],
+  "properties": {
+    "domain": { "type": "string", "description": "Registrable domain, lowercase, no scheme. e.g. example.com" },
+    "intent": {
+      "type": "string",
+      "enum": ["read", "search", "compare", "account_login", "account_create", "purchase", "book", "cancel", "submit_form", "download", "api_call"]
+    },
+    "verdict": { "type": "string", "enum": ["GO", "CAUTION", "STOP"] },
+    "confidence": { "type": "string", "enum": ["high", "medium", "low"], "description": "Lowered by stale data, small outcome samples, ambiguous ToS." },
+    "summary": { "type": "string", "maxLength": 280, "description": "Plain English, generated from reasons by template (not free LLM text)." },
+    "reasons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "severity", "text", "evidence_id", "source", "checked_at"],
+        "properties": {
+          "code": { "type": "string", "description": "e.g. SAFETY_PHISHING_LISTED, ACCESS_CHALLENGE_PAGE, TOS_REQUIRES_IDENTIFICATION, OUTCOME_LOW_SUCCESS, DATA_STALE" },
+          "severity": { "type": "string", "enum": ["stop", "caution", "info"] },
+          "text": { "type": "string", "maxLength": 200 },
+          "evidence_id": { "type": "string", "description": "Resolvable at GET /v1/evidence/{id}" },
+          "source": { "type": "string", "description": "Source key from data/sources.yaml, or 'preflight_scan'" },
+          "checked_at": { "type": "string", "format": "date-time" },
+          "ttl_seconds": { "type": "integer" }
+        }
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "properties": {
+        "must_self_identify": { "type": "boolean" },
+        "login_required": { "type": "boolean" },
+        "captcha_seen": { "type": "boolean" },
+        "pay_per_crawl": { "type": ["object", "null"], "properties": { "price": { "type": "string" }, "currency": { "type": "string" } } },
+        "tos_class": { "type": "string", "enum": ["bans_agents", "requires_identification", "bans_automated_accounts", "bans_scraping", "allows_with_conditions", "silent", "unknown"] },
+        "tos_url": { "type": ["string", "null"] }
+      }
+    },
+    "best_route": {
+      "type": "array",
+      "description": "Ordered best-first.",
+      "items": {
+        "type": "object",
+        "required": ["type", "status"],
+        "properties": {
+          "type": { "type": "string", "enum": ["api", "mcp", "ucp", "acp", "pap", "a2a", "nlweb", "webmcp", "structured_feed", "markdown", "browser"] },
+          "endpoint": { "type": ["string", "null"] },
+          "status": { "type": "string", "enum": ["observed_working", "discovered", "announced_only", "broken", "unknown"] },
+          "auth": { "type": "string", "enum": ["none", "api_key", "oauth", "account_login", "unknown"] },
+          "success_rate_7d": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+          "sample_size_7d": { "type": ["integer", "null"] },
+          "recipe_id": { "type": ["string", "null"], "description": "Phase 2: verified step-by-step recipe" }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "properties": {
+        "listed_on": { "type": "array", "items": { "type": "string" }, "description": "Feed keys that list this domain" },
+        "domain_age_days": { "type": ["integer", "null"] },
+        "lookalike_of": { "type": ["string", "null"] },
+        "injection_findings": { "type": "array", "items": { "type": "string" }, "description": "Pattern codes, e.g. HIDDEN_TEXT_INSTRUCTION, JSONLD_PAYMENT_INSTRUCTION" }
+      }
+    },
+    "outcomes": {
+      "type": "object",
+      "properties": {
+        "success_rate_7d": { "type": ["number", "null"] },
+        "success_rate_30d": { "type": ["number", "null"] },
+        "sample_size_7d": { "type": "integer" },
+        "top_failure_stage": { "type": ["string", "null"] }
+      }
+    },
+    "freshness": {
+      "type": "object",
+      "description": "Age in seconds of each component.",
+      "properties": {
+        "safety": { "type": "integer" },
+        "access": { "type": "integer" },
+        "route": { "type": "integer" },
+        "tos": { "type": "integer" },
+        "outcomes": { "type": "integer" }
+      }
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "human_page": { "type": "string" },
+        "dispute": { "type": "string" },
+        "report_outcome": { "type": "string" }
+      }
+    },
+    "ruleset_version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "signature": {
+      "type": "object",
+      "description": "Ed25519 signature over the canonical JSON (RFC 8785 JCS) of this object minus 'signature'.",
+      "required": ["alg", "keyid", "value"],
+      "properties": {
+        "alg": { "const": "ed25519" },
+        "keyid": { "type": "string" },
+        "value": { "type": "string", "description": "base64url" }
+      }
+    }
+  }
+}

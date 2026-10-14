@@ -1,0 +1,151 @@
+# External data sources. EVERY entry: verify URL, API shape and licence before use; record in DECISIONS.md.
+# licence_status: verified_ok | verify | non_commercial | paid | link_only
+# Rule: if licence is unclear for commercial use -> link out only, and ask Michael (Human Gate 8).
+
+site_lists:
+  - key: tranco
+    url: https://tranco-list.eu
+    use: Top-10k domain ranking for weekly scans
+    refresh: weekly (pin the list ID you used)
+    licence_status: verify
+
+user_agent_lists:
+  - key: ai_robots_txt
+    url: https://github.com/ai-robots-txt/ai.robots.txt
+    use: Known AI crawler/agent user-agent strings (also used by Cloudflare Radar)
+    refresh: daily
+    licence_status: verify   # check repo LICENSE
+  - key: known_agents
+    url: https://darkvisitors.com   # rebranded to "Known Agents" Feb 2026 — find the current domain/API
+    use: Agent UA list + agent type categories
+    refresh: weekly
+    licence_status: verify   # freemium; check API terms before commercial use
+
+benchmarks_to_link_not_copy:
+  - key: cloudflare_radar
+    url: https://radar.cloudflare.com/ai-insights
+    use: Compare our robots.txt stats against theirs; link in methodology
+    licence_status: non_commercial   # API/download data CC BY-NC 4.0; embeds CC BY 4.0
+  - key: xpay_saas_index
+    url: https://www.xpay.sh/agent-ready-index/
+    use: Link for SaaS "agent buyability"
+    licence_status: link_only
+  - key: lighthouse_agentic
+    url: https://github.com/GoogleChrome/lighthouse
+    use: We may RUN Lighthouse's agentic-browsing category ourselves (open-source tool) as one route/access signal
+    licence_status: verify   # Apache-2.0 expected
+
+safety_feeds:
+  - key: urlhaus
+    url: https://urlhaus.abuse.ch
+    use: Malware URL feed
+    refresh: hourly
+    licence_status: verify
+  - key: phishtank
+    url: https://phishtank.org
+    use: Phishing URL feed
+    refresh: hourly
+    licence_status: verify   # registration/app key likely required
+  - key: openphish
+    url: https://openphish.com
+    use: Phishing feed (free community feed)
+    refresh: hourly
+    licence_status: verify   # community feed may be non-commercial; premium is paid
+  - key: google_safe_browsing
+    url: https://developers.google.com/safe-browsing
+    use: URL threat lookup
+    licence_status: verify   # believed non-commercial; Google Web Risk is the paid commercial option
+  - key: rdap
+    url: https://about.rdap.org   # bootstrap via IANA RDAP registries
+    use: Domain registration date (age)
+    refresh: on scan, cache 30d
+    licence_status: verify
+  - key: crt_sh
+    url: https://crt.sh
+    use: Certificate transparency history (first-seen date, lookalike discovery)
+    refresh: on scan
+    licence_status: verify   # rate-limit politely
+
+payee_checks_phase3:
+  - key: ofac_sdn
+    url: https://sanctionssearch.ofac.treas.gov
+    use: US sanctions list
+    licence_status: verify   # US gov public data
+  - key: uk_sanctions_list
+    url: https://www.gov.uk/government/publications/the-uk-sanctions-list
+    use: UK sanctions list — VERIFY which list is the current official one (FCDO UK Sanctions List vs OFSI consolidated list)
+    licence_status: verify   # OGL expected
+  - key: companies_house
+    url: https://developer.company-information.service.gov.uk
+    use: UK company existence/status for merchants
+    licence_status: verify   # free API key
+
+route_discovery_specs:   # VERIFY canonical paths in official docs before coding
+  - key: mcp_wellknown
+    path: /.well-known/mcp/server.json
+    alt_paths: [/.well-known/mcp.json]
+    docs: https://modelcontextprotocol.io
+  - key: mcp_registry
+    url: https://registry.modelcontextprotocol.io   # REST /v0 per third-party docs — verify
+    use: Official MCP server metadata
+    refresh: daily
+    licence_status: verify
+  - key: a2a_agent_card
+    path: /.well-known/agent-card.json
+    legacy_paths: [/.well-known/agent.json]   # pre-0.3; flag as legacy
+    docs: https://a2a-protocol.org   # verify
+  - key: x402_bazaar_cdp
+    url: https://api.cdp.coinbase.com/platform/v2/x402/discovery/resources
+    use: Paid x402 endpoints/MCP tools directory (~23k resources reported)
+    refresh: daily
+    licence_status: verify
+  - key: ucp
+    docs: "find Google's official UCP spec; record the discovery path"
+  - key: acp
+    docs: https://developers.openai.com/commerce/specs/checkout
+    note: Instant Checkout is approved-partners only; label 'announced_only' unless observed
+  - key: personal_agent_protocol
+    docs: "find the official PAP draft (Meta/Sierra, Oct 2026); record discovery method"
+  - key: webmcp
+    docs: "Chrome developer docs; detection likely requires a browser with WebMCP enabled"
+  - key: nlweb
+    docs: https://github.com/nlweb-ai/NLWeb   # verify repo; endpoints /ask and /mcp
+  - key: llms_txt
+    path: /llms.txt
+    docs: https://llmstxt.org
+  - key: web_bot_auth
+    docs: "IETF webbotauth working group drafts + https://developers.cloudflare.com (Web Bot Auth)"
+  - key: visa_tap
+    docs: https://github.com/visa/trusted-agent-protocol
+  - key: agent_skills
+    docs: https://agentskills.io/specification
+
+facts_phase3:
+  - key: iana_tz
+    url: https://www.iana.org/time-zones
+    licence_status: verified_ok   # public domain tz database
+  - key: nager_date
+    url: https://date.nager.at
+    use: Public holidays API
+    licence_status: verify
+  - key: ecb_fx
+    url: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates
+    use: Daily FX reference rates
+    licence_status: verify
+  - key: llm_status_pages
+    urls: [https://status.openai.com, https://status.anthropic.com, https://status.openrouter.ai]
+    use: Provider status (many Statuspage sites expose /api/v2/summary.json — verify each)
+    licence_status: link_only
+  - key: openrouter_models
+    url: https://openrouter.ai/api/v1/models
+    use: Model list + prices
+    licence_status: verify   # check terms for redistribution
+  - key: osv
+    url: https://osv.dev
+    use: Package vulnerabilities (for "what changed" digest / tool safety)
+    licence_status: verify
+
+incidents_and_news_link_only:
+  - key: oecd_ai_incidents
+    url: https://oecd.ai/en/incidents
+    licence_status: link_only
