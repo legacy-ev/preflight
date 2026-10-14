@@ -7,6 +7,7 @@ for (const name of await readdir('fixtures/api/v1')) {
   if (!await exists(target) || (name === 'preflight' && !(await readdir(target)).some(f => f.endsWith('.json'))))
     await cp(`fixtures/api/v1/${name}`, target, { recursive: true });
 }
+if (await exists('../public-data/scans')) await cp('../public-data/scans', 'dist/scans', { recursive: true });
 await mkdir('dist/.well-known', { recursive: true });
 await cp('../keys/public-jwks.json', 'dist/.well-known/http-message-signatures-directory');
 await cp('../keys/public-jwks.json', 'dist/keys.json');

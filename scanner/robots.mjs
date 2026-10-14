@@ -35,18 +35,51 @@ function normalized(path) {
     });
 }
 
+// Match literal segments with KMP. Each path character is visited at most a
+// constant number of times; preprocessing costs O(pattern length). No regex
+// backtracking or retrying a long literal at every wildcard position.
+function findLiteral(text, literal, start) {
+  if (!literal) return start;
+  const failure = new Uint32Array(literal.length);
+  for (let i = 1, j = 0; i < literal.length; i++) {
+    while (j && literal[i] !== literal[j]) j = failure[j - 1];
+    if (literal[i] === literal[j]) j++;
+    failure[i] = j;
+  }
+  for (let i = start, j = 0; i < text.length; i++) {
+    while (j && text[i] !== literal[j]) j = failure[j - 1];
+    if (text[i] === literal[j]) j++;
+    if (j === literal.length) return i - j + 1;
+  }
+  return -1;
+}
+function wildcardMatches(pattern, path) {
+  const end = pattern.endsWith('$');
+  const parts = (end ? pattern.slice(0, -1) : pattern).split('*');
+  const first = parts.shift();
+  if (!path.startsWith(first)) return false;
+  let cursor = first.length;
+  if (!parts.length) return !end || cursor === path.length;
+  const suffix = end ? parts.pop() : '';
+  for (const part of parts) {
+    const found = findLiteral(path, part, cursor);
+    if (found < 0) return false;
+    cursor = found + part.length;
+  }
+  return !end || (path.length - suffix.length >= cursor && path.endsWith(suffix));
+}
+
 export function robotsDecision(groups, agent, path) {
   const token = agent.toLowerCase();
   const scored = groups.map(group => ({ group, score: Math.max(-1, ...group.agents.map(a => a === '*' ? 0 : token.includes(a) ? a.length : -1)) }));
   const max = Math.max(-1, ...scored.map(x => x.score));
   const selected = scored.filter(x => x.score === max && max >= 0).map(x => x.group);
   let winning = null;
+  const target = normalized(path);
   for (const rule of selected.flatMap(x => x.rules)) {
     const pattern = normalized(rule.path);
-    const end = pattern.endsWith('$');
-    const source = (end ? pattern.slice(0, -1) : pattern).split('*').map(x => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('.*');
     const specificity = Buffer.byteLength(pattern.replace(/\*/g, '').replace(/\$$/, '').replace(/%[0-9A-F]{2}/g, 'x'));
-    if (new RegExp(`^${source}${end ? '$' : ''}`).test(normalized(path)) &&
+    if (wildcardMatches(pattern, target) &&
       (!winning || specificity > winning.specificity || (specificity === winning.specificity && rule.allow))) winning = { ...rule, specificity };
   }
   return { allowed: winning?.allow ?? true, matched_rule: winning ? `${winning.allow ? 'Allow' : 'Disallow'}: ${winning.path}`.slice(0, 200) : null,

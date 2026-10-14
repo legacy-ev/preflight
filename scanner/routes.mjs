@@ -5,10 +5,10 @@ export const WELL_KNOWN = [
 const TYPES = ['api', 'mcp', 'ucp', 'acp', 'pap', 'a2a', 'nlweb', 'webmcp', 'structured_feed', 'markdown', 'browser'];
 const STATUSES = ['observed_working', 'discovered', 'announced_only', 'unknown', 'broken'];
 
-export function safeEndpoint(value, origin) {
+export function safeEndpoint(value, origin, base = origin) {
   if (typeof value !== 'string' || value.length > 2048 || /[\x00-\x20\\]/.test(value)) return null;
   try {
-    const url = new URL(value, origin);
+    const url = new URL(value, base);
     if (url.origin !== origin || url.protocol !== 'https:' || url.username || url.password || url.search || url.hash) return null;
     let path = url.pathname;
     for (let i = 0; i < 4; i++) { const next = decodeURIComponent(path); if (next === path) break; path = next; }

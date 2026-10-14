@@ -1,4 +1,3 @@
-import { lookup } from 'node:dns/promises';
 import { isIP } from 'node:net';
 
 export function isPublicAddress(address) {
@@ -33,7 +32,9 @@ export function validateResolvedURL(url,addresses,{allowSyntheticDNS=false}={}) 
   return addresses.length>0 && addresses.every(ip=>isPublicAddress(ip) || (allowSyntheticDNS && ip==='198.18.0.1'));
 }
 export async function validatePublicURL(url,options={}) {
-  const host=new URL(url).hostname.replace(/^\[|\]$/g,'');
-  const addresses=isIP(host)?[host]:(await lookup(host,{all:true})).map(x=>x.address);
-  return validateResolvedURL(url,addresses,options);
+  // Share transport validation: synthetic DNS requires independent public DNS,
+  // even when the legacy --managed-dns flag is supplied.
+  const { resolveDestination } = await import('./transport.mjs');
+  try {await resolveDestination(url,options);return true;}
+  catch {return false;}
 }

@@ -77,7 +77,7 @@ export class BoundedClient {
           this.halted=true;
         }
         if(response.status>=300 && response.status<400) {
-          const target=safeEndpoint(response.headers.get('location'),this.origin);
+          const target=safeEndpoint(response.headers.get('location'),this.origin,current);
           if(!target) return {...result,error:'unsafe_or_off_origin_redirect'};
           current=target;
           continue;
