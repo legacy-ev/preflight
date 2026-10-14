@@ -23,3 +23,10 @@ Entry format:
 - **Added later the same day:**
   - `specs/threat-model.md`: poisoning attacks ranked by attacker profit, plus the defences.
   - Expanded the monetisation and cost-guardrail notes in BRIEF.md section 11.
+
+## 2026-10-14 — Codex (stdio MCP)
+- **Did:** Built mcp/ with five static-description tools, Ed25519 verification, expiry/intent cautions, filtered results and isolated evidence; validated non-storing outcome stub; fixed shared outcome domain regex. Added Claude Desktop README and a prioritised 15-item phased BACKLOG.md. Committed dependency lockfile.
+- **Validation:** Node 20 `npm test --prefix mcp`: nine tests passed with mocked fetch, including real SDK client/server calls and subprocess stdio negotiation. npm install audit found zero vulnerabilities. No paid APIs or environment API keys used.
+- **Live now:** Local stdio server; upstream static API availability remains an external dependency, not asserted by mocked tests.
+- **Next:** Live static scan publication and outcome ingestion infrastructure; validate Desktop configuration on a machine running Claude Desktop.
+- **Blocked / needs Michael:** nothing for this task.
