@@ -1,0 +1,49 @@
+{
+  "response": {
+    "domain": "example.com",
+    "intent": "read",
+    "verdict": "GO",
+    "confidence": "medium",
+    "summary": "Fictional fixture: no verdict rule fired.",
+    "reasons": [],
+    "best_route": [
+      {
+        "type": "browser",
+        "status": "observed_working",
+        "endpoint": "https://example.com/",
+        "auth": "none",
+        "success_rate_7d": null,
+        "sample_size_7d": 0
+      }
+    ],
+    "freshness": {
+      "safety": 60,
+      "access": 60,
+      "route": 60,
+      "tos": 0,
+      "outcomes": 0
+    },
+    "requirements": {
+      "must_self_identify": false,
+      "login_required": false,
+      "captcha_seen": false,
+      "tos_class": "unknown",
+      "tos_url": null
+    },
+    "outcomes": {
+      "success_rate_7d": null,
+      "success_rate_30d": null,
+      "sample_size_7d": 0,
+      "top_failure_stage": null
+    },
+    "ruleset_version": "0.1",
+    "generated_at": "2026-10-14T09:00:00Z"
+  },
+  "signature": {
+    "alg": "ed25519",
+    "kid": "fixture-unsigned",
+    "sig": "",
+    "generated_at": "2026-10-14T09:00:00Z",
+    "expires_at": "2026-10-15T09:00:00Z"
+  }
+}

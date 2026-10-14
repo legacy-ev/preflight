@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { changes, href, date } from '../lib/data';
+---
+<Layout title="Changes"><h1>Changes, on record.</h1><p class="intro">Dated verdict transitions from the published change log.</p><a href={href('changes.xml')}>Subscribe via RSS →</a>{changes.length===0&&<p>No changes published.</p>}{changes.map((c:any)=><article class="finding"><h2><a href={href(`site/${c.domain}`)}>{c.domain}</a></h2><p><time datetime={c.at}>{date(c.at)}</time> · {c.from ?? 'No previous verdict'} → <span class={`verdict ${c.to}`}>{c.to}</span></p><p class="code">Reasons: {c.reason_codes.join(', ') || 'No rule fired'}</p><p class="meta code">Previous hash: {c.prev_hash ?? 'not supplied'}<br/>Event hash: {c.hash ?? 'not supplied'}</p></article>)}</Layout>

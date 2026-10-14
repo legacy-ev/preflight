@@ -1,0 +1,59 @@
+{
+  "response": {
+    "domain": "example.org",
+    "intent": "read",
+    "verdict": "CAUTION",
+    "confidence": "medium",
+    "summary": "Fictional fixture: The sample read probe received HTTP 403 with a challenge page.",
+    "reasons": [
+      {
+        "code": "ACCESS_CHALLENGE_PAGE",
+        "severity": "caution",
+        "text": "The sample read probe received HTTP 403 with a challenge page.",
+        "evidence_id": "example.org-probe",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T09:00:00Z",
+        "ttl_seconds": 86400
+      }
+    ],
+    "best_route": [
+      {
+        "type": "browser",
+        "status": "broken",
+        "endpoint": "https://example.org/",
+        "auth": "none",
+        "success_rate_7d": null,
+        "sample_size_7d": 0
+      }
+    ],
+    "freshness": {
+      "safety": 60,
+      "access": 60,
+      "route": 60,
+      "tos": 0,
+      "outcomes": 0
+    },
+    "requirements": {
+      "must_self_identify": false,
+      "login_required": false,
+      "captcha_seen": true,
+      "tos_class": "unknown",
+      "tos_url": null
+    },
+    "outcomes": {
+      "success_rate_7d": null,
+      "success_rate_30d": null,
+      "sample_size_7d": 0,
+      "top_failure_stage": null
+    },
+    "ruleset_version": "0.1",
+    "generated_at": "2026-10-14T09:00:00Z"
+  },
+  "signature": {
+    "alg": "ed25519",
+    "kid": "fixture-unsigned",
+    "sig": "",
+    "generated_at": "2026-10-14T09:00:00Z",
+    "expires_at": "2026-10-15T09:00:00Z"
+  }
+}

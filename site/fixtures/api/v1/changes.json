@@ -1,0 +1,33 @@
+[
+  {
+    "at": "2026-10-14T09:00:00Z",
+    "domain": "example.net",
+    "from": null,
+    "to": "STOP",
+    "reason_codes": [
+      "SAFETY_INJECTION_HIGH"
+    ],
+    "prev_hash": "a6ce7f73d90ddff835f35bf44d6e8eaec48c9a6a24d24fe0dab44f48398e5032",
+    "hash": "d5ee4a16071a3ed6008410d7bde6ece4aca80f616d29fef34f3b84b475d152cb"
+  },
+  {
+    "at": "2026-10-14T09:00:00Z",
+    "domain": "example.org",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_CHALLENGE_PAGE"
+    ],
+    "prev_hash": "5dde6ffa110fe47a87e486ddbfb794c1daf88523e19ebef7528da04f9682665b",
+    "hash": "a6ce7f73d90ddff835f35bf44d6e8eaec48c9a6a24d24fe0dab44f48398e5032"
+  },
+  {
+    "at": "2026-10-14T09:00:00Z",
+    "domain": "example.com",
+    "from": null,
+    "to": "GO",
+    "reason_codes": [],
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "5dde6ffa110fe47a87e486ddbfb794c1daf88523e19ebef7528da04f9682665b"
+  }
+]

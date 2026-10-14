@@ -1,0 +1,20 @@
+{
+  "name": "preflight-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/copy-data.mjs",
+    "preview": "astro preview",
+    "test": "node --test scripts/verify.test.mjs"
+  },
+  "dependencies": {
+    "astro": "5.18.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "undici": "7.30.0"
+  }
+}
