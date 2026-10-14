@@ -4,43 +4,34 @@
     "intent": "read",
     "verdict": "CAUTION",
     "confidence": "low",
-    "summary": "CAUTION: No homepage scan is available; retry after permission and access are available. Required scan coverage is incomplete or unavailable. Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO. The scan is unsigned because no signing key",
+    "summary": "CAUTION: No homepage scan is available; retry after permission and access are available. Required scan coverage is incomplete or unavailable. Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
     "reasons": [
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "shopify.com:2026-10-14T17:21:50.251Z:access:NO_DATA",
+        "evidence_id": "shopify.com:2026-10-14T18:02:56.310Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:21:50.251Z",
+        "checked_at": "2026-10-14T18:02:56.310Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "shopify.com:2026-10-14T17:21:50.251Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "shopify.com:2026-10-14T18:02:56.310Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:21:50.251Z",
+        "checked_at": "2026-10-14T18:02:56.310Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "shopify.com:2026-10-14T17:21:50.251Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "shopify.com:2026-10-14T18:02:56.310Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:21:50.251Z",
+        "checked_at": "2026-10-14T18:02:56.310Z",
         "ttl_seconds": 3600
-      },
-      {
-        "code": "UNSIGNED_SCAN",
-        "severity": "caution",
-        "text": "The scan is unsigned because no signing key was supplied.",
-        "evidence_id": "shopify.com:2026-10-14T17:21:50.251Z:access:UNSIGNED_SCAN",
-        "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:21:50.251Z",
-        "ttl_seconds": 86400
       }
     ],
     "best_route": [],
@@ -76,9 +67,15 @@
       "retry": "/preflight/api/v1/preflight/shopify.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T17:21:57.595Z",
+    "generated_at": "2026-10-14T18:03:03.432Z",
     "signature": null,
-    "expires_at": "2026-10-15T17:21:57.595Z"
+    "expires_at": "2026-10-15T18:03:03.432Z"
   },
-  "signature": null
+  "signature": {
+    "alg": "ed25519",
+    "kid": "preflight-2026-10",
+    "sig": "hmDAo72cIZK7UoZbJS5p3FcVmABq5WzhW9EJ69Bid7QF6R0KkS1q1GSZ2bxZ3diTMQjggE3c-GGFUX0037Z-BA",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  }
 }

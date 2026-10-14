@@ -1,0 +1,81 @@
+{
+  "response": {
+    "domain": "very.co.uk",
+    "intent": "read",
+    "verdict": "CAUTION",
+    "confidence": "low",
+    "summary": "CAUTION: No homepage scan is available; retry after permission and access are available. Required scan coverage is incomplete or unavailable. Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
+    "reasons": [
+      {
+        "code": "NO_DATA",
+        "severity": "caution",
+        "text": "No homepage scan is available; retry after permission and access are available.",
+        "evidence_id": "very.co.uk:2026-10-14T18:01:11.706Z:access:NO_DATA",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:11.706Z",
+        "ttl_seconds": 86400
+      },
+      {
+        "code": "DATA_INCOMPLETE",
+        "severity": "caution",
+        "text": "Required scan coverage is incomplete or unavailable.",
+        "evidence_id": "very.co.uk:2026-10-14T18:01:11.706Z:safety:DATA_INCOMPLETE",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:11.706Z",
+        "ttl_seconds": 3600
+      },
+      {
+        "code": "INDEPENDENT_SAFETY_UNVERIFIED",
+        "severity": "caution",
+        "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
+        "evidence_id": "very.co.uk:2026-10-14T18:01:11.706Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:11.706Z",
+        "ttl_seconds": 3600
+      }
+    ],
+    "best_route": [],
+    "requirements": {
+      "must_self_identify": false,
+      "login_required": false,
+      "captcha_seen": false,
+      "pay_per_crawl": null,
+      "tos_class": "unknown",
+      "tos_url": null,
+      "tos_classification": "not yet classified"
+    },
+    "safety": {
+      "listed_on": [],
+      "domain_age_days": null,
+      "lookalike_of": null,
+      "injection_findings": []
+    },
+    "outcomes": {
+      "success_rate_7d": null,
+      "success_rate_30d": null,
+      "sample_size_7d": 0,
+      "top_failure_stage": null
+    },
+    "freshness": {
+      "safety": 111,
+      "access": 111,
+      "route": 111,
+      "tos": 111
+    },
+    "links": {
+      "human_page": "/preflight/site/very.co.uk",
+      "retry": "/preflight/api/v1/preflight/very.co.uk.json"
+    },
+    "ruleset_version": "0.1.0-static.1",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "signature": null,
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  },
+  "signature": {
+    "alg": "ed25519",
+    "kid": "preflight-2026-10",
+    "sig": "ZS3z8B3WFIcZv2NB_sOfFGlIRQEK2G5B43c8UHe4jMMP_KSvwoy3mEv9GrVIVzYsO-JRdAgSLEqnBhrnqqr7AA",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  }
+}

@@ -56,3 +56,6 @@ Entry format:
 - **Live now:** Local fixes only; no deployment or push. Committed on fix/review as requested, with no public-data changes.
 - **Next:** Review and integrate the local commit; publish through the existing workflows when authorized.
 - **Blocked / needs Michael:** nothing.
+
+## 2026-10-14 orchestrator
+- Merged feat/scanner (Codex), feat/site (Codex), feat/mcp (Codex), fix/review (Codex) after adversarial review. Grok Build hit free limit; opencode free tier refuses headless. First full signed scan: 89 domains.

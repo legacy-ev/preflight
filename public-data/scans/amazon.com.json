@@ -1,11 +1,11 @@
 {
   "domain": "amazon.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-14T17:21:50.241Z",
+  "checked_at": "2026-10-14T17:59:12.217Z",
   "scanned": false,
-  "signed_requests": false,
+  "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-14T17:21:50.241Z",
+    "checked_at": "2026-10-14T17:59:12.217Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
@@ -18,11 +18,11 @@
       "status": "ok",
       "http_status": 200,
       "domain_age_days": 11670,
-      "checked_at": "2026-10-14T17:21:50.241Z"
+      "checked_at": "2026-10-14T17:59:12.217Z"
     }
   },
   "access": {
-    "checked_at": "2026-10-14T17:21:50.241Z",
+    "checked_at": "2026-10-14T17:59:12.217Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -39,7 +39,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 1730,
+      "latency_ms": 1930,
       "headers": {
         "content-type": {
           "value": "text/html",
@@ -54,7 +54,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-14T17:21:50.241Z",
+    "checked_at": "2026-10-14T17:59:12.217Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -62,7 +62,7 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-14T17:21:50.241Z",
+    "checked_at": "2026-10-14T17:59:12.217Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
@@ -73,12 +73,11 @@
     "success_rate_30d": null,
     "status": "not collected"
   },
-  "finished_at": "2026-10-14T17:21:57.595Z",
-  "network_mode": "managed_synthetic_dns",
+  "finished_at": "2026-10-14T17:59:20.470Z",
   "retained_safety_reasons": [],
   "evidence": {
-    "amazon.com:2026-10-14T17:21:50.241Z:access:NO_DATA": {
-      "checked_at": "2026-10-14T17:21:50.241Z",
+    "amazon.com:2026-10-14T17:59:12.217Z:access:NO_DATA": {
+      "checked_at": "2026-10-14T17:59:12.217Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -95,7 +94,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 1730,
+        "latency_ms": 1930,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -109,8 +108,8 @@
       },
       "request_count": 1
     },
-    "amazon.com:2026-10-14T17:21:50.241Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-14T17:21:50.241Z",
+    "amazon.com:2026-10-14T17:59:12.217Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-14T17:59:12.217Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
@@ -123,11 +122,11 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 11670,
-        "checked_at": "2026-10-14T17:21:50.241Z"
+        "checked_at": "2026-10-14T17:59:12.217Z"
       }
     },
-    "amazon.com:2026-10-14T17:21:50.241Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-14T17:21:50.241Z",
+    "amazon.com:2026-10-14T17:59:12.217Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-14T17:59:12.217Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
@@ -140,40 +139,8 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 11670,
-        "checked_at": "2026-10-14T17:21:50.241Z"
+        "checked_at": "2026-10-14T17:59:12.217Z"
       }
-    },
-    "amazon.com:2026-10-14T17:21:50.241Z:access:UNSIGNED_SCAN": {
-      "checked_at": "2026-10-14T17:21:50.241Z",
-      "ttl_seconds": 86400,
-      "complete": false,
-      "status": 301,
-      "challenge": false,
-      "likely_bot_vendor": null,
-      "scan_status": "robots_unavailable",
-      "robots_training": [],
-      "robots_user_agents": [],
-      "probes": [],
-      "robots_probe": {
-        "path": "/robots.txt",
-        "status": 301,
-        "error": "unsafe_or_off_origin_redirect",
-        "challenge": false,
-        "block_page": false,
-        "truncated": false,
-        "latency_ms": 1730,
-        "headers": {
-          "content-type": {
-            "value": "text/html",
-            "untrusted_evidence": true
-          },
-          "server": {
-            "value": "Server",
-            "untrusted_evidence": true
-          }
-        }
-      },
-      "request_count": 1
     }
   }
 }

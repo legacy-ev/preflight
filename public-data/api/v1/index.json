@@ -1,20 +1,536 @@
 [
   {
+    "domain": "aa.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:09.581Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "adidas.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:13.585Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "airbnb.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:56.822Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "aliexpress.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:14.271Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "amazon.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:12.218Z",
+    "reasons_count": 3
+  },
+  {
     "domain": "amazon.com",
     "verdict": "CAUTION",
-    "checked_at": "2026-10-14T17:21:50.241Z",
+    "checked_at": "2026-10-14T17:59:12.217Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "amtrak.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:27.273Z",
     "reasons_count": 4
   },
   {
     "domain": "apple.com",
     "verdict": "CAUTION",
-    "checked_at": "2026-10-14T17:21:50.251Z",
+    "checked_at": "2026-10-14T17:59:35.820Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "argos.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:00.578Z",
+    "reasons_count": 5
+  },
+  {
+    "domain": "asda.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:53.928Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "asos.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:15.870Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "bestbuy.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:28.226Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "bhphotovideo.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:33.421Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "booking.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:49.820Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "boots.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:26.392Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "britishairways.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:14.218Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "chewy.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:33.808Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "costco.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:25.944Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "currys.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:08.687Z",
+    "reasons_count": 5
+  },
+  {
+    "domain": "cvs.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:28.740Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "deliveroo.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:31.690Z",
+    "reasons_count": 2
+  },
+  {
+    "domain": "dell.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:41.709Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "delta.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:04.239Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "dickssportinggoods.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:41.298Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "dominos.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:36.771Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "doordash.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:23.966Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "easyjet.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:19.490Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ebay.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:14.440Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ebay.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:12.218Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "etsy.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:17.681Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "eventbrite.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:37.988Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "expedia.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:52.161Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "gap.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:01.410Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "grubhub.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:29.326Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "hm.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:06.308Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "homedepot.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:46.432Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "hotels.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:54.473Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ikea.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:54.000Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "instacart.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:46.216Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "johnlewis.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:02.847Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "just-eat.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:33.958Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "kayak.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:59.662Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "kroger.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:43.832Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "lenovo.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:44.134Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "lowes.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:49.275Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "lyft.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:51.417Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "macys.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:56.495Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "marksandspencer.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:05.771Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "nationalrail.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:24.676Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "newegg.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:31.059Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "next.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:18.206Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "nike.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:11.229Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "nordstrom.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:59.056Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ocado.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:56.209Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "opentable.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:44.955Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "paypal.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:53.992Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "petco.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:36.590Z",
     "reasons_count": 4
+  },
+  {
+    "domain": "pizzahut.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:39.738Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "rei.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:38.974Z",
+    "reasons_count": 5
+  },
+  {
+    "domain": "rightmove.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:43.498Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ryanair.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:16.736Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "sainsburys.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:51.304Z",
+    "reasons_count": 5
+  },
+  {
+    "domain": "samsung.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:39.123Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "sephora.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:20.547Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "shein.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:21.146Z",
+    "reasons_count": 3
   },
   {
     "domain": "shopify.com",
     "verdict": "CAUTION",
-    "checked_at": "2026-10-14T17:21:50.251Z",
-    "reasons_count": 4
+    "checked_at": "2026-10-14T18:02:56.310Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "southwest.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:11.838Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "starbucks.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:42.097Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "stubhub.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:35.692Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "target.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:23.609Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "temu.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:17.222Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "tesco.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:48.977Z",
+    "reasons_count": 5
+  },
+  {
+    "domain": "ticketmaster.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:32.749Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ticketmaster.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:30.139Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "trainline.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:22.143Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "tripadvisor.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:01.977Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "uber.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:48.337Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ubereats.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:26.329Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "ulta.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:23.052Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "uniqlo.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:08.892Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "united.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:07.290Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "very.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:11.706Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "walgreens.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:31.258Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "walmart.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:20.470Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "wayfair.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T17:59:51.679Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "yelp.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:01:47.251Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "zara.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:00:03.734Z",
+    "reasons_count": 5
+  },
+  {
+    "domain": "zillow.com",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:41.105Z",
+    "reasons_count": 3
+  },
+  {
+    "domain": "zoopla.co.uk",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T18:02:46.008Z",
+    "reasons_count": 3
   }
 ]

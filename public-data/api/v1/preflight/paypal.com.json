@@ -1,0 +1,81 @@
+{
+  "response": {
+    "domain": "paypal.com",
+    "intent": "read",
+    "verdict": "CAUTION",
+    "confidence": "low",
+    "summary": "CAUTION: No homepage scan is available; retry after permission and access are available. Required scan coverage is incomplete or unavailable. Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
+    "reasons": [
+      {
+        "code": "NO_DATA",
+        "severity": "caution",
+        "text": "No homepage scan is available; retry after permission and access are available.",
+        "evidence_id": "paypal.com:2026-10-14T18:02:53.992Z:access:NO_DATA",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:02:53.992Z",
+        "ttl_seconds": 86400
+      },
+      {
+        "code": "DATA_INCOMPLETE",
+        "severity": "caution",
+        "text": "Required scan coverage is incomplete or unavailable.",
+        "evidence_id": "paypal.com:2026-10-14T18:02:53.992Z:safety:DATA_INCOMPLETE",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:02:53.992Z",
+        "ttl_seconds": 3600
+      },
+      {
+        "code": "INDEPENDENT_SAFETY_UNVERIFIED",
+        "severity": "caution",
+        "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
+        "evidence_id": "paypal.com:2026-10-14T18:02:53.992Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:02:53.992Z",
+        "ttl_seconds": 3600
+      }
+    ],
+    "best_route": [],
+    "requirements": {
+      "must_self_identify": false,
+      "login_required": false,
+      "captcha_seen": false,
+      "pay_per_crawl": null,
+      "tos_class": "unknown",
+      "tos_url": null,
+      "tos_classification": "not yet classified"
+    },
+    "safety": {
+      "listed_on": [],
+      "domain_age_days": 9953,
+      "lookalike_of": null,
+      "injection_findings": []
+    },
+    "outcomes": {
+      "success_rate_7d": null,
+      "success_rate_30d": null,
+      "sample_size_7d": 0,
+      "top_failure_stage": null
+    },
+    "freshness": {
+      "safety": 9,
+      "access": 9,
+      "route": 9,
+      "tos": 9
+    },
+    "links": {
+      "human_page": "/preflight/site/paypal.com",
+      "retry": "/preflight/api/v1/preflight/paypal.com.json"
+    },
+    "ruleset_version": "0.1.0-static.1",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "signature": null,
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  },
+  "signature": {
+    "alg": "ed25519",
+    "kid": "preflight-2026-10",
+    "sig": "ayhyH7QmP63mx9iLhm5r8XLFb0y8-615mdVVdqcZyuJK28Q4_DwprYYFFQgEzkgAW1CkaMf9r6QbhiJekupADg",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  }
+}

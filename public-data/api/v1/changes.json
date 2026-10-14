@@ -1,5 +1,1175 @@
 [
   {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "zoopla.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "ea58b12cb7866fdd4113a215aee2fca86eb5b444cab5e6bd51d525f2d7b4a4aa",
+    "hash": "5fb91e486d29aa2da6bd166fe1a6139b88abd9473ba5965563c51ed81b615fb2"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "zillow.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "af8a75d6042e90cc36d5169994bc1f82ceb6f2806ce64e1299f965c9961073e4",
+    "hash": "ea58b12cb7866fdd4113a215aee2fca86eb5b444cab5e6bd51d525f2d7b4a4aa"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "zara.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "ACCESS_CHALLENGE_PAGE",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "1d9ed81a83fe9aa93512ac92da6329fe4cde311647ce27cfb75cae484c0abc32",
+    "hash": "af8a75d6042e90cc36d5169994bc1f82ceb6f2806ce64e1299f965c9961073e4"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "yelp.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a64e3cdf269e27b48e00c158e4ddb3f94492167dbdb5871a2cfd79807379708a",
+    "hash": "1d9ed81a83fe9aa93512ac92da6329fe4cde311647ce27cfb75cae484c0abc32"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "wayfair.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "7693a7e7abea9566ee4305383f4004f81c015b876263007903babb923e6ee426",
+    "hash": "a64e3cdf269e27b48e00c158e4ddb3f94492167dbdb5871a2cfd79807379708a"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "walmart.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "61c03b9f809045cbbda15fdbc42d29ac7fadd3e2ca77b3abfdce331a72f13f42",
+    "hash": "7693a7e7abea9566ee4305383f4004f81c015b876263007903babb923e6ee426"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "walgreens.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "8a992622c00121b2d4c98a30ea7e7195f8792760e4666488b91193ea8581c682",
+    "hash": "61c03b9f809045cbbda15fdbc42d29ac7fadd3e2ca77b3abfdce331a72f13f42"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "very.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "190f62ff1cc51e4cc82fb63367a663dd8c682106cf100cb662592512bbcad989",
+    "hash": "8a992622c00121b2d4c98a30ea7e7195f8792760e4666488b91193ea8581c682"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "united.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a389222596370a9dee4d5ebe0de228f5462a1c1239cda02502b1488a81e88c79",
+    "hash": "190f62ff1cc51e4cc82fb63367a663dd8c682106cf100cb662592512bbcad989"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "uniqlo.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "44a36cdb6ba9c93f35ec3ca9fdb1977ab312b4a925e0e4fce67123c4683fef8d",
+    "hash": "a389222596370a9dee4d5ebe0de228f5462a1c1239cda02502b1488a81e88c79"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ulta.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "f6317c4afb735a1836dc35d91d25ee7893b1e1a2f2d9bcfd668923bd343d79f9",
+    "hash": "44a36cdb6ba9c93f35ec3ca9fdb1977ab312b4a925e0e4fce67123c4683fef8d"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ubereats.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "1dcbcd61acafe992608b3c52f4ff475bb94544e8994f985af55c0ea0c7141a06",
+    "hash": "f6317c4afb735a1836dc35d91d25ee7893b1e1a2f2d9bcfd668923bd343d79f9"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "uber.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "adec7e5ba02fce2f83cc8551a06c8bd1a373be37ae15b3ec43fa41b53ef461fd",
+    "hash": "1dcbcd61acafe992608b3c52f4ff475bb94544e8994f985af55c0ea0c7141a06"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "tripadvisor.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "dd5ddd9f316b84c9010da75a078b1ac1445b1dc2887cc191a08ae7b73b2217dd",
+    "hash": "adec7e5ba02fce2f83cc8551a06c8bd1a373be37ae15b3ec43fa41b53ef461fd"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "trainline.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "264b7e80d3a8dba3948ab7865b826b645f877f17fda45f3bce021aba33978467",
+    "hash": "dd5ddd9f316b84c9010da75a078b1ac1445b1dc2887cc191a08ae7b73b2217dd"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ticketmaster.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "9c75ca75952249cc3eff6a44d29627d451a43d7ecaec9e798a96274348a74e91",
+    "hash": "264b7e80d3a8dba3948ab7865b826b645f877f17fda45f3bce021aba33978467"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ticketmaster.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "f6b911198ae2d3f3d135286b41b914e34f58c0456f937984d478c742df628af2",
+    "hash": "9c75ca75952249cc3eff6a44d29627d451a43d7ecaec9e798a96274348a74e91"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "tesco.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "ACCESS_CHALLENGE_PAGE",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "df1175a444ecf80c60e151c3f5f6e04b329fe3c9c0440aebd8f821270d565354",
+    "hash": "f6b911198ae2d3f3d135286b41b914e34f58c0456f937984d478c742df628af2"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "temu.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "1bbb2e8c2c637680730ee82157ba9631032c8d286c84c1e3bb3a50792e4b453f",
+    "hash": "df1175a444ecf80c60e151c3f5f6e04b329fe3c9c0440aebd8f821270d565354"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "target.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "b373cdb8c5431fde1eceec0e7f7aa200aea7fa6e5c7fc90f5fc6e9c9719478e4",
+    "hash": "1bbb2e8c2c637680730ee82157ba9631032c8d286c84c1e3bb3a50792e4b453f"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "stubhub.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "cf9709d396efe99179806b50d67ffb27aac47ba62d89fcb27359031b5b210fba",
+    "hash": "b373cdb8c5431fde1eceec0e7f7aa200aea7fa6e5c7fc90f5fc6e9c9719478e4"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "starbucks.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "668d2ec86f043044a7580f89beb6296cd90f0a06115d99997285c22e61787393",
+    "hash": "cf9709d396efe99179806b50d67ffb27aac47ba62d89fcb27359031b5b210fba"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "southwest.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a16c40b8c61672369b0812ebc3980bf4a3075b311474545c30884526886ca246",
+    "hash": "668d2ec86f043044a7580f89beb6296cd90f0a06115d99997285c22e61787393"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "shopify.com",
+    "from": "CAUTION",
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "c111178b5768091e1f91591389e2cadf17841da87e95418d405d3da835b985d9",
+    "hash": "a16c40b8c61672369b0812ebc3980bf4a3075b311474545c30884526886ca246"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "shein.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "aec5a91340f95bd0ced4563f8f922f6419976fe91608ff8285faabcfc85ca3bd",
+    "hash": "c111178b5768091e1f91591389e2cadf17841da87e95418d405d3da835b985d9"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "sephora.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "1d08190d64c59b871cd05d36de43888cd0f832b4902f60054b5d18887416cf04",
+    "hash": "aec5a91340f95bd0ced4563f8f922f6419976fe91608ff8285faabcfc85ca3bd"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "samsung.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "6460ccaecc95a4d7ade12a3a2651874ecc6d123846dfb21f66c0d16a9c48bf8b",
+    "hash": "1d08190d64c59b871cd05d36de43888cd0f832b4902f60054b5d18887416cf04"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "sainsburys.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "ACCESS_CHALLENGE_PAGE",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "e4702ba31ccc60c0ecbb277d62c9f91b2eced05596e63c07be33d02f0159bbf0",
+    "hash": "6460ccaecc95a4d7ade12a3a2651874ecc6d123846dfb21f66c0d16a9c48bf8b"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ryanair.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "cbcc01ca97c5a7fe089f3f0e9c3b5e26e5a6f3ea71d5711029fe519016799e90",
+    "hash": "e4702ba31ccc60c0ecbb277d62c9f91b2eced05596e63c07be33d02f0159bbf0"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "rightmove.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "740d8f70c48cbb5d38087ce8128ca79a14d8a5bb06c948a15f110724ac3a71f4",
+    "hash": "cbcc01ca97c5a7fe089f3f0e9c3b5e26e5a6f3ea71d5711029fe519016799e90"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "rei.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "ACCESS_CHALLENGE_PAGE",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "9c79c91e7f7b24788391eb6093b498d6040a0d1e9c18716ab1e1a0e29e06a338",
+    "hash": "740d8f70c48cbb5d38087ce8128ca79a14d8a5bb06c948a15f110724ac3a71f4"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "pizzahut.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "3419b2bf8ab5126472f8795202fbe4447940840a4f4dc073947bcace25805172",
+    "hash": "9c79c91e7f7b24788391eb6093b498d6040a0d1e9c18716ab1e1a0e29e06a338"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "petco.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "04b4fe44ecf444b2f3634218b54b66e9d9c9d7aab7cb23fc7c575eeb85a3c8c3",
+    "hash": "3419b2bf8ab5126472f8795202fbe4447940840a4f4dc073947bcace25805172"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "paypal.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "e91f16b905fa542dcfaaa06e6cff2cca88336e498f3992bae112aebc6368f556",
+    "hash": "04b4fe44ecf444b2f3634218b54b66e9d9c9d7aab7cb23fc7c575eeb85a3c8c3"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "opentable.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "1c42fece999c1aaefa558ad6befab03a305d35257a4ad4f9d48b51cee77ca86e",
+    "hash": "e91f16b905fa542dcfaaa06e6cff2cca88336e498f3992bae112aebc6368f556"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ocado.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "95b8864af2751ce6a5c126982901742555abe26d952ae91222ac986a34472cb1",
+    "hash": "1c42fece999c1aaefa558ad6befab03a305d35257a4ad4f9d48b51cee77ca86e"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "nordstrom.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a598b93f9305692dda22800615a1e35deb2d13dd43ce1075e79b82833288ddd0",
+    "hash": "95b8864af2751ce6a5c126982901742555abe26d952ae91222ac986a34472cb1"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "nike.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "0dc3c4b7e0f2d1c0a1ed5372cda4d70d826b45f92772a204608745e955452330",
+    "hash": "a598b93f9305692dda22800615a1e35deb2d13dd43ce1075e79b82833288ddd0"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "next.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "595d31b110e1847f01e27b08f8e27e65394556b9157b295754e910dc6b889577",
+    "hash": "0dc3c4b7e0f2d1c0a1ed5372cda4d70d826b45f92772a204608745e955452330"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "newegg.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "87b1f8707005f3a42ad62fe83c0f1ef775df072bd2f1ee5a6b390623643a90d8",
+    "hash": "595d31b110e1847f01e27b08f8e27e65394556b9157b295754e910dc6b889577"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "nationalrail.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "238cac8a74e13be8808a46b8eab3570fe00e13fab8f408634407d791d1f25aa2",
+    "hash": "87b1f8707005f3a42ad62fe83c0f1ef775df072bd2f1ee5a6b390623643a90d8"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "marksandspencer.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "4d214532f9e38475ab777dff4cfd4c5749c3ee056ff5bc14affb57f0c6d3264d",
+    "hash": "238cac8a74e13be8808a46b8eab3570fe00e13fab8f408634407d791d1f25aa2"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "macys.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "afa5741240a24384e731876aa89dd325ed64f4371c719e6e324c58bf2b60ec33",
+    "hash": "4d214532f9e38475ab777dff4cfd4c5749c3ee056ff5bc14affb57f0c6d3264d"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "lyft.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "b38e6eb7b7ddeab366ae4b729210d0a2dd08dbdb9aa55f31ba604aa22231d956",
+    "hash": "afa5741240a24384e731876aa89dd325ed64f4371c719e6e324c58bf2b60ec33"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "lowes.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "20356409d09c1cf59a9150074abb6d00f6ba6b12ed02c40e6043be7dda44569b",
+    "hash": "b38e6eb7b7ddeab366ae4b729210d0a2dd08dbdb9aa55f31ba604aa22231d956"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "lenovo.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "b96371a99d51fca2dfbd264203b30736ad9f2bb94b7d2b6d1198580220fffce5",
+    "hash": "20356409d09c1cf59a9150074abb6d00f6ba6b12ed02c40e6043be7dda44569b"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "kroger.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "e5aba3af7c7a0bc52c71c23bb4b504d22f8dfaf4295db9e8311387f744eb5a92",
+    "hash": "b96371a99d51fca2dfbd264203b30736ad9f2bb94b7d2b6d1198580220fffce5"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "kayak.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "b75eed76a7e76872b39a6150b8b7b8b3ea8b1d886df9cb634bdacd330d11a261",
+    "hash": "e5aba3af7c7a0bc52c71c23bb4b504d22f8dfaf4295db9e8311387f744eb5a92"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "just-eat.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "d73a65354eda04a639092fe6faf3d4fb684b0df74240bdf94ac79a5c522b0935",
+    "hash": "b75eed76a7e76872b39a6150b8b7b8b3ea8b1d886df9cb634bdacd330d11a261"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "johnlewis.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "d2d1bf0d710b64bd19d68372173baedf40e4b8cd0540f3e48a943aa86e554049",
+    "hash": "d73a65354eda04a639092fe6faf3d4fb684b0df74240bdf94ac79a5c522b0935"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "instacart.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a31b9b5ae9082938535a75b0f9ad07928f7bdc2116dad78c6b7fb7e78c1f03db",
+    "hash": "d2d1bf0d710b64bd19d68372173baedf40e4b8cd0540f3e48a943aa86e554049"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ikea.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "1c7e93acc7268925b1130c6a52b688e17f9b51c704e833b152bc24a66bc61035",
+    "hash": "a31b9b5ae9082938535a75b0f9ad07928f7bdc2116dad78c6b7fb7e78c1f03db"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "hotels.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "00af9ec5aaf3132b66946b2db46f2537754b5b4bf76f56fa90adb9823bf78cc8",
+    "hash": "1c7e93acc7268925b1130c6a52b688e17f9b51c704e833b152bc24a66bc61035"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "homedepot.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "d2596a4d3e7161624b3016f0c224521c79c1c6e976c6308038c3cfeded2a344f",
+    "hash": "00af9ec5aaf3132b66946b2db46f2537754b5b4bf76f56fa90adb9823bf78cc8"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "hm.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "0b8828843b6e68842e4d9d63d5ae1fe3d6242952fdb34435db9bbe254f671966",
+    "hash": "d2596a4d3e7161624b3016f0c224521c79c1c6e976c6308038c3cfeded2a344f"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "grubhub.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "3cabcc584d7b1d104355853e48addd013a0e5535cd5739726aa552c44c2073fe",
+    "hash": "0b8828843b6e68842e4d9d63d5ae1fe3d6242952fdb34435db9bbe254f671966"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "gap.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "527b22722dab9c5f49d34ceffecdbf6362f46036849640f8ca9f48435cf18ae4",
+    "hash": "3cabcc584d7b1d104355853e48addd013a0e5535cd5739726aa552c44c2073fe"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "expedia.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "2398f8bbaf0e0787e4c237f8aff96a73ad3e02074fa8b70ef2f3415aea46ee5b",
+    "hash": "527b22722dab9c5f49d34ceffecdbf6362f46036849640f8ca9f48435cf18ae4"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "eventbrite.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "50bf49f4e0d6b5829769f7eb9e3c5b4e48d8c6ed2d3d0b61083cb74b5bc95b63",
+    "hash": "2398f8bbaf0e0787e4c237f8aff96a73ad3e02074fa8b70ef2f3415aea46ee5b"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "etsy.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a3ec51f225eb7db13259464d0e2980582ecbf767ba8b15817abe53d31ba27dec",
+    "hash": "50bf49f4e0d6b5829769f7eb9e3c5b4e48d8c6ed2d3d0b61083cb74b5bc95b63"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ebay.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "61833edc4a88cbc3c655dfa2b79f71ea376c9bc8276b8371c04a1a09ad946c1a",
+    "hash": "a3ec51f225eb7db13259464d0e2980582ecbf767ba8b15817abe53d31ba27dec"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "ebay.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "5dc7de4e6a330ad013ff6c088c97ef3421a1cc986dd6c5c30f81b814453c9f60",
+    "hash": "61833edc4a88cbc3c655dfa2b79f71ea376c9bc8276b8371c04a1a09ad946c1a"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "easyjet.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "819eba7782b4dbf9963ef65338619fadc144d9395a92546e9fc73672143e706c",
+    "hash": "5dc7de4e6a330ad013ff6c088c97ef3421a1cc986dd6c5c30f81b814453c9f60"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "doordash.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "98a92854d2246a0166118971627db33a648456fe90968923152cb17a63a3ddd8",
+    "hash": "819eba7782b4dbf9963ef65338619fadc144d9395a92546e9fc73672143e706c"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "dominos.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "eefa5e1b315fe4ffa33de125a2941a53611bc2ac9907c316ba1421dbaa886d3f",
+    "hash": "98a92854d2246a0166118971627db33a648456fe90968923152cb17a63a3ddd8"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "dickssportinggoods.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "65090d6f88f1530741cd91c7e044867a4efbc937479d03a38c753c0d244ffa90",
+    "hash": "eefa5e1b315fe4ffa33de125a2941a53611bc2ac9907c316ba1421dbaa886d3f"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "delta.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "6748c9e722001b3b261f1c0393368bf2b7bf2c19210bcdfbd1de0ea8688c9558",
+    "hash": "65090d6f88f1530741cd91c7e044867a4efbc937479d03a38c753c0d244ffa90"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "dell.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "ed9c6dc8bf9389a2209b5788df01ce56f9a94c6e81b9bc253e3a2ebb592505f3",
+    "hash": "6748c9e722001b3b261f1c0393368bf2b7bf2c19210bcdfbd1de0ea8688c9558"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "deliveroo.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED"
+    ],
+    "prev_hash": "a2974a0fb3c34218d7a5d7e1576e27ed6172ec934b0a7efcdefd9c12438e9d25",
+    "hash": "ed9c6dc8bf9389a2209b5788df01ce56f9a94c6e81b9bc253e3a2ebb592505f3"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "cvs.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "ca43166ad681e33f7aa3b012f4e7454c360a125952526578148fd2b873a7967d",
+    "hash": "a2974a0fb3c34218d7a5d7e1576e27ed6172ec934b0a7efcdefd9c12438e9d25"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "currys.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "ACCESS_CHALLENGE_PAGE",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "6dc4e6c67484c959fdf294d66ac75f5bae446298658c69e96aa9ba0aa45fd795",
+    "hash": "ca43166ad681e33f7aa3b012f4e7454c360a125952526578148fd2b873a7967d"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "costco.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "d4baec9cc3d5492676957a29d7efb0edeeb527423fe6ecbc86267b476cbde9c5",
+    "hash": "6dc4e6c67484c959fdf294d66ac75f5bae446298658c69e96aa9ba0aa45fd795"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "chewy.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a901c6ab1b94ed3032543492640e5ed0e3b7cf445c840de91494c3c03746e3e5",
+    "hash": "d4baec9cc3d5492676957a29d7efb0edeeb527423fe6ecbc86267b476cbde9c5"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "britishairways.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "42ca57ec25e34c3f0892cc609d7be671bdd9df17da40a058a595c907ee756fbe",
+    "hash": "a901c6ab1b94ed3032543492640e5ed0e3b7cf445c840de91494c3c03746e3e5"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "boots.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "800f0725e9957b0b4f4b0c1fdcfcc268fc850629512ca902c9bc8b13edbd57f9",
+    "hash": "42ca57ec25e34c3f0892cc609d7be671bdd9df17da40a058a595c907ee756fbe"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "booking.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "636c7637bd8261b17f2f2cbe604539617af24794f8130e21cbbf30e0befdafe7",
+    "hash": "800f0725e9957b0b4f4b0c1fdcfcc268fc850629512ca902c9bc8b13edbd57f9"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "bhphotovideo.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "397dc3502347481d4f5a80de4c47c5f78d7e3d3759153c97e6172c62278f306d",
+    "hash": "636c7637bd8261b17f2f2cbe604539617af24794f8130e21cbbf30e0befdafe7"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "bestbuy.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "5427aa5ec981c8c9d1ed8fb7dbf463bc9335ad34d377e395f54837870d157cae",
+    "hash": "397dc3502347481d4f5a80de4c47c5f78d7e3d3759153c97e6172c62278f306d"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "asos.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "0d33830a9520d5d6f9ae5f6cdd5ecad30d679403e5921ed379f11df384aae72b",
+    "hash": "5427aa5ec981c8c9d1ed8fb7dbf463bc9335ad34d377e395f54837870d157cae"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "asda.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "e38642b902f6359e9a753129ff54b7457bda267fcceea71760e78ad776d1a911",
+    "hash": "0d33830a9520d5d6f9ae5f6cdd5ecad30d679403e5921ed379f11df384aae72b"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "argos.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "ACCESS_CHALLENGE_PAGE",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "a5554bc7db645845123d17d2a0390448fe7e23a3bf288af9dfb0abc885084cd5",
+    "hash": "e38642b902f6359e9a753129ff54b7457bda267fcceea71760e78ad776d1a911"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "apple.com",
+    "from": "CAUTION",
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "3f09cef0d0ee9803d8ccd2c5600b3d3dd68a9dc650ef052f8fb09d91fb15430b",
+    "hash": "a5554bc7db645845123d17d2a0390448fe7e23a3bf288af9dfb0abc885084cd5"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "amtrak.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "f94edbfcda992d27d1414e7fe5e7bcae13431840ee1c5ad01278c576dccd4f4b",
+    "hash": "3f09cef0d0ee9803d8ccd2c5600b3d3dd68a9dc650ef052f8fb09d91fb15430b"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "amazon.com",
+    "from": "CAUTION",
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "d38796ce04c725e6537807eab6506d82cec4b7041732d4a83e693efcdfee7700",
+    "hash": "f94edbfcda992d27d1414e7fe5e7bcae13431840ee1c5ad01278c576dccd4f4b"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "amazon.co.uk",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "29e147c4b74989b6f4bdb7b5f16a0472bbe843e2e259e7dfee1698e5199d8a82",
+    "hash": "d38796ce04c725e6537807eab6506d82cec4b7041732d4a83e693efcdfee7700"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "aliexpress.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "6a48d2501a2abf12359da03d885eabb443e55c06e587bb5955602aa49079594f",
+    "hash": "29e147c4b74989b6f4bdb7b5f16a0472bbe843e2e259e7dfee1698e5199d8a82"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "airbnb.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "ad7b9cae2a1282d5c5d87e0e38a4e87e03dcab0c6f943900e43dda19f2639f32",
+    "hash": "6a48d2501a2abf12359da03d885eabb443e55c06e587bb5955602aa49079594f"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "adidas.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "dfc0ccf86489b67d681365cdaee08df183c5d78ef40574cf2de041d10bb13c68",
+    "hash": "ad7b9cae2a1282d5c5d87e0e38a4e87e03dcab0c6f943900e43dda19f2639f32"
+  },
+  {
+    "at": "2026-10-14T18:03:03.432Z",
+    "domain": "aa.com",
+    "from": null,
+    "to": "CAUTION",
+    "reason_codes": [
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "77c750db96842e0b2ee2a14a3eb709419ceee9e94227c3fe678ec23c20affe56",
+    "hash": "dfc0ccf86489b67d681365cdaee08df183c5d78ef40574cf2de041d10bb13c68"
+  },
+  {
     "at": "2026-10-14T16:56:46.312Z",
     "domain": "shopify.com",
     "from": null,

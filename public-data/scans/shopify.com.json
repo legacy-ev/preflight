@@ -1,11 +1,11 @@
 {
   "domain": "shopify.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-14T17:21:50.251Z",
+  "checked_at": "2026-10-14T18:02:56.310Z",
   "scanned": false,
-  "signed_requests": false,
+  "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-14T17:21:50.251Z",
+    "checked_at": "2026-10-14T18:02:56.310Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
@@ -18,11 +18,11 @@
       "status": "ok",
       "http_status": 200,
       "domain_age_days": 7887,
-      "checked_at": "2026-10-14T17:21:50.251Z"
+      "checked_at": "2026-10-14T18:02:56.310Z"
     }
   },
   "access": {
-    "checked_at": "2026-10-14T17:21:50.251Z",
+    "checked_at": "2026-10-14T18:02:56.310Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -104,7 +104,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 17,
+        "latency_ms": 49,
         "headers": {
           "content-type": {
             "value": "text/html; charset=UTF-8",
@@ -115,7 +115,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4a8434839c9f83e-ORD",
+            "value": "a4a87f7d3bab41cb-ORD",
             "untrusted_evidence": true
           }
         }
@@ -128,7 +128,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 137,
+      "latency_ms": 128,
       "headers": {
         "content-type": {
           "value": "text/plain",
@@ -139,7 +139,7 @@
           "untrusted_evidence": true
         },
         "cf-ray": {
-          "value": "a4a843418aa6f83e-ORD",
+          "value": "a4a87f768d2141cb-ORD",
           "untrusted_evidence": true
         }
       }
@@ -158,7 +158,7 @@
     "request_count": 2
   },
   "route": {
-    "checked_at": "2026-10-14T17:21:50.251Z",
+    "checked_at": "2026-10-14T18:02:56.310Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -166,7 +166,7 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-14T17:21:50.251Z",
+    "checked_at": "2026-10-14T18:02:56.310Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
@@ -177,12 +177,11 @@
     "success_rate_30d": null,
     "status": "not collected"
   },
-  "finished_at": "2026-10-14T17:21:54.872Z",
-  "network_mode": "managed_synthetic_dns",
+  "finished_at": "2026-10-14T18:03:03.432Z",
   "retained_safety_reasons": [],
   "evidence": {
-    "shopify.com:2026-10-14T17:21:50.251Z:access:NO_DATA": {
-      "checked_at": "2026-10-14T17:21:50.251Z",
+    "shopify.com:2026-10-14T18:02:56.310Z:access:NO_DATA": {
+      "checked_at": "2026-10-14T18:02:56.310Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -264,7 +263,7 @@
           "challenge": false,
           "block_page": false,
           "truncated": false,
-          "latency_ms": 17,
+          "latency_ms": 49,
           "headers": {
             "content-type": {
               "value": "text/html; charset=UTF-8",
@@ -275,7 +274,7 @@
               "untrusted_evidence": true
             },
             "cf-ray": {
-              "value": "a4a8434839c9f83e-ORD",
+              "value": "a4a87f7d3bab41cb-ORD",
               "untrusted_evidence": true
             }
           }
@@ -288,7 +287,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 137,
+        "latency_ms": 128,
         "headers": {
           "content-type": {
             "value": "text/plain",
@@ -299,7 +298,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4a843418aa6f83e-ORD",
+            "value": "a4a87f768d2141cb-ORD",
             "untrusted_evidence": true
           }
         }
@@ -317,8 +316,8 @@
       "pay_per_crawl": null,
       "request_count": 2
     },
-    "shopify.com:2026-10-14T17:21:50.251Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-14T17:21:50.251Z",
+    "shopify.com:2026-10-14T18:02:56.310Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-14T18:02:56.310Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
@@ -331,11 +330,11 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 7887,
-        "checked_at": "2026-10-14T17:21:50.251Z"
+        "checked_at": "2026-10-14T18:02:56.310Z"
       }
     },
-    "shopify.com:2026-10-14T17:21:50.251Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-14T17:21:50.251Z",
+    "shopify.com:2026-10-14T18:02:56.310Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-14T18:02:56.310Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
@@ -348,144 +347,8 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 7887,
-        "checked_at": "2026-10-14T17:21:50.251Z"
+        "checked_at": "2026-10-14T18:02:56.310Z"
       }
-    },
-    "shopify.com:2026-10-14T17:21:50.251Z:access:UNSIGNED_SCAN": {
-      "checked_at": "2026-10-14T17:21:50.251Z",
-      "ttl_seconds": 86400,
-      "complete": false,
-      "status": 301,
-      "challenge": false,
-      "likely_bot_vendor": "cloudflare",
-      "scan_status": "unsafe_or_off_origin_redirect",
-      "robots_training": [
-        {
-          "agent": "GPTBot",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        },
-        {
-          "agent": "ClaudeBot",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        },
-        {
-          "agent": "CCBot",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        },
-        {
-          "agent": "Bytespider",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        },
-        {
-          "agent": "Google-Extended",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        }
-      ],
-      "robots_user_agents": [
-        {
-          "agent": "ChatGPT-User",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        },
-        {
-          "agent": "Claude-User",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        },
-        {
-          "agent": "Perplexity-User",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        },
-        {
-          "agent": "AmazonBuyForMe",
-          "allowed": true,
-          "matched_rule": null,
-          "untrusted_evidence": true,
-          "crawl_delay_seconds": 0
-        }
-      ],
-      "probes": [
-        {
-          "path": "/",
-          "status": 301,
-          "error": "unsafe_or_off_origin_redirect",
-          "challenge": false,
-          "block_page": false,
-          "truncated": false,
-          "latency_ms": 17,
-          "headers": {
-            "content-type": {
-              "value": "text/html; charset=UTF-8",
-              "untrusted_evidence": true
-            },
-            "server": {
-              "value": "cloudflare",
-              "untrusted_evidence": true
-            },
-            "cf-ray": {
-              "value": "a4a8434839c9f83e-ORD",
-              "untrusted_evidence": true
-            }
-          }
-        }
-      ],
-      "robots_probe": {
-        "path": "/robots.txt",
-        "status": 200,
-        "error": null,
-        "challenge": false,
-        "block_page": false,
-        "truncated": false,
-        "latency_ms": 137,
-        "headers": {
-          "content-type": {
-            "value": "text/plain",
-            "untrusted_evidence": true
-          },
-          "server": {
-            "value": "cloudflare",
-            "untrusted_evidence": true
-          },
-          "cf-ray": {
-            "value": "a4a843418aa6f83e-ORD",
-            "untrusted_evidence": true
-          }
-        }
-      },
-      "preflight_robots": {
-        "allowed": true,
-        "matched_rule": null,
-        "untrusted_evidence": true,
-        "crawl_delay_seconds": 0
-      },
-      "robots_policy_status": "available",
-      "robots_sha256": "a55c031afe721803d5e722c76910b8b569511cce2fc45459933c60d8e0764aa7",
-      "probe_path": "/",
-      "block_page": false,
-      "pay_per_crawl": null,
-      "request_count": 2
     }
   }
 }
