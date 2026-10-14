@@ -1,0 +1,48 @@
+name: Scan seed domains
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: scan-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out current branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Set up Node 20
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '20'
+      - name: Install locked scanner package and run tests
+        working-directory: scanner
+        run: |
+          npm ci --ignore-scripts
+          npm test
+      - name: Scan seed domains
+        env:
+          PREFLIGHT_SIGNING_KEY: ${{ secrets.PREFLIGHT_SIGNING_KEY }}
+        run: node scanner/index.mjs --concurrency 3
+      - name: Commit public data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public-data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh Preflight scans $(date -u +%Y-%m-%d)"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Trigger Pages build after scan publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref "$GITHUB_REF_NAME"
