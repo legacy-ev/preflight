@@ -1,0 +1,154 @@
+{
+  "domain": "doordash.com",
+  "scanner_version": "0.1.0",
+  "checked_at": "2026-10-14T18:01:23.966Z",
+  "scanned": false,
+  "signed_requests": true,
+  "safety": {
+    "checked_at": "2026-10-14T18:01:23.966Z",
+    "ttl_seconds": 3600,
+    "complete": false,
+    "independently_verified": false,
+    "feed_status": "not checked",
+    "listed_on": [],
+    "findings": [],
+    "domain_age_days": 4865,
+    "lookalike_of": null,
+    "rdap": {
+      "status": "ok",
+      "http_status": 200,
+      "domain_age_days": 4865,
+      "checked_at": "2026-10-14T18:01:23.966Z"
+    }
+  },
+  "access": {
+    "checked_at": "2026-10-14T18:01:23.966Z",
+    "ttl_seconds": 86400,
+    "complete": false,
+    "status": 302,
+    "challenge": false,
+    "likely_bot_vendor": "cloudflare",
+    "scan_status": "robots_unavailable",
+    "robots_training": [],
+    "robots_user_agents": [],
+    "probes": [],
+    "robots_probe": {
+      "path": "/robots.txt",
+      "status": 302,
+      "error": "unsafe_or_off_origin_redirect",
+      "challenge": false,
+      "block_page": false,
+      "truncated": false,
+      "latency_ms": 122,
+      "headers": {
+        "content-type": {
+          "value": "text/html; charset=UTF-8",
+          "untrusted_evidence": true
+        },
+        "server": {
+          "value": "cloudflare",
+          "untrusted_evidence": true
+        },
+        "cf-ray": {
+          "value": "a4a87d355a6f3d6e-ORD",
+          "untrusted_evidence": true
+        }
+      }
+    },
+    "request_count": 1
+  },
+  "route": {
+    "checked_at": "2026-10-14T18:01:23.966Z",
+    "ttl_seconds": 86400,
+    "complete": false,
+    "routes": [],
+    "probes": [],
+    "schema_org_product": false
+  },
+  "tos": {
+    "checked_at": "2026-10-14T18:01:23.966Z",
+    "ttl_seconds": 604800,
+    "class": "unknown",
+    "classification": "not yet classified"
+  },
+  "outcomes": {
+    "sample_size_7d": 0,
+    "success_rate_7d": null,
+    "success_rate_30d": null,
+    "status": "not collected"
+  },
+  "finished_at": "2026-10-14T18:01:31.690Z",
+  "retained_safety_reasons": [],
+  "evidence": {
+    "doordash.com:2026-10-14T18:01:23.966Z:access:NO_DATA": {
+      "checked_at": "2026-10-14T18:01:23.966Z",
+      "ttl_seconds": 86400,
+      "complete": false,
+      "status": 302,
+      "challenge": false,
+      "likely_bot_vendor": "cloudflare",
+      "scan_status": "robots_unavailable",
+      "robots_training": [],
+      "robots_user_agents": [],
+      "probes": [],
+      "robots_probe": {
+        "path": "/robots.txt",
+        "status": 302,
+        "error": "unsafe_or_off_origin_redirect",
+        "challenge": false,
+        "block_page": false,
+        "truncated": false,
+        "latency_ms": 122,
+        "headers": {
+          "content-type": {
+            "value": "text/html; charset=UTF-8",
+            "untrusted_evidence": true
+          },
+          "server": {
+            "value": "cloudflare",
+            "untrusted_evidence": true
+          },
+          "cf-ray": {
+            "value": "a4a87d355a6f3d6e-ORD",
+            "untrusted_evidence": true
+          }
+        }
+      },
+      "request_count": 1
+    },
+    "doordash.com:2026-10-14T18:01:23.966Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-14T18:01:23.966Z",
+      "ttl_seconds": 3600,
+      "complete": false,
+      "independently_verified": false,
+      "feed_status": "not checked",
+      "listed_on": [],
+      "findings": [],
+      "domain_age_days": 4865,
+      "lookalike_of": null,
+      "rdap": {
+        "status": "ok",
+        "http_status": 200,
+        "domain_age_days": 4865,
+        "checked_at": "2026-10-14T18:01:23.966Z"
+      }
+    },
+    "doordash.com:2026-10-14T18:01:23.966Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-14T18:01:23.966Z",
+      "ttl_seconds": 3600,
+      "complete": false,
+      "independently_verified": false,
+      "feed_status": "not checked",
+      "listed_on": [],
+      "findings": [],
+      "domain_age_days": 4865,
+      "lookalike_of": null,
+      "rdap": {
+        "status": "ok",
+        "http_status": 200,
+        "domain_age_days": 4865,
+        "checked_at": "2026-10-14T18:01:23.966Z"
+      }
+    }
+  }
+}

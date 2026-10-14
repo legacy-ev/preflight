@@ -1,0 +1,81 @@
+{
+  "response": {
+    "domain": "expedia.com",
+    "intent": "read",
+    "verdict": "CAUTION",
+    "confidence": "low",
+    "summary": "CAUTION: No homepage scan is available; retry after permission and access are available. Required scan coverage is incomplete or unavailable. Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
+    "reasons": [
+      {
+        "code": "NO_DATA",
+        "severity": "caution",
+        "text": "No homepage scan is available; retry after permission and access are available.",
+        "evidence_id": "expedia.com:2026-10-14T18:01:52.161Z:access:NO_DATA",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:52.161Z",
+        "ttl_seconds": 86400
+      },
+      {
+        "code": "DATA_INCOMPLETE",
+        "severity": "caution",
+        "text": "Required scan coverage is incomplete or unavailable.",
+        "evidence_id": "expedia.com:2026-10-14T18:01:52.161Z:safety:DATA_INCOMPLETE",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:52.161Z",
+        "ttl_seconds": 3600
+      },
+      {
+        "code": "INDEPENDENT_SAFETY_UNVERIFIED",
+        "severity": "caution",
+        "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
+        "evidence_id": "expedia.com:2026-10-14T18:01:52.161Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:52.161Z",
+        "ttl_seconds": 3600
+      }
+    ],
+    "best_route": [],
+    "requirements": {
+      "must_self_identify": false,
+      "login_required": false,
+      "captcha_seen": false,
+      "pay_per_crawl": null,
+      "tos_class": "unknown",
+      "tos_url": null,
+      "tos_classification": "not yet classified"
+    },
+    "safety": {
+      "listed_on": [],
+      "domain_age_days": 11281,
+      "lookalike_of": null,
+      "injection_findings": []
+    },
+    "outcomes": {
+      "success_rate_7d": null,
+      "success_rate_30d": null,
+      "sample_size_7d": 0,
+      "top_failure_stage": null
+    },
+    "freshness": {
+      "safety": 71,
+      "access": 71,
+      "route": 71,
+      "tos": 71
+    },
+    "links": {
+      "human_page": "/preflight/site/expedia.com",
+      "retry": "/preflight/api/v1/preflight/expedia.com.json"
+    },
+    "ruleset_version": "0.1.0-static.1",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "signature": null,
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  },
+  "signature": {
+    "alg": "ed25519",
+    "kid": "preflight-2026-10",
+    "sig": "iHNd88owXAFmjg-YAwF4yticQtMAN49PSChtv_Uo1zNk1kSpuxwJhRiF6gKvToeqGKILRXOS3qpNPcBRFIX6AA",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  }
+}

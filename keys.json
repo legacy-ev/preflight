@@ -1,0 +1,11 @@
+{
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "2mEke1p4zeQ-6VwKep0V_HWXB_JwlPW66WyJeeHgDU8",
+      "kid": "preflight-2026-10",
+      "use": "sig"
+    }
+  ]
+}

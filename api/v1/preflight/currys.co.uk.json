@@ -1,0 +1,99 @@
+{
+  "response": {
+    "domain": "currys.co.uk",
+    "intent": "read",
+    "verdict": "CAUTION",
+    "confidence": "low",
+    "summary": "CAUTION: The probe received an access block; this may be specific to PreflightBot. A challenge or interstitial was detected; no bypass was attempted. No homepage scan is available; retry after permission and access are available. Required scan coverage is incomplete or unavailabl",
+    "reasons": [
+      {
+        "code": "ACCESS_BLOCKED",
+        "severity": "caution",
+        "text": "The probe received an access block; this may be specific to PreflightBot.",
+        "evidence_id": "currys.co.uk:2026-10-14T18:01:08.687Z:access:ACCESS_BLOCKED",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:08.687Z",
+        "ttl_seconds": 86400
+      },
+      {
+        "code": "ACCESS_CHALLENGE_PAGE",
+        "severity": "caution",
+        "text": "A challenge or interstitial was detected; no bypass was attempted.",
+        "evidence_id": "currys.co.uk:2026-10-14T18:01:08.687Z:access:ACCESS_CHALLENGE_PAGE",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:08.687Z",
+        "ttl_seconds": 86400
+      },
+      {
+        "code": "NO_DATA",
+        "severity": "caution",
+        "text": "No homepage scan is available; retry after permission and access are available.",
+        "evidence_id": "currys.co.uk:2026-10-14T18:01:08.687Z:access:NO_DATA",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:08.687Z",
+        "ttl_seconds": 86400
+      },
+      {
+        "code": "DATA_INCOMPLETE",
+        "severity": "caution",
+        "text": "Required scan coverage is incomplete or unavailable.",
+        "evidence_id": "currys.co.uk:2026-10-14T18:01:08.687Z:safety:DATA_INCOMPLETE",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:08.687Z",
+        "ttl_seconds": 3600
+      },
+      {
+        "code": "INDEPENDENT_SAFETY_UNVERIFIED",
+        "severity": "caution",
+        "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
+        "evidence_id": "currys.co.uk:2026-10-14T18:01:08.687Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "source": "preflight_scan",
+        "checked_at": "2026-10-14T18:01:08.687Z",
+        "ttl_seconds": 3600
+      }
+    ],
+    "best_route": [],
+    "requirements": {
+      "must_self_identify": false,
+      "login_required": false,
+      "captcha_seen": true,
+      "pay_per_crawl": null,
+      "tos_class": "unknown",
+      "tos_url": null,
+      "tos_classification": "not yet classified"
+    },
+    "safety": {
+      "listed_on": [],
+      "domain_age_days": null,
+      "lookalike_of": null,
+      "injection_findings": []
+    },
+    "outcomes": {
+      "success_rate_7d": null,
+      "success_rate_30d": null,
+      "sample_size_7d": 0,
+      "top_failure_stage": null
+    },
+    "freshness": {
+      "safety": 114,
+      "access": 114,
+      "route": 114,
+      "tos": 114
+    },
+    "links": {
+      "human_page": "/preflight/site/currys.co.uk",
+      "retry": "/preflight/api/v1/preflight/currys.co.uk.json"
+    },
+    "ruleset_version": "0.1.0-static.1",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "signature": null,
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  },
+  "signature": {
+    "alg": "ed25519",
+    "kid": "preflight-2026-10",
+    "sig": "w2eaHAYPFoNADJEc81I3UnuOV2vvotYad-Tfh3bKp3H82nSaTkFV8ldLj-UCsNU6mrfZXAICFVC5sxWjq_wFAQ",
+    "generated_at": "2026-10-14T18:03:03.432Z",
+    "expires_at": "2026-10-15T18:03:03.432Z"
+  }
+}
