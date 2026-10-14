@@ -1,0 +1,20 @@
+[
+  {
+    "domain": "example.com",
+    "verdict": "GO",
+    "checked_at": "2026-10-14T09:00:00Z",
+    "reasons_count": 0
+  },
+  {
+    "domain": "example.org",
+    "verdict": "CAUTION",
+    "checked_at": "2026-10-14T09:00:00Z",
+    "reasons_count": 1
+  },
+  {
+    "domain": "example.net",
+    "verdict": "STOP",
+    "checked_at": "2026-10-14T09:00:00Z",
+    "reasons_count": 1
+  }
+]
