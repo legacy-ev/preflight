@@ -59,3 +59,6 @@ Entry format:
 
 ## 2026-10-14 orchestrator
 - Merged feat/scanner (Codex), feat/site (Codex), feat/mcp (Codex), fix/review (Codex) after adversarial review. Grok Build hit free limit; opencode free tier refuses headless. First full signed scan: 89 domains.
+
+## 2026-10-16 orchestrator
+- Activated scan.yml (daily 05:17 UTC) and pages.yml; Pages build_type=workflow; manual scan run triggered.

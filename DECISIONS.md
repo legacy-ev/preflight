@@ -124,3 +124,6 @@ Entry format:
 - The connected GitHub token lacks the `workflow` scope, so `.github/workflows/*` cannot be pushed. Workflows staged in `ci-pending/workflows/`; site deployed from a `gh-pages` branch built on the box; first signed seed scan run from the box. Move them to `.github/workflows/` once Michael grants the scope.
 - Signing key rotated twice during setup (orchestrator error resetting the JWKS); current key matches secret `PREFLIGHT_SIGNING_KEY` and `keys/public-jwks.json`.
 - All 89 seed domains are CAUTION: no independent phishing/malware feed is wired yet, so GO is impossible by design (threat model rule 2).
+
+## 2026-10-16 — Workflows live
+- Workflow scope granted; workflows moved from ci-pending/ to .github/workflows/. Pages switched from gh-pages branch to GitHub Actions deploy. gh-pages branch kept as fallback only.
