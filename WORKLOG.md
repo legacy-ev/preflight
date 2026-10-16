@@ -138,3 +138,6 @@ Entry format:
 
 ## 2026-10-16 17:40 orchestrator
 - Merged feat/tooling (cost flags, infra categories, signup methods), feat/checklist (fleet failure modes, preflight checklist, domain identity, BACKLOG + ideation), feat/compute (catalogue + router spec) after review + fixes. Triggering workflows.
+
+## 2026-10-16 18:05 orchestrator
+- Fixed CI-only failure in tests/facts.test.mjs (Ubuntu tzdata lacks negative DST for Dublin); test-only change by Codex, reviewed. Re-ran compute + tooling refresh workflows.
