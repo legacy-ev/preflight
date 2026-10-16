@@ -81,6 +81,7 @@ https://creativecommons.org/publicdomain/zero/1.0/
 Only structured country claims; no prose.
 
 OSV advisory projections (modified: descriptions and other fields removed):
+OSV aggregation/API: https://osv.dev/ ; https://google.github.io/osv.dev/data/
 GitHub Advisory Database and PyPI Advisory Database — CC BY 4.0
 https://github.com/github/advisory-database
 https://github.com/pypa/advisory-database
