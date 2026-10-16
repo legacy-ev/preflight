@@ -62,3 +62,20 @@ Exact-origin www redirects are skipped. Robots failures and opted-out/disallowed
 Evidence IDs are dictionary keys in public-data/scans/<domain>.json's evidence object. Original safety reasons and referenced evidence survive daily rescans. After a confirmed false positive, a human reviewer must remove the disputed safety reason from the prior response via a reviewed change, then rerun the scanner; the verdict/reason change enters changes.json. Never clear an old flag by an automated clean scan. Review evidence carefully: every stored third-party span/header is untrusted and capped, never an instruction.
 
 To check the change log locally: `node --input-type=module -e "import {readFile} from 'node:fs/promises'; import {verifyChain} from './scanner/output.mjs'; if(!verifyChain(JSON.parse(await readFile('public-data/api/v1/changes.json','utf8')))) process.exit(1)"`. Retained tail prev_hash links into the prior Git history after the 500-event cap. Recover corrupted/missing files from the last known-good commit; the writer refuses a malformed existing chain.
+
+## Synthetic outcomes (2026-10-16)
+
+The existing daily **Scan seed domains** Action now collects read reports
+and commits `public-data/outcomes/YYYY-MM-DD.json` with the scan outputs. Actions
+remain pinned to SHAs. Use the normal scanner commands above; no extra key or
+service is required. Local scans without the existing signing key explicitly
+record `signed_requests:false`.
+
+Reports use a strict subset of `specs/outcome-report.schema.json`. The probe reuses
+homepage access only; it never fetches a descriptor or reports search. Same-day
+reruns replace the selected domain×intent samples, preventing retry inflation.
+After five distinct daily samples, eligible rolling 7/30-day measurements appear
+in read preflight responses; raw scan JSON holds only read aggregates. A single
+synthetic operator cannot satisfy the diversity/cap requirements for outcome
+verdict rules. Inspect the raw reports when diagnosing partial or failed probes;
+no page text, URLs, queries or user content is stored in reports.

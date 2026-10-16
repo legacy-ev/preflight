@@ -178,3 +178,17 @@ test('AI robots access reflects the final homepage path after an allowed same-or
  const scan=await scanDomain('shop.example',[],{...f,rdap:noRDAP});
  assert.equal(scan.access.robots_user_agents.find(x=>x.agent==='ChatGPT-User').allowed,false);
 });
+
+test('advertised failing search descriptor is never fetched and cannot halt route discovery',async()=>{
+ const f=fixture({
+  '/robots.txt':{body:'User-agent: *\nAllow: /'},
+  '/':{body:'<link rel="search" type="application/opensearchdescription+xml" href="/os.xml">'},
+  '/os.xml':{status:429,body:'Too many requests'},
+  '/llms.txt':{body:'# Shop\nDescription'},
+ });
+ const scan=await scanDomain('shop.example',[],{...f,rdap:noRDAP});
+ assert.ok(!f.calls.some(x=>new URL(x.url).pathname==='/os.xml'));
+ assert.ok(scan.route.routes.some(x=>x.type==='markdown'));
+ assert.equal(scan.route.complete,true);
+ assert.deepEqual(scan.synthetic_reports.map(x=>x.intent),['read']);
+});

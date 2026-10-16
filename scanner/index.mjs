@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { parseSeeds, scanDomain } from './crawler.mjs';
 import { signingKey, publicJWK, KID } from './signing.mjs';
+import { storeOutcomes } from './outcomes.mjs';
 import { writeOutputs } from './output.mjs';
 import { validatePublicURL } from './network.mjs';
 import { rdapLookup } from './rdap.mjs';
@@ -42,19 +43,21 @@ export async function main(args=process.argv.slice(2)) {
     const published=JSON.parse(await readFile(resolve(root,'keys/public-jwks.json'),'utf8'));
     if(!published.keys.some(x=>x.kid===KID && x.x===publicJWK(key).x)) throw new Error('Signing key does not match published public JWKS; refusing to publish');
   }
+  const at=new Date().toISOString();
   let cursor=0;const scans=[];
   async function worker() {
     while(cursor<selected.length) {
       const {domain}=selected[cursor++];
       const validateURL=url=>validatePublicURL(url,{allowSyntheticDNS:config.managedDNS});
-      const scan=await scanDomain(domain,domains,{key,validateURL,allowSyntheticDNS:config.managedDNS,rdap:(name,options)=>rdapLookup(name,{...options,validateURL,allowSyntheticDNS:config.managedDNS})});
+      const scan=await scanDomain(domain,domains,{key,at,validateURL,allowSyntheticDNS:config.managedDNS,rdap:(name,options)=>rdapLookup(name,{...options,validateURL,allowSyntheticDNS:config.managedDNS})});
       if(config.managedDNS) scan.network_mode='managed_synthetic_dns';
       scans.push(scan);
       console.log(`${domain}: ${scan.access.scan_status}; HTTP ${scan.access.status ?? 'unavailable'}; RDAP ${scan.safety.rdap.status}; requests ${scan.access.request_count}`);
     }
   }
   await Promise.all(Array.from({length:Math.min(config.concurrency,selected.length)},worker));
-  const result=await writeOutputs(scans,{output:config.output,key});
+  await storeOutcomes(scans,{output:config.output,at});
+  const result=await writeOutputs(scans,{output:config.output,key,at});
   console.log(`Wrote ${result.count} scans; change root ${result.root_hash ?? 'none'}`);
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)) main().catch(()=>{

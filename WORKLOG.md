@@ -62,3 +62,17 @@ Entry format:
 
 ## 2026-10-16 orchestrator
 - Activated scan.yml (daily 05:17 UTC) and pages.yml; Pages build_type=workflow; manual scan run triggered.
+
+## 2026-10-16 — Codex (feeds/probe)
+- **Did:** Reviewed BRIEF/CONTRACT, threat model, verdict rules, sources and session notes. Checked official URLhaus, OpenPhish and PhishTank terms. None meets both anonymous access and clear commercial-use permission; recorded URLs/quotes and current-versus-archived PhishTank ambiguity in D-011. Integrated no feed, used no account or API key, and spent nothing.
+- **Probe:** Added scheduled synthetic read/search observations within the existing scanner and SHA-pinned daily workflow. Shares honest UA/signing, robots, public-network guards, spacing, backoff and ten-request budget. Only fetches homepage and at most one same-origin OpenSearch descriptor; never executes templates/forms. Daily schema-subset report arrays, per-day deduplication, rolling domain×intent 7d/30d aggregation and n<5 suppression. Static read responses include thresholded outcomes; search aggregates are in raw scans. One synthetic operator cannot satisfy verdict diversity/weight bounds, promote GO or clear flags. Ruleset bumped to 0.1.0-static.2; D-012 and runbook document the limits.
+- **Validation:** Node --test: scanner 51/51, MCP 10/10, site 3/3. MCP initially lacked installed dependencies; npm ci from its unchanged lockfile resolved this (zero audit findings). Tests cover safe descriptor-only GETs, denied/cross-origin/query paths, redirects, missing/challenged/truncated homepages, schema fields, daily replacement/history, sample thresholds, future/invalid/duplicate reports and verdict bounds. Shared schema also checked with Ajv 2020 + date-time formats against all six local scan reports. git diff --check clean.
+- **Local scan:** amazon.com and apple.com robots redirects refused (HTTP 301, one request each); shopify.com homepage off-origin redirect refused (HTTP 301, two requests). All RDAP lookups ok and verdicts CAUTION. Six honest read/search failed/aborted reports, hidden small cells and valid change chain. Output only at /tmp/preflight-feeds-probe-scan; no scan data committed. No local signing key supplied, explicitly unsigned as designed.
+- **Live now:** Feature branch changes only; no deployment or merge to main. Existing daily workflow will collect outcomes when integrated.
+- **Next:** Review/integrate feat/feeds-probe; independent safety agreement and verified multi-operator ingestion remain unavailable.
+- **Blocked / needs Michael:** nothing for the authorized scope. Commit and push to origin HEAD requested.
+
+## 2026-10-16 — Codex (feeds/probe review fixes)
+- **Did:** Removed synthetic search reporting and OpenSearch descriptor fetching; the probe reuses only the homepage read result and publishes only read aggregates. Descriptor failures can no longer halt route discovery. Updated probe/persistence tests, added a crawler regression with an advertised HTTP 429 descriptor, and aligned scanner/runbook documentation. D-012 records why search success would misrepresent an operation we never execute.
+- **Validation:** Scanner 50/50, MCP 10/10, site 3/3 tests passed; final outcomes test rerun 6/6 passed. `git diff --check` passed.
+- **Publication:** Commit and push on feat/feeds-probe as requested; no deployment or public-data changes.

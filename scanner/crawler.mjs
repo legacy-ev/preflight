@@ -3,6 +3,7 @@ import { parseRobots, robotsDecision, AI_AGENTS } from './robots.mjs';
 import { scanInjection, hasProduct, lookalike } from './safety.mjs';
 import { discoverRoute, WELL_KNOWN } from './routes.mjs';
 import { rdapLookup } from './rdap.mjs';
+import { probeOutcomes } from './outcomes.mjs';
 import { createHash } from 'node:crypto';
 export const SCANNER_VERSION='0.1.0';
 
@@ -49,6 +50,7 @@ export async function scanDomain(domain,seeds,{key=null,rdap=rdapLookup,at=new D
     route:{checked_at:at,ttl_seconds:86400,complete:false,routes:[],probes:[],schema_org_product:false},
     tos:{checked_at:at,ttl_seconds:604800,class:'unknown',classification:'not yet classified'},
     outcomes:{sample_size_7d:0,success_rate_7d:null,success_rate_30d:null,status:'not collected'}};
+  let probeHome=null;
   const robots=await client.get('/robots.txt',{robots:true});
   scan.access.robots_probe=rawProbe(robots,'/robots.txt');
   scan.access.status=robots.status;
@@ -72,6 +74,8 @@ export async function scanDomain(domain,seeds,{key=null,rdap=rdapLookup,at=new D
     else {
       scan.access.scan_status='ok';
       const home=await client.get('/');
+      probeHome=home;
+      scan.synthetic_reports=await probeOutcomes(domain,client,home,{at});
       scan.access.probes.push(rawProbe(home,'/'));
       if(home.url) {
         const probePath=new URL(home.url).pathname;
@@ -107,6 +111,7 @@ export async function scanDomain(domain,seeds,{key=null,rdap=rdapLookup,at=new D
       } else scan.access.scan_status=home.challenge?'challenge':home.error ?? 'blocked_or_unavailable';
     }
   }
+  if(!scan.synthetic_reports) scan.synthetic_reports=await probeOutcomes(domain,client,probeHome,{at});
   // RDAP is an explicit independent registration query, not a page-supplied URL.
   scan.safety.rdap=await rdap(domain,{key,at});
   scan.safety.domain_age_days=scan.safety.rdap.domain_age_days;

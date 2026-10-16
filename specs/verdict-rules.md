@@ -76,3 +76,12 @@ The threat model's golden rules override the fallback GO rule when positive inde
 | `SAFETY_REVIEW_REQUIRED` | CAUTION | A previous safety finding remains pending human review; its original reason/severity and evidence are retained |
 
 Outcome rules are applied only when the threat-model diversity, quarantine, per-operator weight and confirming-probe bounds are met. Static scans have no outcomes. Phase 3 returns-policy rules require an actual commerce check, not missing Phase 3 data. ToS remains `unknown` with `not yet classified`. See D-004 through D-007 in DECISIONS.md for limitations and contract-envelope precedence.
+
+## Static scanner ruleset 0.1.0-static.2 (2026-10-16)
+
+The scheduled scanner collects local synthetic read/search outcomes. Thresholded
+7d/30d measurements may be displayed at n ≥ 5 independently of verdict eligibility.
+A single synthetic operator cannot satisfy diversity or operator-weight bounds,
+so those measurements alone never fire outcome rules, raise confidence, clear a
+safety flag or produce GO. Search success means homepage and descriptor access,
+not an executed search. Daily reruns count once per domain×intent. See D-012.

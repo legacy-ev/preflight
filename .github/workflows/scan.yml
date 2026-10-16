@@ -29,7 +29,7 @@ jobs:
         run: |
           npm ci --ignore-scripts
           npm test
-      - name: Scan seed domains
+      - name: Scan seed domains and collect read-only synthetic outcomes
         env:
           PREFLIGHT_SIGNING_KEY: ${{ secrets.PREFLIGHT_SIGNING_KEY }}
         run: node scanner/index.mjs --concurrency 3

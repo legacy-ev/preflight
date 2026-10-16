@@ -1,5 +1,5 @@
 import { responseRoutes } from './routes.mjs';
-export const RULESET_VERSION = '0.1.0-static.1';
+export const RULESET_VERSION = '0.1.0-static.2';
 const COMMERCE_INTENTS = ['purchase', 'book', 'account_create', 'submit_form'];
 const INTENTS = ['read', 'search', 'compare', 'account_login', 'account_create', 'purchase', 'book', 'cancel', 'submit_form', 'download', 'api_call'];
 const TEXT = {
@@ -31,7 +31,9 @@ const TEXT = {
 export function verdict(scan, intent = 'read', at = new Date().toISOString()) {
   if (!INTENTS.includes(intent)) throw new Error('Unsupported intent');
   if (!/^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/.test(scan.domain)) throw new Error('Invalid domain');
-  const { safety:s = {}, access:a = {}, route:r = {}, tos:t = {}, outcomes:o = {} } = scan;
+  const { safety:s = {}, access:a = {}, route:r = {}, tos:t = {} } = scan;
+  const display = scan.outcomes_by_intent?.[intent] ?? {};
+  const o = scan.outcomes_by_intent?.[intent] ?? scan.outcomes ?? {};
   const reasons = [];
   const add = (code, severity, component = 'safety', evidence = {}) => {
     const c = scan[component] ?? {};
@@ -93,8 +95,10 @@ export function verdict(scan, intent = 'read', at = new Date().toISOString()) {
       captcha_seen:Boolean(a.challenge), pay_per_crawl:a.pay_per_crawl ?? null, tos_class: t.class ?? 'unknown', tos_url:null, tos_classification:'not yet classified' },
     safety:{listed_on:(s.listings ?? []).filter(x=>x.trusted === true).map(x=>x.source), domain_age_days:s.domain_age_days ?? null,
       lookalike_of:s.lookalike_of ?? null,injection_findings:(s.findings ?? []).map(x=>x.code)},
-    outcomes:{success_rate_7d:eligible ? o.success_rate_7d ?? null : null,success_rate_30d:eligible ? o.success_rate_30d ?? null : null,
-      sample_size_7d:eligible ? o.sample_size_7d ?? 0 : 0,top_failure_stage:null},freshness:ages,
+    outcomes:{success_rate_7d:display.sample_size_7d >= 5 ? display.success_rate_7d : eligible && o.sample_size_7d >= 5 ? o.success_rate_7d ?? null : null,
+      success_rate_30d:display.sample_size_30d >= 5 ? display.success_rate_30d : eligible && o.sample_size_30d >= 5 ? o.success_rate_30d ?? null : null,
+      sample_size_7d:display.sample_size_7d >= 5 ? display.sample_size_7d : eligible && o.sample_size_7d >= 5 ? o.sample_size_7d : 0,
+      sample_size_30d:display.sample_size_30d >= 5 ? display.sample_size_30d : 0,top_failure_stage:null},freshness:ages,
     links:{human_page:`/preflight/site/${scan.domain}`,retry:`/preflight/api/v1/preflight/${scan.domain}.json`},
     ruleset_version:RULESET_VERSION,generated_at:at,signature:null };
 }
