@@ -1,3 +1,5 @@
+// Feed downloaded once per scan run; TTL covers the full run.
+export const PHISHING_FEED_TTL_SECONDS = 6 * 60 * 60;
 export const HOLIDAYS = 'https://www.gov.uk/bank-holidays.json';
 export const BASE = 'https://legacy-ev.github.io/preflight';
 export const PRICES = 'https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json';

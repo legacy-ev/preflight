@@ -107,6 +107,10 @@ test('verdict summary uses oldest scan checked_at, expires at TTL and counts ind
     const fresh=(await buildContext({root,at,read})).core.response.sections;
     assert.equal(fresh.sites[0].checked_at,rows[0].checked_at);assert.equal(fresh.sites[0].value.status,'ok');
     assert.deepEqual(fresh.safety.at(-1).value.phishing_feed_counts,{checked:2,listed:1,expired:0,unavailable:0});
+    const later=(await buildContext({root,at:new Date(Date.parse(at)+600000).toISOString(),read})).core.response.sections;
+    assert.deepEqual(later.safety.at(-1).value.phishing_feed_counts,{checked:2,listed:1,expired:0,unavailable:0});
+    const expired=(await buildContext({root,at:new Date(Date.parse(at)+21600001).toISOString(),read})).core.response.sections;
+    assert.deepEqual(expired.safety.at(-1).value.phishing_feed_counts,{checked:0,listed:1,expired:2,unavailable:0});
     const stale=(await buildContext({root,at:'2026-10-16T12:00:00.001Z',read})).core.response.sections;
     assert.equal(stale.sites[0].value.status,'expired');assert.equal(stale.safety.at(-1).value.status,'expired');
     assert.equal(stale.sites[0].checked_at,rows[0].checked_at);

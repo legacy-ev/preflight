@@ -14,7 +14,7 @@ test('one active feed download shared across domains; exact registrable boundari
   const scan={domain:'bad.co.uk',checked_at:at,safety:hit};
   const current=verdict(scan,'read',at);
   assert.equal(current.verdict,'STOP');assert.equal(current.reasons.find(x=>x.code==='SAFETY_PHISHING_LISTED').source,CERT_PL);
-  assert.ok(!verdict(scan,'read','2026-10-16T12:05:00.001Z').reasons.some(x=>x.code==='SAFETY_PHISHING_LISTED'));
+  assert.ok(!verdict(scan,'read','2026-10-16T18:00:00.001Z').reasons.some(x=>x.code==='SAFETY_PHISHING_LISTED'));
   assert.ok(!verdict(scan,'read','2026-10-16T11:59:59Z').reasons.some(x=>x.code==='SAFETY_PHISHING_LISTED'));
   assert.ok(current.reasons.some(x=>x.code==='INDEPENDENT_SAFETY_UNVERIFIED'));
 });
@@ -31,4 +31,16 @@ test('crawler attaches shared feed evidence even when target robots forbids a ho
   const scan=await scanDomain('bad.co.uk',[],{at,phishingFeed:feed,rdap:async()=>({status:'unavailable',domain_age_days:null}),validateURL:async()=>true,sleep:async()=>{},fetchImpl:async()=>new Response('User-agent: *\nDisallow: /')});
   assert.equal(scan.safety.feed_status,'ok');assert.equal(scan.scanned,false);
   assert.equal(verdict(scan,'read',at).verdict,'STOP');
+});
+
+test('shared feed stays listed throughout a scan longer than 300 seconds',async()=>{
+  const feed=await loadPhishingFeed({at,read:async()=> 'bad.co.uk\n'});
+  assert.equal(feed.fetched_at,at);
+  for(const checked_at of [at,'2026-10-16T12:10:00.000Z']) {
+    const scan={domain:'bad.co.uk',checked_at,safety:phishingEvidence('bad.co.uk',feed)};
+    const reason=verdict(scan,'read',checked_at).reasons.find(x=>x.code==='SAFETY_PHISHING_LISTED');
+    assert.ok(reason);
+    assert.equal(reason.checked_at,feed.fetched_at);
+    assert.equal(reason.ttl_seconds,21600);
+  }
 });

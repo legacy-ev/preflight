@@ -91,5 +91,5 @@ not an executed search. Daily reruns count once per domain×intent. See D-012.
 CERT Polska's active Warning List is an independent phishing feed for
 `SAFETY_PHISHING_LISTED`: one download per run, exact registrable-domain match
 (including private PSL boundaries), STOP only while feed evidence is within its
-300-second TTL. A missing or nonmatching feed never establishes independent
-safety agreement. See D-015 for verified commercial terms and scope limitations.
+six-hour TTL from the feed download timestamp (feed downloaded once per scan
+run). A missing or nonmatching feed never establishes independent safety agreement. See D-015 for verified commercial terms and scope limitations.

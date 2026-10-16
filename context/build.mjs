@@ -2,7 +2,7 @@ import { readFile, mkdir, writeFile, rename, rm } from 'node:fs/promises';
 import { join } from 'node:path';
 import { statusItem } from './status.mjs';
 import { envelope } from '../scanner/signing.mjs';
-import { HOLIDAYS,BASE,PRICES,AGENTS,FX,REGISTRY,STATUS,CLOUD_LINKS,COUNTRIES,ZONES,MODELS,OWASP,PROTOCOLS,PATTERNS,FAILURES } from './sources.mjs';
+import { PHISHING_FEED_TTL_SECONDS,HOLIDAYS,BASE,PRICES,AGENTS,FX,REGISTRY,STATUS,CLOUD_LINKS,COUNTRIES,ZONES,MODELS,OWASP,PROTOCOLS,PATTERNS,FAILURES } from './sources.mjs';
 const DOMAIN=/^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/;
 export { statusSummary } from './status.mjs';
 export function priceSummary(data) {
@@ -73,7 +73,7 @@ export async function buildContext({read,root='public-data',at=new Date().toISOS
       counts[r.verdict]++;
       if(r.safety?.feed_status==='ok') {
         const age=Date.parse(at)-Date.parse(r.safety.feed_checked_at);
-        if(age>=0 && age<=300000) feedCounts.checked++;else feedCounts.expired++;
+        if(age>=0 && age<=PHISHING_FEED_TTL_SECONDS*1000) feedCounts.checked++;else feedCounts.expired++;
       } else feedCounts.unavailable++;
       if(r.safety?.listed_on?.includes('https://hole.cert.pl/domains/v2/domains.txt')) feedCounts.listed++;
       sites.push(item({domain:row.domain,verdict:r.verdict,preflight:`${BASE}/api/v1/preflight/${row.domain}.json`,context:`${BASE}/api/v1/context/${row.domain}.json`},`${BASE}/api/v1/preflight/${row.domain}.json`,86400,{checked_at}));

@@ -45,8 +45,8 @@ export async function main(args=process.argv.slice(2)) {
     const published=JSON.parse(await readFile(resolve(root,'keys/public-jwks.json'),'utf8'));
     if(!published.keys.some(x=>x.kid===KID && x.x===publicJWK(key).x)) throw new Error('Signing key does not match published public JWKS; refusing to publish');
   }
+  const phishingFeed=await loadPhishingFeed({read:sourceClient({key})});
   const at=new Date().toISOString();
-  const phishingFeed=await loadPhishingFeed({read:sourceClient({key}),at});
   let cursor=0;const scans=[];
   async function worker() {
     while(cursor<selected.length) {
