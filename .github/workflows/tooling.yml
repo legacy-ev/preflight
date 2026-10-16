@@ -22,6 +22,10 @@ jobs:
           node-version: '20'
       - run: npm ci --ignore-scripts --prefix context
       - run: node --test tests
+      - name: Refresh official model shutdown schedules
+        run: |
+          node tooling/model-deprecations.mjs
+          git add data/model-deprecations.json
       - name: Generate signed tooling and context
         env:
           PREFLIGHT_SIGNING_KEY: ${{ secrets.PREFLIGHT_SIGNING_KEY }}

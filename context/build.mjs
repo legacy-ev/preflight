@@ -1,4 +1,5 @@
 import { extendedFacts,extendSections,publishExtended } from './extended-facts.mjs';
+import { modelDeprecationFacts } from '../tooling/model-deprecations.mjs';
 import { toolingSummary } from '../agent_tooling/index.mjs';
 import { readFile, mkdir, writeFile, rename, rm } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -100,6 +101,7 @@ export async function buildContext({read,root='public-data',at=new Date().toISOS
   const summaryStatus=!index || envelopes.length!==index.length?'unavailable':expired?'expired':'ok';
   const sections={
     agent_tooling:await toolingSummary({root,at}),
+    model_deprecations:await modelDeprecationFacts(),
     internet_status,
     compute:await computeSummary({root,at}),
     llm_providers:[...internet_status.filter(x=>['OpenAI','Anthropic'].includes(x.value.provider)),prices],

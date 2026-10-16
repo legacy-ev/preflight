@@ -25,3 +25,5 @@ try {
 } catch {
   await rm('dist/api/v1/tooling.json', { force: true });
 }
+
+await cp(new URL('../../data/model-deprecations.json', import.meta.url), 'dist/api/v1/model-deprecations.json');
