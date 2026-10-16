@@ -55,12 +55,24 @@ from tzdb, including negative DST. Unsupported data is unavailable.
 
 `software` contains endoflife.date API v1 product cycles/latest/EOL. World adds
 30 Wikidata country entity projections (ISO codes, currency/capital QIDs, calling
-codes). `vulnerabilities` uses one read-only OSV POST /v1/query for each
-requested package, with a separate daily cache key. Retains at most 20 high or
-critical advisories per package published within 30 days, excluding withdrawn
-records and unknown licences. Explicit severity ratings and CVSS v3 base scores
-are supported; unclassified severity is excluded. Pagination or excess matches
-marks the result truncated. No matches never means vulnerability-free. See D-016.
+codes). `vulnerabilities` uses OSV POST `/v1/querybatch` for the existing 15
+agent-stack packages, then deduplicated GET `/v1/vulns/{id}` for details.
+Queries cover all versions, without a recent-publication or severity filter;
+these are package advisories, not findings against an installed version.
+Critical/high records are highlighted and sorted first. Severity uses explicit
+ratings, numeric scores or CVSS v3 base scores; unsupported scores remain unknown.
+Each record carries its detail source URL, checked_at, daily ttl_seconds and
+OSV/upstream attribution. GHSA/PYSEC retain CC-BY 4.0 and MAL Apache 2.0;
+unknown database licences are excluded and counted. Existing notices apply.
+At most five batch pages, 300 unique detail GETs and 100 IDs per package per
+build; caps/pagination mark truncated, never complete coverage. Transport still
+bounds bytes/time, spaces requests, identifies PreflightBot and obeys robots.
+No matches never means vulnerability-free. Failed batch/detail validation keeps
+the previous package cache with its original timestamp/TTL (possibly expired),
+or returns unavailable without prior success. Existing package cache keys remain
+stable; query_source identifies the new batch endpoint. Fresh caches defer the
+new query until expiry. The existing hourly GitHub Actions context build invokes
+this adapter; no client-side fetching, accounts or API keys are added. See D-016.
 
 Remote projected facts, including unavailable results, persist for 24 hours in
 `public-data/context-cache/`; hourly builds preserve original checked_at.
