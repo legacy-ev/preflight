@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "homedepot.com:2026-10-16T06:23:45.066Z:access:NO_DATA",
+        "evidence_id": "homedepot.com:2026-10-16T13:22:40.055Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T06:23:45.066Z",
+        "checked_at": "2026-10-16T13:22:40.055Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "homedepot.com:2026-10-16T06:23:45.066Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "homedepot.com:2026-10-16T13:22:40.055Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T06:23:45.066Z",
+        "checked_at": "2026-10-16T13:22:40.055Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "homedepot.com:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "homedepot.com:2026-10-16T13:22:40.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T06:23:45.066Z",
+        "checked_at": "2026-10-16T13:22:40.055Z",
         "ttl_seconds": 3600
       }
     ],
@@ -45,6 +45,8 @@
       "tos_classification": "not yet classified"
     },
     "safety": {
+      "feed_status": "ok",
+      "feed_checked_at": "2026-10-16T13:22:40.033Z",
       "listed_on": [],
       "domain_age_days": 12491,
       "lookalike_of": null,
@@ -67,16 +69,16 @@
       "human_page": "/preflight/site/homedepot.com",
       "retry": "/preflight/api/v1/preflight/homedepot.com.json"
     },
-    "ruleset_version": "0.1.0-static.2",
-    "generated_at": "2026-10-16T06:23:45.066Z",
+    "ruleset_version": "0.1.0-static.3",
+    "generated_at": "2026-10-16T13:22:40.055Z",
     "signature": null,
-    "expires_at": "2026-10-17T06:23:45.066Z"
+    "expires_at": "2026-10-17T13:22:40.055Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "VH0YlMOuPgkOPdaNj74rQdPlV3g9ke4onfioIWjAeRx0U4lP5Hod7KNYGcCWtHS1-fM-K3weVqBhujf6wd-9Bw",
-    "generated_at": "2026-10-16T06:23:45.066Z",
-    "expires_at": "2026-10-17T06:23:45.066Z"
+    "sig": "IPFaIAs4M_pBNMzRjnLXP7ZEV-0T_sfmbaT45uFcl4Ng8Wi7hw2xefZEJJzk13JxhP1KkAFTARXLulwGw4tfBw",
+    "generated_at": "2026-10-16T13:22:40.055Z",
+    "expires_at": "2026-10-17T13:22:40.055Z"
   }
 }

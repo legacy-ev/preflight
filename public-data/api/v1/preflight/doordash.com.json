@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "doordash.com:2026-10-16T06:23:45.066Z:access:NO_DATA",
+        "evidence_id": "doordash.com:2026-10-16T13:22:40.055Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T06:23:45.066Z",
+        "checked_at": "2026-10-16T13:22:40.055Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "doordash.com:2026-10-16T06:23:45.066Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "doordash.com:2026-10-16T13:22:40.055Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T06:23:45.066Z",
+        "checked_at": "2026-10-16T13:22:40.055Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "doordash.com:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "doordash.com:2026-10-16T13:22:40.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T06:23:45.066Z",
+        "checked_at": "2026-10-16T13:22:40.055Z",
         "ttl_seconds": 3600
       }
     ],
@@ -45,6 +45,8 @@
       "tos_classification": "not yet classified"
     },
     "safety": {
+      "feed_status": "ok",
+      "feed_checked_at": "2026-10-16T13:22:40.033Z",
       "listed_on": [],
       "domain_age_days": 4867,
       "lookalike_of": null,
@@ -67,16 +69,16 @@
       "human_page": "/preflight/site/doordash.com",
       "retry": "/preflight/api/v1/preflight/doordash.com.json"
     },
-    "ruleset_version": "0.1.0-static.2",
-    "generated_at": "2026-10-16T06:23:45.066Z",
+    "ruleset_version": "0.1.0-static.3",
+    "generated_at": "2026-10-16T13:22:40.055Z",
     "signature": null,
-    "expires_at": "2026-10-17T06:23:45.066Z"
+    "expires_at": "2026-10-17T13:22:40.055Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "nKjVVIieZNF3b7b9Cd9dTpTkejip2VFBu_qML5XcVx0tfcn1c34TEQuMtiYQT5R_vQ_-5qT1GtbcTbVuooIsBg",
-    "generated_at": "2026-10-16T06:23:45.066Z",
-    "expires_at": "2026-10-17T06:23:45.066Z"
+    "sig": "aJCgR-bhwOErvUdZ5rly41BPf-eGaqZd7hfsq2fxp37cOaEzVqvKFR1RTH2gweZD47B4CrY-jgmXPDg7j2lRBg",
+    "generated_at": "2026-10-16T13:22:40.055Z",
+    "expires_at": "2026-10-17T13:22:40.055Z"
   }
 }

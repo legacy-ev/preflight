@@ -1,15 +1,15 @@
 {
   "domain": "deliveroo.co.uk",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-16T06:23:45.066Z",
+  "checked_at": "2026-10-16T13:22:40.055Z",
   "scanned": true,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 3600,
     "complete": true,
     "independently_verified": false,
-    "feed_status": "not checked",
+    "feed_status": "ok",
     "listed_on": [],
     "findings": [],
     "domain_age_days": 5231,
@@ -18,13 +18,15 @@
       "status": "ok",
       "http_status": 200,
       "domain_age_days": 5231,
-      "checked_at": "2026-10-16T06:23:45.066Z"
+      "checked_at": "2026-10-16T13:22:40.055Z"
     },
-    "homepage_sha256": "4daeaa24b23b3f008e23d13b4b08c8e51089cd53807e668001c1b81678e108bc",
+    "feed_checked_at": "2026-10-16T13:22:40.033Z",
+    "listings": [],
+    "homepage_sha256": "2b5c02b2ef6820208edf07a1099b399c53b0858d1e2eb786223380145aa53df0",
     "homepage_truncated": false
   },
   "access": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 86400,
     "complete": true,
     "status": 200,
@@ -106,7 +108,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 456,
+        "latency_ms": 239,
         "headers": {
           "content-type": {
             "value": "text/html; charset=utf-8",
@@ -117,7 +119,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4b4fcff79674c9e-MSP",
+            "value": "a4b762c74939c391-SEA",
             "untrusted_evidence": true
           }
         }
@@ -130,7 +132,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 145,
+      "latency_ms": 703,
       "headers": {
         "content-type": {
           "value": "text/plain; charset=utf-8",
@@ -141,7 +143,7 @@
           "untrusted_evidence": true
         },
         "cf-ray": {
-          "value": "a4b4fcf8a8604c9e-MSP",
+          "value": "a4b762bcfce3c391-SEA",
           "untrusted_evidence": true
         }
       }
@@ -160,7 +162,7 @@
     "request_count": 7
   },
   "route": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 86400,
     "complete": true,
     "routes": [
@@ -181,7 +183,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 192,
+        "latency_ms": 198,
         "headers": {
           "content-type": {
             "value": "application/json; charset=utf-8",
@@ -192,59 +194,13 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4b4fd089bf94c9e-MSP",
+            "value": "a4b762cf0c8cc391-SEA",
             "untrusted_evidence": true
           }
         }
       },
       {
         "path": "/.well-known/mcp.json",
-        "status": 404,
-        "error": null,
-        "challenge": false,
-        "block_page": false,
-        "truncated": false,
-        "latency_ms": 181,
-        "headers": {
-          "content-type": {
-            "value": "application/json; charset=utf-8",
-            "untrusted_evidence": true
-          },
-          "server": {
-            "value": "cloudflare",
-            "untrusted_evidence": true
-          },
-          "cf-ray": {
-            "value": "a4b4fd100cb34c9e-MSP",
-            "untrusted_evidence": true
-          }
-        }
-      },
-      {
-        "path": "/.well-known/agent-card.json",
-        "status": 404,
-        "error": null,
-        "challenge": false,
-        "block_page": false,
-        "truncated": false,
-        "latency_ms": 173,
-        "headers": {
-          "content-type": {
-            "value": "application/json; charset=utf-8",
-            "untrusted_evidence": true
-          },
-          "server": {
-            "value": "cloudflare",
-            "untrusted_evidence": true
-          },
-          "cf-ray": {
-            "value": "a4b4fd176d4b4c9e-MSP",
-            "untrusted_evidence": true
-          }
-        }
-      },
-      {
-        "path": "/.well-known/agent.json",
         "status": 404,
         "error": null,
         "challenge": false,
@@ -261,7 +217,53 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4b4fd1ebe134c9e-MSP",
+            "value": "a4b762d68fabc391-SEA",
+            "untrusted_evidence": true
+          }
+        }
+      },
+      {
+        "path": "/.well-known/agent-card.json",
+        "status": 404,
+        "error": null,
+        "challenge": false,
+        "block_page": false,
+        "truncated": false,
+        "latency_ms": 213,
+        "headers": {
+          "content-type": {
+            "value": "application/json; charset=utf-8",
+            "untrusted_evidence": true
+          },
+          "server": {
+            "value": "cloudflare",
+            "untrusted_evidence": true
+          },
+          "cf-ray": {
+            "value": "a4b762ddfa85c391-SEA",
+            "untrusted_evidence": true
+          }
+        }
+      },
+      {
+        "path": "/.well-known/agent.json",
+        "status": 404,
+        "error": null,
+        "challenge": false,
+        "block_page": false,
+        "truncated": false,
+        "latency_ms": 215,
+        "headers": {
+          "content-type": {
+            "value": "application/json; charset=utf-8",
+            "untrusted_evidence": true
+          },
+          "server": {
+            "value": "cloudflare",
+            "untrusted_evidence": true
+          },
+          "cf-ray": {
+            "value": "a4b762e58d83c391-SEA",
             "untrusted_evidence": true
           }
         }
@@ -273,7 +275,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 204,
+        "latency_ms": 187,
         "headers": {
           "content-type": {
             "value": "text/html; charset=utf-8",
@@ -284,7 +286,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4b4fd262e674c9e-MSP",
+            "value": "a4b762ed28d4c391-SEA",
             "untrusted_evidence": true
           }
         }
@@ -293,13 +295,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 0,
     "sample_size_30d": 0,
@@ -317,7 +319,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "success",
-      "attempted_at": "2026-10-16T06:23:45.066Z",
+      "attempted_at": "2026-10-16T13:22:40.055Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -327,10 +329,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-16T06:26:00.939Z",
+  "finished_at": "2026-10-16T13:24:59.243Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-16T06:23:45.066Z",
+      "checked_at": "2026-10-16T13:22:40.055Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 0,
       "sample_size_30d": 0,
@@ -345,12 +347,12 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "deliveroo.co.uk:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-16T06:23:45.066Z",
+    "deliveroo.co.uk:2026-10-16T13:22:40.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-16T13:22:40.055Z",
       "ttl_seconds": 3600,
       "complete": true,
       "independently_verified": false,
-      "feed_status": "not checked",
+      "feed_status": "ok",
       "listed_on": [],
       "findings": [],
       "domain_age_days": 5231,
@@ -359,9 +361,11 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 5231,
-        "checked_at": "2026-10-16T06:23:45.066Z"
+        "checked_at": "2026-10-16T13:22:40.055Z"
       },
-      "homepage_sha256": "4daeaa24b23b3f008e23d13b4b08c8e51089cd53807e668001c1b81678e108bc",
+      "feed_checked_at": "2026-10-16T13:22:40.033Z",
+      "listings": [],
+      "homepage_sha256": "2b5c02b2ef6820208edf07a1099b399c53b0858d1e2eb786223380145aa53df0",
       "homepage_truncated": false
     }
   }

@@ -1,15 +1,15 @@
 {
   "domain": "ticketmaster.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-16T06:23:45.066Z",
+  "checked_at": "2026-10-16T13:22:40.055Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
-    "feed_status": "not checked",
+    "feed_status": "ok",
     "listed_on": [],
     "findings": [],
     "domain_age_days": 11971,
@@ -18,11 +18,13 @@
       "status": "ok",
       "http_status": 200,
       "domain_age_days": 11971,
-      "checked_at": "2026-10-16T06:23:45.066Z"
-    }
+      "checked_at": "2026-10-16T13:22:40.055Z"
+    },
+    "feed_checked_at": "2026-10-16T13:22:40.033Z",
+    "listings": []
   },
   "access": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -39,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 116,
+      "latency_ms": 78,
       "headers": {
         "server": {
           "value": "Varnish",
@@ -54,7 +56,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -62,13 +64,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-16T06:23:45.066Z",
+    "checked_at": "2026-10-16T13:22:40.055Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 0,
     "sample_size_30d": 0,
@@ -86,7 +88,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-16T06:23:45.066Z",
+      "attempted_at": "2026-10-16T13:22:40.055Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -96,10 +98,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-16T06:26:46.848Z",
+  "finished_at": "2026-10-16T13:25:48.585Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-16T06:23:45.066Z",
+      "checked_at": "2026-10-16T13:22:40.055Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 0,
       "sample_size_30d": 0,
@@ -114,8 +116,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "ticketmaster.com:2026-10-16T06:23:45.066Z:access:NO_DATA": {
-      "checked_at": "2026-10-16T06:23:45.066Z",
+    "ticketmaster.com:2026-10-16T13:22:40.055Z:access:NO_DATA": {
+      "checked_at": "2026-10-16T13:22:40.055Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -132,7 +134,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 116,
+        "latency_ms": 78,
         "headers": {
           "server": {
             "value": "Varnish",
@@ -146,12 +148,12 @@
       },
       "request_count": 1
     },
-    "ticketmaster.com:2026-10-16T06:23:45.066Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-16T06:23:45.066Z",
+    "ticketmaster.com:2026-10-16T13:22:40.055Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-16T13:22:40.055Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
-      "feed_status": "not checked",
+      "feed_status": "ok",
       "listed_on": [],
       "findings": [],
       "domain_age_days": 11971,
@@ -160,15 +162,17 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 11971,
-        "checked_at": "2026-10-16T06:23:45.066Z"
-      }
+        "checked_at": "2026-10-16T13:22:40.055Z"
+      },
+      "feed_checked_at": "2026-10-16T13:22:40.033Z",
+      "listings": []
     },
-    "ticketmaster.com:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-16T06:23:45.066Z",
+    "ticketmaster.com:2026-10-16T13:22:40.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-16T13:22:40.055Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
-      "feed_status": "not checked",
+      "feed_status": "ok",
       "listed_on": [],
       "findings": [],
       "domain_age_days": 11971,
@@ -177,8 +181,10 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 11971,
-        "checked_at": "2026-10-16T06:23:45.066Z"
-      }
+        "checked_at": "2026-10-16T13:22:40.055Z"
+      },
+      "feed_checked_at": "2026-10-16T13:22:40.033Z",
+      "listings": []
     }
   }
 }
