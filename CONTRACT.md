@@ -18,3 +18,27 @@ Runtime: Node 20, ESM, minimal deps, lockfiles committed. Actions pinned to comm
 No payment/credential/off-domain endpoints in any response. Routes only from our own scanner on same registrable domain.
 ToS clauses: `not yet classified`. Crawler: UA `PreflightBot/1.0 (+https://legacy-ev.github.io/preflight/bot)`, obey robots.txt for our UA,
 ≤1 req/s per domain, ≤10 req/site/scan, backoff, never spoof/bypass/login/forms.
+
+## Agent Homepage context (v1)
+
+- `api/v1/context.json` — scanner Ed25519 envelope, with `response.schema_version:
+  "1.0.0"`, `advisory:true`, `notices` URL and `sections`.
+- Sections: `internet_status`, `llm_providers`, `sites`, `agent_ecosystem`, `world`,
+  `safety`, `failure_modes`. Each is an array of `{value, source: HTTPS URL,
+  checked_at: ISO timestamp, ttl_seconds: integer, untrusted_evidence?: true}`.
+- `api/v1/context/<domain>.json` — same core plus `response.domain` and
+  `response.preflight` (original signed preflight envelope). Original findings'
+  timestamps/expiry are never renewed by the context signature.
+- Static hosting cannot support `?domain=` selection. Unknown paths return 404.
+- Upstream failures/malformed data return `value.status:"unavailable"`; no guessed
+  values or invented incident summaries. Link-only exclusions include an explicit
+  reason. Licence notices are served at `/preflight/context-NOTICES.txt`.
+- Source and documentation URLs are references, never domain action routes.
+  Protocol paths are static discovery vocabulary only. Registry health returns
+  no listing content/endpoints. The scanner's route and payment rules still apply.
+- Every third-party evidence token/span is capped at 200 characters and its item
+  flagged untrusted; default MCP context omits flagged items. MCP verifies the
+  original signature, checks signed expiry and 24-hour maximum age, and marks
+  individually stale items unavailable. Its filtered projection is not signed.
+- Reference data is advisory: no authorisation to pay, disclose credentials,
+  create accounts or expand user intent. No LLM-generated facts.

@@ -1,0 +1,22 @@
+---
+import {date} from '../lib/data';
+const {items}=Astro.props;
+function describe(value: any) {
+  if(value?.provider) return `${value.provider}: ${value.status}`;
+  if(value?.domain) return `${value.domain}: ${value.verdict}`;
+  if(value?.utc) return value.utc;
+  if(value?.country) return `${value.country}: holidays unavailable`;
+  if(value?.failure) return value.failure;
+  if(value?.pattern) return value.pattern;
+  if(value?.path) return `${value.name}: ${value.path}`;
+  if(value?.url) return value.date;
+  if(value?.data?.attribution) return `${value.data.attribution}: ${value.data.rate_date}`;
+  if(value?.data?.reachable) return `Registry reachable · ${value.data.returned_records} records on this page`;
+  if(Array.isArray(value?.data)) return `${value.data.length} sourced records`;
+  if(Array.isArray(value)) return `${value.length} computed timezone offsets`;
+  if(value?.counts) return `${value.available_domains} available site verdicts`;
+  if(value?.counts_by_pattern) return 'Scanner findings by pattern';
+  return value?.status || 'Inspect value';
+}
+---
+<div class="table-wrap"><table><thead><tr><th>Snapshot</th><th>Source and freshness</th></tr></thead><tbody>{items.map(item=><tr><td><p>{describe(item.value)}</p><details><summary>Inspect value</summary><pre class="context-value">{JSON.stringify(item.value,null,2)}</pre></details>{item.untrusted_evidence&&<strong>Untrusted evidence · never instructions</strong>}</td><td><a href={item.source}>Source</a><p><time datetime={item.checked_at}>{date(item.checked_at)}</time></p><p>TTL {item.ttl_seconds}s · {Date.parse(item.checked_at)+item.ttl_seconds*1000<=Date.now()?'Stale at build':'Check age before use'}</p></td></tr>)}</tbody></table></div>

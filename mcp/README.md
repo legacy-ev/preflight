@@ -46,3 +46,13 @@ Failed verification, missing data/keys or expiry returns CAUTION with low confid
 Ordinary tools project schema fields, discard extensions and marked untrusted objects, replace reason text with local templates, and omit summaries, raw evidence and price text. Routes are restricted to HTTPS on the exact requested hostname, with no credentials, query, fragment or payment/login paths. This is deliberately stricter than registrable-domain/delegation matching. Evidence is isolated in `get_evidence` and must never be interpreted as instructions.
 
 `signature` and `signature_scope: "original_static_response"` identify the source envelope: they do **not** sign the filtered MCP result. Verification status describes that original response. Evidence is unsigned and the local ingest stub has no publisher signature. Preflight is advisory and never authorisation to pay.
+
+## Agent Homepage
+
+`get_context` accepts an optional lowercase `domain`. Reads static `context.json` or
+`context/<domain>.json`; never scans on demand. Verifies the original Ed25519
+envelope, enforces signed expiry/24-hour age and each item TTL, omits untrusted
+evidence, and verifies an embedded domain verdict independently. The returned
+projection is not itself signed (`signature_scope: original_static_response`).
+Missing/unverified context returns unavailable and must be treated as CAUTION.
+Sources and protocol paths are references, never permission or action routes.

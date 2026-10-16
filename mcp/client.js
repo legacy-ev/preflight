@@ -1,3 +1,4 @@
+import { USER_AGENT } from '../scanner/signing.mjs';
 import { createPublicKey, verify } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import Ajv from 'ajv/dist/2020.js';
@@ -37,18 +38,18 @@ export function createClient({baseUrl = process.env.PREFLIGHT_BASE_URL || 'https
   const base = new URL(baseUrl.endsWith('/') ? baseUrl : baseUrl + '/');
   if (!['https:', 'http:'].includes(base.protocol) || base.username || base.password || base.search || base.hash) throw new Error('Invalid PREFLIGHT_BASE_URL');
   async function json(path) {
-    const res = await fetchImpl(new URL(path,base), {redirect:'error', signal:AbortSignal.timeout(10000), headers:{accept:'application/json'}});
+    const res = await fetchImpl(new URL(path,base), {redirect:'error', signal:AbortSignal.timeout(10000), headers:{accept:'application/json','User-Agent':USER_AGENT}});
     if (!res.ok) throw new Error('Static API unavailable');
     const text = await res.text();
     if (text.length > 1048576) throw new Error('Static API response too large');
     return JSON.parse(text);
   }
-  async function preflight(domain,intent='read') {
+  async function preflight(domain,intent='read',embedded) {
     domainName(domain);
     if (!intents.includes(intent)) throw new Error('Invalid intent');
     let raw, signature, problem;
     try {
-      const envelope = await json('preflight/' + domain + '.json');
+      const envelope = embedded ?? await json('preflight/' + domain + '.json');
       raw = envelope.response; signature = envelope.signature;
       if (!raw || raw.domain !== domain || raw.intent !== 'read' || !['GO','CAUTION','STOP'].includes(raw.verdict)) throw new Error();
       const keys = await json('../../keys.json');
@@ -80,8 +81,35 @@ export function createClient({baseUrl = process.env.PREFLIGHT_BASE_URL || 'https
     result.signature_scope = 'original_static_response';
     return result;
   }
+  async function get_context(domain) {
+    if(domain !== undefined) domainName(domain);
+    try {
+      const original=await json(domain ? 'context/'+domain+'.json' : 'context.json');
+      const r=original.response, s=original.signature;
+      if(!r || r.schema_version!=='1.0.0' || !r.sections || (domain !== undefined && (r.domain!==domain || r.preflight?.response?.domain!==domain))) throw new Error();
+      const keys=await json('../../keys.json');
+      const jwk=keys.keys.find(k=>k.kid===s?.kid && k.kty==='OKP' && k.crv==='Ed25519');
+      const generated=Date.parse(r.generated_at), expires=Date.parse(r.expires_at);
+      if(s?.alg!=='ed25519' || s.generated_at!==r.generated_at || s.expires_at!==r.expires_at || !jwk || !verify(null,Buffer.from(canonical(r)),createPublicKey({key:jwk,format:'jwk'}),Buffer.from(s.sig,'base64url')) ||
+        !Number.isFinite(generated) || !Number.isFinite(expires) || generated>now() || expires<=now() || expires<=generated || expires>generated+86400000 || now()>=generated+86400000) throw new Error();
+      const sections={};
+      for(const name of ['internet_status','llm_providers','sites','agent_ecosystem','world','safety','failure_modes']) {
+        if(!Array.isArray(r.sections[name])) throw new Error();
+        sections[name]=r.sections[name].filter(x=>x && x.untrusted_evidence!==true).map(x=>{
+          const checked=Date.parse(x.checked_at);
+          if(!Number.isFinite(checked) || !Number.isSafeInteger(x.ttl_seconds) || x.ttl_seconds<0 || checked>now() || checked+x.ttl_seconds*1000<=now())
+            return {source:x.source,checked_at:x.checked_at,ttl_seconds:x.ttl_seconds,value:{status:'unavailable',reason:'stale_item'}};
+          return x;
+        });
+      }
+      return {schema_version:r.schema_version,advisory:true,generated_at:r.generated_at,sections,
+        ...(domain?{domain,preflight:await preflight(domain,'read',r.preflight)}:{}),
+        signature:s,signature_scope:'original_static_response',verification:{verified:true,status:'verified',warnings:[]}};
+    } catch {return {advisory:true,status:'unavailable',verification:{verified:false,status:'SIGNATURE_UNVERIFIED',warnings:['Context unavailable, expired or unverified; treat as CAUTION.']}};}
+  }
   return {
     preflight,
+    get_context,
     async check_safety(domain) { const r=await preflight(domain); return {...metadata(r),domain,verdict:r.verdict,safety:r.safety || {},reasons:r.reasons.filter(x => /^SAFETY_/.test(x.code))}; },
     async find_route(domain,intent) { const r=await preflight(domain,intent); return {...metadata(r),domain,intent,verdict:r.verdict,best_route:r.best_route,requirements:r.requirements || {}}; },
     async get_evidence(domain) { domainName(domain); const evidence=await json('../../scans/'+domain+'.json'); return {domain,untrusted_evidence:true,verification:{verified:false,status:'unsigned_evidence'},evidence:capEvidence(evidence)}; },

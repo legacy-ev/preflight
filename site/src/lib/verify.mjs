@@ -20,6 +20,6 @@ export async function verifyEnvelope(envelope, trustedJwks, now = Date.now()) {
   if (!await crypto.subtle.verify('Ed25519', key, decode(s.sig), new TextEncoder().encode(canonical(response))))
     throw new Error('Bad signature: treat as CAUTION');
   // Envelope dates are not covered by the response signature. Anchor expiry to signed generated_at.
-  if (now >= Date.parse(response.generated_at) + 86400000) throw new Error('Snapshot older than 24h: treat as CAUTION');
+  if ((response.expires_at && (!Number.isFinite(Date.parse(response.expires_at)) || Date.parse(response.expires_at) <= now)) || now >= Date.parse(response.generated_at) + 86400000) throw new Error('Snapshot older than 24h: treat as CAUTION');
   return response;
 }

@@ -1,6 +1,29 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { records, href, date } from '../lib/data';
+import ContextTable from '../components/ContextTable.astro';
+import { href, date } from '../lib/data';
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+const path=resolve('../public-data/api/v1/context.json');
+const envelope=existsSync(path)?JSON.parse(readFileSync(path,'utf8')):null;
+const sections=envelope?.response?.sections || {};
+const names={internet_status:'Internet status',llm_providers:'LLM providers',sites:'Site verdicts',agent_ecosystem:'Agent ecosystem',world:'World',safety:'Safety',failure_modes:'Failure modes'};
 ---
-<Layout title="Before an agent acts"><h1>Check before you act.</h1><p class="intro">GO, CAUTION or STOP. Website access findings, routes and evidence for agents — with the date behind every decision.</p><a class="action" href={href('methodology')}>How verdicts work</a><section aria-labelledby="domains"><h2 id="domains">Domain leaderboard</h2><p>Read intent only. Alphabetical order; this is an access index, not a merchant recommendation.</p><label for="filter">Find a domain</label><input id="filter" type="search" placeholder="Filter by domain or verdict"/><p id="count" aria-live="polite">{records.length} domains</p><div class="table-wrap"><table><thead><tr><th scope="col">Domain</th><th scope="col">Verdict</th><th scope="col">Reasons</th><th scope="col">Checked at</th></tr></thead><tbody>{records.map(r=><tr data-domain={`${r.domain} ${r.verdict}`.toLowerCase()}><td><a href={href(`site/${r.domain}`)}>{r.domain}</a></td><td class={`verdict ${r.verdict}`}>{r.verdict}</td><td>{r.reasons.length}</td><td><time datetime={r.generated_at}>{date(r.generated_at)}</time></td></tr>)}</tbody></table></div></section><section><h2>A verdict has limits.</h2><p>GO means no rule fired in the published snapshot. It does not grant permission, guarantee safety or authorise a purchase. Check freshness and the website’s own rules before acting.</p><a href={href('api')}>Read the same data as JSON →</a></section></Layout>
-<script>const filter=document.querySelector<HTMLInputElement>('#filter');filter?.addEventListener('input',()=>{let visible=0;document.querySelectorAll<HTMLTableRowElement>('tr[data-domain]').forEach(row=>{row.hidden=!row.dataset.domain?.includes(filter.value.toLowerCase().trim());if(!row.hidden)visible++;});document.querySelector('#count')!.textContent=`${visible} domains`;});</script>
+<Layout title="Agent Homepage">
+<div class="context-hero"><h1>One call.<br/>Context first.</h1><p class="intro">A sourced snapshot for your next task: service status, model prices, site verdicts, world data and safety checks.</p><a class="action" href={href('api/v1/context.json')}>Get the JSON</a></div>
+<section><h2>One call</h2><p>Fetch one static file. Each item carries its source, check time and lifetime. Verify the Ed25519 signature before use.</p><pre><code>curl -fsS https://legacy-ev.github.io/preflight/api/v1/context.json</code></pre><p>For a site, use <a href={href('api')}>/api/v1/context/&lt;domain&gt;.json</a>. Query parameters cannot select domains on static hosting.</p>{envelope?<p>Generated {date(envelope.response.generated_at)} · {envelope.signature?'Signature supplied; verify before use.':'Unsigned snapshot; treat as CAUTION.'}</p>:<p class="notice">Context has not been generated in this checkout. The hourly context workflow publishes the snapshot; no live facts are shown here.</p>}</section>
+<nav class="context-nav" aria-label="Context sections">{Object.entries(names).map(([id,name])=><a href={`#${id}`}>{name}</a>)}</nav>
+{Object.entries(names).map(([id,name])=><section id={id}><h2>{name}</h2>{id==='sites'&&<p><a href={href('sites')}>Browse domain verdicts and evidence →</a></p>}{(sections[id] || []).length?<><ContextTable items={sections[id].slice(0,4)}/>{sections[id].length>4&&<details class="more-context"><summary>Show {sections[id].length-4} more items</summary><ContextTable items={sections[id].slice(4)}/></details>}</>:<p>Unavailable until a context snapshot is published.</p>}</section>)}
+<section><h2>Advisory, always.</h2><p>Unavailable means unknown. A signature proves provenance, not safety or permission. This feed never authorises payment or credential disclosure.</p><a href={href('SKILL.md')}>Read the agent skill</a></section>
+</Layout>
+<script>
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+    if(entry.isIntersecting) {
+      entry.target.animate([{opacity:.6,transform:'translateY(12px)'},{opacity:1,transform:'none'}],{duration:400,easing:'ease-out'});
+      observer.unobserve(entry.target);
+    }
+  }),{threshold:.1});
+  document.querySelectorAll('section[id]').forEach(section=>observer.observe(section));
+}
+</script>

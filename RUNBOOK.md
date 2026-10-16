@@ -79,3 +79,22 @@ in read preflight responses; raw scan JSON holds only read aggregates. A single
 synthetic operator cannot satisfy the diversity/cap requirements for outcome
 verdict rules. Inspect the raw reports when diagnosing partial or failed probes;
 no page text, URLs, queries or user content is stored in reports.
+
+## Agent Homepage context
+
+`npm test --prefix context`; `node context/index.mjs --output /tmp/preflight-context`
+for a diagnostic build without changing tracked public data. Production workflow:
+**Refresh Agent Homepage context**, hourly at minute 23 UTC or workflow_dispatch.
+Uses only the existing PREFLIGHT_SIGNING_KEY Ed25519 seed; no API keys/accounts.
+Scan/context share per-ref public-data concurrency; scripts/publish-data.sh
+rebases and retries rejected pushes before dispatching pages.yml. Rebase conflicts
+fail the Action for review rather than discarding changes.
+
+To preview locally with data, copy the diagnostic context.json and context/
+into public-data/api/v1/, run `npm run build --prefix site`, then remove these
+untracked diagnostic files. Do not commit local unsigned data. Without context
+files the site explicitly shows unavailable. MIT licence notices and ECB
+attribution ship from site/public/context-NOTICES.txt. Review DECISIONS.md before
+adding a source; public availability does not prove commercial reuse permission.
+GitHub Pages project base is /preflight; origin-root discovery requires a custom
+domain or origin-root site. No such deployment/account change is part of this task.
