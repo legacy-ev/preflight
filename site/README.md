@@ -1,6 +1,6 @@
 # Preflight static site
 
-Requires Node 20. From `site/`: `npm ci`, then `npm run build`.
+Requires Node 22.12+ and npm 9.6.5+. From `site/`: `npm ci`, then `npm run build`.
 `npm run dev` serves the site under `/preflight`; `npm run preview` previews the build.
 
 Build inputs are `../public-data/api/v1/index.json`, `changes.json` and
