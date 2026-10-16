@@ -42,3 +42,18 @@ ToS clauses: `not yet classified`. Crawler: UA `PreflightBot/1.0 (+https://legac
   individually stale items unavailable. Its filtered projection is not signed.
 - Reference data is advisory: no authorisation to pay, disclose credentials,
   create accounts or expand user intent. No LLM-generated facts.
+
+### Extended reference facts
+
+- `api/v1/timezones.json` uses the same envelope. `response.zones` contains
+  timestamped items for the union of Intl supported zones and system IANA zones
+  and aliases, with UTC offset, TZif `is_dst` and the next transition within
+  400 days (null when absent). System and Node tzdb versions are distinct fields.
+  World contains only the pointer, count and major-zone items.
+- `software` and `vulnerabilities` are additional section arrays. Software uses
+  endoflife.date v1; world includes Wikidata structured country claims. OSV
+  evidence is a bounded GET-only recent-change sample under the no-posting rule;
+  full package queries are explicitly unavailable/link-only. No match is never
+  a clean bill of health. See D-016 for source-specific reuse and coverage.
+- Those remote facts preserve their original checked_at and 86400-second TTL
+  across hourly builds using public-data/context-cache; failures are cached too.

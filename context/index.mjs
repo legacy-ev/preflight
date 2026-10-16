@@ -2,7 +2,7 @@ import { resolve } from 'node:path';
 import { readFile } from 'node:fs/promises';
 import { signingKey,publicJWK,KID } from '../scanner/signing.mjs';
 import { buildContext,publishContext } from './build.mjs';
-import { sourceClient } from './fetch.mjs';
+import { factsClient as sourceClient } from './facts-client.mjs';
 const args=process.argv.slice(2);
 if(args.some((x,i)=>x!=='--output' && args[i-1]!=='--output') || (args.includes('--output') && !args[args.indexOf('--output')+1])) throw new Error('Usage: node context/index.mjs [--output directory]');
 const output=resolve(args.includes('--output')?args[args.indexOf('--output')+1]:'public-data');

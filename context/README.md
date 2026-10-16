@@ -45,3 +45,24 @@ hour. Safety counts distinguish current/expired CERT Polska feed checks and
 historically listed responses; absence is never a clean bill of health. The
 scanner downloads the official active-only list once per run with a five-minute
 TTL; context reuses published observations without another feed download.
+
+Extended facts use separate modules. `api/v1/timezones.json` contains the full
+scanner-envelope zone list; world carries its pointer, count and major zones.
+Requires Linux system `/usr/share/zoneinfo` TZif and tzdata.zi files. Both system
+and Node tzdb versions are reported; ICU does not calculate offsets or DST.
+Transitions cover 400 days and use exact-second binary search. The DST flag is
+from tzdb, including negative DST. Unsupported data is unavailable.
+
+`software` contains endoflife.date API v1 product cycles/latest/EOL. World adds
+30 Wikidata country entity projections (ISO codes, currency/capital QIDs, calling
+codes). `vulnerabilities` contains requested package records from bounded OSV
+recent-change sampling, never a vulnerability-free assertion. No HTTP POST is
+used: full OSV package search requires a read-only POST and remains link-only
+under the no-posting constraint. See D-016 for coverage/licences.
+
+Remote projected facts, including unavailable results, persist for 24 hours in
+`public-data/context-cache/`; hourly builds preserve original checked_at.
+Do not delete that directory in scheduled builds. Individual upstream strings
+are capped at 200 characters and items flagged untrusted_evidence. All source
+requests use the existing bounded, robots-first, honest-UA transport.
+Run added regressions from root with `node --test tests`.
