@@ -1,8 +1,14 @@
 import { sourceClient } from './fetch.mjs';
-import { publicFetch } from '../scanner/transport.mjs';
-const INDEXES=new Set(['npm','PyPI'].map(e=>`https://storage.googleapis.com/osv-vulnerabilities/${e}/modified_id.csv`));
-// Preserve sourceClient's DNS pinning, robots checks, honest UA, byte cap,
-// timeout and host pacing. Only these two fixed indexes receive Range.
-export function factsClient({fetchImpl=publicFetch,...options}={}) {
-  return sourceClient({...options,fetchImpl:async(url,request)=>fetchImpl(url,INDEXES.has(url)?{...request,headers:{...request.headers,Range:'bytes=0-65535'}}:request)});
+// The only POST supported by facts is OSV's read-only package lookup.
+export function factsClient(options={}) {
+  const read=sourceClient(options);
+  return (url,request={})=>{
+    if(request.method && request.method!=='GET') {
+      const body=JSON.parse(request.body);
+      if(url!=='https://api.osv.dev/v1/query'||request.method!=='POST'||
+        Object.keys(body).join()!=='package'||Object.keys(body.package).sort().join()!=='ecosystem,name')
+        throw Error('Unsupported facts request');
+    }
+    return read(url,request);
+  };
 }

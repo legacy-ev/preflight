@@ -55,10 +55,12 @@ from tzdb, including negative DST. Unsupported data is unavailable.
 
 `software` contains endoflife.date API v1 product cycles/latest/EOL. World adds
 30 Wikidata country entity projections (ISO codes, currency/capital QIDs, calling
-codes). `vulnerabilities` contains requested package records from bounded OSV
-recent-change sampling, never a vulnerability-free assertion. No HTTP POST is
-used: full OSV package search requires a read-only POST and remains link-only
-under the no-posting constraint. See D-016 for coverage/licences.
+codes). `vulnerabilities` uses one read-only OSV POST /v1/query for each
+requested package, with a separate daily cache key. Retains at most 20 high or
+critical advisories per package published within 30 days, excluding withdrawn
+records and unknown licences. Explicit severity ratings and CVSS v3 base scores
+are supported; unclassified severity is excluded. Pagination or excess matches
+marks the result truncated. No matches never means vulnerability-free. See D-016.
 
 Remote projected facts, including unavailable results, persist for 24 hours in
 `public-data/context-cache/`; hourly builds preserve original checked_at.

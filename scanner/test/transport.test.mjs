@@ -60,3 +60,19 @@ test('compressed HTTPS bodies are decoded before the streaming byte cap is appli
  assert.equal(result.body,'x'.repeat(100));
  assert.equal(result.truncated,true);
 });
+
+test('HTTPS transport sends the OSV read-only POST body over the pinned connection',async()=>{
+ const body=JSON.stringify({package:{ecosystem:'PyPI',name:'mcp'}});
+ const requestImpl=(_url,options,callback)=>{
+  assert.equal(options.method,'POST');assert.equal(options.headers['Content-Type'],'application/json');
+  const req=new EventEmitter();
+  req.end=value=>{
+   assert.equal(value,body);
+   const response=Readable.from([Buffer.from('{}')]);response.statusCode=200;response.headers={};callback(response);
+  };
+  return req;
+ };
+ const response=await publicFetch('https://api.osv.dev/v1/query',{method:'POST',body,headers:{'Content-Type':'application/json'}},
+  {lookupImpl:async()=>[{address:'1.1.1.1',family:4}],requestImpl});
+ assert.equal(await response.text(),'{}');
+});

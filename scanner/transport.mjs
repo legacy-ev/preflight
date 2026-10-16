@@ -60,14 +60,14 @@ export async function resolveDestination(value, {lookupImpl=lookup, dnsJSON:conf
   return records;
 }
 
-// Fetch-compatible GET transport. DNS is checked and the connection pinned;
+// Fetch-compatible HTTPS transport. DNS is checked and the connection pinned;
 // HTTPS still authenticates the original hostname, including on the gateway.
 export async function publicFetch(value, options={}, dependencies={}) {
   const records = await resolveDestination(value, dependencies);
   return fetchResolved(new URL(value), options, records, dependencies.requestImpl);
 }
 
-function fetchResolved(url, {headers={},signal}={}, records, requestImpl=request) {
+function fetchResolved(url, {headers={},signal,method='GET',body}={}, records, requestImpl=request) {
   const host=url.hostname.replace(/^\[|\]$/g,'');
   signal?.throwIfAborted();
   const pinnedLookup=(_host,options,callback)=>{
@@ -75,7 +75,7 @@ function fetchResolved(url, {headers={},signal}={}, records, requestImpl=request
     else callback(null,records[0].address,records[0].family);
   };
   return new Promise((resolve,reject)=>{
-    const req=requestImpl(url,{method:'GET',headers:{...headers,'Accept-Encoding':'identity'},signal,
+    const req=requestImpl(url,{method,headers:{...headers,'Accept-Encoding':'identity'},signal,
       servername:host,lookup:pinnedLookup},message=>{
       try {
         const responseHeaders=new Headers();
@@ -96,6 +96,6 @@ function fetchResolved(url, {headers={},signal}={}, records, requestImpl=request
       } catch(error) {message.destroy();reject(error);}
     });
     req.once('error',reject);
-    req.end();
+    req.end(body);
   });
 }
