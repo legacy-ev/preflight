@@ -1,3 +1,4 @@
+import { toolingSummary } from '../agent_tooling/index.mjs';
 import { readFile, mkdir, writeFile, rename, rm } from 'node:fs/promises';
 import { join } from 'node:path';
 import { statusItem } from './status.mjs';
@@ -94,6 +95,7 @@ export async function buildContext({read,root='public-data',at=new Date().toISOS
   const expired=sites.some(x=>x.value.domain && (Date.parse(at)-Date.parse(x.checked_at)>3600*1000 || Date.parse(x.checked_at)>Date.parse(at)));
   const summaryStatus=!index || envelopes.length!==index.length?'unavailable':expired?'expired':'ok';
   const sections={
+    agent_tooling:await toolingSummary({root,at}),
     internet_status,
     llm_providers:[...internet_status.filter(x=>['OpenAI','Anthropic'].includes(x.value.provider)),prices],
     sites:[item(index?{status:summaryStatus,counts,index_domains:index.length,available_domains:envelopes.length}:{status:'unavailable'},`${BASE}/api/v1/index.json`,3600,{checked_at:oldest}),...sites],

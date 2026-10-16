@@ -1,0 +1,1709 @@
+{
+  "hubs": [
+    {
+      "value": {
+        "name": "Arcade",
+        "official_url": "https://www.arcade.dev/",
+        "what_it_does": "Controls and authorises tool actions performed by AI agents.",
+        "pricing_model": "Free plan and paid action-based plans.",
+        "free_tier": "yes",
+        "auth_type": "User OAuth and existing identity-provider permissions.",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://www.arcade.dev/",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.arcade.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:45Z",
+        "facts_source_urls": [
+          "https://www.arcade.dev/",
+          "https://www.arcade.dev/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:03Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.arcade.dev/",
+      "checked_at": "2026-10-16T15:09:03Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Composio",
+        "official_url": "https://composio.dev/",
+        "what_it_does": "Connects agents to application tools with managed authentication.",
+        "pricing_model": "Free allowances with metered tool calls and add-ons.",
+        "free_tier": "yes",
+        "auth_type": "Managed OAuth and API keys for connected applications.",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://composio.dev/",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://composio.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:41Z",
+        "facts_source_urls": [
+          "https://composio.dev/",
+          "https://composio.dev/pricing"
+        ],
+        "verified_at": "2026-10-16T15:08:59Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://composio.dev/",
+      "checked_at": "2026-10-16T15:08:59Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Klavis",
+        "official_url": "https://www.klavis.ai/",
+        "what_it_does": "Provides live environments and verifiable tasks for training agents.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.klavis.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:46Z",
+        "facts_source_urls": [
+          "https://www.klavis.ai/",
+          "https://www.klavis.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:06Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.klavis.ai/",
+      "checked_at": "2026-10-16T15:09:06Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Pipedream",
+        "official_url": "https://pipedream.com/",
+        "what_it_does": "Provides application integrations, managed authentication and agent tools.",
+        "pricing_model": "Free development plan; paid production usage.",
+        "free_tier": "yes",
+        "auth_type": "Managed application authentication; OAuth integrations.",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://pipedream.com/",
+        "api_evidence_url": "https://pipedream.com/",
+        "pricing_source_url": "https://pipedream.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:43Z",
+        "facts_source_urls": [
+          "https://pipedream.com/",
+          "https://pipedream.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:02Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://pipedream.com/",
+      "checked_at": "2026-10-16T15:09:02Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Smithery",
+        "official_url": "https://smithery.ai/",
+        "what_it_does": "Helps agents discover and connect to tools and services.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://smithery.ai/",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://smithery.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:45Z",
+        "facts_source_urls": [
+          "https://smithery.ai/",
+          "https://smithery.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:04Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://smithery.ai/",
+      "checked_at": "2026-10-16T15:09:04Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Toolhouse",
+        "official_url": "https://toolhouse.ai/",
+        "what_it_does": "Runs AI workers for recurring tasks across connected applications.",
+        "pricing_model": "Usage credits and custom business plans.",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://toolhouse.ai/",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://toolhouse.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:48Z",
+        "facts_source_urls": [
+          "https://toolhouse.ai/",
+          "https://toolhouse.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:08Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://toolhouse.ai/",
+      "checked_at": "2026-10-16T15:09:08Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Zapier MCP",
+        "official_url": "https://zapier.com/mcp",
+        "what_it_does": "Connects MCP clients to actions in business applications.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://zapier.com/mcp",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://zapier.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:42Z",
+        "facts_source_urls": [
+          "https://zapier.com/mcp",
+          "https://zapier.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:01Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://zapier.com/mcp",
+      "checked_at": "2026-10-16T15:09:01Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "llm_gateways": [
+    {
+      "value": {
+        "name": "Cloudflare AI Gateway",
+        "official_url": "https://developers.cloudflare.com/ai-gateway/",
+        "what_it_does": "Provides a gateway for model requests with monitoring and control features.",
+        "pricing_model": "Free core gateway features; separate usage charges for other features.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://developers.cloudflare.com/ai-gateway/",
+        "pricing_source_url": "https://developers.cloudflare.com/ai-gateway/reference/pricing/",
+        "pricing_checked_at": "2026-10-16T15:10:52Z",
+        "facts_source_urls": [
+          "https://developers.cloudflare.com/ai-gateway/",
+          "https://developers.cloudflare.com/ai-gateway/reference/pricing/"
+        ],
+        "verified_at": "2026-10-16T15:09:13Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://developers.cloudflare.com/ai-gateway/",
+      "checked_at": "2026-10-16T15:09:13Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "LiteLLM",
+        "official_url": "https://www.litellm.ai/",
+        "what_it_does": "Provides an AI gateway, model proxy and Python SDK.",
+        "pricing_model": "Free self-hosted edition; paid enterprise offering.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://www.litellm.ai/",
+        "api_evidence_url": "https://www.litellm.ai/",
+        "pricing_source_url": "https://www.litellm.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:49Z",
+        "facts_source_urls": [
+          "https://www.litellm.ai/",
+          "https://www.litellm.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:10Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.litellm.ai/",
+      "checked_at": "2026-10-16T15:09:10Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "OpenRouter",
+        "official_url": "https://openrouter.ai/",
+        "what_it_does": "Provides a unified interface to models from multiple providers.",
+        "pricing_model": "Free models and paid model usage.",
+        "free_tier": "yes",
+        "auth_type": "API key.",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://openrouter.ai/",
+        "pricing_source_url": "https://openrouter.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:48Z",
+        "facts_source_urls": [
+          "https://openrouter.ai/",
+          "https://openrouter.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:09Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://openrouter.ai/",
+      "checked_at": "2026-10-16T15:09:09Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Portkey",
+        "official_url": "https://portkey.ai/",
+        "what_it_does": "Provides an AI gateway with observability and governance controls.",
+        "pricing_model": "Free developer plan; paid production plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://portkey.ai/",
+        "api_evidence_url": "https://portkey.ai/",
+        "pricing_source_url": "https://portkey.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:50Z",
+        "facts_source_urls": [
+          "https://portkey.ai/",
+          "https://portkey.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:12Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://portkey.ai/",
+      "checked_at": "2026-10-16T15:09:12Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Requesty",
+        "official_url": "https://www.requesty.ai/",
+        "what_it_does": "Routes model requests through a shared API with analytics and governance.",
+        "pricing_model": "Free-model plan; metered paid models; enterprise plans.",
+        "free_tier": "yes",
+        "auth_type": "API keys; OAuth integrations for coding clients.",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://www.requesty.ai/",
+        "api_evidence_url": "https://www.requesty.ai/",
+        "pricing_source_url": "https://www.requesty.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:51Z",
+        "facts_source_urls": [
+          "https://www.requesty.ai/",
+          "https://www.requesty.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:12Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.requesty.ai/",
+      "checked_at": "2026-10-16T15:09:12Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Vercel AI Gateway",
+        "official_url": "https://vercel.com/ai-gateway",
+        "what_it_does": "Provides a shared API for models across providers.",
+        "pricing_model": "Free credits and metered paid model usage.",
+        "free_tier": "yes",
+        "auth_type": "API key.",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://vercel.com/ai-gateway",
+        "pricing_source_url": "https://vercel.com/docs/ai-gateway/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:53Z",
+        "facts_source_urls": [
+          "https://vercel.com/ai-gateway",
+          "https://vercel.com/docs/ai-gateway/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:14Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://vercel.com/ai-gateway",
+      "checked_at": "2026-10-16T15:09:14Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "search_scrape": [
+    {
+      "value": {
+        "name": "Brave Search API",
+        "official_url": "https://brave.com/search/api/",
+        "what_it_does": "Provides programmatic access to Brave web search.",
+        "pricing_model": "Metered search with monthly free credits; card required.",
+        "free_tier": "yes",
+        "auth_type": "API key.",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://brave.com/search/api/",
+        "api_evidence_url": "https://brave.com/search/api/",
+        "pricing_source_url": "https://brave.com/search/api/",
+        "pricing_checked_at": "2026-10-16T15:10:56Z",
+        "facts_source_urls": [
+          "https://brave.com/search/api/"
+        ],
+        "verified_at": "2026-10-16T15:09:17Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://brave.com/search/api/",
+      "checked_at": "2026-10-16T15:09:17Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Bright Data",
+        "official_url": "https://brightdata.com/",
+        "what_it_does": "Provides web data collection APIs and browser infrastructure.",
+        "pricing_model": "Product-specific metered plans; MCP offering includes free access.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://brightdata.com/",
+        "api_evidence_url": "https://brightdata.com/",
+        "pricing_source_url": "https://brightdata.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:58Z",
+        "facts_source_urls": [
+          "https://brightdata.com/",
+          "https://brightdata.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:19Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://brightdata.com/",
+      "checked_at": "2026-10-16T15:09:19Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Exa",
+        "official_url": "https://exa.ai/",
+        "what_it_does": "Provides search, crawling and research APIs for web data.",
+        "pricing_model": "Free monthly credits, metered API usage and enterprise plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://exa.ai/",
+        "api_evidence_url": "https://exa.ai/",
+        "pricing_source_url": "https://exa.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:55Z",
+        "facts_source_urls": [
+          "https://exa.ai/",
+          "https://exa.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:16Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://exa.ai/",
+      "checked_at": "2026-10-16T15:09:16Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Firecrawl",
+        "official_url": "https://www.firecrawl.dev/",
+        "what_it_does": "Provides APIs for searching, crawling and extracting web content.",
+        "pricing_model": "Free plan and paid credit-based plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://www.firecrawl.dev/",
+        "api_evidence_url": "https://www.firecrawl.dev/",
+        "pricing_source_url": "https://www.firecrawl.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:57Z",
+        "facts_source_urls": [
+          "https://www.firecrawl.dev/",
+          "https://www.firecrawl.dev/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:19Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.firecrawl.dev/",
+      "checked_at": "2026-10-16T15:09:19Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Jina",
+        "official_url": "https://jina.ai/",
+        "what_it_does": "Provides URL reading, embeddings and reranking interfaces.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "API key for keyed services.",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://jina.ai/",
+        "api_evidence_url": "https://jina.ai/",
+        "pricing_source_url": "https://jina.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:00Z",
+        "facts_source_urls": [
+          "https://jina.ai/"
+        ],
+        "verified_at": "2026-10-16T15:09:21Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://jina.ai/",
+      "checked_at": "2026-10-16T15:09:21Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Serper",
+        "official_url": "https://serper.dev/",
+        "what_it_does": "Provides an API for Google search results.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://serper.dev/",
+        "pricing_source_url": "https://serper.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:00Z",
+        "facts_source_urls": [
+          "https://serper.dev/"
+        ],
+        "verified_at": "2026-10-16T15:09:22Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://serper.dev/",
+      "checked_at": "2026-10-16T15:09:22Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Tavily",
+        "official_url": "https://www.tavily.com/",
+        "what_it_does": "Provides web search, extraction, crawling and research APIs for agents.",
+        "pricing_model": "Free monthly credits, metered usage and subscription plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://www.tavily.com/",
+        "pricing_source_url": "https://www.tavily.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:54Z",
+        "facts_source_urls": [
+          "https://www.tavily.com/",
+          "https://www.tavily.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:15Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.tavily.com/",
+      "checked_at": "2026-10-16T15:09:15Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "browser_infra": [
+    {
+      "value": {
+        "name": "Anchor Browser",
+        "official_url": "https://anchorbrowser.io/",
+        "what_it_does": "Provides infrastructure for computer-use agents.",
+        "pricing_model": "Free monthly credits and paid plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://anchorbrowser.io/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:05Z",
+        "facts_source_urls": [
+          "https://anchorbrowser.io/",
+          "https://anchorbrowser.io/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:26Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://anchorbrowser.io/",
+      "checked_at": "2026-10-16T15:09:26Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Browser Use",
+        "official_url": "https://browser-use.com/",
+        "what_it_does": "Provides browser agents and remote browser infrastructure.",
+        "pricing_model": "Metered usage; one-time introductory credit for eligible signups.",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://browser-use.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:04Z",
+        "facts_source_urls": [
+          "https://browser-use.com/",
+          "https://browser-use.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:25Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://browser-use.com/",
+      "checked_at": "2026-10-16T15:09:25Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Browserbase",
+        "official_url": "https://www.browserbase.com/",
+        "what_it_does": "Provides hosted browsers and web access tools for agents.",
+        "pricing_model": "Free plan and paid plans with usage charges.",
+        "free_tier": "yes",
+        "auth_type": "API key.",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://www.browserbase.com/",
+        "api_evidence_url": "https://www.browserbase.com/",
+        "pricing_source_url": "https://www.browserbase.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:01Z",
+        "facts_source_urls": [
+          "https://www.browserbase.com/",
+          "https://www.browserbase.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:22Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.browserbase.com/",
+      "checked_at": "2026-10-16T15:09:22Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Hyperbrowser",
+        "official_url": "https://www.hyperbrowser.ai/",
+        "what_it_does": "Provides browser automation, isolated compute and web data APIs.",
+        "pricing_model": "Free starting credits and paid credit-based plans.",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://www.hyperbrowser.ai/",
+        "pricing_source_url": "https://www.hyperbrowser.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:03Z",
+        "facts_source_urls": [
+          "https://www.hyperbrowser.ai/",
+          "https://www.hyperbrowser.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:24Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.hyperbrowser.ai/",
+      "checked_at": "2026-10-16T15:09:24Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Steel",
+        "official_url": "https://steel.dev/",
+        "what_it_does": "Provides an API for controlling hosted browser sessions.",
+        "pricing_model": "Metered usage and paid plans; one-time starting credits.",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://steel.dev/",
+        "api_evidence_url": "https://steel.dev/",
+        "pricing_source_url": "https://steel.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:03Z",
+        "facts_source_urls": [
+          "https://steel.dev/",
+          "https://steel.dev/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:24Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://steel.dev/",
+      "checked_at": "2026-10-16T15:09:24Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "sandboxes": [
+    {
+      "value": {
+        "name": "Daytona",
+        "official_url": "https://www.daytona.io/",
+        "what_it_does": "Runs AI-generated code in isolated environments.",
+        "pricing_model": "Metered compute usage; free introductory trial.",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://www.daytona.io/",
+        "pricing_source_url": "https://www.daytona.io/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:07Z",
+        "facts_source_urls": [
+          "https://www.daytona.io/",
+          "https://www.daytona.io/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:28Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.daytona.io/",
+      "checked_at": "2026-10-16T15:09:28Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "E2B",
+        "official_url": "https://e2b.dev/",
+        "what_it_does": "Runs isolated machines for agent workloads.",
+        "pricing_model": "Free Hobby platform tier; compute usage billed separately after introductory credits.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://e2b.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:06Z",
+        "facts_source_urls": [
+          "https://e2b.dev/",
+          "https://e2b.dev/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:28Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://e2b.dev/",
+      "checked_at": "2026-10-16T15:09:28Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Modal",
+        "official_url": "https://modal.com/",
+        "what_it_does": "Provides compute for model inference, training and isolated code execution.",
+        "pricing_model": "Metered compute with recurring free credits and paid plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://modal.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:08Z",
+        "facts_source_urls": [
+          "https://modal.com/",
+          "https://modal.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:30Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://modal.com/",
+      "checked_at": "2026-10-16T15:09:30Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "memory": [
+    {
+      "value": {
+        "name": "Letta",
+        "official_url": "https://www.letta.com/",
+        "what_it_does": "Develops agents that learn through persistent memory.",
+        "pricing_model": "Limited free plan, personal subscriptions and metered developer plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.letta.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:12Z",
+        "facts_source_urls": [
+          "https://www.letta.com/",
+          "https://www.letta.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:33Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.letta.com/",
+      "checked_at": "2026-10-16T15:09:33Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Mem0",
+        "official_url": "https://mem0.ai/",
+        "what_it_does": "Provides persistent memory for agents and applications.",
+        "pricing_model": "Free Hobby plan and paid plans; usage-based options.",
+        "free_tier": "yes",
+        "auth_type": "API key.",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://mem0.ai/",
+        "api_evidence_url": "https://mem0.ai/",
+        "pricing_source_url": "https://mem0.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:10Z",
+        "facts_source_urls": [
+          "https://mem0.ai/",
+          "https://mem0.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:31Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://mem0.ai/",
+      "checked_at": "2026-10-16T15:09:31Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Zep",
+        "official_url": "https://www.getzep.com/",
+        "what_it_does": "Combines business data and conversations into shared agent context.",
+        "pricing_model": "Credit-based plans; free prototype credits described with trial limits.",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://www.getzep.com/",
+        "api_evidence_url": "https://www.getzep.com/",
+        "pricing_source_url": "https://www.getzep.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:12Z",
+        "facts_source_urls": [
+          "https://www.getzep.com/",
+          "https://www.getzep.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:33Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.getzep.com/",
+      "checked_at": "2026-10-16T15:09:33Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "email_phone_identity": [
+    {
+      "value": {
+        "name": "AgentID",
+        "official_url": "https://www.agentid.com/",
+        "what_it_does": "Provides agent sign-in identities backed by AgentMail email addresses.",
+        "pricing_model": "Free for applications; agent inbox pricing separate.",
+        "free_tier": "yes",
+        "auth_type": "OpenID Connect.",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.agentid.com/",
+        "pricing_checked_at": "2026-10-16T15:11:14Z",
+        "facts_source_urls": [
+          "https://www.agentid.com/"
+        ],
+        "verified_at": "2026-10-16T15:09:36Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.agentid.com/",
+      "checked_at": "2026-10-16T15:09:36Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "AgentMail",
+        "official_url": "https://www.agentmail.to/",
+        "what_it_does": "Provides programmable email inboxes for AI agents.",
+        "pricing_model": "Free plan and paid monthly plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://www.agentmail.to/",
+        "api_evidence_url": "https://www.agentmail.to/",
+        "pricing_source_url": "https://www.agentmail.to/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:12Z",
+        "facts_source_urls": [
+          "https://www.agentmail.to/",
+          "https://www.agentmail.to/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:33Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.agentmail.to/",
+      "checked_at": "2026-10-16T15:09:33Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Twilio",
+        "official_url": "https://www.twilio.com/en-us",
+        "what_it_does": "Provides communication APIs for messaging, voice and customer engagement.",
+        "pricing_model": "Metered usage; introductory free trial.",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://www.twilio.com/en-us",
+        "pricing_source_url": "https://www.twilio.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:13Z",
+        "facts_source_urls": [
+          "https://www.twilio.com/en-us",
+          "https://www.twilio.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:11:56Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.twilio.com/en-us",
+      "checked_at": "2026-10-16T15:11:56Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "payments": [
+    {
+      "value": {
+        "name": "Mastercard Agent Pay",
+        "official_url": "https://www.mastercard.com/global/en/business/artificial-intelligence/mastercard-agent-pay.html",
+        "what_it_does": "unknown",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.mastercard.com/us/en/business/overview/products-and-solutions/agent-pay.html",
+        "pricing_checked_at": "2026-10-16T15:11:18Z",
+        "facts_source_urls": [],
+        "verified_at": null,
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_unavailable"
+      },
+      "source": "https://www.mastercard.com/global/en/business/artificial-intelligence/mastercard-agent-pay.html",
+      "checked_at": "2026-10-16T15:11:57Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Payman",
+        "official_url": "https://www.paymanai.com/",
+        "what_it_does": "Deploys AI agents for banking tasks under institutional controls.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.paymanai.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:21Z",
+        "facts_source_urls": [
+          "https://www.paymanai.com/"
+        ],
+        "verified_at": "2026-10-16T15:09:42Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.paymanai.com/",
+      "checked_at": "2026-10-16T15:09:42Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Skyfire",
+        "official_url": "https://skyfire.xyz/",
+        "what_it_does": "Provides agent identity and payment credentials for internet interactions.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://skyfire.xyz/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:19Z",
+        "facts_source_urls": [
+          "https://skyfire.xyz/"
+        ],
+        "verified_at": "2026-10-16T15:09:40Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://skyfire.xyz/",
+      "checked_at": "2026-10-16T15:09:40Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Stripe agent toolkit",
+        "official_url": "https://docs.stripe.com/agents",
+        "what_it_does": "Provides Stripe development tools and MCP integration for agents.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://docs.stripe.com/agents",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://stripe.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:16Z",
+        "facts_source_urls": [
+          "https://docs.stripe.com/agents",
+          "https://stripe.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:38Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://docs.stripe.com/agents",
+      "checked_at": "2026-10-16T15:09:38Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Visa Trusted Agent Protocol",
+        "official_url": "https://developer.visa.com/capabilities/trusted-agent-protocol",
+        "what_it_does": "Describes Visa's trusted-agent protocol.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://developer.visa.com/capabilities/trusted-agent-protocol",
+        "pricing_checked_at": "2026-10-16T15:11:18Z",
+        "facts_source_urls": [
+          "https://developer.visa.com/capabilities/trusted-agent-protocol"
+        ],
+        "verified_at": "2026-10-16T15:09:39Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://developer.visa.com/capabilities/trusted-agent-protocol",
+      "checked_at": "2026-10-16T15:09:39Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "x402",
+        "official_url": "https://www.x402.org/",
+        "what_it_does": "Defines an open standard for payments between internet clients and servers.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.x402.org/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:16Z",
+        "facts_source_urls": [
+          "https://www.x402.org/"
+        ],
+        "verified_at": "2026-10-16T15:09:36Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.x402.org/",
+      "checked_at": "2026-10-16T15:09:36Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "agent_auth": [
+    {
+      "value": {
+        "name": "Arcade",
+        "official_url": "https://www.arcade.dev/",
+        "what_it_does": "Controls and authorises tool actions performed by AI agents.",
+        "pricing_model": "Free plan and paid action-based plans.",
+        "free_tier": "yes",
+        "auth_type": "User OAuth and existing identity-provider permissions.",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://www.arcade.dev/",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.arcade.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:10:45Z",
+        "facts_source_urls": [
+          "https://www.arcade.dev/",
+          "https://www.arcade.dev/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:03Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.arcade.dev/",
+      "checked_at": "2026-10-16T15:09:03Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Auth0 for AI Agents",
+        "official_url": "https://auth0.com/ai",
+        "what_it_does": "Provides identity and security tools for AI agents.",
+        "pricing_model": "Free plan and paid identity plans; feature eligibility varies.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://auth0.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:21Z",
+        "facts_source_urls": [
+          "https://auth0.com/ai",
+          "https://auth0.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:43Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://auth0.com/ai",
+      "checked_at": "2026-10-16T15:09:43Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Stytch",
+        "official_url": "https://stytch.com/",
+        "what_it_does": "Provides authentication, authorisation and identity security for people and agents.",
+        "pricing_model": "Free usage allowances, then metered charges.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://stytch.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:23Z",
+        "facts_source_urls": [
+          "https://stytch.com/",
+          "https://stytch.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:44Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://stytch.com/",
+      "checked_at": "2026-10-16T15:09:44Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "observability": [
+    {
+      "value": {
+        "name": "Braintrust",
+        "official_url": "https://www.braintrust.dev/",
+        "what_it_does": "Provides agent observability, evaluation and production analysis tools.",
+        "pricing_model": "Free Starter plan with included usage; paid usage and plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "unknown",
+        "mcp_evidence_url": "https://www.braintrust.dev/",
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.braintrust.dev/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:26Z",
+        "facts_source_urls": [
+          "https://www.braintrust.dev/",
+          "https://www.braintrust.dev/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:48Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.braintrust.dev/",
+      "checked_at": "2026-10-16T15:09:48Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Helicone",
+        "official_url": "https://www.helicone.ai/",
+        "what_it_does": "Provides a model gateway and tools to monitor and debug AI applications.",
+        "pricing_model": "Free Hobby plan and paid plans with usage charges.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.helicone.ai/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:25Z",
+        "facts_source_urls": [
+          "https://www.helicone.ai/",
+          "https://www.helicone.ai/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:46Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.helicone.ai/",
+      "checked_at": "2026-10-16T15:09:46Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Langfuse",
+        "official_url": "https://langfuse.com/",
+        "what_it_does": "Provides agent tracing, evaluation and prompt management tools.",
+        "pricing_model": "Free plan and paid cloud plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://langfuse.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:23Z",
+        "facts_source_urls": [
+          "https://langfuse.com/",
+          "https://langfuse.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:44Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://langfuse.com/",
+      "checked_at": "2026-10-16T15:09:44Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "LangSmith",
+        "official_url": "https://www.langchain.com/langsmith",
+        "what_it_does": "Provides agent observability and evaluation tooling.",
+        "pricing_model": "Included trace allowance, then metered usage; paid seat plans.",
+        "free_tier": "yes",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": "https://www.langchain.com/pricing",
+        "pricing_checked_at": "2026-10-16T15:11:24Z",
+        "facts_source_urls": [
+          "https://www.langchain.com/langsmith",
+          "https://www.langchain.com/pricing"
+        ],
+        "verified_at": "2026-10-16T15:09:46Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.langchain.com/langsmith",
+      "checked_at": "2026-10-16T15:09:46Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "registries": [
+    {
+      "value": {
+        "name": "agentskills.io",
+        "official_url": "https://agentskills.io/",
+        "what_it_does": "Documents the Agent Skills format and its use.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://agentskills.io/"
+        ],
+        "verified_at": "2026-10-16T15:09:53Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://agentskills.io/",
+      "checked_at": "2026-10-16T15:09:53Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "Glama",
+        "official_url": "https://glama.ai/mcp/servers",
+        "what_it_does": "Lists MCP servers with search and category filters.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://glama.ai/mcp/servers"
+        ],
+        "verified_at": "2026-10-16T15:09:50Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://glama.ai/mcp/servers",
+      "checked_at": "2026-10-16T15:09:50Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "MCP Registry",
+        "official_url": "https://registry.modelcontextprotocol.io/",
+        "what_it_does": "Provides an official directory for discovering MCP servers.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://registry.modelcontextprotocol.io/",
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://registry.modelcontextprotocol.io/"
+        ],
+        "verified_at": "2026-10-16T15:09:48Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://registry.modelcontextprotocol.io/",
+      "checked_at": "2026-10-16T15:09:48Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "mcp.so",
+        "official_url": "https://mcp.so/",
+        "what_it_does": "Lists MCP servers and clients with setup guides.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://mcp.so/"
+        ],
+        "verified_at": "2026-10-16T15:09:51Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://mcp.so/",
+      "checked_at": "2026-10-16T15:09:51Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "PulseMCP",
+        "official_url": "https://www.pulsemcp.com/",
+        "what_it_does": "Publishes MCP directories, news and resources.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://www.pulsemcp.com/"
+        ],
+        "verified_at": "2026-10-16T15:09:52Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://www.pulsemcp.com/",
+      "checked_at": "2026-10-16T15:09:52Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "x402 Bazaar",
+        "official_url": "https://docs.cdp.coinbase.com/x402/bazaar",
+        "what_it_does": "Documents discovery of services supporting x402.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://docs.cdp.coinbase.com/x402/bazaar"
+        ],
+        "verified_at": "2026-10-16T15:09:54Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://docs.cdp.coinbase.com/x402/bazaar",
+      "checked_at": "2026-10-16T15:09:54Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ],
+  "protocols": [
+    {
+      "value": {
+        "name": "A2A",
+        "official_url": "https://a2a-protocol.org/",
+        "what_it_does": "Defines agent capability discovery and collaboration across frameworks.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://a2a-protocol.org/"
+        ],
+        "verified_at": "2026-10-16T15:09:55Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://a2a-protocol.org/",
+      "checked_at": "2026-10-16T15:09:55Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "ACP",
+        "official_url": "https://agenticcommerce.dev/",
+        "what_it_does": "Defines programmatic commerce flows between buyers, agents and businesses.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://agenticcommerce.dev/"
+        ],
+        "verified_at": "2026-10-16T15:09:57Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://agenticcommerce.dev/",
+      "checked_at": "2026-10-16T15:09:57Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "AP2",
+        "official_url": "https://ap2-protocol.org/",
+        "what_it_does": "Defines an agent payment protocol using verifiable credentials.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://ap2-protocol.org/"
+        ],
+        "verified_at": "2026-10-16T15:09:59Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://ap2-protocol.org/",
+      "checked_at": "2026-10-16T15:09:59Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "llms.txt",
+        "official_url": "https://llmstxt.org/",
+        "what_it_does": "Proposes a website file format to help agents find and use site information.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://llmstxt.org/"
+        ],
+        "verified_at": "2026-10-16T15:10:02Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://llmstxt.org/",
+      "checked_at": "2026-10-16T15:10:02Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "MCP",
+        "official_url": "https://modelcontextprotocol.io/",
+        "what_it_does": "Defines a protocol connecting AI applications to external tools and data.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://modelcontextprotocol.io/"
+        ],
+        "verified_at": "2026-10-16T15:09:55Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://modelcontextprotocol.io/",
+      "checked_at": "2026-10-16T15:09:55Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "NLWeb",
+        "official_url": "https://github.com/nlweb-ai/NLWeb",
+        "what_it_does": "Provides protocols and tools for natural-language interfaces on websites.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "yes",
+        "api_available": "yes",
+        "mcp_evidence_url": "https://github.com/nlweb-ai/NLWeb",
+        "api_evidence_url": "https://github.com/nlweb-ai/NLWeb",
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://github.com/nlweb-ai/NLWeb"
+        ],
+        "verified_at": "2026-10-16T15:10:01Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://github.com/nlweb-ai/NLWeb",
+      "checked_at": "2026-10-16T15:10:01Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "UCP",
+        "official_url": "https://ucp.dev/",
+        "what_it_does": "Defines building blocks for commerce between platforms, agents and businesses.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "unknown",
+        "mcp_evidence_url": null,
+        "api_evidence_url": null,
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://ucp.dev/"
+        ],
+        "verified_at": "2026-10-16T15:09:57Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://ucp.dev/",
+      "checked_at": "2026-10-16T15:09:57Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    },
+    {
+      "value": {
+        "name": "WebMCP",
+        "official_url": "https://webmachinelearning.github.io/webmcp/",
+        "what_it_does": "Proposes a browser API exposing JavaScript tools to AI agents.",
+        "pricing_model": "unknown",
+        "free_tier": "unknown",
+        "auth_type": "unknown",
+        "mcp_available": "unknown",
+        "api_available": "yes",
+        "mcp_evidence_url": null,
+        "api_evidence_url": "https://webmachinelearning.github.io/webmcp/",
+        "pricing_source_url": null,
+        "pricing_checked_at": null,
+        "facts_source_urls": [
+          "https://webmachinelearning.github.io/webmcp/"
+        ],
+        "verified_at": "2026-10-16T15:09:59Z",
+        "link_only": true,
+        "reuse_status": "commercial_redistribution_permission_unverified",
+        "verification_status": "official_page_fetched"
+      },
+      "source": "https://webmachinelearning.github.io/webmcp/",
+      "checked_at": "2026-10-16T15:09:59Z",
+      "ttl_seconds": 604800,
+      "untrusted_evidence": true
+    }
+  ]
+}
