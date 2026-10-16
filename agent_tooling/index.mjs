@@ -1,3 +1,4 @@
+import { validateToolingFields } from '../tooling/fields.mjs';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { createPublicKey, verify } from 'node:crypto';
@@ -16,6 +17,7 @@ export function validateCatalog(categories) {
   let previous='';
   for(const item of items) {
    const v=item.value;
+   validateToolingFields(v,https);
    if(!v||typeof v.name!=='string'||!v.name.length||v.name.length>100||previous.localeCompare(v.name,'en',{sensitivity:'base'})>0)throw new Error('Invalid name/order');
    previous=v.name;https(v.official_url);https(item.source);
    if(typeof v.what_it_does!=='string'||v.what_it_does.length>140||typeof v.pricing_model!=='string'||v.pricing_model.length>200||typeof v.auth_type!=='string'||v.auth_type.length>200)throw new Error('Invalid bounded fact');

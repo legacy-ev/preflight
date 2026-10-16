@@ -4,7 +4,7 @@ import { generateKeyPairSync,verify } from 'node:crypto';
 import { validateCatalog, checkCatalog, toolingSummary, verifyTooling } from '../agent_tooling/index.mjs';
 import { canonical,publicJWK,KID } from '../scanner/signing.mjs';
 const at='2026-10-16T12:00:00Z';
-const item={value:{name:'Example',official_url:'https://example.com/',what_it_does:'unknown',pricing_model:'unknown',free_tier:'unknown',auth_type:'unknown',mcp_available:'unknown',api_available:'unknown',facts_source_urls:[],verified_at:null,link_only:true},source:'https://example.com/',checked_at:at,ttl_seconds:604800,untrusted_evidence:true};
+const item={value:{name:'Example',cost_flag:'unknown',pricing_source_url:'https://example.com/',free_tier_details:'unknown',signup_methods:'unknown',official_url:'https://example.com/',what_it_does:'unknown',pricing_model:'unknown',free_tier:'unknown',auth_type:'unknown',mcp_available:'unknown',api_available:'unknown',facts_source_urls:[],verified_at:null,link_only:true},source:'https://example.com/',checked_at:at,ttl_seconds:604800,untrusted_evidence:true};
 test('rejects unsafe URLs and uncapped descriptions',()=>{
  assert.throws(()=>validateCatalog({hubs:[{...item,value:{...item.value,official_url:'http://localhost/'}}]}));
  assert.throws(()=>validateCatalog({hubs:[{...item,value:{...item.value,what_it_does:'x'.repeat(141)}}]}));
@@ -28,9 +28,9 @@ test('summary fails closed on missing snapshot',async()=>{
  assert.equal((await toolingSummary({root:'/missing',at}))[0].value.status,'unavailable');
 });
 
-test('catalog retains all 61 requested entries and their bounded provenance',async()=>{
+test('catalog retains the original 61 entries plus infrastructure and their bounded provenance',async()=>{
  const {readFile}=await import('node:fs/promises');const catalog=JSON.parse(await readFile(new URL('../data/tooling.json',import.meta.url),'utf8'));
- validateCatalog(catalog);assert.equal(Object.keys(catalog).length,12);assert.equal(Object.values(catalog).flat().length,61);
+ validateCatalog(catalog);assert.equal(Object.keys(catalog).length,23);assert.equal(Object.values(catalog).flat().length,111);
 });
 test('snapshot verification rejects unsigned, tampered, expired and future-dated data',async()=>{
  const {privateKey}=generateKeyPairSync('ed25519');const jwks={keys:[publicJWK(privateKey)]};

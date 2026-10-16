@@ -286,3 +286,187 @@ Entry format:
 - **WebMCP** — https://webmachinelearning.github.io/webmcp/ — HTTP 200; checked 2026-10-16T15:09:59Z; `untrusted_evidence: true`; quote: “Copyright © 2026 the Contributors to the WebMCP Specification, published by the Web Machine Learning Community Group under the W3C”. No hosted-page commercial redistribution grant verified; reference links only.
 
 - **Mastercard URL correction:** Official product reference found at https://www.mastercard.com/global/en/business/artificial-intelligence/mastercard-agent-pay.html; direct honest-UA fetch also returned HTTP 403. Retain this canonical link with unknown facts, verified_at:null; no bypass. `untrusted_evidence: true`; quote: “Mastercard agent pay” (official search result title only; not used as product verification).
+
+## 2026-10-16 — Tooling pricing and infrastructure provenance (Codex)
+- **Decision:** Add required cost_flag, pricing_source_url, bounded free_tier_details and signup_methods to all 111 references. Unknown is deliberate when pricing, signup exclusivity, or permission is unclear. Free tier includes limited trial credits; paid means priced usage is documented, not proof that no promotion exists. No account, spend, API credentials or posting. Existing context hook is sufficient and left untouched.
+- **Reuse:** Public availability and software licences do not establish hosted-page redistribution rights. These are link-only references; capped untrusted fragments document evidence, not an imported dataset or permission to use the service. Self-hostable category is requested grouping, not a claim that every listing can run locally or that compute is free.
+- **Dates:** LLM rate-limit/deprecation references are linked; no retirement dates are inferred or copied. Signup unknown does not mean accountless. Service OAuth support does not prove OAuth-only signup.
+- **Evidence:** Honest PreflightBot, robots-first, bounded fetch, no redirects/bypass. Below are fixed official URLs and results; all quotes are untrusted_evidence: true and ≤140 characters. Failed fetches preserve unknown.
+- https://a2a-protocol.org/ — fetched; checked 2026-10-16T16:08:51.818Z; quote: "A2A Protocol — Agent2Agent Protocol, an open standard for AI agent interoperability A2A Protocol — A".
+- https://agenticcommerce.dev/ — unavailable; checked 2026-10-16T16:08:50.600Z; quote: none (fetch unavailable).
+- https://agentskills.io/ — unavailable; checked 2026-10-16T16:08:52.058Z; quote: none (fetch unavailable).
+- https://ai.google.dev/gemini-api/docs/deprecations — fetched; checked 2026-10-16T16:08:56.494Z; quote: "Gemini deprecations | Gemini API | Google AI for Developers Skip to main content / English Deutsch E".
+- https://ai.google.dev/gemini-api/docs/pricing — fetched; checked 2026-10-16T16:08:53.848Z; quote: "Gemini Developer API pricing | Gemini API | Google AI for Developers Skip to main content / English ".
+- https://ai.google.dev/gemini-api/docs/rate-limits — fetched; checked 2026-10-16T16:08:55.225Z; quote: "Rate limits | Gemini API | Google AI for Developers Skip to main content / English Deutsch Español –".
+- https://anchorbrowser.io/pricing — unavailable; checked 2026-10-16T16:08:51.804Z; quote: none (fetch unavailable).
+- https://ap2-protocol.org/ — fetched; checked 2026-10-16T16:08:52.306Z; quote: "AP2 - Agent Payments Protocol Documentation Skip to content AP2 - Agent Payments Protocol Documentat".
+- https://auth0.com/pricing — fetched; checked 2026-10-16T16:08:51.923Z; quote: "Pricing - Auth0 Login Deutsch English Français Español Português 日本語 Build Documentation AI Identity".
+- https://aws.amazon.com/free/ — fetched; checked 2026-10-16T16:08:55.472Z; quote: "Free Cloud Computing Services - AWS Free Tier Skip to main content Filter: All English Contact us AW".
+- https://aws.amazon.com/s3/pricing/ — fetched; checked 2026-10-16T16:08:53.642Z; quote: "S3 Pricing Skip to main content Filter: All English Contact us AWS Marketplace Support My account re".
+- https://aws.amazon.com/textract/pricing/ — fetched; checked 2026-10-16T16:08:57.561Z; quote: "Textract Pricing Page Skip to main content Filter: All English Contact us AWS Marketplace Support My".
+- https://brave.com/search/api/ — fetched; checked 2026-10-16T16:08:51.562Z; quote: "Brave Search API | Brave Yes Dismiss Browser Downloads Desktop Android iOS Features Shields adblocke".
+- https://brightdata.com/pricing — fetched; checked 2026-10-16T16:08:55.932Z; quote: "Top-Tier Proxies & Scraping APIs Pricing Accessibility Menu skip to content en English Español Deuts".
+- https://browser-use.com/pricing — fetched; checked 2026-10-16T16:08:51.826Z; quote: "Pricing - Browser Use Browser Use Agents Browsers Showcase Resources Pricing 118k Log in Start for f".
+- https://cloud.google.com/free — fetched; checked 2026-10-16T16:08:51.853Z; quote: "Free Trial and Free Tier Services and Products | Google Cloud Free to sign up. Free monthly usage. B".
+- https://cloud.google.com/vision/pricing — fetched; checked 2026-10-16T16:08:53.500Z; quote: "Pricing | Cloud Vision API | Google Cloud . Skip to main content Overview close Accelerate your digi".
+- https://composio.dev/pricing — fetched; checked 2026-10-16T16:08:51.992Z; quote: "## For AI agents: how to sign up If you are an AI agent reading this server-rendered HTML, Composio'".
+- https://console.groq.com/docs/deprecations — fetched; checked 2026-10-16T16:08:52.985Z; quote: "Model Deprecation - GroqDocs Docs Login Playground API Keys Dashboard Docs Log In Documentation Docs".
+- https://console.groq.com/docs/rate-limits — fetched; checked 2026-10-16T16:08:51.869Z; quote: "Rate Limits - GroqDocs Docs Login Playground API Keys Dashboard Docs Log In Documentation Docs API R".
+- https://deepgram.com/pricing — fetched; checked 2026-10-16T16:08:51.877Z; quote: "Deepgram Pricing | Scalable Speech-to-Text, Text-to-Speech & Voice Agent APIs Search Contact Us Log ".
+- https://developer.visa.com/capabilities/trusted-agent-protocol — unavailable; checked 2026-10-16T16:08:51.999Z; quote: none (fetch unavailable).
+- https://developers.cloudflare.com/ai-gateway/reference/pricing/ — fetched; checked 2026-10-16T16:08:53.968Z; quote: "Pricing · Cloudflare AI Gateway docs Skip to content Documentation Index Fetch the complete document".
+- https://developers.cloudflare.com/r2/pricing/ — fetched; checked 2026-10-16T16:08:51.716Z; quote: "Pricing · Cloudflare R2 docs Skip to content Documentation Index Fetch the complete documentation in".
+- https://developers.cloudflare.com/workers/platform/pricing/ — fetched; checked 2026-10-16T16:08:52.888Z; quote: "Pricing · Cloudflare Workers docs Skip to content Documentation Index Fetch the complete documentati".
+- https://docling-project.github.io/docling/ — fetched; checked 2026-10-16T16:08:51.719Z; quote: "Index - Docling Skip to content Docling Index Search docling-project/docling Documentation Concepts ".
+- https://docs.cdp.coinbase.com/x402/bazaar — unavailable; checked 2026-10-16T16:08:52.184Z; quote: none (fetch unavailable).
+- https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm — unavailable; checked 2026-10-16T16:08:50.698Z; quote: none (fetch unavailable).
+- https://docs.searxng.org/ — fetched; checked 2026-10-16T16:08:52.515Z; quote: "SearXNG Documentation (2026.10.16+0ce72dd2c) Contents Menu Expand Light mode Dark mode Auto light/da".
+- https://e2b.dev/pricing — fetched; checked 2026-10-16T16:08:51.912Z; quote: "Pricing | E2B — The AI Agent Cloud Skip to main content 2 billion sandboxes run on E2B. And counting".
+- https://exa.ai/pricing — fetched; checked 2026-10-16T16:08:51.775Z; quote: "Exa API Pricing | Pay-as-You-Go Plans for AI Search Exa is a modern AI search engine with SERP API, ".
+- https://fal.ai/pricing — fetched; checked 2026-10-16T16:08:51.948Z; quote: "Pricing: Pay-Per-Use AI Model APIs and Serverless GPUs | fal Try H3 Max Director fal logo Products D".
+- https://ffmpeg.org/ — fetched; checked 2026-10-16T16:09:01.504Z; quote: "FFmpeg FFmpeg About News Download Documentation Community Code of Conduct Mailing Lists IRC Forums B".
+- https://fly.io/docs/about/pricing/ — unavailable; checked 2026-10-16T16:08:51.584Z; quote: none (fetch unavailable).
+- https://github.com/SYSTRAN/faster-whisper — fetched; checked 2026-10-16T16:08:52.025Z; quote: "GitHub - SYSTRAN/faster-whisper: Faster Whisper transcription with CTranslate2 · GitHub Skip to cont".
+- https://github.com/nlweb-ai/NLWeb — fetched; checked 2026-10-16T16:08:53.434Z; quote: "GitHub - nlweb-ai/NLWeb: Main reference implementation for NLWeb, implemented in Python. · GitHub Sk".
+- https://glama.ai/mcp/servers — fetched; checked 2026-10-16T16:08:51.737Z; quote: "Open-Source MCP Servers – 100,358 in the Glama Registry | Glama Skip to main content Glama Servers C".
+- https://gotenberg.dev/ — fetched; checked 2026-10-16T16:08:52.000Z; quote: "A Docker-based API for PDF conversion | Gotenberg Skip to main content If you like Gotenberg, give i".
+- https://huggingface.co/docs/hub/spaces-overview — fetched; checked 2026-10-16T16:08:52.904Z; quote: "Spaces Overview · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Prici".
+- https://huggingface.co/pricing — fetched; checked 2026-10-16T16:08:51.772Z; quote: "Pricing - Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Websi".
+- https://jina.ai/pricing — unavailable; checked 2026-10-16T16:08:51.969Z; quote: none (fetch unavailable).
+- https://lambda.ai/pricing — fetched; checked 2026-10-16T16:08:51.813Z; quote: "GPU cloud pricing: rent NVIDIA H100, H200, and B200 | Lambda Skip to main content AI factories Produ".
+- https://langfuse.com/pricing — fetched; checked 2026-10-16T16:08:52.252Z; quote: "Pricing - Langfuse Langfuse v4: up to 165× faster · Read more Langfuse v4 is here: real-time, up to ".
+- https://llmstxt.org/ — fetched; checked 2026-10-16T16:08:52.183Z; quote: "The /llms.txt file, v2 – llms-txt llms-txt The /llms.txt file, v2 The /llms.txt file, v2 Changes Cod".
+- https://mapsplatform.google.com/pricing/ — fetched; checked 2026-10-16T16:08:51.633Z; quote: "Google Maps Platform Pricing - Subscriptions and Pay as you go Bring agentic applications to life wi".
+- https://mcp.so/ — fetched; checked 2026-10-16T16:08:52.280Z; quote: "What Is MCP? MCP Servers, Clients & AI Tools | MCP.so Advertise MCP.so Search MCP servers, tools, in".
+- https://mem0.ai/pricing — fetched; checked 2026-10-16T16:08:52.037Z; quote: "AI Memory Pricing - LLM Memory Plans Starting Free | Mem0 DEVELOPERS RESOURCES PRICING USECASES COMP".
+- https://modal.com/pricing — fetched; checked 2026-10-16T16:08:51.867Z; quote: "Pricing: Pay per second for GPUs and CPUs | Modal Skip to content Series D: $1B in annualized run ra".
+- https://modelcontextprotocol.io/ — unavailable; checked 2026-10-16T16:08:52.037Z; quote: none (fetch unavailable).
+- https://neon.com/pricing — fetched; checked 2026-10-16T16:08:51.735Z; quote: "Pricing — Neon Neon now has realtime: Live SQL with full reactivity. Try it in Beta today Neon Produ".
+- https://openrouter.ai/pricing — fetched; checked 2026-10-16T16:08:51.910Z; quote: "Pricing | OpenRouter Skip to content Alpha Search ⌘ K Dashboard Models Benchmarks Chat Chat Rankings".
+- https://operations.osmfoundation.org/policies/nominatim/ — fetched; checked 2026-10-16T16:08:52.343Z; quote: "Nominatim Usage Policy (aka Geocoding Policy) Toggle navigation OSMF OWG Home Reports Post-mortems P".
+- https://pandoc.org/ — fetched; checked 2026-10-16T16:08:52.186Z; quote: "Pandoc - index Please help Ukraine! Sponsor Pandoc a universal document converter About Installing D".
+- https://pipedream.com/pricing — fetched; checked 2026-10-16T16:08:51.779Z; quote: "Pricing — Pipedream Products Connect For developers adding connectors to their agents and apps Condu".
+- https://playwright.dev/ — fetched; checked 2026-10-16T16:08:51.501Z; quote: "Fast and reliable end-to-end testing for modern web apps | Playwright Skip to main content Playwrigh".
+- https://portkey.ai/pricing — fetched; checked 2026-10-16T16:08:51.899Z; quote: "Portkey | Control Panel for Production AI Production Reliability at a price that works for you Produ".
+- https://qdrant.tech/pricing/ — fetched; checked 2026-10-16T16:08:51.901Z; quote: "Pricing for Cloud and Vector Database Solutions Qdrant Vector Space Stream: a research-first broadca".
+- https://registry.modelcontextprotocol.io/ — fetched; checked 2026-10-16T16:08:51.969Z; quote: "Official MCP Registry Official MCP Registry Discover Model Context Protocol servers GitHub Docs API ".
+- https://render.com/docs/free — fetched; checked 2026-10-16T16:08:53.007Z; quote: "Deploy for Free – Render Docs Docs Changelog Search Ask AI Sign in Get started Search Ask Start Home".
+- https://render.com/pricing — fetched; checked 2026-10-16T16:08:51.862Z; quote: "Pricing | Render Migrating production infrastructure? Get up to $10K in migration credits. Apply now".
+- https://replicate.com/pricing — fetched; checked 2026-10-16T16:08:52.000Z; quote: "Pricing – Replicate Alibaba logo Wan 3.0 is 30% off this week Replicate glyph Explore Pricing Enterp".
+- https://serper.dev/pricing — unavailable; checked 2026-10-16T16:08:52.000Z; quote: none (fetch unavailable).
+- https://skyfire.xyz/pricing — unavailable; checked 2026-10-16T16:08:52.462Z; quote: none (fetch unavailable).
+- https://smithery.ai/pricing — fetched; checked 2026-10-16T16:08:51.772Z; quote: "Pricing | Smithery MCPs Skills Docs Pricing Publish Login 🎉 Smithery is now a part of Arcade.dev! Re".
+- https://steel.dev/pricing — fetched; checked 2026-10-16T16:08:51.900Z; quote: "Steel | Pricing Browser infra Pricing Resources FAQs Blog Changelog Brand assets Leaderboard (opens ".
+- https://stripe.com/pricing — fetched; checked 2026-10-16T16:08:51.961Z; quote: "Pricing & Fees 8 sales reps available We're here to discuss your business needs. Chat now with sales".
+- https://stytch.com/pricing — fetched; checked 2026-10-16T16:08:52.691Z; quote: "Modern authentication pricing | Stytch Contact Log in Menu Simple, predictable. No surprises. Pricin".
+- https://supabase.com/pricing — fetched; checked 2026-10-16T16:08:51.679Z; quote: "Pricing & Fees | Supabase Skip to content Product Developers Solutions Pricing Docs Blog 111.6K Sign".
+- https://telnyx.com/pricing — fetched; checked 2026-10-16T16:08:51.647Z; quote: "All Telnyx Products, APIs And Phone Numbers Home Voice AI Agents Text-to-Speech Speech-to-Text Embed".
+- https://toolhouse.ai/pricing — unavailable; checked 2026-10-16T16:08:52.000Z; quote: none (fetch unavailable).
+- https://trigger.dev/pricing — fetched; checked 2026-10-16T16:08:52.115Z; quote: "Cloud Pricing | Trigger.dev Trigger.dev logo How it works Product Product All features AI Agents Bui".
+- https://turso.tech/pricing — fetched; checked 2026-10-16T16:08:52.166Z; quote: "Turso Database Pricing Turso is joining Supabase to give every agent its own database Read the news ".
+- https://ucp.dev/ — fetched; checked 2026-10-16T16:08:51.968Z; quote: "Universal Commerce Protocol - Universal Commerce Protocol (UCP) Universal Commerce Protocol (UCP) Un".
+- https://upstash.com/pricing — unavailable; checked 2026-10-16T16:08:51.816Z; quote: none (fetch unavailable).
+- https://upstash.com/pricing/qstash — unavailable; checked 2026-10-16T16:08:51.816Z; quote: none (fetch unavailable).
+- https://vast.ai/pricing — fetched; checked 2026-10-16T16:08:51.792Z; quote: "GPU Pricing — Live Platform Rates | Vast.ai Developers Quickstart CLI Python SDK API Docs Pricing Pr".
+- https://vercel.com/docs/ai-gateway/pricing — fetched; checked 2026-10-16T16:08:51.890Z; quote: "AI Gateway Pricing Skip to content Copy Wordmark Copy Logo Download Brand Assets Brand Guidelines Do".
+- https://webmachinelearning.github.io/webmcp/ — fetched; checked 2026-10-16T16:08:51.705Z; quote: "WebMCP WebMCP Draft Community Group Report , 15 October 2026 More details about this document This v".
+- https://www.agentid.com/ — fetched; checked 2026-10-16T16:08:52.508Z; quote: "AgentID: Sign-In and Identity for AI Agents now live [ Directory ] Find apps that accept AgentID How".
+- https://www.agentmail.to/pricing — fetched; checked 2026-10-16T16:08:51.773Z; quote: "Pricing | AgentMail We raised $6M in Seed Funding Read more Products Build Enterprise Pricing Resour".
+- https://www.arcade.dev/pricing — unavailable; checked 2026-10-16T16:08:52.025Z; quote: none (fetch unavailable).
+- https://www.assemblyai.com/pricing — fetched; checked 2026-10-16T16:08:51.817Z; quote: "# AssemblyAI Pricing — Authoritative Reference > **Source:** assemblyai.com/pricing, assemblyai.com/".
+- https://www.backblaze.com/cloud-storage/pricing — fetched; checked 2026-10-16T16:08:51.644Z; quote: "B2 Cloud Storage Pricing | Backblaze --> Backblaze announces multi-exabyte storage agreement with Co".
+- https://www.braintrust.dev/pricing — fetched; checked 2026-10-16T16:08:51.927Z; quote: "Pricing - Braintrust Product Resources Customers Pricing Contact us Sign in Sign up Observe Trace ev".
+- https://www.browserbase.com/pricing — fetched; checked 2026-10-16T16:08:51.944Z; quote: "Browserbase Pricing: Free, $20, $99, or Custom | Browserbase Skip to content Browserbase Navigation ".
+- https://www.cloudflare.com/plans/free/ — fetched; checked 2026-10-16T16:08:51.778Z; quote: "Free Plan Overview | Cloudflare Log in Sign up Languages English English (United Kingdom) Deutsch Es".
+- https://www.cloudflare.com/products/registrar/ — unavailable; checked 2026-10-16T16:08:52.810Z; quote: none (fetch unavailable).
+- https://www.daytona.io/pricing — fetched; checked 2026-10-16T16:08:51.980Z; quote: "Daytona - Secure Infrastructure for Running AI-Generated Code ')\"> / Docs Customers Pricing Startups".
+- https://www.firecrawl.dev/pricing — fetched; checked 2026-10-16T16:08:52.139Z; quote: "Pricing | Firecrawl Introducing Alexandria and our $75M Series B. Read the announcement → Products R".
+- https://www.getzep.com/pricing — unavailable; checked 2026-10-16T16:08:52.905Z; quote: none (fetch unavailable).
+- https://www.helicone.ai/pricing — fetched; checked 2026-10-16T16:08:51.904Z; quote: "Helicone Pricing | Ship Your AI App With Confidence 🎉 Helicone Joins Mintlify 🚀 Helicone Helicone Do".
+- https://www.hyperbrowser.ai/pricing — fetched; checked 2026-10-16T16:08:51.814Z; quote: "Pricing | Hyperbrowser Skip to content Overview Products Browsers Sandboxes Web APIs AI Agents Prici".
+- https://www.inngest.com/pricing — fetched; checked 2026-10-16T16:08:51.791Z; quote: "Pricing | Inngest Watch our CodeTV episode on YouTube! 📺 Platform Use Cases Customers Resources Docs".
+- https://www.klavis.ai/pricing — fetched; checked 2026-10-16T16:08:51.938Z; quote: "Klavis AI provides live environments for training AI agents. | Klavis AI Home Documentation KlavisAI".
+- https://www.langchain.com/pricing — fetched; checked 2026-10-16T16:08:51.874Z; quote: "LangSmith Plans and Pricing Products LangSmith Platform Agent Improvement Engine Improve agents auto".
+- https://www.letta.com/pricing — unavailable; checked 2026-10-16T16:08:51.818Z; quote: none (fetch unavailable).
+- https://www.litellm.ai/pricing — fetched; checked 2026-10-16T16:08:51.863Z; quote: "LiteLLM pricing — free to self-host, Enterprise priced to scale See how AT&T cut coding costs by 56%".
+- https://www.mapbox.com/pricing — fetched; checked 2026-10-16T16:08:52.044Z; quote: "Mapbox pricing EN Contact us Log in Sign up Go to account Products Maps Navigation Search AI Data Se".
+- https://www.mastercard.com/us/en/business/overview/products-and-solutions/agent-pay.html — unavailable; checked 2026-10-16T16:08:50.484Z; quote: none (fetch unavailable).
+- https://www.mediawiki.org/wiki/API:Main_page — fetched; checked 2026-10-16T16:08:51.857Z; quote: "API:Action API - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main ".
+- https://www.oracle.com/cloud/free/ — fetched; checked 2026-10-16T16:08:51.652Z; quote: "Oracle Cloud Free Tier | Oracle Skip to content Accessibility Policy Menu QUICK LINKS Cloud Database".
+- https://www.paymanai.com/pricing — unavailable; checked 2026-10-16T16:08:50.614Z; quote: none (fetch unavailable).
+- https://www.pinecone.io/pricing/ — fetched; checked 2026-10-16T16:08:51.688Z; quote: "Pricing | Pinecone Pinecone Bring Your Own Cloud is Now Generally Available - Read the announcement ".
+- https://www.pulsemcp.com/ — unavailable; checked 2026-10-16T16:08:50.989Z; quote: none (fetch unavailable).
+- https://www.requesty.ai/pricing — fetched; checked 2026-10-16T16:08:51.900Z; quote: "Pricing: Free Tier & Pay-As-You-Go LLM Gateway | Requesty Product Solutions Models Rankings Customer".
+- https://www.runpod.io/pricing — fetched; checked 2026-10-16T16:08:51.789Z; quote: "GPU Cloud Pricing | Per-Second H100, A100, RTX | Runpod Kimi K3 is now available on Runpod Skip to m".
+- https://www.storj.io/pricing — unavailable; checked 2026-10-16T16:08:51.806Z; quote: none (fetch unavailable).
+- https://www.tavily.com/pricing — fetched; checked 2026-10-16T16:08:51.813Z; quote: "Tavily Tavily ranks #1 in Company Search Benchmark. Explore the results → Product Solutions Resource".
+- https://www.together.ai/pricing — fetched; checked 2026-10-16T16:08:51.786Z; quote: "Pricing | Together AI Webflow Analyze/Optimize tracking bridge --> Introducing Together Link: Run op".
+- https://www.twilio.com/en-us/pricing — fetched; checked 2026-10-16T16:08:53.023Z; quote: "Twilio Pricing | Twilio English An icon of a down chevron English An icon of a checkmark French Germ".
+- https://www.twilio.com/pricing — unavailable; checked 2026-10-16T16:08:54.130Z; quote: none (fetch unavailable).
+- https://www.vonage.com/communications-apis/sms/pricing/ — fetched; checked 2026-10-16T16:08:51.765Z; quote: "SMS Pricing | Vonage &times; Have questions or ready to talk to a Vonage expert? Call Me Now Contact".
+- https://www.x402.org/pricing — unavailable; checked 2026-10-16T16:08:50.601Z; quote: none (fetch unavailable).
+- https://zapier.com/pricing — fetched; checked 2026-10-16T16:08:51.999Z; quote: "Plans & Pricing | Zapier Skip to content Products Zapier Automation Platform No-code automation acro".
+- Official web reader verified https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm — quote: “Idle Always Free compute instances may be reclaimed by Oracle.” The direct scanner fetch failed; no bypass was attempted.
+- Official docs https://render.com/docs/login-settings — quote: “Email and password”. Does not imply all workspace login policies permit it.
+- Pricing evidence (Pipedream): https://pipedream.com/pricing; untrusted_evidence: true; quote: "Free to build. Pay when your integrations go to production.".
+- Pricing evidence (LiteLLM): https://www.litellm.ai/pricing; untrusted_evidence: true; quote: "Free forever · self-hosted".
+- Pricing evidence (OpenRouter): https://openrouter.ai/pricing; untrusted_evidence: true; quote: "25+ free models".
+- Pricing evidence (Requesty): https://www.requesty.ai/pricing; untrusted_evidence: true; quote: "Start free with 200 requests a day".
+- Pricing evidence (Vercel AI Gateway): https://vercel.com/docs/ai-gateway/pricing; untrusted_evidence: true; quote: "Monthly credit $5 /month included".
+- Pricing evidence (Brave Search API): https://brave.com/search/api/; untrusted_evidence: true; quote: "Includes $5 in free credits every month".
+- Pricing evidence (Exa): https://exa.ai/pricing; untrusted_evidence: true; quote: "Free $10 credits per month".
+- Pricing evidence (Firecrawl): https://www.firecrawl.dev/pricing; untrusted_evidence: true; quote: "1,000 credits / month".
+- Pricing evidence (Tavily): https://www.tavily.com/pricing; untrusted_evidence: true; quote: "1,000 API credits / month No credit card required".
+- Pricing evidence (Browserbase): https://www.browserbase.com/pricing; untrusted_evidence: true; quote: "Free Plan $0/mo".
+- Pricing evidence (Hyperbrowser): https://www.hyperbrowser.ai/pricing; untrusted_evidence: true; quote: "5,000 credits included".
+- Pricing evidence (Steel): https://steel.dev/pricing; untrusted_evidence: true; quote: "$30 of credits, one time".
+- Pricing evidence (E2B): https://e2b.dev/pricing; untrusted_evidence: true; quote: "Hobby FREE /$100 of usage in credits".
+- Pricing evidence (Modal): https://modal.com/pricing; untrusted_evidence: true; quote: "$30 / month free credits".
+- Pricing evidence (Mem0): https://mem0.ai/pricing; untrusted_evidence: true; quote: "10,000 add requests/ month".
+- Pricing evidence (AgentMail): https://www.agentmail.to/pricing; untrusted_evidence: true; quote: "3 inboxes 3,000 emails/month 3 GB storage".
+- Pricing evidence (Auth0 for AI Agents): https://auth0.com/pricing; untrusted_evidence: true; quote: "Up to 25,000 monthly active users".
+- Pricing evidence (Stytch): https://stytch.com/pricing; untrusted_evidence: true; quote: "Always free: 10,000 monthly active users and AI agents".
+- Pricing evidence (Braintrust): https://www.braintrust.dev/pricing; untrusted_evidence: true; quote: "Free usage is included for traces, evals, and your whole team.".
+- Pricing evidence (Helicone): https://www.helicone.ai/pricing; untrusted_evidence: true; quote: "10,000 free requests 1 GB storage".
+- Pricing evidence (Langfuse): https://langfuse.com/pricing; untrusted_evidence: true; quote: "50k units / month included".
+- Pricing evidence (AWS S3): https://aws.amazon.com/s3/pricing/; untrusted_evidence: true; quote: "All Free Tier credits must be used within 12 months of your account creation date.".
+- Pricing evidence (Backblaze B2): https://www.backblaze.com/cloud-storage/pricing; untrusted_evidence: true; quote: "First 10GB storage is always free.".
+- Pricing evidence (Cloudflare R2): https://developers.cloudflare.com/r2/pricing/; untrusted_evidence: true; quote: "Free Storage 10 GB-month".
+- Pricing evidence (Supabase Storage): https://supabase.com/pricing; untrusted_evidence: true; quote: "1 GB file storage".
+- Pricing evidence (Neon): https://neon.com/pricing; untrusted_evidence: true; quote: "Build and learn free with no time limits and no credit card required.".
+- Pricing evidence (Pinecone): https://www.pinecone.io/pricing/; untrusted_evidence: true; quote: "Start free, scale effortlessly".
+- Pricing evidence (Qdrant Cloud): https://qdrant.tech/pricing/; untrusted_evidence: true; quote: "The Free Tier is ideal for testing, and prototypes being limited to 1GB RAM and 4GB disk without high availability.".
+- Pricing evidence (Turso): https://turso.tech/pricing; untrusted_evidence: true; quote: "Free $0/month 100 5GB 500 Million 10 Million 3GB 1 day Community".
+- Pricing evidence (Hugging Face): https://huggingface.co/pricing; untrusted_evidence: true; quote: "CPU Basic 2 vCPU 16 GB - - FREE".
+- Pricing evidence (Lambda): https://lambda.ai/pricing; untrusted_evidence: true; quote: "PRICE/GPU/HR*".
+- Pricing evidence (Modal): https://modal.com/pricing; untrusted_evidence: true; quote: "$30 / month free credits".
+- Pricing evidence (Replicate): https://replicate.com/pricing; untrusted_evidence: true; quote: "You only pay for what you use on Replicate.".
+- Pricing evidence (RunPod): https://www.runpod.io/pricing; untrusted_evidence: true; quote: "B300 288 GB HBM3e 251 GB RAM 32 vCPUs $ 8.99 /hr".
+- Pricing evidence (Vast.ai): https://vast.ai/pricing; untrusted_evidence: true; quote: "Per-Second Billing Pay only for what you use, down to the second.".
+- Pricing evidence (AWS Free Tier): https://aws.amazon.com/free/; untrusted_evidence: true; quote: "The account closes on its own 6 months after you open it or when your credits run out, whichever comes first.".
+- Pricing evidence (Cloudflare Workers): https://developers.cloudflare.com/workers/platform/pricing/; untrusted_evidence: true; quote: "Free 100,000 per day No charge for duration 10 milliseconds of CPU time per invocation".
+- Pricing evidence (Google Cloud Free Tier): https://cloud.google.com/free; untrusted_evidence: true; quote: "Free monthly usage.".
+- Pricing evidence (Oracle Cloud Free Tier): https://www.oracle.com/cloud/free/; untrusted_evidence: true; quote: "The US$300 cloud credit is available in select countries and valid for up to 30 days.".
+- Pricing evidence (Render): https://render.com/pricing; untrusted_evidence: true; quote: "Free ( limitations apply ) $0/month 512 MB RAM".
+- Pricing evidence (Inngest): https://www.inngest.com/pricing; untrusted_evidence: true; quote: "Free Generous monthly limits to prove it before production. No credit card required.".
+- Pricing evidence (Trigger.dev): https://trigger.dev/pricing; untrusted_evidence: true; quote: "$ 5 / month free credits".
+- Pricing evidence (Cloudflare DNS): https://www.cloudflare.com/plans/free/; untrusted_evidence: true; quote: "Free Plan Overview".
+- Pricing evidence (Telnyx): https://telnyx.com/pricing; untrusted_evidence: true; quote: "from $0.05 per minute".
+- Pricing evidence (Twilio): https://www.twilio.com/en-us/pricing; untrusted_evidence: true; quote: "Sign up for a free trial—no credit card required.".
+- Pricing evidence (Google Maps Platform): https://mapsplatform.google.com/pricing/; untrusted_evidence: true; quote: "Essentials Map Tiles APIs provide up to 100,000 calls at no cost per SKU per month.".
+- Pricing evidence (Mapbox): https://www.mapbox.com/pricing; untrusted_evidence: true; quote: "Sign up and start building with meaningful free tiers for most products.".
+- Pricing evidence (AssemblyAI): https://www.assemblyai.com/pricing; untrusted_evidence: true; quote: "$50 in free credits, no credit card required.".
+- Pricing evidence (AWS Textract): https://aws.amazon.com/textract/pricing/; untrusted_evidence: true; quote: "The Free Tier lasts for three months".
+- Pricing evidence (Deepgram): https://deepgram.com/pricing; untrusted_evidence: true; quote: "Free $200 Credit then pay-as-you-go".
+- Pricing evidence (Google Cloud Vision): https://cloud.google.com/vision/pricing; untrusted_evidence: true; quote: "the first 1000 units used each month are free".
+- Pricing evidence (Hugging Face Spaces): https://huggingface.co/docs/hub/spaces-overview; untrusted_evidence: true; quote: "Static Spaces are free for everyone.".
+- Pricing evidence (Google Gemini API free tier): https://ai.google.dev/gemini-api/docs/pricing; untrusted_evidence: true; quote: "Limited access to certain models check_circle Free input & output tokens".
+- Pricing evidence (Groq free tier): https://console.groq.com/docs/rate-limits; untrusted_evidence: true; quote: "Free Plan Limits".
+- Spaces pricing reference correction: https://huggingface.co/pricing; untrusted_evidence: true; quote: “CPU Basic 2 vCPU 16 GB - - FREE”. The overview remains the official product reference.
+- Render signup direct robots-first fetch confirmed https://render.com/docs/login-settings, checked 2026-10-16T16:12:07.802Z; untrusted_evidence: true; quote: “Email and password”.
+- Groq pricing URL https://groq.com/pricing redirects to the homepage; no pricing page verified. Free-plan existence is supported only by https://console.groq.com/docs/rate-limits (untrusted_evidence: true; quote: “Free Plan Limits”). Keep free_tier_details unknown; do not infer allowances or dates.
+- Priced usage evidence (fal): https://fal.ai/pricing; untrusted_evidence: true; quote: "competitively priced GPU fleet, as low as $2.49/hr for H100". This does not rule out a limited promotion.
+- Priced usage evidence (Together AI): https://www.together.ai/pricing; untrusted_evidence: true; quote: "Each job is subject to the minimum charge shown for its model.". This does not rule out a limited promotion.
+- Priced usage evidence (Telnyx): https://telnyx.com/pricing; untrusted_evidence: true; quote: "Voice API Pay per minute, outbound and inbound.". This does not rule out a limited promotion.
+- Software cost evidence (Pandoc): https://pandoc.org/; untrusted_evidence: true; quote: “Pandoc is free software, released under the GPL”. Software is identified as free by its official page. There is no verified hosted-service pricing page; free_tier_details stays unknown, and compute costs are not inferred.
+- Software cost evidence (SearXNG): https://docs.searxng.org/; untrusted_evidence: true; quote: “SearXNG is a free internet metasearch engine”. Software is identified as free by its official page. There is no verified hosted-service pricing page; free_tier_details stays unknown, and compute costs are not inferred.
