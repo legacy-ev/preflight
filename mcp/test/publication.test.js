@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtemp,mkdir,writeFile,readFile,rm,cp} from 'node:fs/promises';
+import {mkdtemp,mkdir,writeFile,readFile,rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {execFileSync} from 'node:child_process';
@@ -18,8 +18,7 @@ test('get_evidence reads evidence published by the site under the Pages base',as
       evidence:{span:'untrusted '.repeat(40),untrusted_evidence:true},
     }));
     await writeFile(join(root,'keys/public-jwks.json'),'{"keys":[]}');
-    await cp(new URL('../../site/scripts/copy-data.mjs',import.meta.url),join(root,'site/copy-data.mjs'));
-    execFileSync(process.execPath,['copy-data.mjs'],{cwd:join(root,'site')});
+    execFileSync(process.execPath,[new URL('../../site/scripts/copy-data.mjs',import.meta.url).pathname],{cwd:join(root,'site')});
     server=createServer(async(req,res)=>{
       if(req.url!=='/preflight/scans/example.com.json') {res.writeHead(404).end();return;}
       try {res.setHeader('Content-Type','application/json');res.end(await readFile(join(root,'site/dist/scans/example.com.json')));}
