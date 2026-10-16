@@ -93,7 +93,7 @@ export function createClient({baseUrl = process.env.PREFLIGHT_BASE_URL || 'https
       if(s?.alg!=='ed25519' || s.generated_at!==r.generated_at || s.expires_at!==r.expires_at || !jwk || !verify(null,Buffer.from(canonical(r)),createPublicKey({key:jwk,format:'jwk'}),Buffer.from(s.sig,'base64url')) ||
         !Number.isFinite(generated) || !Number.isFinite(expires) || generated>now() || expires<=now() || expires<=generated || expires>generated+86400000 || now()>=generated+86400000) throw new Error();
       const sections={};
-      for(const name of ['internet_status','llm_providers','sites','agent_ecosystem','world','safety','failure_modes']) {
+      for(const name of ['internet_status','llm_providers','sites','agent_ecosystem','agent_tooling','world','safety','failure_modes']) {
         if(!Array.isArray(r.sections[name])) throw new Error();
         sections[name]=r.sections[name].filter(x=>x && x.untrusted_evidence!==true).map(x=>{
           const checked=Date.parse(x.checked_at);

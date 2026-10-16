@@ -40,3 +40,20 @@ test('snapshot verification rejects unsigned, tampered, expired and future-dated
  const tampered=structuredClone(raw);tampered.response.categories.hubs[0].value.name='Tampered';assert.throws(()=>verifyTooling(tampered,jwks,at));
  assert.throws(()=>verifyTooling(raw,jwks,'2026-10-18T00:00:00Z'));assert.throws(()=>verifyTooling(raw,jwks,'2026-10-15T00:00:00Z'));
 });
+
+test('hourly renewal preserves weekly liveness and refreshes expired signatures',async()=>{
+ const {refreshTooling}=await import('../tooling/refresh.mjs');
+ const {privateKey}=generateKeyPairSync('ed25519');const jwks={keys:[publicJWK(privateKey)]};
+ const raw=await checkCatalog({hubs:[item]},{at,key:privateKey,wait:async()=>{},fetchImpl:async()=>new Response('',{status:404})});
+ const later='2026-10-18T12:00:00.000Z';
+ for(const snapshot of [raw,{...raw,signature:null}]) {
+  const fresh=refreshTooling(snapshot,privateKey,jwks,later);
+  assert.deepEqual(fresh.response.liveness,raw.response.liveness);
+  assert.deepEqual(fresh.response.categories,raw.response.categories);
+  assert.equal(fresh.signature.generated_at,later);
+  assert.equal(fresh.signature.expires_at,'2026-10-19T12:00:00.000Z');
+  assert.ok(verifyTooling(fresh,jwks,later));
+ }
+ assert.throws(()=>refreshTooling(raw,null,jwks,later));
+ assert.throws(()=>refreshTooling(raw,privateKey,jwks,'2026-10-24T12:00:00Z'));
+});

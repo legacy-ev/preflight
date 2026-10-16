@@ -25,7 +25,9 @@ jobs:
       - name: Generate signed context
         env:
           PREFLIGHT_SIGNING_KEY: ${{ secrets.PREFLIGHT_SIGNING_KEY }}
-        run: node context/index.mjs
+        run: |
+          node tooling/refresh.mjs
+          node context/index.mjs
       - name: Commit and publish public data with rebase retries
         run: bash scripts/publish-data.sh
       - name: Trigger Pages after publication
