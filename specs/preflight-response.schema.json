@@ -73,6 +73,7 @@
         "success_rate_7d": { "type": ["number", "null"] },
         "success_rate_30d": { "type": ["number", "null"] },
         "sample_size_7d": { "type": "integer" },
+        "sample_size_30d": { "type": "integer" },
         "top_failure_stage": { "type": ["string", "null"] }
       }
     },
