@@ -76,3 +76,6 @@ Entry format:
 - **Did:** Removed synthetic search reporting and OpenSearch descriptor fetching; the probe reuses only the homepage read result and publishes only read aggregates. Descriptor failures can no longer halt route discovery. Updated probe/persistence tests, added a crawler regression with an advertised HTTP 429 descriptor, and aligned scanner/runbook documentation. D-012 records why search success would misrepresent an operation we never execute.
 - **Validation:** Scanner 50/50, MCP 10/10, site 3/3 tests passed; final outcomes test rerun 6/6 passed. `git diff --check` passed.
 - **Publication:** Commit and push on feat/feeds-probe as requested; no deployment or public-data changes.
+
+## 2026-10-16 orchestrator (cont.)
+- Merged feat/feeds-probe (Codex) after 2 adversarial review rounds: daily read-only synthetic probe live; search probe removed (we never truly search). No phishing feed qualified (key/licence), logged in DECISIONS. Scan run 38860922639 succeeded; live data checked_at 2026-10-16T06:23Z.
