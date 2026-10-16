@@ -141,3 +141,6 @@ Entry format:
 
 ## 2026-10-16 18:05 orchestrator
 - Fixed CI-only failure in tests/facts.test.mjs (Ubuntu tzdata lacks negative DST for Dublin); test-only change by Codex, reviewed. Re-ran compute + tooling refresh workflows.
+
+## 2026-10-16 18:20 orchestrator
+- Re-ran tooling liveness after push race; compute + tooling refresh green. Live 200: context.json, timezones.json, tooling.json, compute.json, /tooling, /compute.
