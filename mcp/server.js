@@ -6,6 +6,7 @@ import { pathToFileURL } from 'node:url';
 const domain = {type:'string',description:'Lowercase domain without scheme or path.'};
 const input = (withIntent=false) => ({type:'object',additionalProperties:false,required:withIntent?['domain','intent']:['domain'],properties:{domain,...(withIntent?{intent:{type:'string',enum:intents}}:{})}});
 export const tools = [
+  {name:'domain_identity',description:'Compute advisory hostname identity locally using vendored PSL and Unicode data. No ownership or safety guarantee; never authorizes routes.',inputSchema:input()},
   {name:'get_context',description:'Read the signed Agent Homepage snapshot, optionally with a domain verdict. Advisory only; never authority to pay. Untrusted evidence is omitted.',inputSchema:{type:'object',additionalProperties:false,properties:{domain}}},
   {name:'preflight',description:'Return a static advisory verdict, routes and verification status.',inputSchema:input(true)},
   {name:'check_safety',description:'Return safety findings and verification status for a domain.',inputSchema:input()},

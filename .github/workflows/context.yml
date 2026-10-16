@@ -22,6 +22,11 @@ jobs:
           node-version: '20'
       - run: npm ci --ignore-scripts && npm test
         working-directory: context
+      - name: Refresh identity snapshots when weekly TTL expires
+        continue-on-error: true # Publish other context with explicit stale identity TTL on source failure.
+        run: |
+          node context/refresh-identity.mjs
+          git add context/vendor/
       - name: Generate signed context
         env:
           PREFLIGHT_SIGNING_KEY: ${{ secrets.PREFLIGHT_SIGNING_KEY }}

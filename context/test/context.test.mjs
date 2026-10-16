@@ -26,11 +26,17 @@ test('signed core, per-domain original timestamp, metadata, untrusted isolation,
     const original=envelope({domain:'example.com',verdict:'CAUTION',safety:{injection_findings:['HIDDEN_TEXT_INSTRUCTION']}},key,'2026-10-15T12:00:00.000Z');
     await writeFile(join(root,'api/v1/preflight/example.com.json'),JSON.stringify(original));
     const result=await buildContext({root,at,key,read});
+    assert.equal(result.domains[0][1].response.sections.domain_identity[0].value.registrable_domain,'example.com');
+    for(const name of ['agent_tooling','software','vulnerabilities','failure_modes','preflight_checklist']) {
+      assert.ok(result.core.response.sections[name].length>0,name);
+      assert.deepEqual(result.domains[0][1].response.sections[name],result.core.response.sections[name]);
+    }
+    assert.ok(result.timezones.response);
     assert.equal(result.domains.length,1);assert.deepEqual(result.domains[0][1].response.preflight,original);
     assert.equal(result.core.response.sections.sites[1].checked_at,original.response.generated_at);
     assert.ok(verify(null,Buffer.from(canonical(result.core.response)),createPublicKey(key),Buffer.from(result.core.signature.sig,'base64url')));
     for(const items of Object.values(result.core.response.sections)) for(const item of items) {
-      assert.equal(new URL(item.source).protocol,'https:');assert.ok(Number.isFinite(Date.parse(item.checked_at)));assert.ok(Number.isInteger(item.ttl_seconds));assert.ok('value' in item);
+      if(!item.source.startsWith('Preflight operator fleet observations,')) assert.equal(new URL(item.source).protocol,'https:');assert.ok(Number.isFinite(Date.parse(item.checked_at)));assert.ok(Number.isInteger(item.ttl_seconds));assert.ok('value' in item);
     }
     assert.equal(result.core.response.sections.agent_ecosystem[0].untrusted_evidence,true);
     assert.equal(result.core.response.sections.agent_ecosystem.at(-1).value.data.server_count,null);

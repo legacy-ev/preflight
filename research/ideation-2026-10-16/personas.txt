@@ -1,0 +1,9 @@
+1. A shopping agent that was just scammed by a fake shop with hidden JSON-LD payment instructions.
+2. A coding agent blocked mid-task when a required tool/CLI vanished and a paid quota silently ran out.
+3. An ops/on-call agent at 3am deciding whether an error is its own bug or a provider outage.
+4. A research agent whose training cutoff is 18 months stale and keeps citing outdated facts.
+5. A red-teamer trying to poison or abuse a public 'agent homepage' API that agents trust.
+6. A startup CTO building agents on a tiny budget choosing tools/infra (free tiers matter).
+7. A website owner whose site is accidentally blocking or confusing AI agents.
+8. A payments engineer letting agents buy things safely (x402, cards, refunds).
+9. A travel-booking agent dealing with timezones, holidays, local rules and availability.

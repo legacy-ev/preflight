@@ -2,6 +2,8 @@ import { extendedFacts,extendSections,publishExtended } from './extended-facts.m
 import { toolingSummary } from '../agent_tooling/index.mjs';
 import { readFile, mkdir, writeFile, rename, rm } from 'node:fs/promises';
 import { join } from 'node:path';
+import { domainIdentity } from './domain-identity.mjs';
+import { fleetSections } from './fleet.mjs';
 import { statusItem } from './status.mjs';
 import { envelope } from '../scanner/signing.mjs';
 import { PHISHING_FEED_TTL_SECONDS,HOLIDAYS,BASE,PRICES,AGENTS,FX,REGISTRY,STATUS,CLOUD_LINKS,COUNTRIES,ZONES,MODELS,OWASP,PROTOCOLS,PATTERNS,FAILURES } from './sources.mjs';
@@ -108,11 +110,12 @@ export async function buildContext({read,root='public-data',at=new Date().toISOS
         return item({url:c.url,date:c.date},c.url,604800);
       })],
     safety:[...PATTERNS.map(([code,pattern])=>item({code,pattern},OWASP,604800)),item(index?{status:summaryStatus,counts_by_pattern:findings,phishing_feed_counts:feedCounts,available_domains:envelopes.length,index_domains:index.length,scope:'published_preflight_responses',not_a_clean_bill_of_health:true}:{status:'unavailable'},`${BASE}/api/v1/index.json`,3600,{checked_at:oldest})],
-    failure_modes:FAILURES.map(([code,failure,avoid,source])=>item({code,failure,avoid},source,604800)),
+    failure_modes:[...FAILURES.map(([code,failure,avoid,source])=>item({code,failure,avoid},source,604800)),...fleetSections().failure_modes],
+    preflight_checklist:fleetSections().preflight_checklist,
   };
   const facts=await extendedFacts({read,root,at,key});extendSections(sections,facts);
   const response={schema_version:'1.0.0',advisory:true,notices:`${BASE}/context-NOTICES.txt`,sections};
-  return {timezones:facts.timezones.file,core:envelope(response,key,at),domains:envelopes.map(([domain,preflight])=>[domain,envelope({...response,domain,preflight},key,at)])};
+  return {timezones:facts.timezones.file,core:envelope(response,key,at),domains:envelopes.map(([domain,preflight])=>[domain,envelope({...response,domain,preflight,sections:{...sections,domain_identity:[domainIdentity(domain)]}},key,at)])};
 }
 export async function publishContext(result,root) {
   const directory=join(root,'api/v1');await mkdir(directory,{recursive:true});await publishExtended(result,root);

@@ -24,7 +24,8 @@ ToS clauses: `not yet classified`. Crawler: UA `PreflightBot/1.0 (+https://legac
 - `api/v1/context.json` — scanner Ed25519 envelope, with `response.schema_version:
   "1.0.0"`, `advisory:true`, `notices` URL and `sections`.
 - Sections: `internet_status`, `llm_providers`, `sites`, `agent_ecosystem`, `world`,
-  `safety`, `failure_modes`. Each is an array of `{value, source: HTTPS URL,
+  `safety`, `failure_modes`, `preflight_checklist`. Domain files also include
+  `domain_identity`. Each is an array of `{value, source: HTTPS URL or the fleet attribution below,
   checked_at: ISO timestamp, ttl_seconds: integer, untrusted_evidence?: true}`.
 - `api/v1/context/<domain>.json` — same core plus `response.domain` and
   `response.preflight` (original signed preflight envelope). Original findings'
@@ -57,3 +58,9 @@ ToS clauses: `not yet classified`. Crawler: UA `PreflightBot/1.0 (+https://legac
   a clean bill of health. See D-016 for source-specific reuse and coverage.
 - Those remote facts preserve their original checked_at and 86400-second TTL
   across hourly builds using public-data/context-cache; failures are cached too.
+
+### Checklist and domain identity extension (2026-10-16)
+- Operator-authored guidance uses `source: "Preflight operator fleet observations, 2026-10"`; optional `value.public_link` points to supporting public documentation, never an action route. Review date is day-granularity UTC midnight with a one-year lifetime for versioned first-party guidance; builds do not renew it. Re-review when the guidance changes, at the next fleet revision, or before expiry. It is advice, not live runtime telemetry.
+- Domain identity is a per-domain `sections.domain_identity` array item and a local MCP `domain_identity(domain)` helper, using committed PSL (including PRIVATE rules) and Unicode 17.0.0 data. Reference `checked_at` survives context rebuilding; TTL is seven days.
+- Punycode, within-label mixed scripts and changed confusable skeletons are advisory warnings, not identity/ownership/safety proof or a UTS #39 restriction-level implementation. Exact-origin route constraints remain unchanged. Canonical computed hostnames/registrable domains retain their complete bounded DNS identifiers (at most 253 characters); display-only skeleton text caps at 200 with `display_truncated`. These parsed identifiers are not raw third-party evidence spans; reference comments/prose are never exposed.
+- The existing hourly workflow refreshes reference snapshots only when the weekly TTL expires, using the bounded robots-aware source transport; failure preserves previous files and allows publication with stale identity timestamps; MCP marks expired identity items unavailable. Licence notices and unmodified snapshots remain in `context/vendor/`.

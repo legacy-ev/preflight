@@ -68,3 +68,28 @@ Do not delete that directory in scheduled builds. Individual upstream strings
 are capped at 200 characters and items flagged untrusted_evidence. All source
 requests use the existing bounded, robots-first, honest-UA transport.
 Run added regressions from root with `node --test tests`.
+
+Fleet guidance and checklist are original operator advice, attributed to
+"Preflight operator fleet observations, 2026-10", with optional public_link.
+The review date is fixed (UTC midnight, day precision); versioned first-party
+guidance expires after one year and is reviewed on change, next fleet revision
+or before expiry. It is not a live tool/quota
+observation. No quota balance or last successful runtime probe is invented.
+
+Per-domain sections.domain_identity and the local MCP domain_identity(domain)
+helper use pinned tldts (including private PSL rules), plus vendored Unicode
+confusables and Scripts 17.0.0. Skeleton mapping changes (including ASCII mappings like m → rn)
+are warnings, never proof of impersonation. mixed_script checks within a label,
+ignores Common/Inherited characters, and does not implement UTS #39 restriction
+levels or resolve Script_Extensions. Some legitimate labels mix scripts. No
+brand comparison or ownership conclusion is made; exact-origin routes are unchanged.
+Canonical computed DNS identifiers remain complete (at most 253 characters);
+only the display skeleton caps at 200 with display_truncated. Raw third-party
+evidence prose remains capped/untrusted, and reference comments are not exposed.
+Unicode snapshot timestamps/hashes are in vendor/metadata.json; TTL is seven days. PSL data is updated through reviewed tldts dependency updates.
+The hourly context workflow runs node context/refresh-identity.mjs, skips fresh
+snapshots and commits due refreshes alongside public data. URLs are fixed,
+Unicode version is pinned, robots/size/timeout limits apply, and failed refresh
+keeps prior snapshots while the workflow continues publishing other context;
+expired identity items become unavailable through MCP. Review licence changes before changing Unicode versions.
+Manual refresh uses the same command, without accounts or API credentials.

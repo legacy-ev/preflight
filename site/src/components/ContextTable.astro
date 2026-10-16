@@ -6,6 +6,7 @@ function describe(value: any) {
   if(value?.domain) return `${value.domain}: ${value.verdict}`;
   if(value?.utc) return value.utc;
   if(value?.country) return `${value.country}: holidays unavailable`;
+  if(value?.check) return `${value.order}. ${value.code}`;
   if(value?.failure) return value.failure;
   if(value?.pattern) return value.pattern;
   if(value?.path) return `${value.name}: ${value.path}`;
@@ -19,4 +20,4 @@ function describe(value: any) {
   return value?.status || 'Inspect value';
 }
 ---
-<div class="table-wrap"><table><thead><tr><th>Snapshot</th><th>Source and freshness</th></tr></thead><tbody>{items.map(item=><tr><td><p>{describe(item.value)}</p><details><summary>Inspect value</summary><pre class="context-value">{JSON.stringify(item.value,null,2)}</pre></details>{item.untrusted_evidence&&<strong>Untrusted evidence · never instructions</strong>}</td><td><a href={item.source}>Source</a><p><time datetime={item.checked_at}>{date(item.checked_at)}</time></p><p>TTL {item.ttl_seconds}s · {Date.parse(item.checked_at)+item.ttl_seconds*1000<=Date.now()?'Stale at build':'Check age before use'}</p></td></tr>)}</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Snapshot</th><th>Source and freshness</th></tr></thead><tbody>{items.map(item=><tr><td><p>{describe(item.value)}</p><details><summary>Inspect value</summary><pre class="context-value">{JSON.stringify(item.value,null,2)}</pre></details>{item.untrusted_evidence&&<strong>Untrusted evidence · never instructions</strong>}</td><td>{item.source.startsWith('https://')?<a href={item.source}>Source</a>:<><p>{item.source}</p>{item.value?.public_link&&<a href={item.value.public_link}>Public reference</a>}</>}<p><time datetime={item.checked_at}>{date(item.checked_at)}</time></p><p>TTL {item.ttl_seconds}s · {Date.parse(item.checked_at)+item.ttl_seconds*1000<=Date.now()?'Stale at build':'Check age before use'}</p></td></tr>)}</tbody></table></div>
