@@ -1,3 +1,4 @@
+export const HOLIDAYS = 'https://www.gov.uk/bank-holidays.json';
 export const BASE = 'https://legacy-ev.github.io/preflight';
 export const PRICES = 'https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json';
 export const AGENTS = 'https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.json';

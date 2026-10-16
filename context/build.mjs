@@ -2,7 +2,7 @@ import { readFile, mkdir, writeFile, rename, rm } from 'node:fs/promises';
 import { join } from 'node:path';
 import { statusItem } from './status.mjs';
 import { envelope } from '../scanner/signing.mjs';
-import { BASE,PRICES,AGENTS,FX,REGISTRY,STATUS,CLOUD_LINKS,COUNTRIES,ZONES,MODELS,OWASP,PROTOCOLS,PATTERNS,FAILURES } from './sources.mjs';
+import { HOLIDAYS,BASE,PRICES,AGENTS,FX,REGISTRY,STATUS,CLOUD_LINKS,COUNTRIES,ZONES,MODELS,OWASP,PROTOCOLS,PATTERNS,FAILURES } from './sources.mjs';
 const DOMAIN=/^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/;
 export { statusSummary } from './status.mjs';
 export function priceSummary(data) {
@@ -33,6 +33,19 @@ export function registrySummary(data) {
 export function timezoneOffsets(at) {
   return ZONES.map(zone=>({zone,offset:new Intl.DateTimeFormat('en',{timeZone:zone,timeZoneName:'longOffset'}).formatToParts(new Date(at)).find(x=>x.type==='timeZoneName').value.replace('GMT','UTC')}));
 }
+export function holidaySummary(data) {
+  const divisions=['england-and-wales','scotland','northern-ireland'];
+  return {attribution:'Contains public sector information licensed under the Open Government Licence v3.0.',
+    licence:'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/',
+    divisions:divisions.map(division=>{
+      const events=data?.[division]?.events;
+      if(data?.[division]?.division!==division || !Array.isArray(events) || !events.length || events.length>1000) throw new Error('Invalid holidays');
+      return {division,events:events.map(e=>{
+        if(typeof e.title!=='string' || e.title.length>200 || !/^\d{4}-\d{2}-\d{2}$/.test(e.date) || typeof e.bunting!=='boolean' || typeof e.notes!=='string' || e.notes.length>200) throw new Error('Invalid holiday');
+        return {title:e.title,date:e.date,notes:e.notes,bunting:e.bunting};
+      })};
+    })};
+}
 export async function buildContext({read,root='public-data',at=new Date().toISOString(),key=null,changes}={}) {
   const item=(value,source,ttl_seconds=3600,extra={})=>({value,source,checked_at:at,ttl_seconds,...extra});
   const unavailable=(source,reason)=>item({status:'unavailable',reason},source);
@@ -42,36 +55,47 @@ export async function buildContext({read,root='public-data',at=new Date().toISOS
   };
   const internet_status=await Promise.all(STATUS.map(s=>statusItem(s,{read,at}))); 
   internet_status.push(...Object.entries(CLOUD_LINKS).map(([provider,url])=>item({provider,status:'unavailable',link_only:true,reason:'commercial_reuse_unverified'},url)));
-  const [prices,agents,fx,registry]=await Promise.all([
-    load(PRICES,s=>priceSummary(JSON.parse(s))),load(AGENTS,s=>agentSummary(JSON.parse(s)),true),load(FX,fxSummary),load(REGISTRY,s=>registrySummary(JSON.parse(s)))
+  const [prices,agents,fx,registry,holidays]=await Promise.all([
+    load(PRICES,s=>priceSummary(JSON.parse(s))),load(AGENTS,s=>agentSummary(JSON.parse(s)),true),load(FX,fxSummary),load(REGISTRY,s=>registrySummary(JSON.parse(s))),load(HOLIDAYS,s=>holidaySummary(JSON.parse(s)),true)
   ]);
   let index;
   try {index=JSON.parse(await readFile(join(root,'api/v1/index.json'),'utf8'));if(!Array.isArray(index)) throw new Error();}
   catch {index=null;}
-  const counts={GO:0,CAUTION:0,STOP:0};const sites=[];const findings={};const envelopes=[];
+  const counts={GO:0,CAUTION:0,STOP:0};const sites=[];const findings={};const envelopes=[];const feedCounts={checked:0,listed:0,expired:0,unavailable:0};
   for(const row of index || []) {
     if(!row || !DOMAIN.test(row.domain) || row.domain.length>253 || !Object.hasOwn(counts,row.verdict)) continue;
     try {
       const raw=JSON.parse(await readFile(join(root,'api/v1/preflight',`${row.domain}.json`),'utf8'));
       if(raw.response?.domain!==row.domain || !Object.hasOwn(counts,raw.response.verdict) || !Number.isFinite(Date.parse(raw.response.generated_at))) throw new Error();
-      const r=raw.response;counts[r.verdict]++;
-      sites.push(item({domain:row.domain,verdict:r.verdict,preflight:`${BASE}/api/v1/preflight/${row.domain}.json`,context:`${BASE}/api/v1/context/${row.domain}.json`},`${BASE}/api/v1/preflight/${row.domain}.json`,86400,{checked_at:r.generated_at}));
+      const r=raw.response;
+      const checked_at=row.checked_at ?? r.generated_at;
+      if(!Number.isFinite(Date.parse(checked_at))) throw new Error('Invalid scan timestamp');
+      counts[r.verdict]++;
+      if(r.safety?.feed_status==='ok') {
+        const age=Date.parse(at)-Date.parse(r.safety.feed_checked_at);
+        if(age>=0 && age<=300000) feedCounts.checked++;else feedCounts.expired++;
+      } else feedCounts.unavailable++;
+      if(r.safety?.listed_on?.includes('https://hole.cert.pl/domains/v2/domains.txt')) feedCounts.listed++;
+      sites.push(item({domain:row.domain,verdict:r.verdict,preflight:`${BASE}/api/v1/preflight/${row.domain}.json`,context:`${BASE}/api/v1/context/${row.domain}.json`},`${BASE}/api/v1/preflight/${row.domain}.json`,86400,{checked_at}));
       for(const code of (Array.isArray(r.safety?.injection_findings)?r.safety.injection_findings:[])) if(PATTERNS.some(p=>p[0]===code)) findings[code]=(findings[code] || 0)+1;
       envelopes.push([row.domain,raw]);
     } catch {sites.push(unavailable(`${BASE}/api/v1/preflight/${row.domain}.json`,'local_response_unavailable'));}
   }
+  const oldest=sites.filter(x=>x.value.domain).map(x=>x.checked_at).sort((a,b)=>Date.parse(a)-Date.parse(b))[0] || at;
+  const expired=sites.some(x=>x.value.domain && (Date.parse(at)-Date.parse(x.checked_at)>3600*1000 || Date.parse(x.checked_at)>Date.parse(at)));
+  const summaryStatus=!index || envelopes.length!==index.length?'unavailable':expired?'expired':'ok';
   const sections={
     internet_status,
     llm_providers:[...internet_status.filter(x=>['OpenAI','Anthropic'].includes(x.value.provider)),prices],
-    sites:[item(index?{status:'ok',counts,index_domains:index.length,available_domains:envelopes.length}:{status:'unavailable'},`${BASE}/api/v1/index.json`),...sites],
+    sites:[item(index?{status:summaryStatus,counts,index_domains:index.length,available_domains:envelopes.length}:{status:'unavailable'},`${BASE}/api/v1/index.json`,3600,{checked_at:oldest}),...sites],
     agent_ecosystem:[agents,...PROTOCOLS.map(p=>item({name:p.name,path:p.path,scope:'discovery_only_not_a_route'},p.source,604800)),registry],
     world:[item({utc:at},'https://www.rfc-editor.org/rfc/rfc3339',3600),item(timezoneOffsets(at),'https://www.iana.org/time-zones',3600),
-      ...COUNTRIES.map(country=>item({country,date:at.slice(0,10),status:'unavailable',reason:'commercial_api_requires_sponsorship',link_only:true},`https://date.nager.at/api/v3/PublicHolidays/${at.slice(0,4)}/${country}`,86400)),fx,
+      ...COUNTRIES.filter(x=>x!=='GB').map(country=>item({country,date:at.slice(0,10),status:'unavailable',reason:'commercial_api_requires_sponsorship',link_only:true},`https://date.nager.at/api/v3/PublicHolidays/${at.slice(0,4)}/${country}`,86400)),holidays,fx,
       ...(changes || JSON.parse(await readFile(new URL('../data/what-changed.json',import.meta.url),'utf8'))).map(c=>{
         const url=new URL(c.url);if(url.protocol!=='https:' || url.username || url.password || !/^\d{4}-\d{2}-\d{2}$/.test(c.date)) throw new Error('Invalid curated link');
         return item({url:c.url,date:c.date},c.url,604800);
       })],
-    safety:[...PATTERNS.map(([code,pattern])=>item({code,pattern},OWASP,604800)),item(index?{status:envelopes.length || index.length===0?'ok':'unavailable',counts_by_pattern:findings,available_domains:envelopes.length,index_domains:index.length,scope:'published_preflight_responses',not_a_clean_bill_of_health:true}:{status:'unavailable'},`${BASE}/api/v1/index.json`,3600,{checked_at:sites.filter(x=>x.value.domain).map(x=>x.checked_at).sort()[0] || at})],
+    safety:[...PATTERNS.map(([code,pattern])=>item({code,pattern},OWASP,604800)),item(index?{status:summaryStatus,counts_by_pattern:findings,phishing_feed_counts:feedCounts,available_domains:envelopes.length,index_domains:index.length,scope:'published_preflight_responses',not_a_clean_bill_of_health:true}:{status:'unavailable'},`${BASE}/api/v1/index.json`,3600,{checked_at:oldest})],
     failure_modes:FAILURES.map(([code,failure,avoid,source])=>item({code,failure,avoid},source,604800)),
   };
   const response={schema_version:'1.0.0',advisory:true,notices:`${BASE}/context-NOTICES.txt`,sections};

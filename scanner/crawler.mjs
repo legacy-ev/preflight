@@ -4,6 +4,7 @@ import { scanInjection, hasProduct, lookalike } from './safety.mjs';
 import { discoverRoute, WELL_KNOWN } from './routes.mjs';
 import { rdapLookup } from './rdap.mjs';
 import { probeOutcomes } from './outcomes.mjs';
+import { phishingEvidence } from './phishing.mjs';
 import { createHash } from 'node:crypto';
 export const SCANNER_VERSION='0.1.0';
 
@@ -38,7 +39,7 @@ function rawProbe(result,path) {
     headers:Object.fromEntries(Object.entries(result.headers ?? {}).map(([k,v])=>[k,{value:v.slice(0,200),untrusted_evidence:true}]))};
 }
 
-export async function scanDomain(domain,seeds,{key=null,rdap=rdapLookup,at=new Date().toISOString(),...networkOptions}={}) {
+export async function scanDomain(domain,seeds,{key=null,rdap=rdapLookup,phishingFeed=null,at=new Date().toISOString(),...networkOptions}={}) {
   parseSeeds(`domain\n${domain}\n`);
   const origin=`https://${domain}`;
   const client=new BoundedClient(origin,{...networkOptions,key});
@@ -50,6 +51,7 @@ export async function scanDomain(domain,seeds,{key=null,rdap=rdapLookup,at=new D
     route:{checked_at:at,ttl_seconds:86400,complete:false,routes:[],probes:[],schema_org_product:false},
     tos:{checked_at:at,ttl_seconds:604800,class:'unknown',classification:'not yet classified'},
     outcomes:{sample_size_7d:0,success_rate_7d:null,success_rate_30d:null,status:'not collected'}};
+  Object.assign(scan.safety,phishingEvidence(domain,phishingFeed));
   let probeHome=null;
   const robots=await client.get('/robots.txt',{robots:true});
   scan.access.robots_probe=rawProbe(robots,'/robots.txt');

@@ -1,5 +1,5 @@
 import { responseRoutes } from './routes.mjs';
-export const RULESET_VERSION = '0.1.0-static.2';
+export const RULESET_VERSION = '0.1.0-static.3';
 const COMMERCE_INTENTS = ['purchase', 'book', 'account_create', 'submit_form'];
 const INTENTS = ['read', 'search', 'compare', 'account_login', 'account_create', 'purchase', 'book', 'cancel', 'submit_form', 'download', 'api_call'];
 const TEXT = {
@@ -93,7 +93,7 @@ export function verdict(scan, intent = 'read', at = new Date().toISOString()) {
     summary: result === 'GO' ? 'No deterministic rule fired; this is advisory only.' : `${result}: ${reasons.map(x => TEXT[x.code] ?? 'A previous safety flag remains.').join(' ')}`.slice(0,280),
     reasons, best_route: responseRoutes(r.routes ?? [],scan.domain), requirements:{ must_self_identify:classes.includes('requires_identification'), login_required:a.status === 401,
       captcha_seen:Boolean(a.challenge), pay_per_crawl:a.pay_per_crawl ?? null, tos_class: t.class ?? 'unknown', tos_url:null, tos_classification:'not yet classified' },
-    safety:{listed_on:(s.listings ?? []).filter(x=>x.trusted === true).map(x=>x.source), domain_age_days:s.domain_age_days ?? null,
+    safety:{feed_status:s.feed_status ?? 'not checked',feed_checked_at:s.feed_checked_at ?? null,listed_on:(s.listings ?? []).filter(x=>x.trusted === true).map(x=>x.source), domain_age_days:s.domain_age_days ?? null,
       lookalike_of:s.lookalike_of ?? null,injection_findings:(s.findings ?? []).map(x=>x.code)},
     outcomes:{success_rate_7d:display.sample_size_7d >= 5 ? display.success_rate_7d : eligible && o.sample_size_7d >= 5 ? o.success_rate_7d ?? null : null,
       success_rate_30d:display.sample_size_30d >= 5 ? display.success_rate_30d : eligible && o.sample_size_30d >= 5 ? o.success_rate_30d ?? null : null,

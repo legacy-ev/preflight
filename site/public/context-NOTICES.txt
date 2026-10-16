@@ -60,3 +60,7 @@ ECB rates: European Central Bank. Available free of charge at https://www.ecb.eu
 IANA time zone database: public domain, https://www.iana.org/time-zones . Offsets computed by Node Intl.
 
 OWASP and arXiv: links supporting original editorial guidance only; no article text redistributed.
+
+UK bank holidays: GOV.UK, https://www.gov.uk/bank-holidays.json . Contains public sector information licensed under the Open Government Licence v3.0. https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
+CERT Polska Warning List: https://cert.pl/en/warning-list/ . Commercial reuse permitted by its data usage policy. Source identification does not imply cooperation, endorsement or certification by NASK-PIB or CERT Polska. Matches are advisory and the list is not warranted complete or accurate.

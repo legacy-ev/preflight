@@ -38,3 +38,10 @@ Generated files are not checked in during development. Generate context before
 the site build to preview data; without it the homepage explicitly says unavailable.
 GitHub Pages project hosting serves /preflight/llms.txt and /preflight/SKILL.md;
 an origin-root /llms.txt or /SKILL.md needs an origin-root deployment/custom domain.
+
+UK bank holidays use GOV.UK's public JSON with OGL v3 attribution in the item.
+Verdict/safety summaries preserve the oldest scan checked_at and expire after one
+hour. Safety counts distinguish current/expired CERT Polska feed checks and
+historically listed responses; absence is never a clean bill of health. The
+scanner downloads the official active-only list once per run with a five-minute
+TTL; context reuses published observations without another feed download.

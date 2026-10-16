@@ -6,6 +6,8 @@ import { signingKey, publicJWK, KID } from './signing.mjs';
 import { storeOutcomes } from './outcomes.mjs';
 import { writeOutputs } from './output.mjs';
 import { validatePublicURL } from './network.mjs';
+import { loadPhishingFeed } from './phishing.mjs';
+import { sourceClient } from '../context/fetch.mjs';
 import { rdapLookup } from './rdap.mjs';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
@@ -44,12 +46,13 @@ export async function main(args=process.argv.slice(2)) {
     if(!published.keys.some(x=>x.kid===KID && x.x===publicJWK(key).x)) throw new Error('Signing key does not match published public JWKS; refusing to publish');
   }
   const at=new Date().toISOString();
+  const phishingFeed=await loadPhishingFeed({read:sourceClient({key}),at});
   let cursor=0;const scans=[];
   async function worker() {
     while(cursor<selected.length) {
       const {domain}=selected[cursor++];
       const validateURL=url=>validatePublicURL(url,{allowSyntheticDNS:config.managedDNS});
-      const scan=await scanDomain(domain,domains,{key,at,validateURL,allowSyntheticDNS:config.managedDNS,rdap:(name,options)=>rdapLookup(name,{...options,validateURL,allowSyntheticDNS:config.managedDNS})});
+      const scan=await scanDomain(domain,domains,{key,at,phishingFeed,validateURL,allowSyntheticDNS:config.managedDNS,rdap:(name,options)=>rdapLookup(name,{...options,validateURL,allowSyntheticDNS:config.managedDNS})});
       if(config.managedDNS) scan.network_mode='managed_synthetic_dns';
       scans.push(scan);
       console.log(`${domain}: ${scan.access.scan_status}; HTTP ${scan.access.status ?? 'unavailable'}; RDAP ${scan.safety.rdap.status}; requests ${scan.access.request_count}`);

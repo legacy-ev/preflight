@@ -85,3 +85,11 @@ A single synthetic operator cannot satisfy diversity or operator-weight bounds,
 so those measurements alone never fire outcome rules, raise confidence, clear a
 safety flag or produce GO. Search success means homepage and descriptor access,
 not an executed search. Daily reruns count once per domain×intent. See D-012.
+
+## Static scanner ruleset 0.1.0-static.3 (2026-10-16)
+
+CERT Polska's active Warning List is an independent phishing feed for
+`SAFETY_PHISHING_LISTED`: one download per run, exact registrable-domain match
+(including private PSL boundaries), STOP only while feed evidence is within its
+300-second TTL. A missing or nonmatching feed never establishes independent
+safety agreement. See D-015 for verified commercial terms and scope limitations.

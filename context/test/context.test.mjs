@@ -97,3 +97,29 @@ test('Statuspage licensing gate prevents fetch; reviewed adapters flag capped na
   const result=await statusItem({...source,reuse:'verified'},{read,at});assert.equal(result.untrusted_evidence,true);assert.equal(result.value.incidents[0].length,200);assert.ok(!JSON.stringify(result).includes('evil'));
   const fail=await statusItem({...source,reuse:'verified'},{read:async()=>{throw new Error('offline');},at});assert.equal(fail.value.status,'unavailable');
 });
+test('verdict summary uses oldest scan checked_at, expires at TTL and counts independent feed coverage',async()=>{
+  const root=await mkdtemp(join(tmpdir(),'context-age-'));
+  try {
+    await mkdir(join(root,'api/v1/preflight'),{recursive:true});
+    const rows=[{domain:'old.com',verdict:'STOP',checked_at:'2026-10-16T11:00:00.000Z'},{domain:'new.com',verdict:'CAUTION',checked_at:at}];
+    await writeFile(join(root,'api/v1/index.json'),JSON.stringify(rows));
+    for(const row of rows) await writeFile(join(root,`api/v1/preflight/${row.domain}.json`),JSON.stringify(envelope({domain:row.domain,verdict:row.verdict,safety:{feed_status:'ok',feed_checked_at:at,listed_on:row.verdict==='STOP'?['https://hole.cert.pl/domains/v2/domains.txt']:[]}},null,at)));
+    const fresh=(await buildContext({root,at,read})).core.response.sections;
+    assert.equal(fresh.sites[0].checked_at,rows[0].checked_at);assert.equal(fresh.sites[0].value.status,'ok');
+    assert.deepEqual(fresh.safety.at(-1).value.phishing_feed_counts,{checked:2,listed:1,expired:0,unavailable:0});
+    const stale=(await buildContext({root,at:'2026-10-16T12:00:00.001Z',read})).core.response.sections;
+    assert.equal(stale.sites[0].value.status,'expired');assert.equal(stale.safety.at(-1).value.status,'expired');
+    assert.equal(stale.sites[0].checked_at,rows[0].checked_at);
+    await rm(join(root,'api/v1/preflight/new.com.json'));
+    assert.equal((await buildContext({root,at,read})).core.response.sections.sites[0].value.status,'unavailable');
+  } finally {await rm(root,{recursive:true,force:true});}
+});
+test('UK holidays keep all divisions, project fields and carry OGL attribution; invalid source unavailable',async()=>{
+  const {HOLIDAYS}=await import('../sources.mjs');
+  const data=Object.fromEntries(['england-and-wales','scotland','northern-ireland'].map(division=>[division,{division,events:[{title:'Christmas Day',date:'2026-12-25',notes:'',bunting:true,extra:'do not echo'}]}]));
+  const run=async data=>(await buildContext({root:'/nonexistent',at,read:async url=>url===HOLIDAYS?JSON.stringify(data):read(url)})).core.response.sections.world.find(x=>x.source===HOLIDAYS);
+  const item=await run(data);
+  assert.equal(item.value.status,'ok');assert.equal(item.value.data.divisions.length,3);
+  assert.match(item.value.data.attribution,/Open Government Licence v3/);assert.ok(!JSON.stringify(item).includes('do not echo'));
+  assert.equal((await run({})).value.status,'unavailable');
+});
