@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "hm.com:2026-10-16T05:50:12.875Z:access:NO_DATA",
+        "evidence_id": "hm.com:2026-10-16T06:23:45.066Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:12.875Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "hm.com:2026-10-16T05:50:12.875Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "hm.com:2026-10-16T06:23:45.066Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:12.875Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "hm.com:2026-10-16T05:50:12.875Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "hm.com:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:12.875Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 3600
       }
     ],
@@ -54,28 +54,29 @@
       "success_rate_7d": null,
       "success_rate_30d": null,
       "sample_size_7d": 0,
+      "sample_size_30d": 0,
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 154,
-      "access": 154,
-      "route": 154,
-      "tos": 154
+      "safety": 0,
+      "access": 0,
+      "route": 0,
+      "tos": 0
     },
     "links": {
       "human_page": "/preflight/site/hm.com",
       "retry": "/preflight/api/v1/preflight/hm.com.json"
     },
-    "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-16T05:52:47.479Z",
+    "ruleset_version": "0.1.0-static.2",
+    "generated_at": "2026-10-16T06:23:45.066Z",
     "signature": null,
-    "expires_at": "2026-10-17T05:52:47.479Z"
+    "expires_at": "2026-10-17T06:23:45.066Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "atBLzlSjU2Dm07NnRxa4VUT4S10X7uWZZk5kRrMf1ASIwj8c_HA-ODysEiLu9GZGFWUeduQKswphdN8dMRmBBA",
-    "generated_at": "2026-10-16T05:52:47.479Z",
-    "expires_at": "2026-10-17T05:52:47.479Z"
+    "sig": "txbk91eUMFhMBArfGDQg71Oth2-I_9ba8qCpJKe3YwkYjIRtN8bYEpzGimv_ZBiZ-W7a0ocNBCnGGjKqVoUvAA",
+    "generated_at": "2026-10-16T06:23:45.066Z",
+    "expires_at": "2026-10-17T06:23:45.066Z"
   }
 }

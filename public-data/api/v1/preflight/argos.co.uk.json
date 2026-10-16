@@ -10,45 +10,45 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "argos.co.uk:2026-10-16T05:50:59.969Z:access:ACCESS_BLOCKED",
+        "evidence_id": "argos.co.uk:2026-10-16T06:23:45.066Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:59.969Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 86400
       },
       {
         "code": "ACCESS_CHALLENGE_PAGE",
         "severity": "caution",
         "text": "A challenge or interstitial was detected; no bypass was attempted.",
-        "evidence_id": "argos.co.uk:2026-10-16T05:50:59.969Z:access:ACCESS_CHALLENGE_PAGE",
+        "evidence_id": "argos.co.uk:2026-10-16T06:23:45.066Z:access:ACCESS_CHALLENGE_PAGE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:59.969Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "argos.co.uk:2026-10-16T05:50:59.969Z:access:NO_DATA",
+        "evidence_id": "argos.co.uk:2026-10-16T06:23:45.066Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:59.969Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "argos.co.uk:2026-10-16T05:50:59.969Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "argos.co.uk:2026-10-16T06:23:45.066Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:59.969Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "argos.co.uk:2026-10-16T05:50:59.969Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "argos.co.uk:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:50:59.969Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 3600
       }
     ],
@@ -72,28 +72,29 @@
       "success_rate_7d": null,
       "success_rate_30d": null,
       "sample_size_7d": 0,
+      "sample_size_30d": 0,
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 107,
-      "access": 107,
-      "route": 107,
-      "tos": 107
+      "safety": 0,
+      "access": 0,
+      "route": 0,
+      "tos": 0
     },
     "links": {
       "human_page": "/preflight/site/argos.co.uk",
       "retry": "/preflight/api/v1/preflight/argos.co.uk.json"
     },
-    "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-16T05:52:47.479Z",
+    "ruleset_version": "0.1.0-static.2",
+    "generated_at": "2026-10-16T06:23:45.066Z",
     "signature": null,
-    "expires_at": "2026-10-17T05:52:47.479Z"
+    "expires_at": "2026-10-17T06:23:45.066Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Fvb8uO9L3inK1nv9RA6hIWyjPPwBZnOUmhVnaN69LZ5-7udQIHBXffrt28gXBcwEQKAELKujqF1nMidjxYrmDA",
-    "generated_at": "2026-10-16T05:52:47.479Z",
-    "expires_at": "2026-10-17T05:52:47.479Z"
+    "sig": "T8aH6W3iLPBaArsb1fXuPubVpbUQ7VMFX3bQtabOGC7xXGc7QtWl-BycSjcVL0jGia62Y0jq8d9v7BIMZ2wSAQ",
+    "generated_at": "2026-10-16T06:23:45.066Z",
+    "expires_at": "2026-10-17T06:23:45.066Z"
   }
 }

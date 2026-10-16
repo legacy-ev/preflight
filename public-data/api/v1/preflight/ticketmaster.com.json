@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "ticketmaster.com:2026-10-16T05:52:17.420Z:access:NO_DATA",
+        "evidence_id": "ticketmaster.com:2026-10-16T06:23:45.066Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:52:17.420Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "ticketmaster.com:2026-10-16T05:52:17.420Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "ticketmaster.com:2026-10-16T06:23:45.066Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:52:17.420Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "ticketmaster.com:2026-10-16T05:52:17.420Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "ticketmaster.com:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T05:52:17.420Z",
+        "checked_at": "2026-10-16T06:23:45.066Z",
         "ttl_seconds": 3600
       }
     ],
@@ -54,28 +54,29 @@
       "success_rate_7d": null,
       "success_rate_30d": null,
       "sample_size_7d": 0,
+      "sample_size_30d": 0,
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 30,
-      "access": 30,
-      "route": 30,
-      "tos": 30
+      "safety": 0,
+      "access": 0,
+      "route": 0,
+      "tos": 0
     },
     "links": {
       "human_page": "/preflight/site/ticketmaster.com",
       "retry": "/preflight/api/v1/preflight/ticketmaster.com.json"
     },
-    "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-16T05:52:47.479Z",
+    "ruleset_version": "0.1.0-static.2",
+    "generated_at": "2026-10-16T06:23:45.066Z",
     "signature": null,
-    "expires_at": "2026-10-17T05:52:47.479Z"
+    "expires_at": "2026-10-17T06:23:45.066Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "BQErOehtDbN6JVrtT2GIpitr4Fg3dw1BEjLByQnDU6GBq9Mly1mzO13yZwU_6FrLoQSdAQs4hgVsiOC-_tooBg",
-    "generated_at": "2026-10-16T05:52:47.479Z",
-    "expires_at": "2026-10-17T05:52:47.479Z"
+    "sig": "B3nHlu6VOg95_n_2O1UkPuwHPoQPS-di4veEpSrGVU9XPyPz_24xZNHaASCWZySdVTCLo3ukZ9NEdk6QnP1PAQ",
+    "generated_at": "2026-10-16T06:23:45.066Z",
+    "expires_at": "2026-10-17T06:23:45.066Z"
   }
 }

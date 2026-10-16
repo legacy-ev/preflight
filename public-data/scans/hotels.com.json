@@ -1,11 +1,11 @@
 {
   "domain": "hotels.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-16T05:51:46.224Z",
+  "checked_at": "2026-10-16T06:23:45.066Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-16T05:51:46.224Z",
+    "checked_at": "2026-10-16T06:23:45.066Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
@@ -18,11 +18,11 @@
       "status": "ok",
       "http_status": 200,
       "domain_age_days": 11888,
-      "checked_at": "2026-10-16T05:51:46.224Z"
+      "checked_at": "2026-10-16T06:23:45.066Z"
     }
   },
   "access": {
-    "checked_at": "2026-10-16T05:51:46.224Z",
+    "checked_at": "2026-10-16T06:23:45.066Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": null,
@@ -45,7 +45,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-16T05:51:46.224Z",
+    "checked_at": "2026-10-16T06:23:45.066Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -53,22 +53,60 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-16T05:51:46.224Z",
+    "checked_at": "2026-10-16T06:23:45.066Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
+    "checked_at": "2026-10-16T06:23:45.066Z",
+    "ttl_seconds": 86400,
     "sample_size_7d": 0,
+    "sample_size_30d": 0,
     "success_rate_7d": null,
     "success_rate_30d": null,
-    "status": "not collected"
+    "status": "synthetic_only",
+    "verified_operators": 1,
+    "max_operator_weight": 1,
+    "confirmed_by_probe": true,
+    "quarantined": false
   },
-  "finished_at": "2026-10-16T05:52:03.645Z",
+  "synthetic_reports": [
+    {
+      "domain": "hotels.com",
+      "intent": "read",
+      "route_used": "browser",
+      "result": "aborted_safety",
+      "attempted_at": "2026-10-16T06:23:45.066Z",
+      "reporter": {
+        "operator": "preflight",
+        "agent_family": "preflight-synthetic",
+        "agent_version": "1.0"
+      },
+      "self_identified": true,
+      "signed_requests": true
+    }
+  ],
+  "finished_at": "2026-10-16T06:26:26.148Z",
+  "outcomes_by_intent": {
+    "read": {
+      "checked_at": "2026-10-16T06:23:45.066Z",
+      "ttl_seconds": 86400,
+      "sample_size_7d": 0,
+      "sample_size_30d": 0,
+      "success_rate_7d": null,
+      "success_rate_30d": null,
+      "status": "synthetic_only",
+      "verified_operators": 1,
+      "max_operator_weight": 1,
+      "confirmed_by_probe": true,
+      "quarantined": false
+    }
+  },
   "retained_safety_reasons": [],
   "evidence": {
-    "hotels.com:2026-10-16T05:51:46.224Z:access:NO_DATA": {
-      "checked_at": "2026-10-16T05:51:46.224Z",
+    "hotels.com:2026-10-16T06:23:45.066Z:access:NO_DATA": {
+      "checked_at": "2026-10-16T06:23:45.066Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": null,
@@ -90,8 +128,8 @@
       },
       "request_count": 1
     },
-    "hotels.com:2026-10-16T05:51:46.224Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-16T05:51:46.224Z",
+    "hotels.com:2026-10-16T06:23:45.066Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-16T06:23:45.066Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
@@ -104,11 +142,11 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 11888,
-        "checked_at": "2026-10-16T05:51:46.224Z"
+        "checked_at": "2026-10-16T06:23:45.066Z"
       }
     },
-    "hotels.com:2026-10-16T05:51:46.224Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-16T05:51:46.224Z",
+    "hotels.com:2026-10-16T06:23:45.066Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-16T06:23:45.066Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
@@ -121,7 +159,7 @@
         "status": "ok",
         "http_status": 200,
         "domain_age_days": 11888,
-        "checked_at": "2026-10-16T05:51:46.224Z"
+        "checked_at": "2026-10-16T06:23:45.066Z"
       }
     }
   }
