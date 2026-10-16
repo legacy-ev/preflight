@@ -144,3 +144,7 @@ Entry format:
 
 ## 2026-10-16 18:20 orchestrator
 - Re-ran tooling liveness after push race; compute + tooling refresh green. Live 200: context.json, timezones.json, tooling.json, compute.json, /tooling, /compute.
+
+## 2026-10-16 — /tools redirect (Codex)
+- Added a base-aware Astro /tools page with immediate meta refresh, destination canonical and visible link to /preflight/tooling/; added a small page regression test. No data items, accounts, spend or keys added; existing provenance remains unchanged. No commit.
+- Validation: focused `node --test` page checks and verification/tooling suites passed; `npm run build --prefix site` passed (101 pages). Checked generated HTML for all three destination links. Full relevant `node --test site/scripts/*.test.mjs tests/tooling*.test.mjs` was attempted; existing copy-data child-process tests fail with sandbox `spawnSync /usr/bin/node EPERM`. Installed locked site dependencies from the local npm cache after the network install stalled. `git diff --check` passed.
