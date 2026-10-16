@@ -38,5 +38,24 @@ test('SDK exposes optional-domain context and rejects extra fields',async()=>{
   try {
     const r=await client.callTool({name:'get_context',arguments:{}});assert.equal(r.structuredContent.verification.verified,true);
     const bad=await client.callTool({name:'get_context',arguments:{url:'https://evil.invalid'}});assert.equal(bad.isError,true);
+    const identity=await client.callTool({name:'domain_identity',arguments:{domain:'pаypal.com'}});
+    assert.equal(identity.structuredContent.value.mixed_script,true);
+    assert.equal(identity.structuredContent.value.punycode,true);
+    const invalidIdentity=await client.callTool({name:'domain_identity',arguments:{domain:'https://evil.invalid'}});
+    assert.equal(invalidIdentity.isError,true);
   }finally{await client.close();await server.close();}
+});
+test('new checklist and domain identity survive verified MCP projection and expire individually',async()=>{
+ const {domainIdentity}=await import('../../context/domain-identity.mjs');
+ const sections=Object.fromEntries(['internet_status','llm_providers','sites','agent_ecosystem','world','safety','failure_modes'].map(s=>[s,[]]));
+ sections.preflight_checklist=[{...item,value:{code:'tools_present'}}];
+ sections.domain_identity=[{...domainIdentity('example.co.uk'),checked_at:'2026-10-01T00:00:00Z'}];
+ const raw=envelope({schema_version:'1.0.0',sections},key,at);
+ const api=createClient({now:()=>now,fetchImpl:async url=>new Response(JSON.stringify(String(url).endsWith('keys.json')?{keys:[publicJWK(key)]}:raw))});
+ const r=await api.get_context();
+ assert.equal(r.sections.preflight_checklist[0].value.code,'tools_present');
+ assert.equal(r.sections.domain_identity[0].value.status,'unavailable');
+ assert.equal(typeof api.domain_identity,'function');
+ assert.equal(api.domain_identity('www.example.co.uk').value.registrable_domain,'example.co.uk');
+ assert.ok(tools.some(t=>t.name==='domain_identity'));
 });

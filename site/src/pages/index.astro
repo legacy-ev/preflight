@@ -7,7 +7,7 @@ import { resolve } from 'node:path';
 const path=resolve('../public-data/api/v1/context.json');
 const envelope=existsSync(path)?JSON.parse(readFileSync(path,'utf8')):null;
 const sections=envelope?.response?.sections || {};
-const names={internet_status:'Internet status',llm_providers:'LLM providers',sites:'Site verdicts',agent_ecosystem:'Agent ecosystem',world:'World',safety:'Safety',failure_modes:'Failure modes'};
+const names={internet_status:'Internet status',llm_providers:'LLM providers',sites:'Site verdicts',agent_ecosystem:'Agent ecosystem',world:'World',safety:'Safety',failure_modes:'Failure modes',preflight_checklist:'Preflight checklist'};
 ---
 <Layout title="Agent Homepage">
 <div class="context-hero"><h1>One call.<br/>Context first.</h1><p class="intro">A sourced snapshot for your next task: service status, model prices, site verdicts, world data and safety checks.</p><a class="action" href={href('api/v1/context.json')}>Get the JSON</a></div>

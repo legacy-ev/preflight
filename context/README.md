@@ -45,3 +45,28 @@ hour. Safety counts distinguish current/expired CERT Polska feed checks and
 historically listed responses; absence is never a clean bill of health. The
 scanner downloads the official active-only list once per run with a five-minute
 TTL; context reuses published observations without another feed download.
+
+Fleet guidance and checklist are original operator advice, attributed to
+"Preflight operator fleet observations, 2026-10", with optional public_link.
+The review date is fixed (UTC midnight, day precision); versioned first-party
+guidance expires after one year and is reviewed on change, next fleet revision
+or before expiry. It is not a live tool/quota
+observation. No quota balance or last successful runtime probe is invented.
+
+Per-domain sections.domain_identity and the local MCP domain_identity(domain)
+helper use the vendored PSL including private rules, Unicode confusables and
+Scripts 17.0.0. Skeleton mapping changes (including ASCII mappings like m → rn)
+are warnings, never proof of impersonation. mixed_script checks within a label,
+ignores Common/Inherited characters, and does not implement UTS #39 restriction
+levels or resolve Script_Extensions. Some legitimate labels mix scripts. No
+brand comparison or ownership conclusion is made; exact-origin routes are unchanged.
+Canonical computed DNS identifiers remain complete (at most 253 characters);
+only the display skeleton caps at 200 with display_truncated. Raw third-party
+evidence prose remains capped/untrusted, and reference comments are not exposed.
+Snapshot timestamps/hashes are in vendor/metadata.json; TTL is seven days.
+The hourly context workflow runs node context/refresh-identity.mjs, skips fresh
+snapshots and commits due refreshes alongside public data. URLs are fixed,
+Unicode version is pinned, robots/size/timeout limits apply, and failed refresh
+keeps prior snapshots while the workflow continues publishing other context;
+expired identity items become unavailable through MCP. Review licence changes before changing Unicode versions.
+Manual refresh uses the same command, without accounts or API credentials.

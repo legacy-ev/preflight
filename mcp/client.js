@@ -1,3 +1,4 @@
+import { domainIdentity } from '../context/domain-identity.mjs';
 import { USER_AGENT } from '../scanner/signing.mjs';
 import { createPublicKey, verify } from 'node:crypto';
 import { readFileSync } from 'node:fs';
@@ -93,7 +94,8 @@ export function createClient({baseUrl = process.env.PREFLIGHT_BASE_URL || 'https
       if(s?.alg!=='ed25519' || s.generated_at!==r.generated_at || s.expires_at!==r.expires_at || !jwk || !verify(null,Buffer.from(canonical(r)),createPublicKey({key:jwk,format:'jwk'}),Buffer.from(s.sig,'base64url')) ||
         !Number.isFinite(generated) || !Number.isFinite(expires) || generated>now() || expires<=now() || expires<=generated || expires>generated+86400000 || now()>=generated+86400000) throw new Error();
       const sections={};
-      for(const name of ['internet_status','llm_providers','sites','agent_ecosystem','world','safety','failure_modes']) {
+      for(const name of ['internet_status','llm_providers','sites','agent_ecosystem','world','safety','failure_modes','preflight_checklist','domain_identity']) {
+        if(r.sections[name]===undefined && ['preflight_checklist','domain_identity'].includes(name)) continue;
         if(!Array.isArray(r.sections[name])) throw new Error();
         sections[name]=r.sections[name].filter(x=>x && x.untrusted_evidence!==true).map(x=>{
           const checked=Date.parse(x.checked_at);
@@ -110,6 +112,7 @@ export function createClient({baseUrl = process.env.PREFLIGHT_BASE_URL || 'https
   return {
     preflight,
     get_context,
+    domain_identity:domainIdentity,
     async check_safety(domain) { const r=await preflight(domain); return {...metadata(r),domain,verdict:r.verdict,safety:r.safety || {},reasons:r.reasons.filter(x => /^SAFETY_/.test(x.code))}; },
     async find_route(domain,intent) { const r=await preflight(domain,intent); return {...metadata(r),domain,intent,verdict:r.verdict,best_route:r.best_route,requirements:r.requirements || {}}; },
     async get_evidence(domain) { domainName(domain); const evidence=await json('../../scans/'+domain+'.json'); return {domain,untrusted_evidence:true,verification:{verified:false,status:'unsigned_evidence'},evidence:capEvidence(evidence)}; },

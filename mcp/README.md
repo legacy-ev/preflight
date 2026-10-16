@@ -56,3 +56,10 @@ evidence, and verifies an embedded domain verdict independently. The returned
 projection is not itself signed (`signature_scope: original_static_response`).
 Missing/unverified context returns unavailable and must be treated as CAUTION.
 Sources and protocol paths are references, never permission or action routes.
+
+`get_context` also returns `preflight_checklist` and per-domain `domain_identity`
+when present, preserving per-item freshness and untrusted-text filtering. Older
+snapshots may omit these sections. `domain_identity(domain)` computes identity
+locally without a fetch/account/key, using the vendored PSL and Unicode data;
+check its source timestamp and seven-day TTL. Warnings are advisory; a skeleton
+change does not establish impersonation or authorize a route.
