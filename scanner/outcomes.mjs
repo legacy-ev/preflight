@@ -1,4 +1,3 @@
-import { attributes } from './html.mjs';
 import { mkdir, readdir, readFile, writeFile, rename } from 'node:fs/promises';
 import { join } from 'node:path';
 const REPORTER={operator:'preflight',agent_family:'preflight-synthetic',agent_version:'1.0'};
@@ -8,7 +7,7 @@ const fields=['domain','intent','route_used','result','attempted_at','reporter',
 export function validSyntheticReport(r) {
  return Boolean(r && Object.keys(r).length===fields.length && fields.every(k=>Object.hasOwn(r,k)) &&
  /^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/.test(r.domain) &&
- ['read','search'].includes(r.intent) && r.route_used==='browser' && RESULTS.includes(r.result) &&
+ r.intent==='read' && r.route_used==='browser' && RESULTS.includes(r.result) &&
  typeof r.attempted_at==='string' && /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d{3})?Z$/.test(r.attempted_at) && Number.isFinite(Date.parse(r.attempted_at)) &&
  r.self_identified===true && typeof r.signed_requests==='boolean' && r.reporter &&
  Object.keys(r.reporter).length===3 && Object.entries(REPORTER).every(([k,v])=>r.reporter[k]===v));
@@ -21,22 +20,7 @@ function result(page) {
 }
 export async function probeOutcomes(domain,client,home,{at=new Date().toISOString()}={}) {
  const make=(intent,value)=>({domain,intent,route_used:'browser',result:value,attempted_at:at,reporter:{...REPORTER},self_identified:true,signed_requests:Boolean(client.key)});
- const read=result(home); let search=read;
- if(read==='success') {
-  search='partial';
-  for(const match of home.body.matchAll(/<link\b([^>]{0,4096})>/gi)) {
-   const a=attributes(match[1]);
-   if(!a.rel?.toLowerCase().split(/\s+/).includes('search') || a.type?.toLowerCase()!=='application/opensearchdescription+xml' || !a.href) continue;
-   let url; try {url=new URL(a.href,home.url);} catch {continue;}
-   if(url.origin!==client.origin || url.username || url.password || url.search || url.hash || !client.robots?.(url.pathname).allowed) continue;
-   const descriptor=await client.get(url.href);
-   search=result(descriptor);
-   // Inspect only; never resolve external entities, fetch templates or execute a query.
-   if(search==='success' && (!/<OpenSearchDescription\b[^>]*\bxmlns\s*=\s*["']http:\/\/a9.com\/-\/spec\/opensearch\/1\.1\/["']/i.test(descriptor.body) || /<!DOCTYPE|<!ENTITY/i.test(descriptor.body))) search='partial';
-   break;
-  }
- }
- const reports=[make('read',read),make('search',search)];
+ const reports=[make('read',result(home))];
  if(!reports.every(validSyntheticReport)) throw new Error('Invalid synthetic report');
  return reports;
 }
@@ -77,7 +61,7 @@ export async function storeOutcomes(scans,{output,at=new Date().toISOString()}) 
   history.push(...rows.filter(r=>validSyntheticReport(r) && r.attempted_at.slice(0,10)===file.slice(0,10)));
  }
  for(const scan of scans) {
-  scan.outcomes_by_intent=Object.fromEntries(['read','search'].map(intent=>[intent,aggregateOutcomes(history,scan.domain,intent,at)]));
+  scan.outcomes_by_intent=Object.fromEntries(['read'].map(intent=>[intent,aggregateOutcomes(history,scan.domain,intent,at)]));
   scan.outcomes=scan.outcomes_by_intent.read;
  }
 }

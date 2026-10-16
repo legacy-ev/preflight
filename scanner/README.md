@@ -34,15 +34,14 @@ Daily scans run at 05:17 UTC and can be dispatched manually. The workflow commit
 
 ### Scheduled synthetic outcomes
 
-Every scan also measures safe `read` and `search` intents using the same robots-first
-client, homepage and total request budget. Search fetches at most one same-origin
-OpenSearch descriptor; it never executes a query or submits a form. Missing
-search discovery is `partial`, not proof of search failure. Daily UTC report arrays
+Every scan also measures `read` using the existing robots-first client and
+homepage response, without additional requests. No search is executed or reported.
+Daily UTC report arrays
 are written to `public-data/outcomes/YYYY-MM-DD.json`; reruns replace that day's
 samples for selected domains. Diagnostic `--output /tmp/...` runs keep both scans
 and outcomes outside the repository. Use full seed runs to refresh all responses.
 
-Raw scans include `outcomes_by_intent` for read/search. Static preflight responses
+Raw scans include `outcomes_by_intent` for read. Static preflight responses
 remain intent `read` and expose 7d/30d rates and sample sizes only at n ≥ 5.
 These are local synthetic observations from one operator, not verified community
 agreement. They cannot change verdicts under the threat model's diversity/cap

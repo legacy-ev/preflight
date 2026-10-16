@@ -65,17 +65,17 @@ To check the change log locally: `node --input-type=module -e "import {readFile}
 
 ## Synthetic outcomes (2026-10-16)
 
-The existing daily **Scan seed domains** Action now collects read/search reports
+The existing daily **Scan seed domains** Action now collects read reports
 and commits `public-data/outcomes/YYYY-MM-DD.json` with the scan outputs. Actions
 remain pinned to SHAs. Use the normal scanner commands above; no extra key or
 service is required. Local scans without the existing signing key explicitly
 record `signed_requests:false`.
 
-Reports use a strict subset of `specs/outcome-report.schema.json`. Search checks
-homepage/descriptor access only. It never submits a query or form. Same-day
+Reports use a strict subset of `specs/outcome-report.schema.json`. The probe reuses
+homepage access only; it never fetches a descriptor or reports search. Same-day
 reruns replace the selected domain×intent samples, preventing retry inflation.
 After five distinct daily samples, eligible rolling 7/30-day measurements appear
-in read preflight responses; raw scan JSON also holds search aggregates. A single
+in read preflight responses; raw scan JSON holds only read aggregates. A single
 synthetic operator cannot satisfy the diversity/cap requirements for outcome
 verdict rules. Inspect the raw reports when diagnosing partial or failed probes;
 no page text, URLs, queries or user content is stored in reports.

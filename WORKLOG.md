@@ -71,3 +71,8 @@ Entry format:
 - **Live now:** Feature branch changes only; no deployment or merge to main. Existing daily workflow will collect outcomes when integrated.
 - **Next:** Review/integrate feat/feeds-probe; independent safety agreement and verified multi-operator ingestion remain unavailable.
 - **Blocked / needs Michael:** nothing for the authorized scope. Commit and push to origin HEAD requested.
+
+## 2026-10-16 — Codex (feeds/probe review fixes)
+- **Did:** Removed synthetic search reporting and OpenSearch descriptor fetching; the probe reuses only the homepage read result and publishes only read aggregates. Descriptor failures can no longer halt route discovery. Updated probe/persistence tests, added a crawler regression with an advertised HTTP 429 descriptor, and aligned scanner/runbook documentation. D-012 records why search success would misrepresent an operation we never execute.
+- **Validation:** Scanner 50/50, MCP 10/10, site 3/3 tests passed; final outcomes test rerun 6/6 passed. `git diff --check` passed.
+- **Publication:** Commit and push on feat/feeds-probe as requested; no deployment or public-data changes.
