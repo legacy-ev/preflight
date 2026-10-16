@@ -64,8 +64,13 @@ test('strict source parsing and exact price units; Registry page is not a total'
 test('IANA offsets respect DST and half-hour zones',()=>{
   const summer=timezoneOffsets('2026-07-01T12:00:00Z'),winter=timezoneOffsets('2026-01-01T12:00:00Z');
   assert.equal(summer.find(x=>x.zone==='Europe/London').offset,'UTC+01:00');
-  assert.equal(winter.find(x=>x.zone==='Europe/London').offset,'UTC');
+  assert.equal(winter.find(x=>x.zone==='Europe/London').offset,'UTC+00:00');
   assert.equal(summer.find(x=>x.zone==='Asia/Kolkata').offset,'UTC+05:30');
+  assert.equal(summer.find(x=>x.zone==='America/New_York').offset,'UTC-04:00');
+  const midnight=timezoneOffsets('2026-01-01T00:00:00.123Z');
+  assert.equal(midnight.find(x=>x.zone==='UTC').offset,'UTC+00:00');
+  assert.equal(midnight.find(x=>x.zone==='America/New_York').offset,'UTC-05:00');
+  assert.equal(midnight.find(x=>x.zone==='Pacific/Auckland').offset,'UTC+13:00');
 });
 test('fetcher honest UA, robots, serial spacing, no redirect, failure backoff, size caps and timeouts',async()=>{
   const requests=[],waits=[];

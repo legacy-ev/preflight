@@ -31,7 +31,16 @@ export function registrySummary(data) {
   return {reachable:true,returned_records:data.servers.length,server_count:complete?data.servers.length:null,count_scope:complete?'complete_latest_page':'page_only',total_count_status:complete?'ok':'unavailable'};
 }
 export function timezoneOffsets(at) {
-  return ZONES.map(zone=>({zone,offset:new Intl.DateTimeFormat('en',{timeZone:zone,timeZoneName:'longOffset'}).formatToParts(new Date(at)).find(x=>x.type==='timeZoneName').value.replace('GMT','UTC')}));
+  const date=new Date(at);
+  return ZONES.map(zone=>{
+    const parts=new Intl.DateTimeFormat('en-US',{timeZone:zone,calendar:'gregory',numberingSystem:'latn',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).formatToParts(date);
+    const fields=Object.fromEntries(parts.map(({type,value})=>[type,Number(value)]));
+    // Interpret the zone's wall clock as UTC to calculate its numeric offset.
+    const local=Date.UTC(fields.year,fields.month-1,fields.day,fields.hour,fields.minute,fields.second);
+    const minutes=Math.round((local-Math.floor(date.getTime()/1000)*1000)/60000);
+    const absolute=Math.abs(minutes);
+    return {zone,offset:`UTC${minutes<0?'-':'+'}${String(Math.floor(absolute/60)).padStart(2,'0')}:${String(absolute%60).padStart(2,'0')}`};
+  });
 }
 export function holidaySummary(data) {
   const divisions=['england-and-wales','scotland','northern-ireland'];
