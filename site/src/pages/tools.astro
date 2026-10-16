@@ -1,0 +1,17 @@
+---
+const target = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/tooling/`;
+const canonical = new URL(target, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Agent tooling</title>
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={canonical} />
+  </head>
+  <body>
+    <p>This page has moved to <a href={target}>Agent tooling</a>.</p>
+  </body>
+</html>

@@ -28,3 +28,12 @@ test('MCP page uses the README installation commands and real server entry',asyn
   assert.ok(!page.includes('dist/index.js'));
   assert.ok(!page.includes('npm run build'));
 });
+
+test('tools redirect shares a base-aware destination for refresh, canonical and visible link',async()=>{
+  const page=await readFile(new URL('../src/pages/tools.astro',import.meta.url),'utf8');
+  assert.ok(page.includes("`${import.meta.env.BASE_URL.replace(/\\/$/, '')}/tooling/`"));
+  assert.ok(page.includes('new URL(target, Astro.site)'));
+  assert.match(page, /<meta http-equiv="refresh" content=\{`0;url=\$\{target\}`\}/);
+  assert.match(page, /<link rel="canonical" href=\{canonical\}/);
+  assert.match(page, /<a href=\{target\}>Agent tooling<\/a>/);
+});
