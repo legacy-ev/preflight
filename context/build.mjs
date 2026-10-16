@@ -1,6 +1,7 @@
 import { readFile, mkdir, writeFile, rename, rm } from 'node:fs/promises';
 import { join } from 'node:path';
 import { statusItem } from './status.mjs';
+import { computeSummary } from '../compute/build.mjs';
 import { envelope } from '../scanner/signing.mjs';
 import { PHISHING_FEED_TTL_SECONDS,HOLIDAYS,BASE,PRICES,AGENTS,FX,REGISTRY,STATUS,CLOUD_LINKS,COUNTRIES,ZONES,MODELS,OWASP,PROTOCOLS,PATTERNS,FAILURES } from './sources.mjs';
 const DOMAIN=/^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/;
@@ -95,6 +96,7 @@ export async function buildContext({read,root='public-data',at=new Date().toISOS
   const summaryStatus=!index || envelopes.length!==index.length?'unavailable':expired?'expired':'ok';
   const sections={
     internet_status,
+    compute:await computeSummary({root,at}),
     llm_providers:[...internet_status.filter(x=>['OpenAI','Anthropic'].includes(x.value.provider)),prices],
     sites:[item(index?{status:summaryStatus,counts,index_domains:index.length,available_domains:envelopes.length}:{status:'unavailable'},`${BASE}/api/v1/index.json`,3600,{checked_at:oldest}),...sites],
     agent_ecosystem:[agents,...PROTOCOLS.map(p=>item({name:p.name,path:p.path,scope:'discovery_only_not_a_route'},p.source,604800)),registry],

@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { href } from '../lib/data';
+import { SOURCES } from '../../../compute/sources.mjs';
+import { GPU_TYPES, computeSummary, fresh } from '../../../compute/build.mjs';
+const at=new Date().toISOString();
+const [summary]=await computeSummary({root:'../public-data',at});
+---
+<Layout title="Compute" description="GPU compute references, pricing eligibility and fresh cheapest lookups.">
+  <section class="hero">
+    <p class="eyebrow">Compute · Phase 1</p>
+    <h1>Compare before<br/>you provision.</h1>
+    <p class="lead">A public compute catalogue with source links and freshness checks. Pricing is unavailable until a source qualifies for commercial reuse.</p>
+    <p>No verified reusable prices are published. Cheapest lookups are empty. Nothing on this page provisions compute or authorises spending.</p>
+    <p><a href={href('api/v1/compute.json')}>Catalogue JSON ↗</a> · <a href="https://github.com/legacy-ev/preflight/blob/main/docs/compute-router.md">Routing specification ↗</a></p>
+    <p>Verified snapshot status at build: <strong>{summary.value.status}</strong>. Consumers must verify the signature and each item’s expiry at use time.</p>
+  </section>
+  <section aria-labelledby="lookups">
+    <h2 id="lookups">Cheapest lookups</h2>
+    <p>Fresh single-GPU on-demand and spot offers only. Serverless and multi-GPU offers need separate comparisons. These files do not establish availability or total workload cost.</p>
+    <ul>{GPU_TYPES.map(gpu=><li><a href={href(`api/v1/compute/cheapest/${gpu}.json`)}>{gpu} JSON</a> — unavailable: no eligible fresh prices</li>)}</ul>
+  </section>
+  <section aria-labelledby="references">
+    <h2 id="references">Provider references</h2>
+    <p>Links remain available when a review expires. Unknown prices and free tiers are never treated as zero. These are references, not verified action routes.</p>
+    <div class="table-wrap"><table><caption>Reviewed source links · TTL 86,400 seconds per item</caption><thead><tr><th scope="col">Provider</th><th scope="col">Pricing eligibility</th><th scope="col">Checked at (UTC)</th><th scope="col">Freshness at build</th><th scope="col">Reference</th></tr></thead><tbody>
+      {SOURCES.map(source=><tr><th scope="row">{source.provider}</th><td>{source.reason.replaceAll('_',' ')}</td><td><time datetime={source.checked_at}>{source.checked_at}</time></td><td>{fresh({checked_at:source.checked_at,ttl_seconds:source.ttl},at)?'Review current':'Review expired'}</td><td><a href={source.source_url} rel="noopener noreferrer">Source ↗</a> · <a href={source.api_docs_url} rel="noopener noreferrer">Documentation ↗</a></td></tr>)}
+    </tbody></table></div>
+    <p><a href="https://github.com/legacy-ev/preflight/blob/main/research/compute-aggregators.md">Aggregator research ↗</a> · <a href="https://github.com/legacy-ev/preflight/blob/main/DECISIONS.md">Source and terms decisions ↗</a></p>
+  </section>
+</Layout>
+<style>
+  section { margin-bottom: 4rem; } .lead { max-width: 48rem; } ul { line-height: 2; }
+  .table-wrap { overflow-x: auto; } table { width: 100%; } caption { text-align: left; margin-bottom: 1rem; }
+  th, td { text-align: left; padding: 1rem .75rem; vertical-align: top; border-bottom: 1px solid var(--line, #343434); }
+  time { font-size: .85rem; } .hero h1 { margin-bottom: 1.5rem; }
+</style>
