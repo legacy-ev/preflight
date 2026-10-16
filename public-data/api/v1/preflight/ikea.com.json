@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "ikea.com:2026-10-14T17:59:54.000Z:access:NO_DATA",
+        "evidence_id": "ikea.com:2026-10-16T05:50:02.224Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:54.000Z",
+        "checked_at": "2026-10-16T05:50:02.224Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "ikea.com:2026-10-14T17:59:54.000Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "ikea.com:2026-10-16T05:50:02.224Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:54.000Z",
+        "checked_at": "2026-10-16T05:50:02.224Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "ikea.com:2026-10-14T17:59:54.000Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "ikea.com:2026-10-16T05:50:02.224Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:54.000Z",
+        "checked_at": "2026-10-16T05:50:02.224Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11400,
+      "domain_age_days": 11402,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 189,
-      "access": 189,
-      "route": 189,
-      "tos": 189
+      "safety": 165,
+      "access": 165,
+      "route": 165,
+      "tos": 165
     },
     "links": {
       "human_page": "/preflight/site/ikea.com",
       "retry": "/preflight/api/v1/preflight/ikea.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "spD2-ZwHhC_uaYdV7Bv-moUTC1FHl4455ClaQA92J0JkscaHw165mBv-ibcF9LthotawGRpTeynaYTUE_FyaBA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "ACPSynbToKfp7JHlQMO-IJGl07NM-_2TTbM0dzFrM7h_bM9ALWU8_ZfkaqDYJj9MArLvr6MeOpOifRdMD4L-AQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

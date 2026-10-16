@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "nationalrail.co.uk:2026-10-14T18:02:24.676Z:access:NO_DATA",
+        "evidence_id": "nationalrail.co.uk:2026-10-16T05:52:12.594Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:24.676Z",
+        "checked_at": "2026-10-16T05:52:12.594Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "nationalrail.co.uk:2026-10-14T18:02:24.676Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "nationalrail.co.uk:2026-10-16T05:52:12.594Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:24.676Z",
+        "checked_at": "2026-10-16T05:52:12.594Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "nationalrail.co.uk:2026-10-14T18:02:24.676Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "nationalrail.co.uk:2026-10-16T05:52:12.594Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:24.676Z",
+        "checked_at": "2026-10-16T05:52:12.594Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": null,
+      "domain_age_days": 10782,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 38,
-      "access": 38,
-      "route": 38,
-      "tos": 38
+      "safety": 34,
+      "access": 34,
+      "route": 34,
+      "tos": 34
     },
     "links": {
       "human_page": "/preflight/site/nationalrail.co.uk",
       "retry": "/preflight/api/v1/preflight/nationalrail.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Tu94K1HTfkh5dugJQqU6ugCiCnY-LVsA-rHY5NvpiefjOHuUW44qzRl6jwZUNBVSzoFxb1WWYbL53N4eoT5qDQ",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "h17b5NO-KN2QsZhOSLsFyz64vPYaXOjvGJvg8Dzuk4_vRUc9SLb8EkWewfSvLDmWBOvonFrXwiO91F4GD_owBQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

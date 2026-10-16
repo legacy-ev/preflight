@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "adidas.com:2026-10-14T18:00:13.585Z:access:NO_DATA",
+        "evidence_id": "adidas.com:2026-10-16T05:50:19.210Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:13.585Z",
+        "checked_at": "2026-10-16T05:50:19.210Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "adidas.com:2026-10-14T18:00:13.585Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "adidas.com:2026-10-16T05:50:19.210Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:13.585Z",
+        "checked_at": "2026-10-16T05:50:19.210Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "adidas.com:2026-10-14T18:00:13.585Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "adidas.com:2026-10-16T05:50:19.210Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:13.585Z",
+        "checked_at": "2026-10-16T05:50:19.210Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11342,
+      "domain_age_days": 11344,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 169,
-      "access": 169,
-      "route": 169,
-      "tos": 169
+      "safety": 148,
+      "access": 148,
+      "route": 148,
+      "tos": 148
     },
     "links": {
       "human_page": "/preflight/site/adidas.com",
       "retry": "/preflight/api/v1/preflight/adidas.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "tWp5KjW0V882ritNvDT3prghjP7h-QpO3CBE8-9ZbrpzKAkNU_-oOmy9lPs-goPRCal_-fkDN-pUabBZd94DBQ",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "NOXwtCgYQiuKHTNFb41vejUIiylYwEGlF9WiCBv1eZHPy68FV6D7P5iQ48QMVCV01CI5j1Ywi4yLpJ522RhtDA",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

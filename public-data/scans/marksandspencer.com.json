@@ -1,28 +1,28 @@
 {
   "domain": "marksandspencer.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-14T18:01:05.771Z",
+  "checked_at": "2026-10-16T05:51:04.336Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-14T18:01:05.771Z",
+    "checked_at": "2026-10-16T05:51:04.336Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "not checked",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10438,
+    "domain_age_days": 10440,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10438,
-      "checked_at": "2026-10-14T18:01:05.771Z"
+      "domain_age_days": 10440,
+      "checked_at": "2026-10-16T05:51:04.336Z"
     }
   },
   "access": {
-    "checked_at": "2026-10-14T18:01:05.771Z",
+    "checked_at": "2026-10-16T05:51:04.336Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -39,7 +39,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 174,
+      "latency_ms": 596,
       "headers": {
         "server": {
           "value": "AkamaiGHost",
@@ -50,7 +50,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-14T18:01:05.771Z",
+    "checked_at": "2026-10-16T05:51:04.336Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -58,7 +58,7 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-14T18:01:05.771Z",
+    "checked_at": "2026-10-16T05:51:04.336Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
@@ -69,11 +69,11 @@
     "success_rate_30d": null,
     "status": "not collected"
   },
-  "finished_at": "2026-10-14T18:01:14.271Z",
+  "finished_at": "2026-10-16T05:51:11.114Z",
   "retained_safety_reasons": [],
   "evidence": {
-    "marksandspencer.com:2026-10-14T18:01:05.771Z:access:NO_DATA": {
-      "checked_at": "2026-10-14T18:01:05.771Z",
+    "marksandspencer.com:2026-10-16T05:51:04.336Z:access:NO_DATA": {
+      "checked_at": "2026-10-16T05:51:04.336Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -90,7 +90,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 174,
+        "latency_ms": 596,
         "headers": {
           "server": {
             "value": "AkamaiGHost",
@@ -100,38 +100,38 @@
       },
       "request_count": 1
     },
-    "marksandspencer.com:2026-10-14T18:01:05.771Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-14T18:01:05.771Z",
+    "marksandspencer.com:2026-10-16T05:51:04.336Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-16T05:51:04.336Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "not checked",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10438,
+      "domain_age_days": 10440,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10438,
-        "checked_at": "2026-10-14T18:01:05.771Z"
+        "domain_age_days": 10440,
+        "checked_at": "2026-10-16T05:51:04.336Z"
       }
     },
-    "marksandspencer.com:2026-10-14T18:01:05.771Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-14T18:01:05.771Z",
+    "marksandspencer.com:2026-10-16T05:51:04.336Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-16T05:51:04.336Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "not checked",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10438,
+      "domain_age_days": 10440,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10438,
-        "checked_at": "2026-10-14T18:01:05.771Z"
+        "domain_age_days": 10440,
+        "checked_at": "2026-10-16T05:51:04.336Z"
       }
     }
   }

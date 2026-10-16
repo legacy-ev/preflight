@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "stubhub.com:2026-10-14T18:02:35.692Z:access:NO_DATA",
+        "evidence_id": "stubhub.com:2026-10-16T05:52:22.497Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:35.692Z",
+        "checked_at": "2026-10-16T05:52:22.497Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "stubhub.com:2026-10-14T18:02:35.692Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "stubhub.com:2026-10-16T05:52:22.497Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:35.692Z",
+        "checked_at": "2026-10-16T05:52:22.497Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "stubhub.com:2026-10-14T18:02:35.692Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "stubhub.com:2026-10-16T05:52:22.497Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:35.692Z",
+        "checked_at": "2026-10-16T05:52:22.497Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 9608,
+      "domain_age_days": 9610,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 27,
-      "access": 27,
-      "route": 27,
-      "tos": 27
+      "safety": 24,
+      "access": 24,
+      "route": 24,
+      "tos": 24
     },
     "links": {
       "human_page": "/preflight/site/stubhub.com",
       "retry": "/preflight/api/v1/preflight/stubhub.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "mDW0C4mUCbZ3GKbqItHR_3RFr-1ZJdz1ngyDxdz8tuQ2qIVshKXsS2IqtTSVWvyfAnY_8hJwzlK-KK4VbN7xDQ",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "HnorE3fd85RHJ4atFrfTkk8hFEiQIsFpqFKms20rVv6ZhI6sz7ooko4JAplhEy_pcAW_fs7BkNmXscmhc_pnCw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

@@ -10,45 +10,45 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "rei.com:2026-10-14T18:00:38.974Z:access:ACCESS_BLOCKED",
+        "evidence_id": "rei.com:2026-10-16T05:50:41.919Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:38.974Z",
+        "checked_at": "2026-10-16T05:50:41.919Z",
         "ttl_seconds": 86400
       },
       {
         "code": "ACCESS_CHALLENGE_PAGE",
         "severity": "caution",
         "text": "A challenge or interstitial was detected; no bypass was attempted.",
-        "evidence_id": "rei.com:2026-10-14T18:00:38.974Z:access:ACCESS_CHALLENGE_PAGE",
+        "evidence_id": "rei.com:2026-10-16T05:50:41.919Z:access:ACCESS_CHALLENGE_PAGE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:38.974Z",
+        "checked_at": "2026-10-16T05:50:41.919Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "rei.com:2026-10-14T18:00:38.974Z:access:NO_DATA",
+        "evidence_id": "rei.com:2026-10-16T05:50:41.919Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:38.974Z",
+        "checked_at": "2026-10-16T05:50:41.919Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "rei.com:2026-10-14T18:00:38.974Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "rei.com:2026-10-16T05:50:41.919Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:38.974Z",
+        "checked_at": "2026-10-16T05:50:41.919Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "rei.com:2026-10-14T18:00:38.974Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "rei.com:2026-10-16T05:50:41.919Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:38.974Z",
+        "checked_at": "2026-10-16T05:50:41.919Z",
         "ttl_seconds": 3600
       }
     ],
@@ -64,7 +64,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11172,
+      "domain_age_days": 11174,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -75,25 +75,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 144,
-      "access": 144,
-      "route": 144,
-      "tos": 144
+      "safety": 125,
+      "access": 125,
+      "route": 125,
+      "tos": 125
     },
     "links": {
       "human_page": "/preflight/site/rei.com",
       "retry": "/preflight/api/v1/preflight/rei.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "6DIr778UPLHeIrk09-xunTrkE49N6r7QHts7hWUWxMtKb73ow-q1iGoF5nO09-3STfOwfPWggZk0jYoPloGfDw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "LtK_ozfc7FhjM3JOe0jMf2lk3a6prfTTnV-qbeYke16mPKPhTgM8jFgMsFO1K7QGxkBolPcS7mzXGybfAMKGBQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

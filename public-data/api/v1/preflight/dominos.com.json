@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "dominos.com:2026-10-14T18:01:36.771Z:access:NO_DATA",
+        "evidence_id": "dominos.com:2026-10-16T05:51:29.239Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:36.771Z",
+        "checked_at": "2026-10-16T05:51:29.239Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "dominos.com:2026-10-14T18:01:36.771Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "dominos.com:2026-10-16T05:51:29.239Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:36.771Z",
+        "checked_at": "2026-10-16T05:51:29.239Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "dominos.com:2026-10-14T18:01:36.771Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "dominos.com:2026-10-16T05:51:29.239Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:36.771Z",
+        "checked_at": "2026-10-16T05:51:29.239Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11789,
+      "domain_age_days": 11791,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 86,
-      "access": 86,
-      "route": 86,
-      "tos": 86
+      "safety": 78,
+      "access": 78,
+      "route": 78,
+      "tos": 78
     },
     "links": {
       "human_page": "/preflight/site/dominos.com",
       "retry": "/preflight/api/v1/preflight/dominos.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "XrD0GXkxgbslD3J3zJ9OJ3yIgJX34kZPIpsQX3qO5V1GoDHbJ4Nx6pFymkVWZ8nz93yQZ60Gcjs_e3g_JcbyAw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "A-490XCRr9ypHmrMAoPttCtBlRxHFmJPqz3rAc_EhLiAR4PP2gk10CORLvHSw9Y_YioA2J099Pi7qfViaO3EBg",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

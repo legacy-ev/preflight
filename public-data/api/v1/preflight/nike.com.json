@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "nike.com:2026-10-14T18:00:11.229Z:access:NO_DATA",
+        "evidence_id": "nike.com:2026-10-16T05:50:17.106Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:11.229Z",
+        "checked_at": "2026-10-16T05:50:17.106Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "nike.com:2026-10-14T18:00:11.229Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "nike.com:2026-10-16T05:50:17.106Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:11.229Z",
+        "checked_at": "2026-10-16T05:50:17.106Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "nike.com:2026-10-14T18:00:11.229Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "nike.com:2026-10-16T05:50:17.106Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:11.229Z",
+        "checked_at": "2026-10-16T05:50:17.106Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11547,
+      "domain_age_days": 11549,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 172,
-      "access": 172,
-      "route": 172,
-      "tos": 172
+      "safety": 150,
+      "access": 150,
+      "route": 150,
+      "tos": 150
     },
     "links": {
       "human_page": "/preflight/site/nike.com",
       "retry": "/preflight/api/v1/preflight/nike.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "LtEL60YufTPxkfo2-A7KR58oNCQIQx4je6IS-Wz6ptU5PffCdZj_RHIa9cBcgYqK5Kj4FgAliFvjYp3AdGQDDw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "a-DmeUL06tJldmuCELsXk-mRnWZP9IEHG6AczMojEXhvl8NEZXoVAqIN2YaT8tu_A_rGoP_4pSh7fgNiSUSrAw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

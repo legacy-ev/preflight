@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "gap.com:2026-10-14T18:00:01.410Z:access:NO_DATA",
+        "evidence_id": "gap.com:2026-10-16T05:50:08.607Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:01.410Z",
+        "checked_at": "2026-10-16T05:50:08.607Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "gap.com:2026-10-14T18:00:01.410Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "gap.com:2026-10-16T05:50:08.607Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:01.410Z",
+        "checked_at": "2026-10-16T05:50:08.607Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "gap.com:2026-10-14T18:00:01.410Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "gap.com:2026-10-16T05:50:08.607Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:01.410Z",
+        "checked_at": "2026-10-16T05:50:08.607Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 12084,
+      "domain_age_days": 12086,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 182,
-      "access": 182,
-      "route": 182,
-      "tos": 182
+      "safety": 158,
+      "access": 158,
+      "route": 158,
+      "tos": 158
     },
     "links": {
       "human_page": "/preflight/site/gap.com",
       "retry": "/preflight/api/v1/preflight/gap.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "2qfClAryptjeuxj7DJiGREs5zgTzcLEBe5u71nb3nCMyaJ2x3vlNBuSH66qJ89HO6siVi4z0aQyk-M_nmErxCw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "KR5_Tl-v2V3Mriv31-1hrEj9_9FvpmKkHmXjD1ruj-BkW8h8G0xdtpJax49qabhpuZvII9ItAKAZEEV13TNPAQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "costco.com:2026-10-14T17:59:25.944Z:access:NO_DATA",
+        "evidence_id": "costco.com:2026-10-16T05:49:37.405Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:25.944Z",
+        "checked_at": "2026-10-16T05:49:37.405Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "costco.com:2026-10-14T17:59:25.944Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "costco.com:2026-10-16T05:49:37.405Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:25.944Z",
+        "checked_at": "2026-10-16T05:49:37.405Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "costco.com:2026-10-14T17:59:25.944Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "costco.com:2026-10-16T05:49:37.405Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:25.944Z",
+        "checked_at": "2026-10-16T05:49:37.405Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 10803,
+      "domain_age_days": 10805,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 217,
-      "access": 217,
-      "route": 217,
-      "tos": 217
+      "safety": 190,
+      "access": 190,
+      "route": 190,
+      "tos": 190
     },
     "links": {
       "human_page": "/preflight/site/costco.com",
       "retry": "/preflight/api/v1/preflight/costco.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "KZwaMtfoTEn-Xqn2Y9Z4HaRFqLK8NQNRpxFqOePB2PbV-rora1II1JfedIDIiacIss3JUAPuPLZmfj0ZMkfuDA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "huYxJthGXUgs8fVDd9bFvFbTJwEmbb-zRIY0Ffl6zyZySdtaYshFfxMffFXIzWxz9DMd-KUcb-BWlRBM4i_lCQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

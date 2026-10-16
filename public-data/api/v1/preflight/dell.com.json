@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "dell.com:2026-10-14T17:59:41.709Z:access:NO_DATA",
+        "evidence_id": "dell.com:2026-10-16T05:49:51.051Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:41.709Z",
+        "checked_at": "2026-10-16T05:49:51.051Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "dell.com:2026-10-14T17:59:41.709Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "dell.com:2026-10-16T05:49:51.051Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:41.709Z",
+        "checked_at": "2026-10-16T05:49:51.051Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "dell.com:2026-10-14T17:59:41.709Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "dell.com:2026-10-16T05:49:51.051Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:41.709Z",
+        "checked_at": "2026-10-16T05:49:51.051Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 13840,
+      "domain_age_days": 13842,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 201,
-      "access": 201,
-      "route": 201,
-      "tos": 201
+      "safety": 176,
+      "access": 176,
+      "route": 176,
+      "tos": 176
     },
     "links": {
       "human_page": "/preflight/site/dell.com",
       "retry": "/preflight/api/v1/preflight/dell.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "tZAiXDod9dsKD6M9eNBWcr1olRHdmQYbyzNzafQjFIhno9i__0bcHAJ1gSVLt3ATJLzSziLFQMjvydFEsZd3AQ",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "2dRl_9yFfEhYYJMAm8fkkgtpjVX9vXJAZ8B7Wq02OPqjv6VStuCk0RxE6eHDycPZQ5i-IUK7sIoyPAPdtzSGDw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

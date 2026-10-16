@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "dickssportinggoods.com:2026-10-14T18:00:41.298Z:access:NO_DATA",
+        "evidence_id": "dickssportinggoods.com:2026-10-16T05:50:44.025Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:41.298Z",
+        "checked_at": "2026-10-16T05:50:44.025Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "dickssportinggoods.com:2026-10-14T18:00:41.298Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "dickssportinggoods.com:2026-10-16T05:50:44.025Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:41.298Z",
+        "checked_at": "2026-10-16T05:50:44.025Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "dickssportinggoods.com:2026-10-14T18:00:41.298Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "dickssportinggoods.com:2026-10-16T05:50:44.025Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:41.298Z",
+        "checked_at": "2026-10-16T05:50:44.025Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 10145,
+      "domain_age_days": 10147,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 142,
-      "access": 142,
-      "route": 142,
-      "tos": 142
+      "safety": 123,
+      "access": 123,
+      "route": 123,
+      "tos": 123
     },
     "links": {
       "human_page": "/preflight/site/dickssportinggoods.com",
       "retry": "/preflight/api/v1/preflight/dickssportinggoods.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "xlhWfU9g2KjonbTrrLgJ086VViNbJzVZ606egu21TbW1qL2dxDT_Tc857f8x-o3IJ_kUJEuuQw7kkfY90qiZDA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "aCvqCZkWEuQxFivF9xTBvaI7VjYqNJqRbIEx2oB47Y7lrLejkrbpOLmfVT8qha17av2S3Jycy6j5R4mkXSvvDw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

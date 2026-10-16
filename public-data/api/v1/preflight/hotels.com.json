@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "hotels.com:2026-10-14T18:01:54.473Z:access:NO_DATA",
+        "evidence_id": "hotels.com:2026-10-16T05:51:46.224Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:54.473Z",
+        "checked_at": "2026-10-16T05:51:46.224Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "hotels.com:2026-10-14T18:01:54.473Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "hotels.com:2026-10-16T05:51:46.224Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:54.473Z",
+        "checked_at": "2026-10-16T05:51:46.224Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "hotels.com:2026-10-14T18:01:54.473Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "hotels.com:2026-10-16T05:51:46.224Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:54.473Z",
+        "checked_at": "2026-10-16T05:51:46.224Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11886,
+      "domain_age_days": 11888,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 68,
-      "access": 68,
-      "route": 68,
-      "tos": 68
+      "safety": 61,
+      "access": 61,
+      "route": 61,
+      "tos": 61
     },
     "links": {
       "human_page": "/preflight/site/hotels.com",
       "retry": "/preflight/api/v1/preflight/hotels.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "OXyq-gXqjiP3KVCimBdbQjZoqqMZNlW7Kk7UkC4xbAUF2KkHOiqRmQeDb4bT5pHWHXhv0GruWE7CnTasBeVvCw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "wVl5CPV6-aaQaGBqx5N8oneMJia4NG7r1zVXHMp63ey41k1GM9UEMWjSGOn0NuQrucP5LOVzV83GXJdceuxuCw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

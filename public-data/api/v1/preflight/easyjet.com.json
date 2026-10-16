@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "easyjet.com:2026-10-14T18:02:19.490Z:access:NO_DATA",
+        "evidence_id": "easyjet.com:2026-10-16T05:52:07.922Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:19.490Z",
+        "checked_at": "2026-10-16T05:52:07.922Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "easyjet.com:2026-10-14T18:02:19.490Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "easyjet.com:2026-10-16T05:52:07.922Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:19.490Z",
+        "checked_at": "2026-10-16T05:52:07.922Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "easyjet.com:2026-10-14T18:02:19.490Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "easyjet.com:2026-10-16T05:52:07.922Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:19.490Z",
+        "checked_at": "2026-10-16T05:52:07.922Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 10795,
+      "domain_age_days": 10797,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 43,
-      "access": 43,
-      "route": 43,
-      "tos": 43
+      "safety": 39,
+      "access": 39,
+      "route": 39,
+      "tos": 39
     },
     "links": {
       "human_page": "/preflight/site/easyjet.com",
       "retry": "/preflight/api/v1/preflight/easyjet.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "iJDtHFoL1GCSe2LSXlig_ajSPjxUyBb3XDroHyVwniQ0spT5ke0khZQR48Ur6We_YaP8MXRNE3y6GYYQxCqqBA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "pdr1OzE2RDRDMgnMqp9gTTUzIfwBjb7B0boBquQbHaoNVezdmSVivCZ44q-x2A77LEym_ukVTs9ikNyPSgkWBg",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

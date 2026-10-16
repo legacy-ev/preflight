@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "marksandspencer.com:2026-10-14T18:01:05.771Z:access:NO_DATA",
+        "evidence_id": "marksandspencer.com:2026-10-16T05:51:04.336Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:05.771Z",
+        "checked_at": "2026-10-16T05:51:04.336Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "marksandspencer.com:2026-10-14T18:01:05.771Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "marksandspencer.com:2026-10-16T05:51:04.336Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:05.771Z",
+        "checked_at": "2026-10-16T05:51:04.336Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "marksandspencer.com:2026-10-14T18:01:05.771Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "marksandspencer.com:2026-10-16T05:51:04.336Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:05.771Z",
+        "checked_at": "2026-10-16T05:51:04.336Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 10438,
+      "domain_age_days": 10440,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 117,
-      "access": 117,
-      "route": 117,
-      "tos": 117
+      "safety": 103,
+      "access": 103,
+      "route": 103,
+      "tos": 103
     },
     "links": {
       "human_page": "/preflight/site/marksandspencer.com",
       "retry": "/preflight/api/v1/preflight/marksandspencer.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Kk_G0BZrrluW2l8rnO0abmrhB9fkue5yjElCdF43oNMzeMS8Uu9YufuLM1KloHZ10ANpoBpU43_-rN7AUk8vBw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "8muj-dEo2oacEjplxuqrhmjLl-y5kLge_gHxlrd1q5-epLGb-T9X3gt40UKqPh3bJlhbFZR2mdIFv8NERpp4Bg",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

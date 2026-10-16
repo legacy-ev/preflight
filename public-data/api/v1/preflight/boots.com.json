@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "boots.com:2026-10-14T18:00:26.392Z:access:NO_DATA",
+        "evidence_id": "boots.com:2026-10-16T05:50:30.896Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:26.392Z",
+        "checked_at": "2026-10-16T05:50:30.896Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "boots.com:2026-10-14T18:00:26.392Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "boots.com:2026-10-16T05:50:30.896Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:26.392Z",
+        "checked_at": "2026-10-16T05:50:30.896Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "boots.com:2026-10-14T18:00:26.392Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "boots.com:2026-10-16T05:50:30.896Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:26.392Z",
+        "checked_at": "2026-10-16T05:50:30.896Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11453,
+      "domain_age_days": 11455,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 157,
-      "access": 157,
-      "route": 157,
-      "tos": 157
+      "safety": 136,
+      "access": 136,
+      "route": 136,
+      "tos": 136
     },
     "links": {
       "human_page": "/preflight/site/boots.com",
       "retry": "/preflight/api/v1/preflight/boots.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "u4J82vmYU3T9HwWSXc_z7zaCHF6f4vOrOHL-dG1ALk_71saV-dMS5W8G7rx6AcsjCz_vMkR2nHz8DRc86xb3Cg",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "72loVJ96CRojWmGPydwrVjxWa7d65FiD_0V4dI--wqcQX6CSjrTmS3LNO3lzIIA0YhiwkBsei0Xn6m-9VXp-BQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

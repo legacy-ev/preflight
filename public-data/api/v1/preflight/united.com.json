@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "united.com:2026-10-14T18:02:07.290Z:access:NO_DATA",
+        "evidence_id": "united.com:2026-10-16T05:51:57.208Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:07.290Z",
+        "checked_at": "2026-10-16T05:51:57.208Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "united.com:2026-10-14T18:02:07.290Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "united.com:2026-10-16T05:51:57.208Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:07.290Z",
+        "checked_at": "2026-10-16T05:51:57.208Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "united.com:2026-10-14T18:02:07.290Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "united.com:2026-10-16T05:51:57.208Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:07.290Z",
+        "checked_at": "2026-10-16T05:51:57.208Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 10163,
+      "domain_age_days": 10165,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 56,
-      "access": 56,
-      "route": 56,
-      "tos": 56
+      "safety": 50,
+      "access": 50,
+      "route": 50,
+      "tos": 50
     },
     "links": {
       "human_page": "/preflight/site/united.com",
       "retry": "/preflight/api/v1/preflight/united.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Gl5e8Zfz1owXCYjNDNZ_8Tcn2zSg8FvCtfSGVPSaOUfy003jBB-a54uz6FaDmgLbfVrU3ZZlObCfD7Y4KzHVAw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "HMiXZX4Qn72_kixs4iDo52fRQLDo6DOs10W7mvGXnkrnQ5D9VPdv06NHYO7KWMksmJGjb8lhlNXIpOTbK1__Dg",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

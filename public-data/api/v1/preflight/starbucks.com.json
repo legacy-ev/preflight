@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "starbucks.com:2026-10-14T18:01:42.097Z:access:NO_DATA",
+        "evidence_id": "starbucks.com:2026-10-16T05:51:34.729Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:42.097Z",
+        "checked_at": "2026-10-16T05:51:34.729Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "starbucks.com:2026-10-14T18:01:42.097Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "starbucks.com:2026-10-16T05:51:34.729Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:42.097Z",
+        "checked_at": "2026-10-16T05:51:34.729Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "starbucks.com:2026-10-14T18:01:42.097Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "starbucks.com:2026-10-16T05:51:34.729Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:42.097Z",
+        "checked_at": "2026-10-16T05:51:34.729Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 12042,
+      "domain_age_days": 12044,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 81,
-      "access": 81,
-      "route": 81,
-      "tos": 81
+      "safety": 72,
+      "access": 72,
+      "route": 72,
+      "tos": 72
     },
     "links": {
       "human_page": "/preflight/site/starbucks.com",
       "retry": "/preflight/api/v1/preflight/starbucks.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "wAxnE9I9P_fEi4_bt7Nud_Rxl9BKTA1WCuDQHd63ngtqG_qT9Hj4dLn6Uv6KN_VtGEaXX5Z1GeWXr5L_6BWaAQ",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "9dnq1E_W6POtbbsFHEUmhhgiwIHszV4Tvhx2aCSGU9b5r_Isw7djq3KHdEQYtEZMIGd3Di0YBscxpz5X0o6RDw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "rightmove.co.uk:2026-10-14T18:02:43.498Z:access:NO_DATA",
+        "evidence_id": "rightmove.co.uk:2026-10-16T05:52:29.684Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:43.498Z",
+        "checked_at": "2026-10-16T05:52:29.684Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "rightmove.co.uk:2026-10-14T18:02:43.498Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "rightmove.co.uk:2026-10-16T05:52:29.684Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:43.498Z",
+        "checked_at": "2026-10-16T05:52:29.684Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "rightmove.co.uk:2026-10-14T18:02:43.498Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "rightmove.co.uk:2026-10-16T05:52:29.684Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:43.498Z",
+        "checked_at": "2026-10-16T05:52:29.684Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 9898,
+      "domain_age_days": 9900,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 19,
-      "access": 19,
-      "route": 19,
-      "tos": 19
+      "safety": 17,
+      "access": 17,
+      "route": 17,
+      "tos": 17
     },
     "links": {
       "human_page": "/preflight/site/rightmove.co.uk",
       "retry": "/preflight/api/v1/preflight/rightmove.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "aurQmFZgkuUWDXPVfv2C1JaG28lViWltQt0tM4ZESONVpEvr5EHSjnWcUWqSUmLNzF3jnvfW2Q9u_oU0-ziSCA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "2_-61yuVFIlDUXOXnrl8ouMmXuH_wrSq80Rsj31AlPaT-x6OQ1BKaWrbzIqbGHCPlFMj58SW3vXu7VtBSp9hBA",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

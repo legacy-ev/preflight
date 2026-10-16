@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "bhphotovideo.com:2026-10-14T17:59:33.421Z:access:NO_DATA",
+        "evidence_id": "bhphotovideo.com:2026-10-16T05:49:44.568Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:33.421Z",
+        "checked_at": "2026-10-16T05:49:44.568Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "bhphotovideo.com:2026-10-14T17:59:33.421Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "bhphotovideo.com:2026-10-16T05:49:44.568Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:33.421Z",
+        "checked_at": "2026-10-16T05:49:44.568Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "bhphotovideo.com:2026-10-14T17:59:33.421Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "bhphotovideo.com:2026-10-16T05:49:44.568Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:33.421Z",
+        "checked_at": "2026-10-16T05:49:44.568Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11110,
+      "domain_age_days": 11112,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 210,
-      "access": 210,
-      "route": 210,
-      "tos": 210
+      "safety": 182,
+      "access": 182,
+      "route": 182,
+      "tos": 182
     },
     "links": {
       "human_page": "/preflight/site/bhphotovideo.com",
       "retry": "/preflight/api/v1/preflight/bhphotovideo.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "MwG0VN2vQ_fH1TmgxWT_5eOX1xo1OC_tmvl11aPHQzTYkZLHLUcX6TsDrpm_mCMdUQbsH-mSinUsH7FYyCFIBg",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "9XOcdylMPBYtvFwPxPV246bN-6mTEpxnvZJ-TXX0oppXD4naGkxHAVoDqX31LQrSVwfFFS9Llaeb5vw0e-WwCw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

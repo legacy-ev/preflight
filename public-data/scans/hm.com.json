@@ -1,28 +1,28 @@
 {
   "domain": "hm.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-14T18:00:06.308Z",
+  "checked_at": "2026-10-16T05:50:12.875Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-14T18:00:06.308Z",
+    "checked_at": "2026-10-16T05:50:12.875Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "not checked",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10561,
+    "domain_age_days": 10563,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10561,
-      "checked_at": "2026-10-14T18:00:06.308Z"
+      "domain_age_days": 10563,
+      "checked_at": "2026-10-16T05:50:12.875Z"
     }
   },
   "access": {
-    "checked_at": "2026-10-14T18:00:06.308Z",
+    "checked_at": "2026-10-16T05:50:12.875Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": null,
@@ -45,7 +45,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-14T18:00:06.308Z",
+    "checked_at": "2026-10-16T05:50:12.875Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -53,7 +53,7 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-14T18:00:06.308Z",
+    "checked_at": "2026-10-16T05:50:12.875Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
@@ -64,11 +64,11 @@
     "success_rate_30d": null,
     "status": "not collected"
   },
-  "finished_at": "2026-10-14T18:00:23.052Z",
+  "finished_at": "2026-10-16T05:50:30.896Z",
   "retained_safety_reasons": [],
   "evidence": {
-    "hm.com:2026-10-14T18:00:06.308Z:access:NO_DATA": {
-      "checked_at": "2026-10-14T18:00:06.308Z",
+    "hm.com:2026-10-16T05:50:12.875Z:access:NO_DATA": {
+      "checked_at": "2026-10-16T05:50:12.875Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": null,
@@ -90,38 +90,38 @@
       },
       "request_count": 1
     },
-    "hm.com:2026-10-14T18:00:06.308Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-14T18:00:06.308Z",
+    "hm.com:2026-10-16T05:50:12.875Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-16T05:50:12.875Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "not checked",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10561,
+      "domain_age_days": 10563,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10561,
-        "checked_at": "2026-10-14T18:00:06.308Z"
+        "domain_age_days": 10563,
+        "checked_at": "2026-10-16T05:50:12.875Z"
       }
     },
-    "hm.com:2026-10-14T18:00:06.308Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-14T18:00:06.308Z",
+    "hm.com:2026-10-16T05:50:12.875Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-16T05:50:12.875Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "not checked",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10561,
+      "domain_age_days": 10563,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10561,
-        "checked_at": "2026-10-14T18:00:06.308Z"
+        "domain_age_days": 10563,
+        "checked_at": "2026-10-16T05:50:12.875Z"
       }
     }
   }

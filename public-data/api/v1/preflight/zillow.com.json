@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "zillow.com:2026-10-14T18:02:41.105Z:access:NO_DATA",
+        "evidence_id": "zillow.com:2026-10-16T05:52:27.204Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:41.105Z",
+        "checked_at": "2026-10-16T05:52:27.204Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "zillow.com:2026-10-14T18:02:41.105Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "zillow.com:2026-10-16T05:52:27.204Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:41.105Z",
+        "checked_at": "2026-10-16T05:52:27.204Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "zillow.com:2026-10-14T18:02:41.105Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "zillow.com:2026-10-16T05:52:27.204Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:41.105Z",
+        "checked_at": "2026-10-16T05:52:27.204Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 8062,
+      "domain_age_days": 8064,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 22,
-      "access": 22,
-      "route": 22,
-      "tos": 22
+      "safety": 20,
+      "access": 20,
+      "route": 20,
+      "tos": 20
     },
     "links": {
       "human_page": "/preflight/site/zillow.com",
       "retry": "/preflight/api/v1/preflight/zillow.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "rXrIPd_9PvU5xtxkBTdflGulaW_EteMO8sWxBzbZMMu6Mn_Bv7axtD8rjCzAm72VKr7Xn4zJyJLBd9Y1DzFdCA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "nj3eR3YgPLioDKX7DU0DU8C3Njdvc9gkuVGVbH31bNl-ZNM0AuFMW17Ri3HmFHL3atXQwUb-MQ-1OijMxio6Dw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

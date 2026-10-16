@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "zoopla.co.uk:2026-10-14T18:02:46.008Z:access:NO_DATA",
+        "evidence_id": "zoopla.co.uk:2026-10-16T05:52:31.798Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:46.008Z",
+        "checked_at": "2026-10-16T05:52:31.798Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "zoopla.co.uk:2026-10-14T18:02:46.008Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "zoopla.co.uk:2026-10-16T05:52:31.798Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:46.008Z",
+        "checked_at": "2026-10-16T05:52:31.798Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "zoopla.co.uk:2026-10-14T18:02:46.008Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "zoopla.co.uk:2026-10-16T05:52:31.798Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:46.008Z",
+        "checked_at": "2026-10-16T05:52:31.798Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 7333,
+      "domain_age_days": 7335,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 17,
-      "access": 17,
-      "route": 17,
-      "tos": 17
+      "safety": 15,
+      "access": 15,
+      "route": 15,
+      "tos": 15
     },
     "links": {
       "human_page": "/preflight/site/zoopla.co.uk",
       "retry": "/preflight/api/v1/preflight/zoopla.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "4HekRKxQzRWMtpEYi795EE0D_EZxnlVwkoy9wNNBYvdg5sO1qa6dJmS0urvHatpNuptCecZiVF1T-4TwrFInBg",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "vGeWMGpB7tR7AWjFAw_EcSggVa72FyPRzjSS2SnXx2I9j4eqnotPR-1Zcb2GMEnzH888oKyABH3IvInzrfk3BA",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

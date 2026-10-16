@@ -10,36 +10,36 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "amtrak.com:2026-10-14T18:02:27.273Z:access:ACCESS_BLOCKED",
+        "evidence_id": "amtrak.com:2026-10-16T05:52:14.690Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:27.273Z",
+        "checked_at": "2026-10-16T05:52:14.690Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "amtrak.com:2026-10-14T18:02:27.273Z:access:NO_DATA",
+        "evidence_id": "amtrak.com:2026-10-16T05:52:14.690Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:27.273Z",
+        "checked_at": "2026-10-16T05:52:14.690Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "amtrak.com:2026-10-14T18:02:27.273Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "amtrak.com:2026-10-16T05:52:14.690Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:27.273Z",
+        "checked_at": "2026-10-16T05:52:14.690Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "amtrak.com:2026-10-14T18:02:27.273Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "amtrak.com:2026-10-16T05:52:14.690Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:02:27.273Z",
+        "checked_at": "2026-10-16T05:52:14.690Z",
         "ttl_seconds": 3600
       }
     ],
@@ -55,7 +55,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11573,
+      "domain_age_days": 11575,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -66,25 +66,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 36,
-      "access": 36,
-      "route": 36,
-      "tos": 36
+      "safety": 32,
+      "access": 32,
+      "route": 32,
+      "tos": 32
     },
     "links": {
       "human_page": "/preflight/site/amtrak.com",
       "retry": "/preflight/api/v1/preflight/amtrak.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "OSxH8MWN_PLSI2-npUldgqXWQ9ldy5qAJJNulc2yrUe1bzQPwjDmzL5UOAd4tXKhN_5dv9D45gkBoU2EfV2dBw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "1i14ah8nyIOg8X-TJzcdutKeSBC3tsPzHm-H7ALe1iM5LmS4-QKBv5Dz7Mfq_G0IMrQiGHAbYtUALtDykSBcAw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

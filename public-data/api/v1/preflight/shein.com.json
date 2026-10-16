@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "shein.com:2026-10-14T18:01:21.146Z:access:NO_DATA",
+        "evidence_id": "shein.com:2026-10-16T05:51:16.145Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:21.146Z",
+        "checked_at": "2026-10-16T05:51:16.145Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "shein.com:2026-10-14T18:01:21.146Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "shein.com:2026-10-16T05:51:16.145Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:21.146Z",
+        "checked_at": "2026-10-16T05:51:16.145Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "shein.com:2026-10-14T18:01:21.146Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "shein.com:2026-10-16T05:51:16.145Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:21.146Z",
+        "checked_at": "2026-10-16T05:51:16.145Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 10498,
+      "domain_age_days": 10500,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 102,
-      "access": 102,
-      "route": 102,
-      "tos": 102
+      "safety": 91,
+      "access": 91,
+      "route": 91,
+      "tos": 91
     },
     "links": {
       "human_page": "/preflight/site/shein.com",
       "retry": "/preflight/api/v1/preflight/shein.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "wykV97CZ25X8ZRfKUh7DQK-cPCJnAhSxLLMM73cwmPm5gmHGoF4yp1eSDiqrHVHjg-hUE-IiDHGveVcNiYZzCQ",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "raiekKmftsWnr8aERfYdDZo945u-2A05vubtUaQFWjHPkzA_Cwxf1S8hO2y_j10dWfzo0p1ZQdXAGODeoP0qBQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

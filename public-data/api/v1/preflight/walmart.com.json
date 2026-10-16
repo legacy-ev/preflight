@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "walmart.com:2026-10-14T17:59:20.470Z:access:NO_DATA",
+        "evidence_id": "walmart.com:2026-10-16T05:49:32.718Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:20.470Z",
+        "checked_at": "2026-10-16T05:49:32.718Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "walmart.com:2026-10-14T17:59:20.470Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "walmart.com:2026-10-16T05:49:32.718Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:20.470Z",
+        "checked_at": "2026-10-16T05:49:32.718Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "walmart.com:2026-10-14T17:59:20.470Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "walmart.com:2026-10-16T05:49:32.718Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:20.470Z",
+        "checked_at": "2026-10-16T05:49:32.718Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 11556,
+      "domain_age_days": 11558,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 222,
-      "access": 222,
-      "route": 222,
-      "tos": 222
+      "safety": 194,
+      "access": 194,
+      "route": 194,
+      "tos": 194
     },
     "links": {
       "human_page": "/preflight/site/walmart.com",
       "retry": "/preflight/api/v1/preflight/walmart.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "upoqGTZro-dAgCp5oJ1rueC_tx5m3ra3G_2hz5pBdRfAUMcajqT-BafCoYAJBtRI6YD4I4JgG66tnn1hEB5MAg",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "oIzeggPCYZgsuosJMwb4RZ3jvIZDrC1TsDMPIdsAt7rKjK2rg5qbiAMOzdaC8GWybGl9a5b5Y6gc8HHNwfdrDw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

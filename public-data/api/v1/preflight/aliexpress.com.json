@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "aliexpress.com:2026-10-14T18:01:14.271Z:access:NO_DATA",
+        "evidence_id": "aliexpress.com:2026-10-16T05:51:11.114Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:14.271Z",
+        "checked_at": "2026-10-16T05:51:11.114Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "aliexpress.com:2026-10-14T18:01:14.271Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "aliexpress.com:2026-10-16T05:51:11.114Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:14.271Z",
+        "checked_at": "2026-10-16T05:51:11.114Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "aliexpress.com:2026-10-14T18:01:14.271Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "aliexpress.com:2026-10-16T05:51:11.114Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:14.271Z",
+        "checked_at": "2026-10-16T05:51:11.114Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 7485,
+      "domain_age_days": 7487,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 109,
-      "access": 109,
-      "route": 109,
-      "tos": 109
+      "safety": 96,
+      "access": 96,
+      "route": 96,
+      "tos": 96
     },
     "links": {
       "human_page": "/preflight/site/aliexpress.com",
       "retry": "/preflight/api/v1/preflight/aliexpress.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "9m425Dc6LZ5LbOoCo2OIbmAdkRwDOG0GpJGRwwHmVymyFpyYsSSa417IxLalH3o7hXAhWLIyL4fntAtVF8vfDQ",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "l9_PQ1NMUWnUCjJyMtSwb7_VewOwvrpADl1QmcwOqiTDmgrUECm2Xo0PCIMfdek9eCvm6slc9Dfd4f0Xok31AQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

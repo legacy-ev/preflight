@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "wayfair.com:2026-10-14T17:59:51.679Z:access:NO_DATA",
+        "evidence_id": "wayfair.com:2026-10-16T05:50:00.109Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:51.679Z",
+        "checked_at": "2026-10-16T05:50:00.109Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "wayfair.com:2026-10-14T17:59:51.679Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "wayfair.com:2026-10-16T05:50:00.109Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:51.679Z",
+        "checked_at": "2026-10-16T05:50:00.109Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "wayfair.com:2026-10-14T17:59:51.679Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "wayfair.com:2026-10-16T05:50:00.109Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T17:59:51.679Z",
+        "checked_at": "2026-10-16T05:50:00.109Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 8154,
+      "domain_age_days": 8156,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 191,
-      "access": 191,
-      "route": 191,
-      "tos": 191
+      "safety": 167,
+      "access": 167,
+      "route": 167,
+      "tos": 167
     },
     "links": {
       "human_page": "/preflight/site/wayfair.com",
       "retry": "/preflight/api/v1/preflight/wayfair.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "DSbJ0e__BeHepO0F5a-yvfmNWnwDY1Eb1KWNC73ypFtL7pIeYzZElKo4RILhbyZ0h3ix4v4xVIlJGKM7-lQhDw",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "dZKPzYpDjMjwnSgmDo6g0b2xwEMzJzu6yIpoMmBkM4aZMaJ4CAnkbSwlL6TkYyFlI2hBDHSzXvnjkN-8IaW0BQ",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

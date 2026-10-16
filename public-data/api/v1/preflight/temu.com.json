@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "temu.com:2026-10-14T18:01:17.222Z:access:NO_DATA",
+        "evidence_id": "temu.com:2026-10-16T05:51:13.799Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:17.222Z",
+        "checked_at": "2026-10-16T05:51:13.799Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "temu.com:2026-10-14T18:01:17.222Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "temu.com:2026-10-16T05:51:13.799Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:17.222Z",
+        "checked_at": "2026-10-16T05:51:13.799Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "temu.com:2026-10-14T18:01:17.222Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "temu.com:2026-10-16T05:51:13.799Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:01:17.222Z",
+        "checked_at": "2026-10-16T05:51:13.799Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 8568,
+      "domain_age_days": 8570,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 106,
-      "access": 106,
-      "route": 106,
-      "tos": 106
+      "safety": 93,
+      "access": 93,
+      "route": 93,
+      "tos": 93
     },
     "links": {
       "human_page": "/preflight/site/temu.com",
       "retry": "/preflight/api/v1/preflight/temu.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "NJqH3oCCP1-5uBZUUqmaub0a8a_6pkffg3ru-jTMj_0-kmqC5capCr4cPbzAMPSzcR_9HebyC5UBOmqjPIR4CA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "By3qNeYEk5_J5SOC7T9lQpljz2oj65BouzHSJrFSIbgQAQuRrt4MR9_tS2oLERgoyjhQvE5o9NSm60An7xkIDw",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

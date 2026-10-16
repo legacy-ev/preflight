@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "ocado.com:2026-10-14T18:00:56.209Z:access:NO_DATA",
+        "evidence_id": "ocado.com:2026-10-16T05:50:57.098Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:56.209Z",
+        "checked_at": "2026-10-16T05:50:57.098Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "ocado.com:2026-10-14T18:00:56.209Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "ocado.com:2026-10-16T05:50:57.098Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:56.209Z",
+        "checked_at": "2026-10-16T05:50:57.098Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "ocado.com:2026-10-14T18:00:56.209Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "ocado.com:2026-10-16T05:50:57.098Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-14T18:00:56.209Z",
+        "checked_at": "2026-10-16T05:50:57.098Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,7 +46,7 @@
     },
     "safety": {
       "listed_on": [],
-      "domain_age_days": 9704,
+      "domain_age_days": 9705,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -57,25 +57,25 @@
       "top_failure_stage": null
     },
     "freshness": {
-      "safety": 127,
-      "access": 127,
-      "route": 127,
-      "tos": 127
+      "safety": 110,
+      "access": 110,
+      "route": 110,
+      "tos": 110
     },
     "links": {
       "human_page": "/preflight/site/ocado.com",
       "retry": "/preflight/api/v1/preflight/ocado.com.json"
     },
     "ruleset_version": "0.1.0-static.1",
-    "generated_at": "2026-10-14T18:03:03.432Z",
+    "generated_at": "2026-10-16T05:52:47.479Z",
     "signature": null,
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "expires_at": "2026-10-17T05:52:47.479Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "DzRVK4gdpOG_AAPBR_J_waJcwokScOGWiKZap2iHCyz5FSXy6Q3x6ABETbzF2IqjkQ-HMi1ja3uKScz4FsZlAA",
-    "generated_at": "2026-10-14T18:03:03.432Z",
-    "expires_at": "2026-10-15T18:03:03.432Z"
+    "sig": "p-kMS7sGGkBYT1DzUTGy86ebYZkHQPnIXmh2BeuH47euyTFMbIhOd7w1jzYONcNh-FPoGZcRom2zBR0b9dQVCA",
+    "generated_at": "2026-10-16T05:52:47.479Z",
+    "expires_at": "2026-10-17T05:52:47.479Z"
   }
 }

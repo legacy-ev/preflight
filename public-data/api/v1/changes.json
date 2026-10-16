@@ -1,5 +1,16 @@
 [
   {
+    "at": "2026-10-16T05:52:47.479Z",
+    "domain": "deliveroo.co.uk",
+    "from": "CAUTION",
+    "to": "CAUTION",
+    "reason_codes": [
+      "INDEPENDENT_SAFETY_UNVERIFIED"
+    ],
+    "prev_hash": "5fb91e486d29aa2da6bd166fe1a6139b88abd9473ba5965563c51ed81b615fb2",
+    "hash": "200a591897aea5dcf989305d87107d44649e08877ede826cea318df3e55c7eca"
+  },
+  {
     "at": "2026-10-14T18:03:03.432Z",
     "domain": "zoopla.co.uk",
     "from": null,

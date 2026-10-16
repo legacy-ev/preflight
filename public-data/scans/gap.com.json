@@ -1,28 +1,28 @@
 {
   "domain": "gap.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-14T18:00:01.410Z",
+  "checked_at": "2026-10-16T05:50:08.607Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-14T18:00:01.410Z",
+    "checked_at": "2026-10-16T05:50:08.607Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "not checked",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 12084,
+    "domain_age_days": 12086,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 12084,
-      "checked_at": "2026-10-14T18:00:01.410Z"
+      "domain_age_days": 12086,
+      "checked_at": "2026-10-16T05:50:08.607Z"
     }
   },
   "access": {
-    "checked_at": "2026-10-14T18:00:01.410Z",
+    "checked_at": "2026-10-16T05:50:08.607Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -39,7 +39,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 256,
+      "latency_ms": 451,
       "headers": {
         "server": {
           "value": "AkamaiGHost",
@@ -50,7 +50,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-14T18:00:01.410Z",
+    "checked_at": "2026-10-16T05:50:08.607Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -58,7 +58,7 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-14T18:00:01.410Z",
+    "checked_at": "2026-10-16T05:50:08.607Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
@@ -69,11 +69,11 @@
     "success_rate_30d": null,
     "status": "not collected"
   },
-  "finished_at": "2026-10-14T18:00:08.891Z",
+  "finished_at": "2026-10-16T05:50:14.977Z",
   "retained_safety_reasons": [],
   "evidence": {
-    "gap.com:2026-10-14T18:00:01.410Z:access:NO_DATA": {
-      "checked_at": "2026-10-14T18:00:01.410Z",
+    "gap.com:2026-10-16T05:50:08.607Z:access:NO_DATA": {
+      "checked_at": "2026-10-16T05:50:08.607Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -90,7 +90,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 256,
+        "latency_ms": 451,
         "headers": {
           "server": {
             "value": "AkamaiGHost",
@@ -100,38 +100,38 @@
       },
       "request_count": 1
     },
-    "gap.com:2026-10-14T18:00:01.410Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-14T18:00:01.410Z",
+    "gap.com:2026-10-16T05:50:08.607Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-16T05:50:08.607Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "not checked",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 12084,
+      "domain_age_days": 12086,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 12084,
-        "checked_at": "2026-10-14T18:00:01.410Z"
+        "domain_age_days": 12086,
+        "checked_at": "2026-10-16T05:50:08.607Z"
       }
     },
-    "gap.com:2026-10-14T18:00:01.410Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-14T18:00:01.410Z",
+    "gap.com:2026-10-16T05:50:08.607Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-16T05:50:08.607Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "not checked",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 12084,
+      "domain_age_days": 12086,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 12084,
-        "checked_at": "2026-10-14T18:00:01.410Z"
+        "domain_age_days": 12086,
+        "checked_at": "2026-10-16T05:50:08.607Z"
       }
     }
   }
