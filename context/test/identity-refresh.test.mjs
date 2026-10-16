@@ -16,8 +16,12 @@ test('weekly identity refresh skips fresh snapshots and keeps files on validatio
   assert.equal(calls,0);
   await assert.rejects(refreshIdentity({directory,at:due,read:async()=>'<html>untrusted error</html>'}));
   assert.equal(await readFile(join(directory,'metadata.json'),'utf8'),original);
-  const refreshed=await refreshIdentity({directory,at:due,read:async url=>readFile(new URL('../vendor/'+new URL(url).pathname.split('/').at(-1),import.meta.url),'utf8')});
+  const requested=[];
+  const refreshed=await refreshIdentity({directory,at:due,read:async url=>{requested.push(url);return readFile(new URL('../vendor/'+new URL(url).pathname.split('/').at(-1),import.meta.url),'utf8');}});
   assert.equal(refreshed,true);
+  assert.deepEqual(requested.map(url=>new URL(url).pathname.split('/').at(-1)),['confusables.txt','Scripts.txt']);
+  const metadata=JSON.parse(await readFile(join(directory,'metadata.json'),'utf8'));
+  assert.deepEqual(Object.keys(metadata.sha256),['confusables.txt','Scripts.txt']);
   assert.equal(JSON.parse(await readFile(join(directory,'metadata.json'),'utf8')).checked_at,due);
  }finally{await rm(root,{recursive:true,force:true});}
 });

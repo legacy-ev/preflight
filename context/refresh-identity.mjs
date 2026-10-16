@@ -4,15 +4,14 @@ import {fileURLToPath,pathToFileURL} from 'node:url';
 import {createHash} from 'node:crypto';
 import {sourceClient} from './fetch.mjs';
 export const IDENTITY_SOURCES={
- 'public_suffix_list.dat':'https://publicsuffix.org/list/public_suffix_list.dat',
  'confusables.txt':'https://www.unicode.org/Public/17.0.0/security/confusables.txt',
  'Scripts.txt':'https://www.unicode.org/Public/17.0.0/ucd/Scripts.txt',
 };
 function validate(name,text) {
  if(typeof text!=='string' || Buffer.byteLength(text)>2*1024*1024 || /<html|<!doctype/i.test(text)) throw Error('Invalid identity snapshot');
- const lines=text.split('\n').map(l=>l.split(name==='public_suffix_list.dat'?'//':'#')[0].trim()).filter(Boolean);
- const pattern=name==='public_suffix_list.dat'? /^(?:!|\*\.)?[^\s;<>]+$/u : name==='Scripts.txt'?/^[0-9A-F]+(?:\.\.[0-9A-F]+)?\s*;\s*[A-Za-z_]+$/ : /^[0-9A-F]+\s*;\s*(?:[0-9A-F]+\s*)+;\s*MA$/;
- if(lines.length<1000 || lines.some(l=>!pattern.test(l)) || (name==='public_suffix_list.dat'?!text.includes('Mozilla Public'):!text.includes('17.0.0'))) throw Error('Invalid identity snapshot');
+ const lines=text.split('\n').map(l=>l.split('#')[0].trim()).filter(Boolean);
+ const pattern=name==='Scripts.txt'?/^[0-9A-F]+(?:\.\.[0-9A-F]+)?\s*;\s*[A-Za-z_]+$/ : /^[0-9A-F]+\s*;\s*(?:[0-9A-F]+\s*)+;\s*MA$/;
+ if(lines.length<1000 || lines.some(l=>!pattern.test(l)) || !text.includes('17.0.0')) throw Error('Invalid identity snapshot');
 }
 export async function refreshIdentity({directory=fileURLToPath(new URL('./vendor/',import.meta.url)),at=new Date().toISOString(),read=sourceClient()}={}) {
  const metadata=JSON.parse(await readFile(join(directory,'metadata.json'),'utf8'));

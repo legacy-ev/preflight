@@ -54,8 +54,8 @@ or before expiry. It is not a live tool/quota
 observation. No quota balance or last successful runtime probe is invented.
 
 Per-domain sections.domain_identity and the local MCP domain_identity(domain)
-helper use the vendored PSL including private rules, Unicode confusables and
-Scripts 17.0.0. Skeleton mapping changes (including ASCII mappings like m → rn)
+helper use pinned tldts (including private PSL rules), plus vendored Unicode
+confusables and Scripts 17.0.0. Skeleton mapping changes (including ASCII mappings like m → rn)
 are warnings, never proof of impersonation. mixed_script checks within a label,
 ignores Common/Inherited characters, and does not implement UTS #39 restriction
 levels or resolve Script_Extensions. Some legitimate labels mix scripts. No
@@ -63,7 +63,7 @@ brand comparison or ownership conclusion is made; exact-origin routes are unchan
 Canonical computed DNS identifiers remain complete (at most 253 characters);
 only the display skeleton caps at 200 with display_truncated. Raw third-party
 evidence prose remains capped/untrusted, and reference comments are not exposed.
-Snapshot timestamps/hashes are in vendor/metadata.json; TTL is seven days.
+Unicode snapshot timestamps/hashes are in vendor/metadata.json; TTL is seven days. PSL data is updated through reviewed tldts dependency updates.
 The hourly context workflow runs node context/refresh-identity.mjs, skips fresh
 snapshots and commits due refreshes alongside public data. URLs are fixed,
 Unicode version is pinned, robots/size/timeout limits apply, and failed refresh

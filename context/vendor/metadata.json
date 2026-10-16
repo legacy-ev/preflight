@@ -1,12 +1,10 @@
 {
   "checked_at": "2026-10-16T16:13:17Z",
   "sources": {
-    "public_suffix_list.dat": "https://publicsuffix.org/list/public_suffix_list.dat",
     "confusables.txt": "https://www.unicode.org/Public/17.0.0/security/confusables.txt",
     "Scripts.txt": "https://www.unicode.org/Public/17.0.0/ucd/Scripts.txt"
   },
   "sha256": {
-    "public_suffix_list.dat": "ba7d836c0ea57a8bcf9f1fcb868066a7554bed029b441ecc6204ad8494a32612",
     "confusables.txt": "091c7f82fc39ef208faf8f94d29c244de99254675e09de163160c810d13ef22a",
     "Scripts.txt": "9f5e50d3abaee7d6ce09480f325c706f485ae3240912527e651954d2d6b035bf"
   }

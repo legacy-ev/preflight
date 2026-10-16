@@ -15,7 +15,7 @@ test('fleet guidance survives aggregation with ordered checks and provenance',as
 });
 test('identity uses PSL wildcard, exception, private and IDN rules and rejects URLs',async()=>{
  const {domainIdentity}=await import('../domain-identity.mjs');
- for(const [host,want] of [['www.example.co.uk','example.co.uk'],['a.b.ck','a.b.ck'],['a.www.ck','www.ck'],['a.foo.github.io','foo.github.io'],['www.食狮.公司.cn','xn--85x722f.xn--55qx5d.cn'],['co.uk',null]]) {
+ for(const [host,want] of [['www.example.co.uk','example.co.uk'],['a.b.ck','a.b.ck'],['a.www.ck','www.ck'],['a.foo.github.io','foo.github.io'],['www.食狮.公司.cn','xn--85x722f.xn--55qx5d.cn'],['co.uk',null],['github.io',null],['b.ck',null],['WWW.Example.COM.','example.com'],['a.example.invalid','example.invalid']]) {
   assert.equal(domainIdentity(host).value.registrable_domain,want,host);
  }
  const mixed=domainIdentity('pаypal.com').value; // Cyrillic а
@@ -23,6 +23,8 @@ test('identity uses PSL wildcard, exception, private and IDN rules and rejects U
  assert.equal(mixed.confusable,true);assert.equal(mixed.confusable_skeleton,'paypal.corn');
  assert.equal(domainIdentity('例子.中国').value.mixed_script,false);
  assert.equal(domainIdentity('example.com').value.punycode,false);
+ assert.equal(domainIdentity('aaa.co').value.confusable,false);
+ assert.equal(domainIdentity('example.com').value.private_suffixes,true);
  for(const bad of ['https://example.com','evil.com/path','127.0.0.1','a..com','xn--.com','a.com:443','x@a.com','x\n.com']) assert.throws(()=>domainIdentity(bad),bad);
 });
 test('long canonical hostname identity is never silently clipped',async()=>{
