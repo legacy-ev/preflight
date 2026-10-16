@@ -37,3 +37,19 @@ curated facts and their timestamps. Unsigned snapshots fail closed in context.
 Run `node --test tests` and `node tooling/check.mjs` from the repository root.
 The latter uses only public GET requests with the existing robots/transport
 policy; it does not use API keys. The existing signing seed is optional.
+
+Model shutdown schedules: `node tooling/model-deprecations.mjs` fetches only the
+public Groq and Gemini deprecation pages, without credentials. The weekly tooling
+workflow stages `data/model-deprecations.json` before the existing publication
+step. Context output includes `model_deprecations` with original source timestamps
+and TTL; `/tooling` displays the records and the site exports
+`api/v1/model-deprecations.json` as an unsigned reference dataset.
+
+Only shutdown-table dates are parsed, never announcement/release dates. Gemini
+labels its dates earliest possible; `date_kind` preserves that qualification.
+Unclear dates and failed/unrecognized pages are `unknown`; a failed refresh clears
+that provider's model rows instead of renewing old assertions. Provider status
+records always link to the official schedule. These pages do not prove individual
+models are available free, and listed replacements can themselves be retired.
+The initial snapshot was extracted from both official pages fetched via the browser
+on 2026-10-16 (shell DNS was unavailable). Refresh parsing uses HTML table headers.
