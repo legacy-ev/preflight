@@ -10,45 +10,45 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "sainsburys.co.uk:2026-10-16T13:22:40.055Z:access:ACCESS_BLOCKED",
+        "evidence_id": "sainsburys.co.uk:2026-10-17T09:23:32.085Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 86400
       },
       {
         "code": "ACCESS_CHALLENGE_PAGE",
         "severity": "caution",
         "text": "A challenge or interstitial was detected; no bypass was attempted.",
-        "evidence_id": "sainsburys.co.uk:2026-10-16T13:22:40.055Z:access:ACCESS_CHALLENGE_PAGE",
+        "evidence_id": "sainsburys.co.uk:2026-10-17T09:23:32.085Z:access:ACCESS_CHALLENGE_PAGE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "sainsburys.co.uk:2026-10-16T13:22:40.055Z:access:NO_DATA",
+        "evidence_id": "sainsburys.co.uk:2026-10-17T09:23:32.085Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "sainsburys.co.uk:2026-10-16T13:22:40.055Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "sainsburys.co.uk:2026-10-17T09:23:32.085Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "sainsburys.co.uk:2026-10-16T13:22:40.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "sainsburys.co.uk:2026-10-17T09:23:32.085Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 3600
       }
     ],
@@ -64,9 +64,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-16T13:22:40.033Z",
+      "feed_checked_at": "2026-10-17T09:23:32.062Z",
       "listed_on": [],
-      "domain_age_days": 11272,
+      "domain_age_days": 11273,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -88,15 +88,15 @@
       "retry": "/preflight/api/v1/preflight/sainsburys.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-16T13:22:40.055Z",
+    "generated_at": "2026-10-17T09:23:32.085Z",
     "signature": null,
-    "expires_at": "2026-10-17T13:22:40.055Z"
+    "expires_at": "2026-10-18T09:23:32.085Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "dxSvRIuBD9qV_D6biYslicsnk7-3rzMblvP5jB2DaQOrrfbvS7a7dI3IXqKCMkyveNaSpUwz0Gf7CEx7T5j1Dw",
-    "generated_at": "2026-10-16T13:22:40.055Z",
-    "expires_at": "2026-10-17T13:22:40.055Z"
+    "sig": "7hJIzcT2QGbc5uj3y4WWucJ_TfSu-jw9pApgRDpmERTf7KxQOuLQp3DjM_KbeGGN2JFNu2Omy1umnZ3h44y7BQ",
+    "generated_at": "2026-10-17T09:23:32.085Z",
+    "expires_at": "2026-10-18T09:23:32.085Z"
   }
 }

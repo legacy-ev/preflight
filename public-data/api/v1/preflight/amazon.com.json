@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "amazon.com:2026-10-16T13:22:40.055Z:access:NO_DATA",
+        "evidence_id": "amazon.com:2026-10-17T09:23:32.085Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "amazon.com:2026-10-16T13:22:40.055Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "amazon.com:2026-10-17T09:23:32.085Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "amazon.com:2026-10-16T13:22:40.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "amazon.com:2026-10-17T09:23:32.085Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-16T13:22:40.055Z",
+        "checked_at": "2026-10-17T09:23:32.085Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-16T13:22:40.033Z",
+      "feed_checked_at": "2026-10-17T09:23:32.062Z",
       "listed_on": [],
-      "domain_age_days": 11672,
+      "domain_age_days": 11673,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/amazon.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-16T13:22:40.055Z",
+    "generated_at": "2026-10-17T09:23:32.085Z",
     "signature": null,
-    "expires_at": "2026-10-17T13:22:40.055Z"
+    "expires_at": "2026-10-18T09:23:32.085Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "nzliGhLFtfng3uF4V-NCtOr9PsusjyB8SguoYDW0c-bf2sz05JMQ4dV1bxjgfeu5ZwrOIZiUurgpT7REstIUDw",
-    "generated_at": "2026-10-16T13:22:40.055Z",
-    "expires_at": "2026-10-17T13:22:40.055Z"
+    "sig": "M12PXEA-Y7WPmIb-OZxeKiYssuzWB2i41j8DxK7j3vzFTmU2OcjY0bi2W4MF2WcRR5wWXdYImJF6iiDJfKuUCQ",
+    "generated_at": "2026-10-17T09:23:32.085Z",
+    "expires_at": "2026-10-18T09:23:32.085Z"
   }
 }

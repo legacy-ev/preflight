@@ -1,30 +1,30 @@
 {
   "domain": "dell.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-16T13:22:40.055Z",
+  "checked_at": "2026-10-17T09:23:32.085Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-16T13:22:40.055Z",
+    "checked_at": "2026-10-17T09:23:32.085Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 13842,
+    "domain_age_days": 13843,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 13842,
-      "checked_at": "2026-10-16T13:22:40.055Z"
+      "domain_age_days": 13843,
+      "checked_at": "2026-10-17T09:23:32.085Z"
     },
-    "feed_checked_at": "2026-10-16T13:22:40.033Z",
+    "feed_checked_at": "2026-10-17T09:23:32.062Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-16T13:22:40.055Z",
+    "checked_at": "2026-10-17T09:23:32.085Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 217,
+      "latency_ms": 183,
       "headers": {
         "server": {
           "value": "BigIP",
@@ -52,7 +52,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-16T13:22:40.055Z",
+    "checked_at": "2026-10-17T09:23:32.085Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -60,13 +60,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-16T13:22:40.055Z",
+    "checked_at": "2026-10-17T09:23:32.085Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-16T13:22:40.055Z",
+    "checked_at": "2026-10-17T09:23:32.085Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 0,
     "sample_size_30d": 0,
@@ -84,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-16T13:22:40.055Z",
+      "attempted_at": "2026-10-17T09:23:32.085Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -94,10 +94,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-16T13:23:13.563Z",
+  "finished_at": "2026-10-17T09:24:01.119Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-16T13:22:40.055Z",
+      "checked_at": "2026-10-17T09:23:32.085Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 0,
       "sample_size_30d": 0,
@@ -112,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "dell.com:2026-10-16T13:22:40.055Z:access:NO_DATA": {
-      "checked_at": "2026-10-16T13:22:40.055Z",
+    "dell.com:2026-10-17T09:23:32.085Z:access:NO_DATA": {
+      "checked_at": "2026-10-17T09:23:32.085Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -130,7 +130,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 217,
+        "latency_ms": 183,
         "headers": {
           "server": {
             "value": "BigIP",
@@ -140,42 +140,42 @@
       },
       "request_count": 1
     },
-    "dell.com:2026-10-16T13:22:40.055Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-16T13:22:40.055Z",
+    "dell.com:2026-10-17T09:23:32.085Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-17T09:23:32.085Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 13842,
+      "domain_age_days": 13843,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 13842,
-        "checked_at": "2026-10-16T13:22:40.055Z"
+        "domain_age_days": 13843,
+        "checked_at": "2026-10-17T09:23:32.085Z"
       },
-      "feed_checked_at": "2026-10-16T13:22:40.033Z",
+      "feed_checked_at": "2026-10-17T09:23:32.062Z",
       "listings": []
     },
-    "dell.com:2026-10-16T13:22:40.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-16T13:22:40.055Z",
+    "dell.com:2026-10-17T09:23:32.085Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-17T09:23:32.085Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 13842,
+      "domain_age_days": 13843,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 13842,
-        "checked_at": "2026-10-16T13:22:40.055Z"
+        "domain_age_days": 13843,
+        "checked_at": "2026-10-17T09:23:32.085Z"
       },
-      "feed_checked_at": "2026-10-16T13:22:40.033Z",
+      "feed_checked_at": "2026-10-17T09:23:32.062Z",
       "listings": []
     }
   }
