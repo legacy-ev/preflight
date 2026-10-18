@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "ocado.com:2026-10-17T09:23:32.085Z:access:NO_DATA",
+        "evidence_id": "ocado.com:2026-10-18T09:39:22.244Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-17T09:23:32.085Z",
+        "checked_at": "2026-10-18T09:39:22.244Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "ocado.com:2026-10-17T09:23:32.085Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "ocado.com:2026-10-18T09:39:22.244Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-17T09:23:32.085Z",
+        "checked_at": "2026-10-18T09:39:22.244Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "ocado.com:2026-10-17T09:23:32.085Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "ocado.com:2026-10-18T09:39:22.244Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-17T09:23:32.085Z",
+        "checked_at": "2026-10-18T09:39:22.244Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-17T09:23:32.062Z",
+      "feed_checked_at": "2026-10-18T09:39:22.227Z",
       "listed_on": [],
-      "domain_age_days": 9707,
+      "domain_age_days": 9708,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/ocado.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-17T09:23:32.085Z",
+    "generated_at": "2026-10-18T09:39:22.244Z",
     "signature": null,
-    "expires_at": "2026-10-18T09:23:32.085Z"
+    "expires_at": "2026-10-19T09:39:22.244Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "AK4fDXPp7SLNXIDpuUUIqLSxfGHME872ZHGI80JwQ2E1059nT4tHC6X7xv2HXgS5JRWYJWkOCTW8Dr5z_MBRCA",
-    "generated_at": "2026-10-17T09:23:32.085Z",
-    "expires_at": "2026-10-18T09:23:32.085Z"
+    "sig": "wkwmqy-04U4kBDNZlpBzKhgva8nj42a6nFHgDQyT2Ni47HQAi3fNyZcJv3WNMMnzycg6mviroP2hXFgqk41jDw",
+    "generated_at": "2026-10-18T09:39:22.244Z",
+    "expires_at": "2026-10-19T09:39:22.244Z"
   }
 }

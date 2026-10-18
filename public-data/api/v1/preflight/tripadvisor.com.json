@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "tripadvisor.com:2026-10-17T09:23:32.085Z:access:NO_DATA",
+        "evidence_id": "tripadvisor.com:2026-10-18T09:39:22.244Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-17T09:23:32.085Z",
+        "checked_at": "2026-10-18T09:39:22.244Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "tripadvisor.com:2026-10-17T09:23:32.085Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "tripadvisor.com:2026-10-18T09:39:22.244Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-17T09:23:32.085Z",
+        "checked_at": "2026-10-18T09:39:22.244Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "tripadvisor.com:2026-10-17T09:23:32.085Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "tripadvisor.com:2026-10-18T09:39:22.244Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-17T09:23:32.085Z",
+        "checked_at": "2026-10-18T09:39:22.244Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-17T09:23:32.062Z",
+      "feed_checked_at": "2026-10-18T09:39:22.227Z",
       "listed_on": [],
-      "domain_age_days": 10070,
+      "domain_age_days": 10071,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/tripadvisor.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-17T09:23:32.085Z",
+    "generated_at": "2026-10-18T09:39:22.244Z",
     "signature": null,
-    "expires_at": "2026-10-18T09:23:32.085Z"
+    "expires_at": "2026-10-19T09:39:22.244Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "EBYzxpweKTYchE7vZKZbsm0wQRJML3ttez6PCN4HN90eOAje0okkxryMoW4Rb_H7tlWtTi9LWIoVKgOWcVWFAQ",
-    "generated_at": "2026-10-17T09:23:32.085Z",
-    "expires_at": "2026-10-18T09:23:32.085Z"
+    "sig": "oeg5S5a4uR881wI_IZLr299SPJJD3dF0aOYgZy4G0piFQBAjuuRfNhMGJTGAv3bkEYn9JtXqFSE-ityX4wq1BA",
+    "generated_at": "2026-10-18T09:39:22.244Z",
+    "expires_at": "2026-10-19T09:39:22.244Z"
   }
 }
