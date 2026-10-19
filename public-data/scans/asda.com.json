@@ -1,50 +1,139 @@
 {
   "domain": "asda.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-18T09:39:22.244Z",
+  "checked_at": "2026-10-19T10:48:12.058Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-18T09:39:22.244Z",
+    "checked_at": "2026-10-19T10:48:12.058Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10334,
+    "domain_age_days": 10335,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10334,
-      "checked_at": "2026-10-18T09:39:22.244Z"
+      "domain_age_days": 10335,
+      "checked_at": "2026-10-19T10:48:12.058Z"
     },
-    "feed_checked_at": "2026-10-18T09:39:22.227Z",
+    "feed_checked_at": "2026-10-19T10:48:12.045Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-18T09:39:22.244Z",
+    "checked_at": "2026-10-19T10:48:12.058Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 302,
     "challenge": false,
     "likely_bot_vendor": "cloudflare",
-    "scan_status": "robots_unavailable",
-    "robots_training": [],
-    "robots_user_agents": [],
-    "probes": [],
+    "scan_status": "unsafe_or_off_origin_redirect",
+    "robots_training": [
+      {
+        "agent": "GPTBot",
+        "allowed": false,
+        "matched_rule": "Disallow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      {
+        "agent": "ClaudeBot",
+        "allowed": false,
+        "matched_rule": "Disallow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      {
+        "agent": "CCBot",
+        "allowed": false,
+        "matched_rule": "Disallow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      {
+        "agent": "Bytespider",
+        "allowed": false,
+        "matched_rule": "Disallow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      {
+        "agent": "Google-Extended",
+        "allowed": false,
+        "matched_rule": "Disallow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      }
+    ],
+    "robots_user_agents": [
+      {
+        "agent": "ChatGPT-User",
+        "allowed": true,
+        "matched_rule": "Allow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      {
+        "agent": "Claude-User",
+        "allowed": true,
+        "matched_rule": "Allow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      {
+        "agent": "Perplexity-User",
+        "allowed": true,
+        "matched_rule": "Allow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      {
+        "agent": "AmazonBuyForMe",
+        "allowed": true,
+        "matched_rule": "Allow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      }
+    ],
+    "probes": [
+      {
+        "path": "/",
+        "status": 302,
+        "error": "unsafe_or_off_origin_redirect",
+        "challenge": false,
+        "block_page": false,
+        "truncated": false,
+        "latency_ms": 10,
+        "headers": {
+          "content-type": {
+            "value": "text/html; charset=UTF-8",
+            "untrusted_evidence": true
+          },
+          "server": {
+            "value": "cloudflare",
+            "untrusted_evidence": true
+          },
+          "cf-ray": {
+            "value": "a4cf378faf20215a-IAD",
+            "untrusted_evidence": true
+          }
+        }
+      }
+    ],
     "robots_probe": {
       "path": "/robots.txt",
-      "status": 302,
-      "error": "unsafe_or_off_origin_redirect",
+      "status": 200,
+      "error": null,
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 91,
+      "latency_ms": 81,
       "headers": {
         "content-type": {
-          "value": "text/html; charset=UTF-8",
+          "value": "text/plain; charset=utf-8",
           "untrusted_evidence": true
         },
         "server": {
@@ -52,15 +141,26 @@
           "untrusted_evidence": true
         },
         "cf-ray": {
-          "value": "a4c69565cf0c3233-LAX",
+          "value": "a4cf37895c08215a-IAD",
           "untrusted_evidence": true
         }
       }
     },
-    "request_count": 1
+    "preflight_robots": {
+      "allowed": true,
+      "matched_rule": "Allow: /",
+      "untrusted_evidence": true,
+      "crawl_delay_seconds": 0
+    },
+    "robots_policy_status": "available",
+    "robots_sha256": "3073d1e371afb3271c7666148766fedc5145f7d8440f7114062db79b7bd58add",
+    "probe_path": "/",
+    "block_page": false,
+    "pay_per_crawl": null,
+    "request_count": 2
   },
   "route": {
-    "checked_at": "2026-10-18T09:39:22.244Z",
+    "checked_at": "2026-10-19T10:48:12.058Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -68,13 +168,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-18T09:39:22.244Z",
+    "checked_at": "2026-10-19T10:48:12.058Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-18T09:39:22.244Z",
+    "checked_at": "2026-10-19T10:48:12.058Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 0,
     "sample_size_30d": 0,
@@ -91,8 +191,8 @@
       "domain": "asda.com",
       "intent": "read",
       "route_used": "browser",
-      "result": "aborted_safety",
-      "attempted_at": "2026-10-18T09:39:22.244Z",
+      "result": "failed",
+      "attempted_at": "2026-10-19T10:48:12.058Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -102,10 +202,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-18T09:40:54.577Z",
+  "finished_at": "2026-10-19T10:49:41.455Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-18T09:39:22.244Z",
+      "checked_at": "2026-10-19T10:48:12.058Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 0,
       "sample_size_30d": 0,
@@ -120,28 +220,117 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "asda.com:2026-10-18T09:39:22.244Z:access:NO_DATA": {
-      "checked_at": "2026-10-18T09:39:22.244Z",
+    "asda.com:2026-10-19T10:48:12.058Z:access:NO_DATA": {
+      "checked_at": "2026-10-19T10:48:12.058Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 302,
       "challenge": false,
       "likely_bot_vendor": "cloudflare",
-      "scan_status": "robots_unavailable",
-      "robots_training": [],
-      "robots_user_agents": [],
-      "probes": [],
+      "scan_status": "unsafe_or_off_origin_redirect",
+      "robots_training": [
+        {
+          "agent": "GPTBot",
+          "allowed": false,
+          "matched_rule": "Disallow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        },
+        {
+          "agent": "ClaudeBot",
+          "allowed": false,
+          "matched_rule": "Disallow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        },
+        {
+          "agent": "CCBot",
+          "allowed": false,
+          "matched_rule": "Disallow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        },
+        {
+          "agent": "Bytespider",
+          "allowed": false,
+          "matched_rule": "Disallow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        },
+        {
+          "agent": "Google-Extended",
+          "allowed": false,
+          "matched_rule": "Disallow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        }
+      ],
+      "robots_user_agents": [
+        {
+          "agent": "ChatGPT-User",
+          "allowed": true,
+          "matched_rule": "Allow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        },
+        {
+          "agent": "Claude-User",
+          "allowed": true,
+          "matched_rule": "Allow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        },
+        {
+          "agent": "Perplexity-User",
+          "allowed": true,
+          "matched_rule": "Allow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        },
+        {
+          "agent": "AmazonBuyForMe",
+          "allowed": true,
+          "matched_rule": "Allow: /",
+          "untrusted_evidence": true,
+          "crawl_delay_seconds": 0
+        }
+      ],
+      "probes": [
+        {
+          "path": "/",
+          "status": 302,
+          "error": "unsafe_or_off_origin_redirect",
+          "challenge": false,
+          "block_page": false,
+          "truncated": false,
+          "latency_ms": 10,
+          "headers": {
+            "content-type": {
+              "value": "text/html; charset=UTF-8",
+              "untrusted_evidence": true
+            },
+            "server": {
+              "value": "cloudflare",
+              "untrusted_evidence": true
+            },
+            "cf-ray": {
+              "value": "a4cf378faf20215a-IAD",
+              "untrusted_evidence": true
+            }
+          }
+        }
+      ],
       "robots_probe": {
         "path": "/robots.txt",
-        "status": 302,
-        "error": "unsafe_or_off_origin_redirect",
+        "status": 200,
+        "error": null,
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 91,
+        "latency_ms": 81,
         "headers": {
           "content-type": {
-            "value": "text/html; charset=UTF-8",
+            "value": "text/plain; charset=utf-8",
             "untrusted_evidence": true
           },
           "server": {
@@ -149,49 +338,60 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4c69565cf0c3233-LAX",
+            "value": "a4cf37895c08215a-IAD",
             "untrusted_evidence": true
           }
         }
       },
-      "request_count": 1
+      "preflight_robots": {
+        "allowed": true,
+        "matched_rule": "Allow: /",
+        "untrusted_evidence": true,
+        "crawl_delay_seconds": 0
+      },
+      "robots_policy_status": "available",
+      "robots_sha256": "3073d1e371afb3271c7666148766fedc5145f7d8440f7114062db79b7bd58add",
+      "probe_path": "/",
+      "block_page": false,
+      "pay_per_crawl": null,
+      "request_count": 2
     },
-    "asda.com:2026-10-18T09:39:22.244Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-18T09:39:22.244Z",
+    "asda.com:2026-10-19T10:48:12.058Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-19T10:48:12.058Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10334,
+      "domain_age_days": 10335,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10334,
-        "checked_at": "2026-10-18T09:39:22.244Z"
+        "domain_age_days": 10335,
+        "checked_at": "2026-10-19T10:48:12.058Z"
       },
-      "feed_checked_at": "2026-10-18T09:39:22.227Z",
+      "feed_checked_at": "2026-10-19T10:48:12.045Z",
       "listings": []
     },
-    "asda.com:2026-10-18T09:39:22.244Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-18T09:39:22.244Z",
+    "asda.com:2026-10-19T10:48:12.058Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-19T10:48:12.058Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10334,
+      "domain_age_days": 10335,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10334,
-        "checked_at": "2026-10-18T09:39:22.244Z"
+        "domain_age_days": 10335,
+        "checked_at": "2026-10-19T10:48:12.058Z"
       },
-      "feed_checked_at": "2026-10-18T09:39:22.227Z",
+      "feed_checked_at": "2026-10-19T10:48:12.045Z",
       "listings": []
     }
   }

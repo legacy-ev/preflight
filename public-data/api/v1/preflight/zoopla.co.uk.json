@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "zoopla.co.uk:2026-10-18T09:39:22.244Z:access:NO_DATA",
+        "evidence_id": "zoopla.co.uk:2026-10-19T10:48:12.058Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-18T09:39:22.244Z",
+        "checked_at": "2026-10-19T10:48:12.058Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "zoopla.co.uk:2026-10-18T09:39:22.244Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "zoopla.co.uk:2026-10-19T10:48:12.058Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-18T09:39:22.244Z",
+        "checked_at": "2026-10-19T10:48:12.058Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "zoopla.co.uk:2026-10-18T09:39:22.244Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "zoopla.co.uk:2026-10-19T10:48:12.058Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-18T09:39:22.244Z",
+        "checked_at": "2026-10-19T10:48:12.058Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-18T09:39:22.227Z",
+      "feed_checked_at": "2026-10-19T10:48:12.045Z",
       "listed_on": [],
-      "domain_age_days": 7337,
+      "domain_age_days": 7338,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/zoopla.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-18T09:39:22.244Z",
+    "generated_at": "2026-10-19T10:48:12.058Z",
     "signature": null,
-    "expires_at": "2026-10-19T09:39:22.244Z"
+    "expires_at": "2026-10-20T10:48:12.058Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "n-d--I5GTufiTXimCLXvJpfwSy0W_lYZbwVdTlWsQz53zUt7di_j9F3BJhbfjWdQKBZ5tOjAe9vh6RusDf49Dg",
-    "generated_at": "2026-10-18T09:39:22.244Z",
-    "expires_at": "2026-10-19T09:39:22.244Z"
+    "sig": "IZ6ix5f44-iFjseAbnlAO8iGGERRiPpw040sC0VJLen0pG4kJxJ_-nwUp3kEY2HejG7ZvEfxRil95gCWQMWjBw",
+    "generated_at": "2026-10-19T10:48:12.058Z",
+    "expires_at": "2026-10-20T10:48:12.058Z"
   }
 }

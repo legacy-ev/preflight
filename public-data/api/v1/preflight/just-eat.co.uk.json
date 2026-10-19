@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "just-eat.co.uk:2026-10-18T09:39:22.244Z:access:NO_DATA",
+        "evidence_id": "just-eat.co.uk:2026-10-19T10:48:12.058Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-18T09:39:22.244Z",
+        "checked_at": "2026-10-19T10:48:12.058Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "just-eat.co.uk:2026-10-18T09:39:22.244Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "just-eat.co.uk:2026-10-19T10:48:12.058Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-18T09:39:22.244Z",
+        "checked_at": "2026-10-19T10:48:12.058Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "just-eat.co.uk:2026-10-18T09:39:22.244Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "just-eat.co.uk:2026-10-19T10:48:12.058Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-18T09:39:22.244Z",
+        "checked_at": "2026-10-19T10:48:12.058Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-18T09:39:22.227Z",
+      "feed_checked_at": "2026-10-19T10:48:12.045Z",
       "listed_on": [],
-      "domain_age_days": 8237,
+      "domain_age_days": 8238,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/just-eat.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-18T09:39:22.244Z",
+    "generated_at": "2026-10-19T10:48:12.058Z",
     "signature": null,
-    "expires_at": "2026-10-19T09:39:22.244Z"
+    "expires_at": "2026-10-20T10:48:12.058Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Z2GcQQ-HlEMvZyYMr1hlTKvoPjDC7ynxZEdjZ1UpdWdCZhVfp3_aErMru2aVvEGCo7c7-C8o8ayllQ4rQ6HnDA",
-    "generated_at": "2026-10-18T09:39:22.244Z",
-    "expires_at": "2026-10-19T09:39:22.244Z"
+    "sig": "Wz3F7BfcCvNRLO0EPkTVb0oAeLjYX2B7nVL_oVsM-nEbRHlh3-l1xAFf1IOSaia453_26gp0jA2oeOGwxiMpDQ",
+    "generated_at": "2026-10-19T10:48:12.058Z",
+    "expires_at": "2026-10-20T10:48:12.058Z"
   }
 }
