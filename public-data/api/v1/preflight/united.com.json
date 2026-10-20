@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "united.com:2026-10-19T10:48:12.058Z:access:NO_DATA",
+        "evidence_id": "united.com:2026-10-20T10:06:06.644Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-19T10:48:12.058Z",
+        "checked_at": "2026-10-20T10:06:06.644Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "united.com:2026-10-19T10:48:12.058Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "united.com:2026-10-20T10:06:06.644Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-19T10:48:12.058Z",
+        "checked_at": "2026-10-20T10:06:06.644Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "united.com:2026-10-19T10:48:12.058Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "united.com:2026-10-20T10:06:06.644Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-19T10:48:12.058Z",
+        "checked_at": "2026-10-20T10:06:06.644Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,17 +46,17 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-19T10:48:12.045Z",
+      "feed_checked_at": "2026-10-20T10:06:06.621Z",
       "listed_on": [],
-      "domain_age_days": 10168,
+      "domain_age_days": 10169,
       "lookalike_of": null,
       "injection_findings": []
     },
     "outcomes": {
-      "success_rate_7d": null,
-      "success_rate_30d": null,
-      "sample_size_7d": 0,
-      "sample_size_30d": 0,
+      "success_rate_7d": 0,
+      "success_rate_30d": 0,
+      "sample_size_7d": 5,
+      "sample_size_30d": 5,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/united.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-19T10:48:12.058Z",
+    "generated_at": "2026-10-20T10:06:06.644Z",
     "signature": null,
-    "expires_at": "2026-10-20T10:48:12.058Z"
+    "expires_at": "2026-10-21T10:06:06.644Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "4tY3ScxMCu0jI_Oc5e9bIzqoe35oQOK-_O4aNqO0n_6jgldF1FiBcGNFqpN9v2YBVXMmK5mo4xEBbI5aePitAA",
-    "generated_at": "2026-10-19T10:48:12.058Z",
-    "expires_at": "2026-10-20T10:48:12.058Z"
+    "sig": "SdSwFbjHnlKSbiI3pSedZrmQsrEMm3LYSYPpJbFDlNv5sFKRdPzPHfN6IdzoLmg07sI0Z8CLVyP67aES1vfZBA",
+    "generated_at": "2026-10-20T10:06:06.644Z",
+    "expires_at": "2026-10-21T10:06:06.644Z"
   }
 }

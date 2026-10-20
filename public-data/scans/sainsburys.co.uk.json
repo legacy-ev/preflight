@@ -1,30 +1,30 @@
 {
   "domain": "sainsburys.co.uk",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-19T10:48:12.058Z",
+  "checked_at": "2026-10-20T10:06:06.644Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-19T10:48:12.058Z",
+    "checked_at": "2026-10-20T10:06:06.644Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 11275,
+    "domain_age_days": 11276,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 11275,
-      "checked_at": "2026-10-19T10:48:12.058Z"
+      "domain_age_days": 11276,
+      "checked_at": "2026-10-20T10:06:06.644Z"
     },
-    "feed_checked_at": "2026-10-19T10:48:12.045Z",
+    "feed_checked_at": "2026-10-20T10:06:06.621Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-19T10:48:12.058Z",
+    "checked_at": "2026-10-20T10:06:06.644Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 403,
@@ -41,14 +41,14 @@
       "challenge": true,
       "block_page": true,
       "truncated": false,
-      "latency_ms": 39,
+      "latency_ms": 229,
       "headers": {
         "content-type": {
           "value": "text/html",
           "untrusted_evidence": true
         },
         "akamai-grn": {
-          "value": "0.4f0f3417.1792406972.6f998b08",
+          "value": "0.2464cd17.1792490850.1162aa04",
           "untrusted_evidence": true
         }
       }
@@ -56,7 +56,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-19T10:48:12.058Z",
+    "checked_at": "2026-10-20T10:06:06.644Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -64,18 +64,18 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-19T10:48:12.058Z",
+    "checked_at": "2026-10-20T10:06:06.644Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-19T10:48:12.058Z",
+    "checked_at": "2026-10-20T10:06:06.644Z",
     "ttl_seconds": 86400,
-    "sample_size_7d": 0,
-    "sample_size_30d": 0,
-    "success_rate_7d": null,
-    "success_rate_30d": null,
+    "sample_size_7d": 5,
+    "sample_size_30d": 5,
+    "success_rate_7d": 0,
+    "success_rate_30d": 0,
     "status": "synthetic_only",
     "verified_operators": 1,
     "max_operator_weight": 1,
@@ -88,7 +88,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-19T10:48:12.058Z",
+      "attempted_at": "2026-10-20T10:06:06.644Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -98,15 +98,15 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-19T10:49:39.373Z",
+  "finished_at": "2026-10-20T10:07:37.329Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-19T10:48:12.058Z",
+      "checked_at": "2026-10-20T10:06:06.644Z",
       "ttl_seconds": 86400,
-      "sample_size_7d": 0,
-      "sample_size_30d": 0,
-      "success_rate_7d": null,
-      "success_rate_30d": null,
+      "sample_size_7d": 5,
+      "sample_size_30d": 5,
+      "success_rate_7d": 0,
+      "success_rate_30d": 0,
       "status": "synthetic_only",
       "verified_operators": 1,
       "max_operator_weight": 1,
@@ -116,8 +116,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "sainsburys.co.uk:2026-10-19T10:48:12.058Z:access:ACCESS_BLOCKED": {
-      "checked_at": "2026-10-19T10:48:12.058Z",
+    "sainsburys.co.uk:2026-10-20T10:06:06.644Z:access:ACCESS_BLOCKED": {
+      "checked_at": "2026-10-20T10:06:06.644Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -134,22 +134,22 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 39,
+        "latency_ms": 229,
         "headers": {
           "content-type": {
             "value": "text/html",
             "untrusted_evidence": true
           },
           "akamai-grn": {
-            "value": "0.4f0f3417.1792406972.6f998b08",
+            "value": "0.2464cd17.1792490850.1162aa04",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "sainsburys.co.uk:2026-10-19T10:48:12.058Z:access:ACCESS_CHALLENGE_PAGE": {
-      "checked_at": "2026-10-19T10:48:12.058Z",
+    "sainsburys.co.uk:2026-10-20T10:06:06.644Z:access:ACCESS_CHALLENGE_PAGE": {
+      "checked_at": "2026-10-20T10:06:06.644Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -166,22 +166,22 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 39,
+        "latency_ms": 229,
         "headers": {
           "content-type": {
             "value": "text/html",
             "untrusted_evidence": true
           },
           "akamai-grn": {
-            "value": "0.4f0f3417.1792406972.6f998b08",
+            "value": "0.2464cd17.1792490850.1162aa04",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "sainsburys.co.uk:2026-10-19T10:48:12.058Z:access:NO_DATA": {
-      "checked_at": "2026-10-19T10:48:12.058Z",
+    "sainsburys.co.uk:2026-10-20T10:06:06.644Z:access:NO_DATA": {
+      "checked_at": "2026-10-20T10:06:06.644Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -198,56 +198,56 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 39,
+        "latency_ms": 229,
         "headers": {
           "content-type": {
             "value": "text/html",
             "untrusted_evidence": true
           },
           "akamai-grn": {
-            "value": "0.4f0f3417.1792406972.6f998b08",
+            "value": "0.2464cd17.1792490850.1162aa04",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "sainsburys.co.uk:2026-10-19T10:48:12.058Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-19T10:48:12.058Z",
+    "sainsburys.co.uk:2026-10-20T10:06:06.644Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-20T10:06:06.644Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11275,
+      "domain_age_days": 11276,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11275,
-        "checked_at": "2026-10-19T10:48:12.058Z"
+        "domain_age_days": 11276,
+        "checked_at": "2026-10-20T10:06:06.644Z"
       },
-      "feed_checked_at": "2026-10-19T10:48:12.045Z",
+      "feed_checked_at": "2026-10-20T10:06:06.621Z",
       "listings": []
     },
-    "sainsburys.co.uk:2026-10-19T10:48:12.058Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-19T10:48:12.058Z",
+    "sainsburys.co.uk:2026-10-20T10:06:06.644Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-20T10:06:06.644Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11275,
+      "domain_age_days": 11276,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11275,
-        "checked_at": "2026-10-19T10:48:12.058Z"
+        "domain_age_days": 11276,
+        "checked_at": "2026-10-20T10:06:06.644Z"
       },
-      "feed_checked_at": "2026-10-19T10:48:12.045Z",
+      "feed_checked_at": "2026-10-20T10:06:06.621Z",
       "listings": []
     }
   }
