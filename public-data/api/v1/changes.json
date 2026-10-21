@@ -1,5 +1,20 @@
 [
   {
+    "at": "2026-10-21T10:10:58.444Z",
+    "domain": "hm.com",
+    "from": "CAUTION",
+    "to": "CAUTION",
+    "reason_codes": [
+      "ACCESS_BLOCKED",
+      "ACCESS_CHALLENGE_PAGE",
+      "DATA_INCOMPLETE",
+      "INDEPENDENT_SAFETY_UNVERIFIED",
+      "NO_DATA"
+    ],
+    "prev_hash": "4e6e2e1e797bd1e940c3d21bf83a8268886785e42f1800ecfa5bb402d937c233",
+    "hash": "65600a7ef4b4c1588beffd41d8c345105e9aca873405918189179f73b06010b1"
+  },
+  {
     "at": "2026-10-16T13:22:40.055Z",
     "domain": "zoopla.co.uk",
     "from": "CAUTION",

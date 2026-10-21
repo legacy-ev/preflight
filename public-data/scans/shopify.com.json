@@ -1,30 +1,30 @@
 {
   "domain": "shopify.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-20T10:06:06.644Z",
+  "checked_at": "2026-10-21T10:10:58.444Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-20T10:06:06.644Z",
+    "checked_at": "2026-10-21T10:10:58.444Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 7893,
+    "domain_age_days": 7894,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 7893,
-      "checked_at": "2026-10-20T10:06:06.644Z"
+      "domain_age_days": 7894,
+      "checked_at": "2026-10-21T10:10:58.444Z"
     },
-    "feed_checked_at": "2026-10-20T10:06:06.621Z",
+    "feed_checked_at": "2026-10-21T10:10:58.427Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-20T10:06:06.644Z",
+    "checked_at": "2026-10-21T10:10:58.444Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -106,7 +106,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 51,
+        "latency_ms": 39,
         "headers": {
           "content-type": {
             "value": "text/html; charset=UTF-8",
@@ -117,7 +117,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4d739e5af306b06-DFW",
+            "value": "a4df7e50a8d84896-LAX",
             "untrusted_evidence": true
           }
         }
@@ -130,7 +130,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 98,
+      "latency_ms": 68,
       "headers": {
         "content-type": {
           "value": "text/plain",
@@ -141,7 +141,7 @@
           "untrusted_evidence": true
         },
         "cf-ray": {
-          "value": "a4d739defb6d6b06-DFW",
+          "value": "a4df7e4a1c984896-LAX",
           "untrusted_evidence": true
         }
       }
@@ -160,7 +160,7 @@
     "request_count": 2
   },
   "route": {
-    "checked_at": "2026-10-20T10:06:06.644Z",
+    "checked_at": "2026-10-21T10:10:58.444Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -168,16 +168,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-20T10:06:06.644Z",
+    "checked_at": "2026-10-21T10:10:58.444Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-20T10:06:06.644Z",
+    "checked_at": "2026-10-21T10:10:58.444Z",
     "ttl_seconds": 86400,
-    "sample_size_7d": 5,
-    "sample_size_30d": 5,
+    "sample_size_7d": 6,
+    "sample_size_30d": 6,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -192,7 +192,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "failed",
-      "attempted_at": "2026-10-20T10:06:06.644Z",
+      "attempted_at": "2026-10-21T10:10:58.444Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -202,13 +202,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-20T10:09:22.948Z",
+  "finished_at": "2026-10-21T10:14:11.474Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-20T10:06:06.644Z",
+      "checked_at": "2026-10-21T10:10:58.444Z",
       "ttl_seconds": 86400,
-      "sample_size_7d": 5,
-      "sample_size_30d": 5,
+      "sample_size_7d": 6,
+      "sample_size_30d": 6,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -220,8 +220,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "shopify.com:2026-10-20T10:06:06.644Z:access:NO_DATA": {
-      "checked_at": "2026-10-20T10:06:06.644Z",
+    "shopify.com:2026-10-21T10:10:58.444Z:access:NO_DATA": {
+      "checked_at": "2026-10-21T10:10:58.444Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -303,7 +303,7 @@
           "challenge": false,
           "block_page": false,
           "truncated": false,
-          "latency_ms": 51,
+          "latency_ms": 39,
           "headers": {
             "content-type": {
               "value": "text/html; charset=UTF-8",
@@ -314,7 +314,7 @@
               "untrusted_evidence": true
             },
             "cf-ray": {
-              "value": "a4d739e5af306b06-DFW",
+              "value": "a4df7e50a8d84896-LAX",
               "untrusted_evidence": true
             }
           }
@@ -327,7 +327,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 98,
+        "latency_ms": 68,
         "headers": {
           "content-type": {
             "value": "text/plain",
@@ -338,7 +338,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4d739defb6d6b06-DFW",
+            "value": "a4df7e4a1c984896-LAX",
             "untrusted_evidence": true
           }
         }
@@ -356,42 +356,42 @@
       "pay_per_crawl": null,
       "request_count": 2
     },
-    "shopify.com:2026-10-20T10:06:06.644Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-20T10:06:06.644Z",
+    "shopify.com:2026-10-21T10:10:58.444Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-21T10:10:58.444Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 7893,
+      "domain_age_days": 7894,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 7893,
-        "checked_at": "2026-10-20T10:06:06.644Z"
+        "domain_age_days": 7894,
+        "checked_at": "2026-10-21T10:10:58.444Z"
       },
-      "feed_checked_at": "2026-10-20T10:06:06.621Z",
+      "feed_checked_at": "2026-10-21T10:10:58.427Z",
       "listings": []
     },
-    "shopify.com:2026-10-20T10:06:06.644Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-20T10:06:06.644Z",
+    "shopify.com:2026-10-21T10:10:58.444Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-21T10:10:58.444Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 7893,
+      "domain_age_days": 7894,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 7893,
-        "checked_at": "2026-10-20T10:06:06.644Z"
+        "domain_age_days": 7894,
+        "checked_at": "2026-10-21T10:10:58.444Z"
       },
-      "feed_checked_at": "2026-10-20T10:06:06.621Z",
+      "feed_checked_at": "2026-10-21T10:10:58.427Z",
       "listings": []
     }
   }
