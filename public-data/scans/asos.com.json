@@ -1,30 +1,30 @@
 {
   "domain": "asos.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-21T10:10:58.444Z",
+  "checked_at": "2026-10-22T10:13:05.236Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-21T10:10:58.444Z",
+    "checked_at": "2026-10-22T10:13:05.236Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 9732,
+    "domain_age_days": 9733,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 9732,
-      "checked_at": "2026-10-21T10:10:58.444Z"
+      "domain_age_days": 9733,
+      "checked_at": "2026-10-22T10:13:05.236Z"
     },
-    "feed_checked_at": "2026-10-21T10:10:58.427Z",
+    "feed_checked_at": "2026-10-22T10:13:05.212Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-21T10:10:58.444Z",
+    "checked_at": "2026-10-22T10:13:05.236Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 95,
+      "latency_ms": 56,
       "headers": {
         "server": {
           "value": "AkamaiGHost",
@@ -52,7 +52,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-21T10:10:58.444Z",
+    "checked_at": "2026-10-22T10:13:05.236Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -60,16 +60,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-21T10:10:58.444Z",
+    "checked_at": "2026-10-22T10:13:05.236Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-21T10:10:58.444Z",
+    "checked_at": "2026-10-22T10:13:05.236Z",
     "ttl_seconds": 86400,
-    "sample_size_7d": 6,
-    "sample_size_30d": 6,
+    "sample_size_7d": 7,
+    "sample_size_30d": 7,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -84,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-21T10:10:58.444Z",
+      "attempted_at": "2026-10-22T10:13:05.236Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -94,13 +94,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-21T10:11:58.214Z",
+  "finished_at": "2026-10-22T10:14:05.588Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-21T10:10:58.444Z",
+      "checked_at": "2026-10-22T10:13:05.236Z",
       "ttl_seconds": 86400,
-      "sample_size_7d": 6,
-      "sample_size_30d": 6,
+      "sample_size_7d": 7,
+      "sample_size_30d": 7,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -112,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "asos.com:2026-10-21T10:10:58.444Z:access:NO_DATA": {
-      "checked_at": "2026-10-21T10:10:58.444Z",
+    "asos.com:2026-10-22T10:13:05.236Z:access:NO_DATA": {
+      "checked_at": "2026-10-22T10:13:05.236Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -130,7 +130,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 95,
+        "latency_ms": 56,
         "headers": {
           "server": {
             "value": "AkamaiGHost",
@@ -140,42 +140,42 @@
       },
       "request_count": 1
     },
-    "asos.com:2026-10-21T10:10:58.444Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-21T10:10:58.444Z",
+    "asos.com:2026-10-22T10:13:05.236Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-22T10:13:05.236Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 9732,
+      "domain_age_days": 9733,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 9732,
-        "checked_at": "2026-10-21T10:10:58.444Z"
+        "domain_age_days": 9733,
+        "checked_at": "2026-10-22T10:13:05.236Z"
       },
-      "feed_checked_at": "2026-10-21T10:10:58.427Z",
+      "feed_checked_at": "2026-10-22T10:13:05.212Z",
       "listings": []
     },
-    "asos.com:2026-10-21T10:10:58.444Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-21T10:10:58.444Z",
+    "asos.com:2026-10-22T10:13:05.236Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-22T10:13:05.236Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 9732,
+      "domain_age_days": 9733,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 9732,
-        "checked_at": "2026-10-21T10:10:58.444Z"
+        "domain_age_days": 9733,
+        "checked_at": "2026-10-22T10:13:05.236Z"
       },
-      "feed_checked_at": "2026-10-21T10:10:58.427Z",
+      "feed_checked_at": "2026-10-22T10:13:05.212Z",
       "listings": []
     }
   }
