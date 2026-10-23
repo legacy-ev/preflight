@@ -1,30 +1,30 @@
 {
   "domain": "amtrak.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-22T10:13:05.236Z",
+  "checked_at": "2026-10-23T10:05:44.659Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-22T10:13:05.236Z",
+    "checked_at": "2026-10-23T10:05:44.659Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 11581,
+    "domain_age_days": 11582,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 11581,
-      "checked_at": "2026-10-22T10:13:05.236Z"
+      "domain_age_days": 11582,
+      "checked_at": "2026-10-23T10:05:44.659Z"
     },
-    "feed_checked_at": "2026-10-22T10:13:05.212Z",
+    "feed_checked_at": "2026-10-23T10:05:44.642Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-22T10:13:05.236Z",
+    "checked_at": "2026-10-23T10:05:44.659Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 403,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 40,
+      "latency_ms": 154,
       "headers": {
         "server": {
           "value": "AkamaiGHost",
@@ -52,7 +52,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-22T10:13:05.236Z",
+    "checked_at": "2026-10-23T10:05:44.659Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -60,16 +60,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-22T10:13:05.236Z",
+    "checked_at": "2026-10-23T10:05:44.659Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-22T10:13:05.236Z",
+    "checked_at": "2026-10-23T10:05:44.659Z",
     "ttl_seconds": 86400,
-    "sample_size_7d": 7,
-    "sample_size_30d": 7,
+    "sample_size_7d": 8,
+    "sample_size_30d": 8,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -84,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-22T10:13:05.236Z",
+      "attempted_at": "2026-10-23T10:05:44.659Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -94,13 +94,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-22T10:15:55.107Z",
+  "finished_at": "2026-10-23T10:08:35.057Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-22T10:13:05.236Z",
+      "checked_at": "2026-10-23T10:05:44.659Z",
       "ttl_seconds": 86400,
-      "sample_size_7d": 7,
-      "sample_size_30d": 7,
+      "sample_size_7d": 8,
+      "sample_size_30d": 8,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -112,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "amtrak.com:2026-10-22T10:13:05.236Z:access:ACCESS_BLOCKED": {
-      "checked_at": "2026-10-22T10:13:05.236Z",
+    "amtrak.com:2026-10-23T10:05:44.659Z:access:ACCESS_BLOCKED": {
+      "checked_at": "2026-10-23T10:05:44.659Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -130,7 +130,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 40,
+        "latency_ms": 154,
         "headers": {
           "server": {
             "value": "AkamaiGHost",
@@ -140,8 +140,8 @@
       },
       "request_count": 1
     },
-    "amtrak.com:2026-10-22T10:13:05.236Z:access:NO_DATA": {
-      "checked_at": "2026-10-22T10:13:05.236Z",
+    "amtrak.com:2026-10-23T10:05:44.659Z:access:NO_DATA": {
+      "checked_at": "2026-10-23T10:05:44.659Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -158,7 +158,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 40,
+        "latency_ms": 154,
         "headers": {
           "server": {
             "value": "AkamaiGHost",
@@ -168,42 +168,42 @@
       },
       "request_count": 1
     },
-    "amtrak.com:2026-10-22T10:13:05.236Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-22T10:13:05.236Z",
+    "amtrak.com:2026-10-23T10:05:44.659Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-23T10:05:44.659Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11581,
+      "domain_age_days": 11582,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11581,
-        "checked_at": "2026-10-22T10:13:05.236Z"
+        "domain_age_days": 11582,
+        "checked_at": "2026-10-23T10:05:44.659Z"
       },
-      "feed_checked_at": "2026-10-22T10:13:05.212Z",
+      "feed_checked_at": "2026-10-23T10:05:44.642Z",
       "listings": []
     },
-    "amtrak.com:2026-10-22T10:13:05.236Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-22T10:13:05.236Z",
+    "amtrak.com:2026-10-23T10:05:44.659Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-23T10:05:44.659Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11581,
+      "domain_age_days": 11582,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11581,
-        "checked_at": "2026-10-22T10:13:05.236Z"
+        "domain_age_days": 11582,
+        "checked_at": "2026-10-23T10:05:44.659Z"
       },
-      "feed_checked_at": "2026-10-22T10:13:05.212Z",
+      "feed_checked_at": "2026-10-23T10:05:44.642Z",
       "listings": []
     }
   }

@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "trainline.com:2026-10-22T10:13:05.236Z:access:NO_DATA",
+        "evidence_id": "trainline.com:2026-10-23T10:05:44.659Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-22T10:13:05.236Z",
+        "checked_at": "2026-10-23T10:05:44.659Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "trainline.com:2026-10-22T10:13:05.236Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "trainline.com:2026-10-23T10:05:44.659Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-22T10:13:05.236Z",
+        "checked_at": "2026-10-23T10:05:44.659Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "trainline.com:2026-10-22T10:13:05.236Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "trainline.com:2026-10-23T10:05:44.659Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-22T10:13:05.236Z",
+        "checked_at": "2026-10-23T10:05:44.659Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,17 +46,17 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-22T10:13:05.212Z",
+      "feed_checked_at": "2026-10-23T10:05:44.642Z",
       "listed_on": [],
-      "domain_age_days": 10815,
+      "domain_age_days": 10816,
       "lookalike_of": null,
       "injection_findings": []
     },
     "outcomes": {
       "success_rate_7d": 0,
       "success_rate_30d": 0,
-      "sample_size_7d": 7,
-      "sample_size_30d": 7,
+      "sample_size_7d": 8,
+      "sample_size_30d": 8,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/trainline.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-22T10:13:05.236Z",
+    "generated_at": "2026-10-23T10:05:44.659Z",
     "signature": null,
-    "expires_at": "2026-10-23T10:13:05.236Z"
+    "expires_at": "2026-10-24T10:05:44.659Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "-sa2HzGB08GO0y87BaAvQ48WZsRrzd2Ju39lwbRGgR2ewheJ-quL9gulywvChkR8Pge777jtZBCyBGFGi7CCCA",
-    "generated_at": "2026-10-22T10:13:05.236Z",
-    "expires_at": "2026-10-23T10:13:05.236Z"
+    "sig": "5SjK9h1abQ1Uxm0VNLSZtDY6ViHrBHvBsTxoz3hUuHLClc3_0UIjqx2LbDl0u_U09knCMS18I-qdfuq8Y8UfBQ",
+    "generated_at": "2026-10-23T10:05:44.659Z",
+    "expires_at": "2026-10-24T10:05:44.659Z"
   }
 }
