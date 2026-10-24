@@ -1,30 +1,30 @@
 {
   "domain": "doordash.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-23T10:05:44.659Z",
+  "checked_at": "2026-10-24T09:33:38.021Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-23T10:05:44.659Z",
+    "checked_at": "2026-10-24T09:33:38.021Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 4874,
+    "domain_age_days": 4875,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 4874,
-      "checked_at": "2026-10-23T10:05:44.659Z"
+      "domain_age_days": 4875,
+      "checked_at": "2026-10-24T09:33:38.021Z"
     },
-    "feed_checked_at": "2026-10-23T10:05:44.642Z",
+    "feed_checked_at": "2026-10-24T09:33:38.005Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-23T10:05:44.659Z",
+    "checked_at": "2026-10-24T09:33:38.021Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 302,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 55,
+      "latency_ms": 145,
       "headers": {
         "content-type": {
           "value": "text/html; charset=UTF-8",
@@ -52,7 +52,7 @@
           "untrusted_evidence": true
         },
         "cf-ray": {
-          "value": "a4efef7d39abf907-LAX",
+          "value": "a4f7fdd4c8a3eab2-DFW",
           "untrusted_evidence": true
         }
       }
@@ -60,7 +60,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-23T10:05:44.659Z",
+    "checked_at": "2026-10-24T09:33:38.021Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -68,16 +68,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-23T10:05:44.659Z",
+    "checked_at": "2026-10-24T09:33:38.021Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-23T10:05:44.659Z",
+    "checked_at": "2026-10-24T09:33:38.021Z",
     "ttl_seconds": 86400,
-    "sample_size_7d": 8,
-    "sample_size_30d": 8,
+    "sample_size_7d": 7,
+    "sample_size_30d": 9,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -92,7 +92,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-23T10:05:44.659Z",
+      "attempted_at": "2026-10-24T09:33:38.021Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -102,13 +102,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-23T10:07:40.243Z",
+  "finished_at": "2026-10-24T09:35:33.746Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-23T10:05:44.659Z",
+      "checked_at": "2026-10-24T09:33:38.021Z",
       "ttl_seconds": 86400,
-      "sample_size_7d": 8,
-      "sample_size_30d": 8,
+      "sample_size_7d": 7,
+      "sample_size_30d": 9,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -120,8 +120,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "doordash.com:2026-10-23T10:05:44.659Z:access:NO_DATA": {
-      "checked_at": "2026-10-23T10:05:44.659Z",
+    "doordash.com:2026-10-24T09:33:38.021Z:access:NO_DATA": {
+      "checked_at": "2026-10-24T09:33:38.021Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 302,
@@ -138,7 +138,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 55,
+        "latency_ms": 145,
         "headers": {
           "content-type": {
             "value": "text/html; charset=UTF-8",
@@ -149,49 +149,49 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a4efef7d39abf907-LAX",
+            "value": "a4f7fdd4c8a3eab2-DFW",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "doordash.com:2026-10-23T10:05:44.659Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-23T10:05:44.659Z",
+    "doordash.com:2026-10-24T09:33:38.021Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-24T09:33:38.021Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 4874,
+      "domain_age_days": 4875,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 4874,
-        "checked_at": "2026-10-23T10:05:44.659Z"
+        "domain_age_days": 4875,
+        "checked_at": "2026-10-24T09:33:38.021Z"
       },
-      "feed_checked_at": "2026-10-23T10:05:44.642Z",
+      "feed_checked_at": "2026-10-24T09:33:38.005Z",
       "listings": []
     },
-    "doordash.com:2026-10-23T10:05:44.659Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-23T10:05:44.659Z",
+    "doordash.com:2026-10-24T09:33:38.021Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-24T09:33:38.021Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 4874,
+      "domain_age_days": 4875,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 4874,
-        "checked_at": "2026-10-23T10:05:44.659Z"
+        "domain_age_days": 4875,
+        "checked_at": "2026-10-24T09:33:38.021Z"
       },
-      "feed_checked_at": "2026-10-23T10:05:44.642Z",
+      "feed_checked_at": "2026-10-24T09:33:38.005Z",
       "listings": []
     }
   }
