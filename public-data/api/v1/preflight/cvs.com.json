@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "cvs.com:2026-10-24T09:33:38.021Z:access:NO_DATA",
+        "evidence_id": "cvs.com:2026-10-25T09:50:02.318Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-24T09:33:38.021Z",
+        "checked_at": "2026-10-25T09:50:02.318Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "cvs.com:2026-10-24T09:33:38.021Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "cvs.com:2026-10-25T09:50:02.318Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-24T09:33:38.021Z",
+        "checked_at": "2026-10-25T09:50:02.318Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "cvs.com:2026-10-24T09:33:38.021Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "cvs.com:2026-10-25T09:50:02.318Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-24T09:33:38.021Z",
+        "checked_at": "2026-10-25T09:50:02.318Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-24T09:33:38.005Z",
+      "feed_checked_at": "2026-10-25T09:50:02.302Z",
       "listed_on": [],
-      "domain_age_days": 11225,
+      "domain_age_days": 11226,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -56,7 +56,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 9,
+      "sample_size_30d": 10,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/cvs.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-24T09:33:38.021Z",
+    "generated_at": "2026-10-25T09:50:02.318Z",
     "signature": null,
-    "expires_at": "2026-10-25T09:33:38.021Z"
+    "expires_at": "2026-10-26T09:50:02.318Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "xDP-48vYOfPDSdaGtRN8CiOuHxCT-5Gdnd4sXj7hKh6i6EIsjDgrsm6BN-4DsDJgFZfucBJ2k6USh0M3ELS7Dg",
-    "generated_at": "2026-10-24T09:33:38.021Z",
-    "expires_at": "2026-10-25T09:33:38.021Z"
+    "sig": "jq8aiVqSbaMduABtpHHc9kSxEhdlISmBnuR1pQbGwvSrrjLzBuZbCWJzxz1LSdcD8Lp8L4Ft9MG4BxGx3ofDDQ",
+    "generated_at": "2026-10-25T09:50:02.318Z",
+    "expires_at": "2026-10-26T09:50:02.318Z"
   }
 }

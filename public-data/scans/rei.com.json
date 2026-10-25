@@ -1,30 +1,30 @@
 {
   "domain": "rei.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-24T09:33:38.021Z",
+  "checked_at": "2026-10-25T09:50:02.318Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-24T09:33:38.021Z",
+    "checked_at": "2026-10-25T09:50:02.318Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 11182,
+    "domain_age_days": 11183,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 11182,
-      "checked_at": "2026-10-24T09:33:38.021Z"
+      "domain_age_days": 11183,
+      "checked_at": "2026-10-25T09:50:02.318Z"
     },
-    "feed_checked_at": "2026-10-24T09:33:38.005Z",
+    "feed_checked_at": "2026-10-25T09:50:02.302Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-24T09:33:38.021Z",
+    "checked_at": "2026-10-25T09:50:02.318Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 403,
@@ -41,7 +41,7 @@
       "challenge": true,
       "block_page": true,
       "truncated": false,
-      "latency_ms": 135,
+      "latency_ms": 165,
       "headers": {
         "content-type": {
           "value": "text/html",
@@ -52,7 +52,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-24T09:33:38.021Z",
+    "checked_at": "2026-10-25T09:50:02.318Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -60,16 +60,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-24T09:33:38.021Z",
+    "checked_at": "2026-10-25T09:50:02.318Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-24T09:33:38.021Z",
+    "checked_at": "2026-10-25T09:50:02.318Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 9,
+    "sample_size_30d": 10,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -84,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-24T09:33:38.021Z",
+      "attempted_at": "2026-10-25T09:50:02.318Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -94,13 +94,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-24T09:34:57.595Z",
+  "finished_at": "2026-10-25T09:51:23.621Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-24T09:33:38.021Z",
+      "checked_at": "2026-10-25T09:50:02.318Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 9,
+      "sample_size_30d": 10,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -112,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "rei.com:2026-10-24T09:33:38.021Z:access:ACCESS_BLOCKED": {
-      "checked_at": "2026-10-24T09:33:38.021Z",
+    "rei.com:2026-10-25T09:50:02.318Z:access:ACCESS_BLOCKED": {
+      "checked_at": "2026-10-25T09:50:02.318Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -130,7 +130,7 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 135,
+        "latency_ms": 165,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -140,8 +140,8 @@
       },
       "request_count": 1
     },
-    "rei.com:2026-10-24T09:33:38.021Z:access:ACCESS_CHALLENGE_PAGE": {
-      "checked_at": "2026-10-24T09:33:38.021Z",
+    "rei.com:2026-10-25T09:50:02.318Z:access:ACCESS_CHALLENGE_PAGE": {
+      "checked_at": "2026-10-25T09:50:02.318Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -158,7 +158,7 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 135,
+        "latency_ms": 165,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -168,8 +168,8 @@
       },
       "request_count": 1
     },
-    "rei.com:2026-10-24T09:33:38.021Z:access:NO_DATA": {
-      "checked_at": "2026-10-24T09:33:38.021Z",
+    "rei.com:2026-10-25T09:50:02.318Z:access:NO_DATA": {
+      "checked_at": "2026-10-25T09:50:02.318Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -186,7 +186,7 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 135,
+        "latency_ms": 165,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -196,42 +196,42 @@
       },
       "request_count": 1
     },
-    "rei.com:2026-10-24T09:33:38.021Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-24T09:33:38.021Z",
+    "rei.com:2026-10-25T09:50:02.318Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-25T09:50:02.318Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11182,
+      "domain_age_days": 11183,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11182,
-        "checked_at": "2026-10-24T09:33:38.021Z"
+        "domain_age_days": 11183,
+        "checked_at": "2026-10-25T09:50:02.318Z"
       },
-      "feed_checked_at": "2026-10-24T09:33:38.005Z",
+      "feed_checked_at": "2026-10-25T09:50:02.302Z",
       "listings": []
     },
-    "rei.com:2026-10-24T09:33:38.021Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-24T09:33:38.021Z",
+    "rei.com:2026-10-25T09:50:02.318Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-25T09:50:02.318Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11182,
+      "domain_age_days": 11183,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11182,
-        "checked_at": "2026-10-24T09:33:38.021Z"
+        "domain_age_days": 11183,
+        "checked_at": "2026-10-25T09:50:02.318Z"
       },
-      "feed_checked_at": "2026-10-24T09:33:38.005Z",
+      "feed_checked_at": "2026-10-25T09:50:02.302Z",
       "listings": []
     }
   }
