@@ -1,30 +1,30 @@
 {
   "domain": "samsung.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-25T09:50:02.318Z",
+  "checked_at": "2026-10-26T11:08:51.055Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-25T09:50:02.318Z",
+    "checked_at": "2026-10-26T11:08:51.055Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 11653,
+    "domain_age_days": 11654,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 11653,
-      "checked_at": "2026-10-25T09:50:02.318Z"
+      "domain_age_days": 11654,
+      "checked_at": "2026-10-26T11:08:51.055Z"
     },
-    "feed_checked_at": "2026-10-25T09:50:02.302Z",
+    "feed_checked_at": "2026-10-26T11:08:51.041Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-25T09:50:02.318Z",
+    "checked_at": "2026-10-26T11:08:51.055Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 1251,
+      "latency_ms": 865,
       "headers": {
         "content-type": {
           "value": "text/html; charset=UTF-8",
@@ -56,7 +56,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-25T09:50:02.318Z",
+    "checked_at": "2026-10-26T11:08:51.055Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -64,16 +64,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-25T09:50:02.318Z",
+    "checked_at": "2026-10-26T11:08:51.055Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-25T09:50:02.318Z",
+    "checked_at": "2026-10-26T11:08:51.055Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 10,
+    "sample_size_30d": 11,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -88,7 +88,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-25T09:50:02.318Z",
+      "attempted_at": "2026-10-26T11:08:51.055Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -98,13 +98,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-25T09:50:30.632Z",
+  "finished_at": "2026-10-26T11:09:19.840Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-25T09:50:02.318Z",
+      "checked_at": "2026-10-26T11:08:51.055Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 10,
+      "sample_size_30d": 11,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -116,8 +116,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "samsung.com:2026-10-25T09:50:02.318Z:access:NO_DATA": {
-      "checked_at": "2026-10-25T09:50:02.318Z",
+    "samsung.com:2026-10-26T11:08:51.055Z:access:NO_DATA": {
+      "checked_at": "2026-10-26T11:08:51.055Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -134,7 +134,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 1251,
+        "latency_ms": 865,
         "headers": {
           "content-type": {
             "value": "text/html; charset=UTF-8",
@@ -148,42 +148,42 @@
       },
       "request_count": 1
     },
-    "samsung.com:2026-10-25T09:50:02.318Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-25T09:50:02.318Z",
+    "samsung.com:2026-10-26T11:08:51.055Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-26T11:08:51.055Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11653,
+      "domain_age_days": 11654,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11653,
-        "checked_at": "2026-10-25T09:50:02.318Z"
+        "domain_age_days": 11654,
+        "checked_at": "2026-10-26T11:08:51.055Z"
       },
-      "feed_checked_at": "2026-10-25T09:50:02.302Z",
+      "feed_checked_at": "2026-10-26T11:08:51.041Z",
       "listings": []
     },
-    "samsung.com:2026-10-25T09:50:02.318Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-25T09:50:02.318Z",
+    "samsung.com:2026-10-26T11:08:51.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-26T11:08:51.055Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11653,
+      "domain_age_days": 11654,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11653,
-        "checked_at": "2026-10-25T09:50:02.318Z"
+        "domain_age_days": 11654,
+        "checked_at": "2026-10-26T11:08:51.055Z"
       },
-      "feed_checked_at": "2026-10-25T09:50:02.302Z",
+      "feed_checked_at": "2026-10-26T11:08:51.041Z",
       "listings": []
     }
   }
