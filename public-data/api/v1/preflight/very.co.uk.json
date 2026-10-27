@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "very.co.uk:2026-10-26T11:08:51.055Z:access:NO_DATA",
+        "evidence_id": "very.co.uk:2026-10-27T10:36:48.381Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-26T11:08:51.055Z",
+        "checked_at": "2026-10-27T10:36:48.381Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "very.co.uk:2026-10-26T11:08:51.055Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "very.co.uk:2026-10-27T10:36:48.381Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-26T11:08:51.055Z",
+        "checked_at": "2026-10-27T10:36:48.381Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "very.co.uk:2026-10-26T11:08:51.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "very.co.uk:2026-10-27T10:36:48.381Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-26T11:08:51.055Z",
+        "checked_at": "2026-10-27T10:36:48.381Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-26T11:08:51.041Z",
+      "feed_checked_at": "2026-10-27T10:36:48.357Z",
       "listed_on": [],
-      "domain_age_days": 9957,
+      "domain_age_days": 9958,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -56,7 +56,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 11,
+      "sample_size_30d": 12,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/very.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-26T11:08:51.055Z",
+    "generated_at": "2026-10-27T10:36:48.381Z",
     "signature": null,
-    "expires_at": "2026-10-27T11:08:51.055Z"
+    "expires_at": "2026-10-28T10:36:48.381Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "3K_q6J1HPhN8Nk5v1ATKt-g1tKsJqaVvi9999hoY6PZtMViv91C7VSl6L0Nnw-2HnDlkzNioNpSXgwSpNBMNAQ",
-    "generated_at": "2026-10-26T11:08:51.055Z",
-    "expires_at": "2026-10-27T11:08:51.055Z"
+    "sig": "uoEdbv3GGrBLAQ5TdC53fBMY6XkUATEVxOCfPEYUSo_WzR-6k_gc7DkmSGwgFuEWzDSrmBnxeyOJCeN7uvVRBw",
+    "generated_at": "2026-10-27T10:36:48.381Z",
+    "expires_at": "2026-10-28T10:36:48.381Z"
   }
 }

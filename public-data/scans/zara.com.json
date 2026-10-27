@@ -1,30 +1,30 @@
 {
   "domain": "zara.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-26T11:08:51.055Z",
+  "checked_at": "2026-10-27T10:36:48.381Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-26T11:08:51.055Z",
+    "checked_at": "2026-10-27T10:36:48.381Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10742,
+    "domain_age_days": 10743,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10742,
-      "checked_at": "2026-10-26T11:08:51.055Z"
+      "domain_age_days": 10743,
+      "checked_at": "2026-10-27T10:36:48.381Z"
     },
-    "feed_checked_at": "2026-10-26T11:08:51.041Z",
+    "feed_checked_at": "2026-10-27T10:36:48.357Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-26T11:08:51.055Z",
+    "checked_at": "2026-10-27T10:36:48.381Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 403,
@@ -41,7 +41,7 @@
       "challenge": true,
       "block_page": true,
       "truncated": false,
-      "latency_ms": 212,
+      "latency_ms": 116,
       "headers": {
         "content-type": {
           "value": "text/html",
@@ -52,7 +52,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-26T11:08:51.055Z",
+    "checked_at": "2026-10-27T10:36:48.381Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -60,16 +60,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-26T11:08:51.055Z",
+    "checked_at": "2026-10-27T10:36:48.381Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-26T11:08:51.055Z",
+    "checked_at": "2026-10-27T10:36:48.381Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 11,
+    "sample_size_30d": 12,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -84,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-26T11:08:51.055Z",
+      "attempted_at": "2026-10-27T10:36:48.381Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -94,13 +94,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-26T11:09:41.933Z",
+  "finished_at": "2026-10-27T10:37:36.709Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-26T11:08:51.055Z",
+      "checked_at": "2026-10-27T10:36:48.381Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 11,
+      "sample_size_30d": 12,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -112,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "zara.com:2026-10-26T11:08:51.055Z:access:ACCESS_BLOCKED": {
-      "checked_at": "2026-10-26T11:08:51.055Z",
+    "zara.com:2026-10-27T10:36:48.381Z:access:ACCESS_BLOCKED": {
+      "checked_at": "2026-10-27T10:36:48.381Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -130,7 +130,7 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 212,
+        "latency_ms": 116,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -140,8 +140,8 @@
       },
       "request_count": 1
     },
-    "zara.com:2026-10-26T11:08:51.055Z:access:ACCESS_CHALLENGE_PAGE": {
-      "checked_at": "2026-10-26T11:08:51.055Z",
+    "zara.com:2026-10-27T10:36:48.381Z:access:ACCESS_CHALLENGE_PAGE": {
+      "checked_at": "2026-10-27T10:36:48.381Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -158,7 +158,7 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 212,
+        "latency_ms": 116,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -168,8 +168,8 @@
       },
       "request_count": 1
     },
-    "zara.com:2026-10-26T11:08:51.055Z:access:NO_DATA": {
-      "checked_at": "2026-10-26T11:08:51.055Z",
+    "zara.com:2026-10-27T10:36:48.381Z:access:NO_DATA": {
+      "checked_at": "2026-10-27T10:36:48.381Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -186,7 +186,7 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 212,
+        "latency_ms": 116,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -196,42 +196,42 @@
       },
       "request_count": 1
     },
-    "zara.com:2026-10-26T11:08:51.055Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-26T11:08:51.055Z",
+    "zara.com:2026-10-27T10:36:48.381Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-27T10:36:48.381Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10742,
+      "domain_age_days": 10743,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10742,
-        "checked_at": "2026-10-26T11:08:51.055Z"
+        "domain_age_days": 10743,
+        "checked_at": "2026-10-27T10:36:48.381Z"
       },
-      "feed_checked_at": "2026-10-26T11:08:51.041Z",
+      "feed_checked_at": "2026-10-27T10:36:48.357Z",
       "listings": []
     },
-    "zara.com:2026-10-26T11:08:51.055Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-26T11:08:51.055Z",
+    "zara.com:2026-10-27T10:36:48.381Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-27T10:36:48.381Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10742,
+      "domain_age_days": 10743,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10742,
-        "checked_at": "2026-10-26T11:08:51.055Z"
+        "domain_age_days": 10743,
+        "checked_at": "2026-10-27T10:36:48.381Z"
       },
-      "feed_checked_at": "2026-10-26T11:08:51.041Z",
+      "feed_checked_at": "2026-10-27T10:36:48.357Z",
       "listings": []
     }
   }

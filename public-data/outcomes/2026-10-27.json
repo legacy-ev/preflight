@@ -1,0 +1,1248 @@
+[
+  {
+    "domain": "amazon.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ebay.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "amazon.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ebay.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "etsy.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "walmart.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "target.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "costco.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "bestbuy.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "newegg.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "bhphotovideo.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "apple.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "samsung.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "dell.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "lenovo.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "homedepot.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "lowes.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "wayfair.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ikea.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "macys.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "nordstrom.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "gap.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "zara.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "hm.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "uniqlo.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "nike.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "adidas.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "asos.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "next.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "sephora.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ulta.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "boots.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "cvs.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "walgreens.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "chewy.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "petco.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "rei.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "dickssportinggoods.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "kroger.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "instacart.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "tesco.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "sainsburys.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "asda.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "failed",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ocado.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "argos.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "johnlewis.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "marksandspencer.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "currys.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "very.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "aliexpress.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "temu.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "shein.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "doordash.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ubereats.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "grubhub.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "just-eat.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "dominos.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "pizzahut.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "deliveroo.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "success",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "starbucks.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "opentable.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "yelp.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "booking.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "failed",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "expedia.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "airbnb.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "kayak.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "tripadvisor.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "delta.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "united.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "hotels.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "aa.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "southwest.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "britishairways.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ryanair.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "easyjet.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "trainline.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "nationalrail.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "amtrak.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ticketmaster.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "ticketmaster.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "stubhub.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "eventbrite.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "failed",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "zillow.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "rightmove.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "zoopla.co.uk",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "uber.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "lyft.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "failed",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "paypal.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "aborted_safety",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  },
+  {
+    "domain": "shopify.com",
+    "intent": "read",
+    "route_used": "browser",
+    "result": "failed",
+    "attempted_at": "2026-10-27T10:36:48.381Z",
+    "reporter": {
+      "operator": "preflight",
+      "agent_family": "preflight-synthetic",
+      "agent_version": "1.0"
+    },
+    "self_identified": true,
+    "signed_requests": true
+  }
+]
