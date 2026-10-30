@@ -1,30 +1,30 @@
 {
   "domain": "easyjet.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-29T11:32:31.415Z",
+  "checked_at": "2026-10-30T11:24:55.115Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-29T11:32:31.415Z",
+    "checked_at": "2026-10-30T11:24:55.115Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10810,
+    "domain_age_days": 10811,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10810,
-      "checked_at": "2026-10-29T11:32:31.415Z"
+      "domain_age_days": 10811,
+      "checked_at": "2026-10-30T11:24:55.115Z"
     },
-    "feed_checked_at": "2026-10-29T11:32:31.392Z",
+    "feed_checked_at": "2026-10-30T11:24:55.093Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-29T11:32:31.415Z",
+    "checked_at": "2026-10-30T11:24:55.115Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 893,
+      "latency_ms": 186,
       "headers": {
         "server": {
           "value": "AkamaiGHost",
@@ -52,7 +52,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-29T11:32:31.415Z",
+    "checked_at": "2026-10-30T11:24:55.115Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -60,16 +60,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-29T11:32:31.415Z",
+    "checked_at": "2026-10-30T11:24:55.115Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-29T11:32:31.415Z",
+    "checked_at": "2026-10-30T11:24:55.115Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 14,
+    "sample_size_30d": 15,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -84,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-29T11:32:31.415Z",
+      "attempted_at": "2026-10-30T11:24:55.115Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -94,13 +94,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-29T11:35:10.620Z",
+  "finished_at": "2026-10-30T11:27:41.977Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-29T11:32:31.415Z",
+      "checked_at": "2026-10-30T11:24:55.115Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 14,
+      "sample_size_30d": 15,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -112,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "easyjet.com:2026-10-29T11:32:31.415Z:access:NO_DATA": {
-      "checked_at": "2026-10-29T11:32:31.415Z",
+    "easyjet.com:2026-10-30T11:24:55.115Z:access:NO_DATA": {
+      "checked_at": "2026-10-30T11:24:55.115Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -130,7 +130,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 893,
+        "latency_ms": 186,
         "headers": {
           "server": {
             "value": "AkamaiGHost",
@@ -140,42 +140,42 @@
       },
       "request_count": 1
     },
-    "easyjet.com:2026-10-29T11:32:31.415Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-29T11:32:31.415Z",
+    "easyjet.com:2026-10-30T11:24:55.115Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-10-30T11:24:55.115Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10810,
+      "domain_age_days": 10811,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10810,
-        "checked_at": "2026-10-29T11:32:31.415Z"
+        "domain_age_days": 10811,
+        "checked_at": "2026-10-30T11:24:55.115Z"
       },
-      "feed_checked_at": "2026-10-29T11:32:31.392Z",
+      "feed_checked_at": "2026-10-30T11:24:55.093Z",
       "listings": []
     },
-    "easyjet.com:2026-10-29T11:32:31.415Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-29T11:32:31.415Z",
+    "easyjet.com:2026-10-30T11:24:55.115Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-30T11:24:55.115Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10810,
+      "domain_age_days": 10811,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10810,
-        "checked_at": "2026-10-29T11:32:31.415Z"
+        "domain_age_days": 10811,
+        "checked_at": "2026-10-30T11:24:55.115Z"
       },
-      "feed_checked_at": "2026-10-29T11:32:31.392Z",
+      "feed_checked_at": "2026-10-30T11:24:55.093Z",
       "listings": []
     }
   }
