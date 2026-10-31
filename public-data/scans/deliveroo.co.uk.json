@@ -1,32 +1,32 @@
 {
   "domain": "deliveroo.co.uk",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-30T11:24:55.115Z",
+  "checked_at": "2026-10-31T10:56:29.343Z",
   "scanned": true,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-30T11:24:55.115Z",
+    "checked_at": "2026-10-31T10:56:29.343Z",
     "ttl_seconds": 3600,
     "complete": true,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 5245,
+    "domain_age_days": 5246,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 5245,
-      "checked_at": "2026-10-30T11:24:55.115Z"
+      "domain_age_days": 5246,
+      "checked_at": "2026-10-31T10:56:29.343Z"
     },
-    "feed_checked_at": "2026-10-30T11:24:55.093Z",
+    "feed_checked_at": "2026-10-31T10:56:29.326Z",
     "listings": [],
-    "homepage_sha256": "4b88b60d235c1b076c4d593c3529b4d49922852d1f108cd08a3754846c9fc2cf",
+    "homepage_sha256": "d1de4d5faeb09a7e7874a8fb41f233786b09b593efaab056977278c95c4ac4bd",
     "homepage_truncated": false
   },
   "access": {
-    "checked_at": "2026-10-30T11:24:55.115Z",
+    "checked_at": "2026-10-31T10:56:29.343Z",
     "ttl_seconds": 86400,
     "complete": true,
     "status": 200,
@@ -108,7 +108,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 322,
+        "latency_ms": 278,
         "headers": {
           "content-type": {
             "value": "text/html; charset=utf-8",
@@ -119,7 +119,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a52a11578c086bb9-DFW",
+            "value": "a532250fbd8aa225-MSP",
             "untrusted_evidence": true
           }
         }
@@ -132,7 +132,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 826,
+      "latency_ms": 102,
       "headers": {
         "content-type": {
           "value": "text/plain; charset=utf-8",
@@ -143,7 +143,7 @@
           "untrusted_evidence": true
         },
         "cf-ray": {
-          "value": "a52a114c9ce96bb9-DFW",
+          "value": "a53225091f8ca225-MSP",
           "untrusted_evidence": true
         }
       }
@@ -162,7 +162,7 @@
     "request_count": 7
   },
   "route": {
-    "checked_at": "2026-10-30T11:24:55.115Z",
+    "checked_at": "2026-10-31T10:56:29.343Z",
     "ttl_seconds": 86400,
     "complete": true,
     "routes": [
@@ -183,7 +183,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 201,
+        "latency_ms": 170,
         "headers": {
           "content-type": {
             "value": "application/json; charset=utf-8",
@@ -194,7 +194,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a52a115fd8ed6bb9-DFW",
+            "value": "a5322517bce9a225-MSP",
             "untrusted_evidence": true
           }
         }
@@ -206,7 +206,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 203,
+        "latency_ms": 163,
         "headers": {
           "content-type": {
             "value": "application/json; charset=utf-8",
@@ -217,7 +217,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a52a11675d276bb9-DFW",
+            "value": "a532251f0bffa225-MSP",
             "untrusted_evidence": true
           }
         }
@@ -229,7 +229,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 195,
+        "latency_ms": 146,
         "headers": {
           "content-type": {
             "value": "application/json; charset=utf-8",
@@ -240,7 +240,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a52a116ed9e16bb9-DFW",
+            "value": "a53225264b36a225-MSP",
             "untrusted_evidence": true
           }
         }
@@ -252,7 +252,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 194,
+        "latency_ms": 164,
         "headers": {
           "content-type": {
             "value": "application/json; charset=utf-8",
@@ -263,7 +263,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a52a11765de56bb9-DFW",
+            "value": "a532252d7a08a225-MSP",
             "untrusted_evidence": true
           }
         }
@@ -275,7 +275,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 479,
+        "latency_ms": 154,
         "headers": {
           "content-type": {
             "value": "text/html; charset=utf-8",
@@ -286,7 +286,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a52a117dca3a6bb9-DFW",
+            "value": "a5322534b93ca225-MSP",
             "untrusted_evidence": true
           }
         }
@@ -295,16 +295,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-30T11:24:55.115Z",
+    "checked_at": "2026-10-31T10:56:29.343Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-30T11:24:55.115Z",
+    "checked_at": "2026-10-31T10:56:29.343Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 15,
+    "sample_size_30d": 16,
     "success_rate_7d": 1,
     "success_rate_30d": 1,
     "status": "synthetic_only",
@@ -319,7 +319,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "success",
-      "attempted_at": "2026-10-30T11:24:55.115Z",
+      "attempted_at": "2026-10-31T10:56:29.343Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -329,13 +329,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-30T11:27:06.806Z",
+  "finished_at": "2026-10-31T10:58:41.275Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-30T11:24:55.115Z",
+      "checked_at": "2026-10-31T10:56:29.343Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 15,
+      "sample_size_30d": 16,
       "success_rate_7d": 1,
       "success_rate_30d": 1,
       "status": "synthetic_only",
@@ -347,25 +347,25 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "deliveroo.co.uk:2026-10-30T11:24:55.115Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-30T11:24:55.115Z",
+    "deliveroo.co.uk:2026-10-31T10:56:29.343Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-10-31T10:56:29.343Z",
       "ttl_seconds": 3600,
       "complete": true,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 5245,
+      "domain_age_days": 5246,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 5245,
-        "checked_at": "2026-10-30T11:24:55.115Z"
+        "domain_age_days": 5246,
+        "checked_at": "2026-10-31T10:56:29.343Z"
       },
-      "feed_checked_at": "2026-10-30T11:24:55.093Z",
+      "feed_checked_at": "2026-10-31T10:56:29.326Z",
       "listings": [],
-      "homepage_sha256": "4b88b60d235c1b076c4d593c3529b4d49922852d1f108cd08a3754846c9fc2cf",
+      "homepage_sha256": "d1de4d5faeb09a7e7874a8fb41f233786b09b593efaab056977278c95c4ac4bd",
       "homepage_truncated": false
     }
   }

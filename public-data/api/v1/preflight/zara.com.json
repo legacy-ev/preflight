@@ -10,45 +10,45 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "zara.com:2026-10-30T11:24:55.115Z:access:ACCESS_BLOCKED",
+        "evidence_id": "zara.com:2026-10-31T10:56:29.343Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-30T11:24:55.115Z",
+        "checked_at": "2026-10-31T10:56:29.343Z",
         "ttl_seconds": 86400
       },
       {
         "code": "ACCESS_CHALLENGE_PAGE",
         "severity": "caution",
         "text": "A challenge or interstitial was detected; no bypass was attempted.",
-        "evidence_id": "zara.com:2026-10-30T11:24:55.115Z:access:ACCESS_CHALLENGE_PAGE",
+        "evidence_id": "zara.com:2026-10-31T10:56:29.343Z:access:ACCESS_CHALLENGE_PAGE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-30T11:24:55.115Z",
+        "checked_at": "2026-10-31T10:56:29.343Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "zara.com:2026-10-30T11:24:55.115Z:access:NO_DATA",
+        "evidence_id": "zara.com:2026-10-31T10:56:29.343Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-10-30T11:24:55.115Z",
+        "checked_at": "2026-10-31T10:56:29.343Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "zara.com:2026-10-30T11:24:55.115Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "zara.com:2026-10-31T10:56:29.343Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-10-30T11:24:55.115Z",
+        "checked_at": "2026-10-31T10:56:29.343Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "zara.com:2026-10-30T11:24:55.115Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "zara.com:2026-10-31T10:56:29.343Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-10-30T11:24:55.115Z",
+        "checked_at": "2026-10-31T10:56:29.343Z",
         "ttl_seconds": 3600
       }
     ],
@@ -64,9 +64,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-10-30T11:24:55.093Z",
+      "feed_checked_at": "2026-10-31T10:56:29.326Z",
       "listed_on": [],
-      "domain_age_days": 10746,
+      "domain_age_days": 10747,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -74,7 +74,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 15,
+      "sample_size_30d": 16,
       "top_failure_stage": null
     },
     "freshness": {
@@ -88,15 +88,15 @@
       "retry": "/preflight/api/v1/preflight/zara.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-10-30T11:24:55.115Z",
+    "generated_at": "2026-10-31T10:56:29.343Z",
     "signature": null,
-    "expires_at": "2026-10-31T11:24:55.115Z"
+    "expires_at": "2026-11-01T10:56:29.343Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "pSBQK1Gy57AeNQ0ZpkSnF6HY381Agh5PAmjA03dn4MhkKSl1kjWRvTWgxtP7ZXVBcpwjOsqWsN61czFh8i8uAw",
-    "generated_at": "2026-10-30T11:24:55.115Z",
-    "expires_at": "2026-10-31T11:24:55.115Z"
+    "sig": "LOodx7KrZ1j56OgWNv3HYx0CHzwOrSjWq5JJREw-BpZZ2Z7GSEJq_1GLgBm0eroHrS1RrcGn4nbwmriEpwInAw",
+    "generated_at": "2026-10-31T10:56:29.343Z",
+    "expires_at": "2026-11-01T10:56:29.343Z"
   }
 }
