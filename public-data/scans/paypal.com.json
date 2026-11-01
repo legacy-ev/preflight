@@ -1,35 +1,35 @@
 {
   "domain": "paypal.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-10-31T10:56:29.343Z",
+  "checked_at": "2026-11-01T11:51:45.052Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-10-31T10:56:29.343Z",
+    "checked_at": "2026-11-01T11:51:45.052Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 9970,
+    "domain_age_days": 9971,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 9970,
-      "checked_at": "2026-10-31T10:56:29.343Z"
+      "domain_age_days": 9971,
+      "checked_at": "2026-11-01T11:51:45.052Z"
     },
-    "feed_checked_at": "2026-10-31T10:56:29.326Z",
+    "feed_checked_at": "2026-11-01T11:51:45.038Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-10-31T10:56:29.343Z",
+    "checked_at": "2026-11-01T11:51:45.052Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
     "challenge": false,
-    "likely_bot_vendor": null,
+    "likely_bot_vendor": "cloudflare",
     "scan_status": "robots_unavailable",
     "robots_training": [],
     "robots_user_agents": [],
@@ -41,14 +41,18 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 85,
+      "latency_ms": 92,
       "headers": {
-        "server": {
-          "value": "Varnish",
+        "content-type": {
+          "value": "text/html; charset=UTF-8",
           "untrusted_evidence": true
         },
-        "retry-after": {
-          "value": "0",
+        "server": {
+          "value": "cloudflare",
+          "untrusted_evidence": true
+        },
+        "cf-ray": {
+          "value": "a53ab51cf994a1f1-MSP",
           "untrusted_evidence": true
         }
       }
@@ -56,7 +60,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-10-31T10:56:29.343Z",
+    "checked_at": "2026-11-01T11:51:45.052Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -64,16 +68,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-10-31T10:56:29.343Z",
+    "checked_at": "2026-11-01T11:51:45.052Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-10-31T10:56:29.343Z",
+    "checked_at": "2026-11-01T11:51:45.052Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 16,
+    "sample_size_30d": 17,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -88,7 +92,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-10-31T10:56:29.343Z",
+      "attempted_at": "2026-11-01T11:51:45.052Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -98,13 +102,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-10-31T10:59:45.485Z",
+  "finished_at": "2026-11-01T11:55:01.409Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-10-31T10:56:29.343Z",
+      "checked_at": "2026-11-01T11:51:45.052Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 16,
+      "sample_size_30d": 17,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -116,13 +120,13 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "paypal.com:2026-10-31T10:56:29.343Z:access:NO_DATA": {
-      "checked_at": "2026-10-31T10:56:29.343Z",
+    "paypal.com:2026-11-01T11:51:45.052Z:access:NO_DATA": {
+      "checked_at": "2026-11-01T11:51:45.052Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
       "challenge": false,
-      "likely_bot_vendor": null,
+      "likely_bot_vendor": "cloudflare",
       "scan_status": "robots_unavailable",
       "robots_training": [],
       "robots_user_agents": [],
@@ -134,56 +138,60 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 85,
+        "latency_ms": 92,
         "headers": {
-          "server": {
-            "value": "Varnish",
+          "content-type": {
+            "value": "text/html; charset=UTF-8",
             "untrusted_evidence": true
           },
-          "retry-after": {
-            "value": "0",
+          "server": {
+            "value": "cloudflare",
+            "untrusted_evidence": true
+          },
+          "cf-ray": {
+            "value": "a53ab51cf994a1f1-MSP",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "paypal.com:2026-10-31T10:56:29.343Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-10-31T10:56:29.343Z",
+    "paypal.com:2026-11-01T11:51:45.052Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-01T11:51:45.052Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 9970,
+      "domain_age_days": 9971,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 9970,
-        "checked_at": "2026-10-31T10:56:29.343Z"
+        "domain_age_days": 9971,
+        "checked_at": "2026-11-01T11:51:45.052Z"
       },
-      "feed_checked_at": "2026-10-31T10:56:29.326Z",
+      "feed_checked_at": "2026-11-01T11:51:45.038Z",
       "listings": []
     },
-    "paypal.com:2026-10-31T10:56:29.343Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-10-31T10:56:29.343Z",
+    "paypal.com:2026-11-01T11:51:45.052Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-01T11:51:45.052Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 9970,
+      "domain_age_days": 9971,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 9970,
-        "checked_at": "2026-10-31T10:56:29.343Z"
+        "domain_age_days": 9971,
+        "checked_at": "2026-11-01T11:51:45.052Z"
       },
-      "feed_checked_at": "2026-10-31T10:56:29.326Z",
+      "feed_checked_at": "2026-11-01T11:51:45.038Z",
       "listings": []
     }
   }
