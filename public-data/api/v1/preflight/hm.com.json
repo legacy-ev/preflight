@@ -10,45 +10,45 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "hm.com:2026-11-01T11:51:45.052Z:access:ACCESS_BLOCKED",
+        "evidence_id": "hm.com:2026-11-02T13:31:22.896Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 86400
       },
       {
         "code": "ACCESS_CHALLENGE_PAGE",
         "severity": "caution",
         "text": "A challenge or interstitial was detected; no bypass was attempted.",
-        "evidence_id": "hm.com:2026-11-01T11:51:45.052Z:access:ACCESS_CHALLENGE_PAGE",
+        "evidence_id": "hm.com:2026-11-02T13:31:22.896Z:access:ACCESS_CHALLENGE_PAGE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "hm.com:2026-11-01T11:51:45.052Z:access:NO_DATA",
+        "evidence_id": "hm.com:2026-11-02T13:31:22.896Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "hm.com:2026-11-01T11:51:45.052Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "hm.com:2026-11-02T13:31:22.896Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "hm.com:2026-11-01T11:51:45.052Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "hm.com:2026-11-02T13:31:22.896Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 3600
       }
     ],
@@ -64,9 +64,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-01T11:51:45.038Z",
+      "feed_checked_at": "2026-11-02T13:31:22.873Z",
       "listed_on": [],
-      "domain_age_days": 10579,
+      "domain_age_days": 10580,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -74,7 +74,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 17,
+      "sample_size_30d": 18,
       "top_failure_stage": null
     },
     "freshness": {
@@ -88,15 +88,15 @@
       "retry": "/preflight/api/v1/preflight/hm.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-01T11:51:45.052Z",
+    "generated_at": "2026-11-02T13:31:22.896Z",
     "signature": null,
-    "expires_at": "2026-11-02T11:51:45.052Z"
+    "expires_at": "2026-11-03T13:31:22.896Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "ah-l0meB_SAl4Zi9dzFZ1I0-5sUfJdJE0oDFULK6mCp-90MFbSB0NpvT10imBmud_zhoIvD5Pvke9ybwWF48AQ",
-    "generated_at": "2026-11-01T11:51:45.052Z",
-    "expires_at": "2026-11-02T11:51:45.052Z"
+    "sig": "puIqfpUHIfUS-DPs7D-dKTPOWf3cJmMp1CADeTnPw1zXghYSWrGgtHa8L429904KjqSG99L6wzr4tP4H6yEsCA",
+    "generated_at": "2026-11-02T13:31:22.896Z",
+    "expires_at": "2026-11-03T13:31:22.896Z"
   }
 }

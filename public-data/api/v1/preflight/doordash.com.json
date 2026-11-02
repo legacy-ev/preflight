@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "doordash.com:2026-11-01T11:51:45.052Z:access:NO_DATA",
+        "evidence_id": "doordash.com:2026-11-02T13:31:22.896Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "doordash.com:2026-11-01T11:51:45.052Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "doordash.com:2026-11-02T13:31:22.896Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "doordash.com:2026-11-01T11:51:45.052Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "doordash.com:2026-11-02T13:31:22.896Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-01T11:51:45.052Z",
+        "checked_at": "2026-11-02T13:31:22.896Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-01T11:51:45.038Z",
+      "feed_checked_at": "2026-11-02T13:31:22.873Z",
       "listed_on": [],
-      "domain_age_days": 4883,
+      "domain_age_days": 4884,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -56,7 +56,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 17,
+      "sample_size_30d": 18,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/doordash.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-01T11:51:45.052Z",
+    "generated_at": "2026-11-02T13:31:22.896Z",
     "signature": null,
-    "expires_at": "2026-11-02T11:51:45.052Z"
+    "expires_at": "2026-11-03T13:31:22.896Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Fi4-tJJdWGPBKAk6gTwfEc5lVWdHmKqqCJtmh5LNT1F-Zk1EA5vxJUwaClvGmgm7WEpAsdh7aqsFAAtfb6udDw",
-    "generated_at": "2026-11-01T11:51:45.052Z",
-    "expires_at": "2026-11-02T11:51:45.052Z"
+    "sig": "WZoQfGnEExeAG-G7k929u5lsfZmsQ8OIFxFeLaVxHG3cx4_-VMbfOl-A2K2Hi4hlKaj0a4Id3ata_ZwJ8ol3CA",
+    "generated_at": "2026-11-02T13:31:22.896Z",
+    "expires_at": "2026-11-03T13:31:22.896Z"
   }
 }
