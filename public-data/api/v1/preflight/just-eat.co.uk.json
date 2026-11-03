@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "just-eat.co.uk:2026-11-02T13:31:22.896Z:access:NO_DATA",
+        "evidence_id": "just-eat.co.uk:2026-11-03T12:48:53.596Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-02T13:31:22.896Z",
+        "checked_at": "2026-11-03T12:48:53.596Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "just-eat.co.uk:2026-11-02T13:31:22.896Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "just-eat.co.uk:2026-11-03T12:48:53.596Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-02T13:31:22.896Z",
+        "checked_at": "2026-11-03T12:48:53.596Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "just-eat.co.uk:2026-11-02T13:31:22.896Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "just-eat.co.uk:2026-11-03T12:48:53.596Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-02T13:31:22.896Z",
+        "checked_at": "2026-11-03T12:48:53.596Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-02T13:31:22.873Z",
+      "feed_checked_at": "2026-11-03T12:48:53.579Z",
       "listed_on": [],
-      "domain_age_days": 8252,
+      "domain_age_days": 8253,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -56,7 +56,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 18,
+      "sample_size_30d": 19,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/just-eat.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-02T13:31:22.896Z",
+    "generated_at": "2026-11-03T12:48:53.596Z",
     "signature": null,
-    "expires_at": "2026-11-03T13:31:22.896Z"
+    "expires_at": "2026-11-04T12:48:53.596Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "xOTXMF20SuTuO1y3PTrPQ81IQvMXmVQAxvV4weU8OE9-N04_uieSEdIKWojiZ2_R45MNDzGBC-9Ifet4vHvdCw",
-    "generated_at": "2026-11-02T13:31:22.896Z",
-    "expires_at": "2026-11-03T13:31:22.896Z"
+    "sig": "3f22XWgMgihIq5Fo79KRr1edDIxJ54vXxIMAb4E6YMgAhS06eXO0QhWwKYiOYGkQwsk6drdhrei-P6NoXacZAA",
+    "generated_at": "2026-11-03T12:48:53.596Z",
+    "expires_at": "2026-11-04T12:48:53.596Z"
   }
 }
