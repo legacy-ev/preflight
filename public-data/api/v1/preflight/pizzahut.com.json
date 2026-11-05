@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "pizzahut.com:2026-11-04T13:00:15.865Z:access:NO_DATA",
+        "evidence_id": "pizzahut.com:2026-11-05T13:14:00.186Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-04T13:00:15.865Z",
+        "checked_at": "2026-11-05T13:14:00.186Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "pizzahut.com:2026-11-04T13:00:15.865Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "pizzahut.com:2026-11-05T13:14:00.186Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-04T13:00:15.865Z",
+        "checked_at": "2026-11-05T13:14:00.186Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "pizzahut.com:2026-11-04T13:00:15.865Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "pizzahut.com:2026-11-05T13:14:00.186Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-04T13:00:15.865Z",
+        "checked_at": "2026-11-05T13:14:00.186Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-04T13:00:15.840Z",
+      "feed_checked_at": "2026-11-05T13:14:00.172Z",
       "listed_on": [],
-      "domain_age_days": 12020,
+      "domain_age_days": 12021,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -56,7 +56,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 20,
+      "sample_size_30d": 21,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/pizzahut.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-04T13:00:15.865Z",
+    "generated_at": "2026-11-05T13:14:00.186Z",
     "signature": null,
-    "expires_at": "2026-11-05T13:00:15.865Z"
+    "expires_at": "2026-11-06T13:14:00.186Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "l-PoX3CeYRKXMT0XEfPJIPmzgydNRVB7oo_GFV54BQiShq4IqGU0Y_fvBKjUqmpyLrIvmW-PP1GmCnOCndcsDg",
-    "generated_at": "2026-11-04T13:00:15.865Z",
-    "expires_at": "2026-11-05T13:00:15.865Z"
+    "sig": "xU1tnjz88FeIotzwEDrdmagbHcahvbbUyCkSuJEWHOmFS1mnilVW4a6k9xdhl0jiWLB-zBmxGkygP_zXxHDICw",
+    "generated_at": "2026-11-05T13:14:00.186Z",
+    "expires_at": "2026-11-06T13:14:00.186Z"
   }
 }
