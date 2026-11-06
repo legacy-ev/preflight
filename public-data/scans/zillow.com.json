@@ -1,30 +1,30 @@
 {
   "domain": "zillow.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-11-05T13:14:00.186Z",
+  "checked_at": "2026-11-06T12:58:14.845Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-11-05T13:14:00.186Z",
+    "checked_at": "2026-11-06T12:58:14.845Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 8084,
+    "domain_age_days": 8085,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 8084,
-      "checked_at": "2026-11-05T13:14:00.186Z"
+      "domain_age_days": 8085,
+      "checked_at": "2026-11-06T12:58:14.845Z"
     },
-    "feed_checked_at": "2026-11-05T13:14:00.172Z",
+    "feed_checked_at": "2026-11-06T12:58:14.822Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-11-05T13:14:00.186Z",
+    "checked_at": "2026-11-06T12:58:14.845Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 190,
+      "latency_ms": 227,
       "headers": {
         "server": {
           "value": "AmazonS3",
@@ -52,7 +52,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-11-05T13:14:00.186Z",
+    "checked_at": "2026-11-06T12:58:14.845Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -60,16 +60,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-11-05T13:14:00.186Z",
+    "checked_at": "2026-11-06T12:58:14.845Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-11-05T13:14:00.186Z",
+    "checked_at": "2026-11-06T12:58:14.845Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 21,
+    "sample_size_30d": 22,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -84,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-11-05T13:14:00.186Z",
+      "attempted_at": "2026-11-06T12:58:14.845Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -94,13 +94,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-11-05T13:17:03.737Z",
+  "finished_at": "2026-11-06T13:01:19.819Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-11-05T13:14:00.186Z",
+      "checked_at": "2026-11-06T12:58:14.845Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 21,
+      "sample_size_30d": 22,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -112,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "zillow.com:2026-11-05T13:14:00.186Z:access:NO_DATA": {
-      "checked_at": "2026-11-05T13:14:00.186Z",
+    "zillow.com:2026-11-06T12:58:14.845Z:access:NO_DATA": {
+      "checked_at": "2026-11-06T12:58:14.845Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -130,7 +130,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 190,
+        "latency_ms": 227,
         "headers": {
           "server": {
             "value": "AmazonS3",
@@ -140,42 +140,42 @@
       },
       "request_count": 1
     },
-    "zillow.com:2026-11-05T13:14:00.186Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-11-05T13:14:00.186Z",
+    "zillow.com:2026-11-06T12:58:14.845Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-06T12:58:14.845Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 8084,
+      "domain_age_days": 8085,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 8084,
-        "checked_at": "2026-11-05T13:14:00.186Z"
+        "domain_age_days": 8085,
+        "checked_at": "2026-11-06T12:58:14.845Z"
       },
-      "feed_checked_at": "2026-11-05T13:14:00.172Z",
+      "feed_checked_at": "2026-11-06T12:58:14.822Z",
       "listings": []
     },
-    "zillow.com:2026-11-05T13:14:00.186Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-11-05T13:14:00.186Z",
+    "zillow.com:2026-11-06T12:58:14.845Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-06T12:58:14.845Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 8084,
+      "domain_age_days": 8085,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 8084,
-        "checked_at": "2026-11-05T13:14:00.186Z"
+        "domain_age_days": 8085,
+        "checked_at": "2026-11-06T12:58:14.845Z"
       },
-      "feed_checked_at": "2026-11-05T13:14:00.172Z",
+      "feed_checked_at": "2026-11-06T12:58:14.822Z",
       "listings": []
     }
   }

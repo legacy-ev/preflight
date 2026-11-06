@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "ticketmaster.com:2026-11-05T13:14:00.186Z:access:NO_DATA",
+        "evidence_id": "ticketmaster.com:2026-11-06T12:58:14.845Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-05T13:14:00.186Z",
+        "checked_at": "2026-11-06T12:58:14.845Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "ticketmaster.com:2026-11-05T13:14:00.186Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "ticketmaster.com:2026-11-06T12:58:14.845Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-05T13:14:00.186Z",
+        "checked_at": "2026-11-06T12:58:14.845Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "ticketmaster.com:2026-11-05T13:14:00.186Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "ticketmaster.com:2026-11-06T12:58:14.845Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-05T13:14:00.186Z",
+        "checked_at": "2026-11-06T12:58:14.845Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-05T13:14:00.172Z",
+      "feed_checked_at": "2026-11-06T12:58:14.822Z",
       "listed_on": [],
-      "domain_age_days": 11991,
+      "domain_age_days": 11992,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -56,7 +56,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 21,
+      "sample_size_30d": 22,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/ticketmaster.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-05T13:14:00.186Z",
+    "generated_at": "2026-11-06T12:58:14.845Z",
     "signature": null,
-    "expires_at": "2026-11-06T13:14:00.186Z"
+    "expires_at": "2026-11-07T12:58:14.845Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "GbNcmLrnE5PI12zevuYHvVjkyDHk7ORH8P-CM4rjW2vu4VBmF1CJGOcWf17ntsisUrAi2KKF6a87nCNDpZ-gCg",
-    "generated_at": "2026-11-05T13:14:00.186Z",
-    "expires_at": "2026-11-06T13:14:00.186Z"
+    "sig": "zGRtC33I6LeTIlNswASqiPAqdn_Z5C6aUB-P4Bb9yF__HEFly-dg8gickc0RW-NxneXDcg-s0_wh0ktxCg7QAg",
+    "generated_at": "2026-11-06T12:58:14.845Z",
+    "expires_at": "2026-11-07T12:58:14.845Z"
   }
 }

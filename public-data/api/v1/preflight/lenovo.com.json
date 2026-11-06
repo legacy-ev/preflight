@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "lenovo.com:2026-11-05T13:14:00.186Z:access:NO_DATA",
+        "evidence_id": "lenovo.com:2026-11-06T12:58:14.845Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-05T13:14:00.186Z",
+        "checked_at": "2026-11-06T12:58:14.845Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "lenovo.com:2026-11-05T13:14:00.186Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "lenovo.com:2026-11-06T12:58:14.845Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-05T13:14:00.186Z",
+        "checked_at": "2026-11-06T12:58:14.845Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "lenovo.com:2026-11-05T13:14:00.186Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "lenovo.com:2026-11-06T12:58:14.845Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-05T13:14:00.186Z",
+        "checked_at": "2026-11-06T12:58:14.845Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-05T13:14:00.172Z",
+      "feed_checked_at": "2026-11-06T12:58:14.822Z",
       "listed_on": [],
-      "domain_age_days": 8826,
+      "domain_age_days": 8827,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -56,7 +56,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 21,
+      "sample_size_30d": 22,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/lenovo.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-05T13:14:00.186Z",
+    "generated_at": "2026-11-06T12:58:14.845Z",
     "signature": null,
-    "expires_at": "2026-11-06T13:14:00.186Z"
+    "expires_at": "2026-11-07T12:58:14.845Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "_Ou9hwdeLIwnd-hFZ7PiKsl_lnwyGXsWNDFaFeoJ-kw91KbP9inh3_drDboIv8Vl47i2VpFkz3OsCkFZ39HrAg",
-    "generated_at": "2026-11-05T13:14:00.186Z",
-    "expires_at": "2026-11-06T13:14:00.186Z"
+    "sig": "4gSvh-_S-1UIizQD9--eFwvwcoLglsuPAH23TE8Lo2T8G-VS9UsF0L_7E1sDY6ktuNyhGKFEewbyh86_wGWBCg",
+    "generated_at": "2026-11-06T12:58:14.845Z",
+    "expires_at": "2026-11-07T12:58:14.845Z"
   }
 }
