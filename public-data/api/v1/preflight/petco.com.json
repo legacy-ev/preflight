@@ -10,36 +10,36 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "petco.com:2026-11-07T11:45:04.917Z:access:ACCESS_BLOCKED",
+        "evidence_id": "petco.com:2026-11-08T11:57:06.813Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-07T11:45:04.917Z",
+        "checked_at": "2026-11-08T11:57:06.813Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "petco.com:2026-11-07T11:45:04.917Z:access:NO_DATA",
+        "evidence_id": "petco.com:2026-11-08T11:57:06.813Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-07T11:45:04.917Z",
+        "checked_at": "2026-11-08T11:57:06.813Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "petco.com:2026-11-07T11:45:04.917Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "petco.com:2026-11-08T11:57:06.813Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-07T11:45:04.917Z",
+        "checked_at": "2026-11-08T11:57:06.813Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "petco.com:2026-11-07T11:45:04.917Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "petco.com:2026-11-08T11:57:06.813Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-07T11:45:04.917Z",
+        "checked_at": "2026-11-08T11:57:06.813Z",
         "ttl_seconds": 3600
       }
     ],
@@ -55,9 +55,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-07T11:45:04.898Z",
+      "feed_checked_at": "2026-11-08T11:57:06.800Z",
       "listed_on": [],
-      "domain_age_days": 10769,
+      "domain_age_days": 10770,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -65,7 +65,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 23,
+      "sample_size_30d": 24,
       "top_failure_stage": null
     },
     "freshness": {
@@ -79,15 +79,15 @@
       "retry": "/preflight/api/v1/preflight/petco.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-07T11:45:04.917Z",
+    "generated_at": "2026-11-08T11:57:06.813Z",
     "signature": null,
-    "expires_at": "2026-11-08T11:45:04.917Z"
+    "expires_at": "2026-11-09T11:57:06.813Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "HvKpcH68HSeeZINVgzeYmOgrO6cZQL0H5LFYQZGYveWntiE2ordIPZ1MkCKAVWl_a8UtS7F8TuiXcDL73M61DQ",
-    "generated_at": "2026-11-07T11:45:04.917Z",
-    "expires_at": "2026-11-08T11:45:04.917Z"
+    "sig": "D7zxGBa2eIiBjTo604cGJmBwU0Wzh1zOG7_oqW5th2ehFBtC7Xmym3C0g8SXHQtQxUEY3lRL2d9XRbDmG-7uAg",
+    "generated_at": "2026-11-08T11:57:06.813Z",
+    "expires_at": "2026-11-09T11:57:06.813Z"
   }
 }
