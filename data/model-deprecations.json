@@ -3,7 +3,7 @@
     {
       "provider": "Groq",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800,
       "status": "parsed",
       "reason": null
@@ -11,10 +11,10 @@
     {
       "provider": "Google Gemini",
       "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800,
-      "status": "parsed",
-      "reason": null
+      "status": "unknown",
+      "reason": "Official page unavailable"
     }
   ],
   "models": [
@@ -26,7 +26,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -37,7 +37,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -48,7 +48,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -59,7 +59,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -70,7 +70,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -81,7 +81,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -92,7 +92,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -103,7 +103,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -114,7 +114,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -125,7 +125,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -136,7 +136,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -147,7 +147,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -158,7 +158,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -169,7 +169,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -180,7 +180,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -191,7 +191,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -202,7 +202,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -213,7 +213,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -224,7 +224,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -235,7 +235,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -246,7 +246,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -257,7 +257,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -268,7 +268,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -279,7 +279,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -290,7 +290,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -301,7 +301,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -312,7 +312,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -323,7 +323,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -334,7 +334,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -345,7 +345,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -356,7 +356,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -367,7 +367,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -378,7 +378,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -389,7 +389,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -400,7 +400,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -411,7 +411,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -422,7 +422,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -433,7 +433,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -444,7 +444,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     },
     {
@@ -455,920 +455,7 @@
       "status": "dated",
       "date_kind": "shutdown",
       "source": "https://console.groq.com/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.8-flash-tts",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.8-flash-lite-tts",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.8-live",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.8-live-extended-thinking",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.8-flash",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.7-flash",
-      "shutdown_date": null,
-      "replacement": "gemini-3.8-flash (not available to select in Google AI Studio; the endpoint is not shutting down and automatically routes API requests to gemini-3.8-flash )",
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.6-flash",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.5-flash-lite",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.5-flash",
-      "shutdown_date": null,
-      "replacement": "gemini-3.6-flash (not available to select in Google AI Studio; the endpoint is not shutting down and automatically routes API requests to gemini-3.6-flash )",
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-flash-lite",
-      "shutdown_date": "2027-05-07",
-      "replacement": "gemini-3.5-flash-lite",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-flash-tts-preview",
-      "shutdown_date": "2026-11-17",
-      "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-pro-preview",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3-flash-preview",
-      "shutdown_date": null,
-      "replacement": "gemini-3.6-flash",
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3-pro-preview",
-      "shutdown_date": "2026-03-09",
-      "replacement": "gemini-3.1-pro-preview",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-flash-lite-preview",
-      "shutdown_date": "2026-05-25",
-      "replacement": "gemini-3.1-flash-lite",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-pro",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-computer-use-preview-10-2025",
-      "shutdown_date": "2026-07-28",
-      "replacement": "gemini-3.8-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-pro-preview-03-25",
-      "shutdown_date": "2025-12-02",
-      "replacement": "gemini-3.1-pro-preview",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-pro-preview-05-06",
-      "shutdown_date": "2025-12-02",
-      "replacement": "gemini-3.1-pro-preview",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-pro-preview-06-05",
-      "shutdown_date": "2025-12-02",
-      "replacement": "gemini-3.1-pro-preview",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-lite",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-lite-preview-09-2025",
-      "shutdown_date": "2026-03-31",
-      "replacement": "gemini-3.1-flash-lite",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-preview-05-20",
-      "shutdown_date": "2025-11-18",
-      "replacement": "gemini-3.6-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-preview-09-25",
-      "shutdown_date": "2026-02-17",
-      "replacement": "gemini-3.6-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash",
-      "shutdown_date": "2026-06-01",
-      "replacement": "gemini-3.6-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash-001",
-      "shutdown_date": "2026-06-01",
-      "replacement": "gemini-3.6-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash-lite",
-      "shutdown_date": "2026-06-01",
-      "replacement": "gemini-3.1-flash-lite",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash-lite-001",
-      "shutdown_date": "2026-06-01",
-      "replacement": "gemini-3.1-flash-lite",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash-lite-preview",
-      "shutdown_date": "2025-12-09",
-      "replacement": "gemini-3.1-flash-lite",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash-lite-preview-02-05",
-      "shutdown_date": "2025-12-09",
-      "replacement": "gemini-3.1-flash-lite",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.8-live",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.8-live-extended-thinking",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.5-transcribe-live",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash-live-001",
-      "shutdown_date": "2025-12-09",
-      "replacement": "gemini-3.8-live",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.5-live-translate-preview",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-flash-live-preview",
-      "shutdown_date": "2026-11-17",
-      "replacement": "gemini-3.8-live",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
-      "shutdown_date": "2026-11-17",
-      "replacement": "gemini-3.8-live",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-live-2.5-flash-preview",
-      "shutdown_date": "2025-12-09",
-      "replacement": "gemini-3.8-live",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.5-transcribe",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-preview-tts",
-      "shutdown_date": "2026-11-17",
-      "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-pro-preview-tts",
-      "shutdown_date": "2026-11-17",
-      "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-embedding-2",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-embedding-001",
-      "shutdown_date": "2028-05-14",
-      "replacement": "gemini-embedding-2",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "text-embedding-004",
-      "shutdown_date": "2026-01-14",
-      "replacement": "gemini-embedding-2",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "embedding-2-preview",
-      "shutdown_date": "2026-08-10",
-      "replacement": "gemini-embedding-2",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "embedding-001",
-      "shutdown_date": "2025-10-30",
-      "replacement": "gemini-embedding-2",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "embedding-gecko-001",
-      "shutdown_date": "2025-10-30",
-      "replacement": "gemini-embedding-2",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-embedding-exp",
-      "shutdown_date": "2025-10-30",
-      "replacement": "gemini-embedding-2",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-embedding-exp-03-07",
-      "shutdown_date": "2025-10-30",
-      "replacement": "gemini-embedding-2",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-nano-banana-2.1",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-flash-lite-image",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-flash-image",
-      "shutdown_date": null,
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3-pro-image",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-image",
-      "shutdown_date": "2027-03-15",
-      "replacement": "gemini-3.1-flash-lite-image",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3.1-flash-image-preview",
-      "shutdown_date": "2026-06-25",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-3-pro-image-preview",
-      "shutdown_date": "2026-06-25",
-      "replacement": "gemini-3-pro-image",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.5-flash-image-preview",
-      "shutdown_date": "2026-01-15",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-2.0-flash-preview-image-generation",
-      "shutdown_date": "2025-11-14",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "imagen-4.0-generate-001",
-      "shutdown_date": "2026-08-17",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "imagen-4.0-ultra-generate-001",
-      "shutdown_date": "2026-08-17",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "imagen-4.0-fast-generate-001",
-      "shutdown_date": "2026-08-17",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "imagen-3.0-generate-002",
-      "shutdown_date": "2025-11-10",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "imagen-4.0-generate-preview-06-06",
-      "shutdown_date": "2026-02-17",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "imagen-4.0-ultra-generate-preview-06-06",
-      "shutdown_date": "2026-02-17",
-      "replacement": "gemini-nano-banana-2.1",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-3.0-generate-001",
-      "shutdown_date": "2026-06-30",
-      "replacement": "gemini-omni-1.1-flash or the GA models on the Gemini Enterprise Agent Platform",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-3.0-fast-generate-001",
-      "shutdown_date": "2026-06-30",
-      "replacement": "gemini-omni-1.1-flash or the GA models on the Gemini Enterprise Agent Platform",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-2.0-generate-001",
-      "shutdown_date": "2026-06-30",
-      "replacement": "gemini-omni-1.1-flash or the GA models on the Gemini Enterprise Agent Platform",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-3.1-lite-generate-preview",
-      "shutdown_date": "2026-10-22",
-      "replacement": "gemini-omni-1.1-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-3.1-generate-preview",
-      "shutdown_date": "2026-10-22",
-      "replacement": "gemini-omni-1.1-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-3.1-fast-generate-preview",
-      "shutdown_date": "2026-10-22",
-      "replacement": "gemini-omni-1.1-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-3.0-generate-preview",
-      "shutdown_date": "2025-11-12",
-      "replacement": "gemini-omni-1.1-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "veo-3.0-fast-generate-preview",
-      "shutdown_date": "2025-11-12",
-      "replacement": "gemini-omni-1.1-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-omni-1.1-flash",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-omni-flash-preview",
-      "shutdown_date": "2026-10-22",
-      "replacement": "gemini-omni-1.1-flash",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "lyria-3.5",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "lyria-3-clip-preview",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "lyria-3-pro-preview",
-      "shutdown_date": null,
-      "replacement": "lyria-3.5",
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "lyria-realtime-exp",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-robotics-er-2-preview",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-robotics-er-2-streaming-preview",
-      "shutdown_date": null,
-      "replacement": null,
-      "status": "unknown",
-      "date_kind": "unknown",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-robotics-er-1.6-preview",
-      "shutdown_date": "2026-08-31",
-      "replacement": "gemini-robotics-er-2-preview",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
-      "ttl_seconds": 604800
-    },
-    {
-      "provider": "Google Gemini",
-      "model_id": "gemini-robotics-er-1.5-preview",
-      "shutdown_date": "2026-04-30",
-      "replacement": "gemini-robotics-er-2-preview",
-      "status": "dated",
-      "date_kind": "earliest_possible",
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "checked_at": "2026-11-02T12:51:52.900Z",
+      "checked_at": "2026-11-09T13:20:56.198Z",
       "ttl_seconds": 604800
     }
   ]
