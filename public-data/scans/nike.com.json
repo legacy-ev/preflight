@@ -1,30 +1,30 @@
 {
   "domain": "nike.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-11-08T11:57:06.813Z",
+  "checked_at": "2026-11-09T13:55:46.838Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-11-08T11:57:06.813Z",
+    "checked_at": "2026-11-09T13:55:46.838Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 11572,
+    "domain_age_days": 11573,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 11572,
-      "checked_at": "2026-11-08T11:57:06.813Z"
+      "domain_age_days": 11573,
+      "checked_at": "2026-11-09T13:55:46.838Z"
     },
-    "feed_checked_at": "2026-11-08T11:57:06.800Z",
+    "feed_checked_at": "2026-11-09T13:55:46.819Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-11-08T11:57:06.813Z",
+    "checked_at": "2026-11-09T13:55:46.838Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,13 +41,18 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 266,
-      "headers": {}
+      "latency_ms": 270,
+      "headers": {
+        "server": {
+          "value": "CloudFront",
+          "untrusted_evidence": true
+        }
+      }
     },
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-11-08T11:57:06.813Z",
+    "checked_at": "2026-11-09T13:55:46.838Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -55,16 +60,16 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-11-08T11:57:06.813Z",
+    "checked_at": "2026-11-09T13:55:46.838Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-11-08T11:57:06.813Z",
+    "checked_at": "2026-11-09T13:55:46.838Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
-    "sample_size_30d": 24,
+    "sample_size_30d": 25,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
     "status": "synthetic_only",
@@ -79,7 +84,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-11-08T11:57:06.813Z",
+      "attempted_at": "2026-11-09T13:55:46.838Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -89,13 +94,13 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-11-08T11:58:02.624Z",
+  "finished_at": "2026-11-09T13:56:42.640Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-11-08T11:57:06.813Z",
+      "checked_at": "2026-11-09T13:55:46.838Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
-      "sample_size_30d": 24,
+      "sample_size_30d": 25,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "status": "synthetic_only",
@@ -107,8 +112,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "nike.com:2026-11-08T11:57:06.813Z:access:NO_DATA": {
-      "checked_at": "2026-11-08T11:57:06.813Z",
+    "nike.com:2026-11-09T13:55:46.838Z:access:NO_DATA": {
+      "checked_at": "2026-11-09T13:55:46.838Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -125,47 +130,52 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 266,
-        "headers": {}
+        "latency_ms": 270,
+        "headers": {
+          "server": {
+            "value": "CloudFront",
+            "untrusted_evidence": true
+          }
+        }
       },
       "request_count": 1
     },
-    "nike.com:2026-11-08T11:57:06.813Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-11-08T11:57:06.813Z",
+    "nike.com:2026-11-09T13:55:46.838Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-09T13:55:46.838Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11572,
+      "domain_age_days": 11573,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11572,
-        "checked_at": "2026-11-08T11:57:06.813Z"
+        "domain_age_days": 11573,
+        "checked_at": "2026-11-09T13:55:46.838Z"
       },
-      "feed_checked_at": "2026-11-08T11:57:06.800Z",
+      "feed_checked_at": "2026-11-09T13:55:46.819Z",
       "listings": []
     },
-    "nike.com:2026-11-08T11:57:06.813Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-11-08T11:57:06.813Z",
+    "nike.com:2026-11-09T13:55:46.838Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-09T13:55:46.838Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11572,
+      "domain_age_days": 11573,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11572,
-        "checked_at": "2026-11-08T11:57:06.813Z"
+        "domain_age_days": 11573,
+        "checked_at": "2026-11-09T13:55:46.838Z"
       },
-      "feed_checked_at": "2026-11-08T11:57:06.800Z",
+      "feed_checked_at": "2026-11-09T13:55:46.819Z",
       "listings": []
     }
   }
