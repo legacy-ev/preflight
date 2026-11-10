@@ -10,45 +10,45 @@
         "code": "ACCESS_BLOCKED",
         "severity": "caution",
         "text": "The probe received an access block; this may be specific to PreflightBot.",
-        "evidence_id": "sainsburys.co.uk:2026-11-09T13:55:46.838Z:access:ACCESS_BLOCKED",
+        "evidence_id": "sainsburys.co.uk:2026-11-10T13:29:19.741Z:access:ACCESS_BLOCKED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-09T13:55:46.838Z",
+        "checked_at": "2026-11-10T13:29:19.741Z",
         "ttl_seconds": 86400
       },
       {
         "code": "ACCESS_CHALLENGE_PAGE",
         "severity": "caution",
         "text": "A challenge or interstitial was detected; no bypass was attempted.",
-        "evidence_id": "sainsburys.co.uk:2026-11-09T13:55:46.838Z:access:ACCESS_CHALLENGE_PAGE",
+        "evidence_id": "sainsburys.co.uk:2026-11-10T13:29:19.741Z:access:ACCESS_CHALLENGE_PAGE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-09T13:55:46.838Z",
+        "checked_at": "2026-11-10T13:29:19.741Z",
         "ttl_seconds": 86400
       },
       {
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "sainsburys.co.uk:2026-11-09T13:55:46.838Z:access:NO_DATA",
+        "evidence_id": "sainsburys.co.uk:2026-11-10T13:29:19.741Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-09T13:55:46.838Z",
+        "checked_at": "2026-11-10T13:29:19.741Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "sainsburys.co.uk:2026-11-09T13:55:46.838Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "sainsburys.co.uk:2026-11-10T13:29:19.741Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-09T13:55:46.838Z",
+        "checked_at": "2026-11-10T13:29:19.741Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "sainsburys.co.uk:2026-11-09T13:55:46.838Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "sainsburys.co.uk:2026-11-10T13:29:19.741Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-09T13:55:46.838Z",
+        "checked_at": "2026-11-10T13:29:19.741Z",
         "ttl_seconds": 3600
       }
     ],
@@ -64,9 +64,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-09T13:55:46.819Z",
+      "feed_checked_at": "2026-11-10T13:29:19.724Z",
       "listed_on": [],
-      "domain_age_days": 11296,
+      "domain_age_days": 11297,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -74,7 +74,7 @@
       "success_rate_7d": 0,
       "success_rate_30d": 0,
       "sample_size_7d": 7,
-      "sample_size_30d": 25,
+      "sample_size_30d": 26,
       "top_failure_stage": null
     },
     "freshness": {
@@ -88,15 +88,15 @@
       "retry": "/preflight/api/v1/preflight/sainsburys.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-09T13:55:46.838Z",
+    "generated_at": "2026-11-10T13:29:19.741Z",
     "signature": null,
-    "expires_at": "2026-11-10T13:55:46.838Z"
+    "expires_at": "2026-11-11T13:29:19.741Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "RCFKCj3Jd39vstxE0hATsGgG7B34FvEZL9tW3pIshC3huLZPMHkWgk5prGyA3ckaUK-7HBLC63kAm4tTI8ivCg",
-    "generated_at": "2026-11-09T13:55:46.838Z",
-    "expires_at": "2026-11-10T13:55:46.838Z"
+    "sig": "IKeK_fD7-pLIYvKelNS43Ee8ZdW2EDdff_9mHnAvLB9KVDcDNkM7nIRgza6LLU1Veochx6TQk7qs88zSPvgNBw",
+    "generated_at": "2026-11-10T13:29:19.741Z",
+    "expires_at": "2026-11-11T13:29:19.741Z"
   }
 }
