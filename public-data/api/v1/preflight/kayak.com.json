@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "kayak.com:2026-11-11T12:44:19.854Z:access:NO_DATA",
+        "evidence_id": "kayak.com:2026-11-12T13:47:39.516Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-11T12:44:19.854Z",
+        "checked_at": "2026-11-12T13:47:39.516Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "kayak.com:2026-11-11T12:44:19.854Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "kayak.com:2026-11-12T13:47:39.516Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-11T12:44:19.854Z",
+        "checked_at": "2026-11-12T13:47:39.516Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "kayak.com:2026-11-11T12:44:19.854Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "kayak.com:2026-11-12T13:47:39.516Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-11T12:44:19.854Z",
+        "checked_at": "2026-11-12T13:47:39.516Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,17 +46,17 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-11T12:44:19.835Z",
+      "feed_checked_at": "2026-11-12T13:47:39.492Z",
       "listed_on": [],
-      "domain_age_days": 11535,
+      "domain_age_days": 11536,
       "lookalike_of": null,
       "injection_findings": []
     },
     "outcomes": {
       "success_rate_7d": 0,
       "success_rate_30d": 0,
-      "sample_size_7d": 8,
-      "sample_size_30d": 27,
+      "sample_size_7d": 7,
+      "sample_size_30d": 28,
       "top_failure_stage": null
     },
     "freshness": {
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/kayak.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-11T12:44:19.854Z",
+    "generated_at": "2026-11-12T13:47:39.516Z",
     "signature": null,
-    "expires_at": "2026-11-12T12:44:19.854Z"
+    "expires_at": "2026-11-13T13:47:39.516Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "-_VoiWQeTcHzpqvTjaRZQZ1m--dx3BxiwbP4FCe-SlGsOXBy_pHskGOAdAFfWZaHssvhZgd5FwU2xAwre_F7Cw",
-    "generated_at": "2026-11-11T12:44:19.854Z",
-    "expires_at": "2026-11-12T12:44:19.854Z"
+    "sig": "44Plvt1M-eJ8W2c2ePQDdPicyekyV80ZKFSIiFqh1DP_Fj2iT6YZ53q2pPQ5ojvTm-v6lvY23HXy3yxe87_FAw",
+    "generated_at": "2026-11-12T13:47:39.516Z",
+    "expires_at": "2026-11-13T13:47:39.516Z"
   }
 }
