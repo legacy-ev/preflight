@@ -10,9 +10,9 @@
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "deliveroo.co.uk:2026-11-13T13:08:33.592Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "deliveroo.co.uk:2026-11-14T12:12:46.056Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-13T13:08:33.592Z",
+        "checked_at": "2026-11-14T12:12:46.056Z",
         "ttl_seconds": 3600
       }
     ],
@@ -37,9 +37,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-13T13:08:33.570Z",
+      "feed_checked_at": "2026-11-14T12:12:46.039Z",
       "listed_on": [],
-      "domain_age_days": 5259,
+      "domain_age_days": 5260,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -47,7 +47,7 @@
       "success_rate_7d": 1,
       "success_rate_30d": 1,
       "sample_size_7d": 7,
-      "sample_size_30d": 29,
+      "sample_size_30d": 30,
       "top_failure_stage": null
     },
     "freshness": {
@@ -61,15 +61,15 @@
       "retry": "/preflight/api/v1/preflight/deliveroo.co.uk.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-13T13:08:33.592Z",
+    "generated_at": "2026-11-14T12:12:46.056Z",
     "signature": null,
-    "expires_at": "2026-11-14T13:08:33.592Z"
+    "expires_at": "2026-11-15T12:12:46.056Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "l9IHXvz_wlX4kS5Vmcmp7sFm7mSgMcaLYBoSI1-EPxc8lMk59ygEYNSbytRCOI_Y_up159OqND5XDIgwhHOhCQ",
-    "generated_at": "2026-11-13T13:08:33.592Z",
-    "expires_at": "2026-11-14T13:08:33.592Z"
+    "sig": "5ZaIQVvud-7WHCM1NsV0aWzMUhvlP_bSSbajtx-qW8DJwWTefdS-cRV_xK8NRAF9wUrjEa9uX3iuV89KTgCMCg",
+    "generated_at": "2026-11-14T12:12:46.056Z",
+    "expires_at": "2026-11-15T12:12:46.056Z"
   }
 }
