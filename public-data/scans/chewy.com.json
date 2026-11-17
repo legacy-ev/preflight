@@ -1,30 +1,30 @@
 {
   "domain": "chewy.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-11-16T13:40:35.916Z",
+  "checked_at": "2026-11-17T14:26:42.127Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-11-16T13:40:35.916Z",
+    "checked_at": "2026-11-17T14:26:42.127Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 8246,
+    "domain_age_days": 8247,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 8246,
-      "checked_at": "2026-11-16T13:40:35.916Z"
+      "domain_age_days": 8247,
+      "checked_at": "2026-11-17T14:26:42.127Z"
     },
-    "feed_checked_at": "2026-11-16T13:40:35.899Z",
+    "feed_checked_at": "2026-11-17T14:26:42.109Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-11-16T13:40:35.916Z",
+    "checked_at": "2026-11-17T14:26:42.127Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,14 +41,14 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 70,
+      "latency_ms": 123,
       "headers": {
         "server": {
           "value": "AkamaiGHost",
           "untrusted_evidence": true
         },
         "akamai-grn": {
-          "value": "0.dbab3717.1794836504.508ad745",
+          "value": "0.6fc83017.1794925671.4a0d0100",
           "untrusted_evidence": true
         }
       }
@@ -56,7 +56,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-11-16T13:40:35.916Z",
+    "checked_at": "2026-11-17T14:26:42.127Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -64,15 +64,15 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-11-16T13:40:35.916Z",
+    "checked_at": "2026-11-17T14:26:42.127Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-11-16T13:40:35.916Z",
+    "checked_at": "2026-11-17T14:26:42.127Z",
     "ttl_seconds": 86400,
-    "sample_size_7d": 8,
+    "sample_size_7d": 7,
     "sample_size_30d": 30,
     "success_rate_7d": 0,
     "success_rate_30d": 0,
@@ -88,7 +88,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-11-16T13:40:35.916Z",
+      "attempted_at": "2026-11-17T14:26:42.127Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -98,12 +98,12 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-11-16T13:41:50.573Z",
+  "finished_at": "2026-11-17T14:27:57.751Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-11-16T13:40:35.916Z",
+      "checked_at": "2026-11-17T14:26:42.127Z",
       "ttl_seconds": 86400,
-      "sample_size_7d": 8,
+      "sample_size_7d": 7,
       "sample_size_30d": 30,
       "success_rate_7d": 0,
       "success_rate_30d": 0,
@@ -116,8 +116,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "chewy.com:2026-11-16T13:40:35.916Z:access:NO_DATA": {
-      "checked_at": "2026-11-16T13:40:35.916Z",
+    "chewy.com:2026-11-17T14:26:42.127Z:access:NO_DATA": {
+      "checked_at": "2026-11-17T14:26:42.127Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -134,56 +134,56 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 70,
+        "latency_ms": 123,
         "headers": {
           "server": {
             "value": "AkamaiGHost",
             "untrusted_evidence": true
           },
           "akamai-grn": {
-            "value": "0.dbab3717.1794836504.508ad745",
+            "value": "0.6fc83017.1794925671.4a0d0100",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "chewy.com:2026-11-16T13:40:35.916Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-11-16T13:40:35.916Z",
+    "chewy.com:2026-11-17T14:26:42.127Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-17T14:26:42.127Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 8246,
+      "domain_age_days": 8247,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 8246,
-        "checked_at": "2026-11-16T13:40:35.916Z"
+        "domain_age_days": 8247,
+        "checked_at": "2026-11-17T14:26:42.127Z"
       },
-      "feed_checked_at": "2026-11-16T13:40:35.899Z",
+      "feed_checked_at": "2026-11-17T14:26:42.109Z",
       "listings": []
     },
-    "chewy.com:2026-11-16T13:40:35.916Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-11-16T13:40:35.916Z",
+    "chewy.com:2026-11-17T14:26:42.127Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-17T14:26:42.127Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 8246,
+      "domain_age_days": 8247,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 8246,
-        "checked_at": "2026-11-16T13:40:35.916Z"
+        "domain_age_days": 8247,
+        "checked_at": "2026-11-17T14:26:42.127Z"
       },
-      "feed_checked_at": "2026-11-16T13:40:35.899Z",
+      "feed_checked_at": "2026-11-17T14:26:42.109Z",
       "listings": []
     }
   }
