@@ -1,30 +1,30 @@
 {
   "domain": "argos.co.uk",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-11-17T14:26:42.127Z",
+  "checked_at": "2026-11-18T14:00:04.890Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-11-17T14:26:42.127Z",
+    "checked_at": "2026-11-18T14:00:04.890Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 11454,
+    "domain_age_days": 11455,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 11454,
-      "checked_at": "2026-11-17T14:26:42.127Z"
+      "domain_age_days": 11455,
+      "checked_at": "2026-11-18T14:00:04.890Z"
     },
-    "feed_checked_at": "2026-11-17T14:26:42.109Z",
+    "feed_checked_at": "2026-11-18T14:00:04.876Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-11-17T14:26:42.127Z",
+    "checked_at": "2026-11-18T14:00:04.890Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 403,
@@ -41,14 +41,14 @@
       "challenge": true,
       "block_page": true,
       "truncated": false,
-      "latency_ms": 135,
+      "latency_ms": 127,
       "headers": {
         "content-type": {
           "value": "text/html",
           "untrusted_evidence": true
         },
         "akamai-grn": {
-          "value": "0.4c182117.1794925693.5260bcbd",
+          "value": "0.260ed217.1795010496.6a1a40f4",
           "untrusted_evidence": true
         }
       }
@@ -56,7 +56,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-11-17T14:26:42.127Z",
+    "checked_at": "2026-11-18T14:00:04.890Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -64,13 +64,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-11-17T14:26:42.127Z",
+    "checked_at": "2026-11-18T14:00:04.890Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-11-17T14:26:42.127Z",
+    "checked_at": "2026-11-18T14:00:04.890Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
     "sample_size_30d": 30,
@@ -88,7 +88,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-11-17T14:26:42.127Z",
+      "attempted_at": "2026-11-18T14:00:04.890Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -98,10 +98,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-11-17T14:28:20.341Z",
+  "finished_at": "2026-11-18T14:01:42.725Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-11-17T14:26:42.127Z",
+      "checked_at": "2026-11-18T14:00:04.890Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
       "sample_size_30d": 30,
@@ -116,8 +116,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "argos.co.uk:2026-11-17T14:26:42.127Z:access:ACCESS_BLOCKED": {
-      "checked_at": "2026-11-17T14:26:42.127Z",
+    "argos.co.uk:2026-11-18T14:00:04.890Z:access:ACCESS_BLOCKED": {
+      "checked_at": "2026-11-18T14:00:04.890Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -134,22 +134,22 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 135,
+        "latency_ms": 127,
         "headers": {
           "content-type": {
             "value": "text/html",
             "untrusted_evidence": true
           },
           "akamai-grn": {
-            "value": "0.4c182117.1794925693.5260bcbd",
+            "value": "0.260ed217.1795010496.6a1a40f4",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "argos.co.uk:2026-11-17T14:26:42.127Z:access:ACCESS_CHALLENGE_PAGE": {
-      "checked_at": "2026-11-17T14:26:42.127Z",
+    "argos.co.uk:2026-11-18T14:00:04.890Z:access:ACCESS_CHALLENGE_PAGE": {
+      "checked_at": "2026-11-18T14:00:04.890Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -166,22 +166,22 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 135,
+        "latency_ms": 127,
         "headers": {
           "content-type": {
             "value": "text/html",
             "untrusted_evidence": true
           },
           "akamai-grn": {
-            "value": "0.4c182117.1794925693.5260bcbd",
+            "value": "0.260ed217.1795010496.6a1a40f4",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "argos.co.uk:2026-11-17T14:26:42.127Z:access:NO_DATA": {
-      "checked_at": "2026-11-17T14:26:42.127Z",
+    "argos.co.uk:2026-11-18T14:00:04.890Z:access:NO_DATA": {
+      "checked_at": "2026-11-18T14:00:04.890Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 403,
@@ -198,56 +198,56 @@
         "challenge": true,
         "block_page": true,
         "truncated": false,
-        "latency_ms": 135,
+        "latency_ms": 127,
         "headers": {
           "content-type": {
             "value": "text/html",
             "untrusted_evidence": true
           },
           "akamai-grn": {
-            "value": "0.4c182117.1794925693.5260bcbd",
+            "value": "0.260ed217.1795010496.6a1a40f4",
             "untrusted_evidence": true
           }
         }
       },
       "request_count": 1
     },
-    "argos.co.uk:2026-11-17T14:26:42.127Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-11-17T14:26:42.127Z",
+    "argos.co.uk:2026-11-18T14:00:04.890Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-18T14:00:04.890Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11454,
+      "domain_age_days": 11455,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11454,
-        "checked_at": "2026-11-17T14:26:42.127Z"
+        "domain_age_days": 11455,
+        "checked_at": "2026-11-18T14:00:04.890Z"
       },
-      "feed_checked_at": "2026-11-17T14:26:42.109Z",
+      "feed_checked_at": "2026-11-18T14:00:04.876Z",
       "listings": []
     },
-    "argos.co.uk:2026-11-17T14:26:42.127Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-11-17T14:26:42.127Z",
+    "argos.co.uk:2026-11-18T14:00:04.890Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-18T14:00:04.890Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 11454,
+      "domain_age_days": 11455,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 11454,
-        "checked_at": "2026-11-17T14:26:42.127Z"
+        "domain_age_days": 11455,
+        "checked_at": "2026-11-18T14:00:04.890Z"
       },
-      "feed_checked_at": "2026-11-17T14:26:42.109Z",
+      "feed_checked_at": "2026-11-18T14:00:04.876Z",
       "listings": []
     }
   }
