@@ -1,30 +1,30 @@
 {
   "domain": "uniqlo.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-11-19T14:27:29.503Z",
+  "checked_at": "2026-11-20T14:02:17.214Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-11-19T14:27:29.503Z",
+    "checked_at": "2026-11-20T14:02:17.214Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10188,
+    "domain_age_days": 10189,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10188,
-      "checked_at": "2026-11-19T14:27:29.503Z"
+      "domain_age_days": 10189,
+      "checked_at": "2026-11-20T14:02:17.214Z"
     },
-    "feed_checked_at": "2026-11-19T14:27:29.480Z",
+    "feed_checked_at": "2026-11-20T14:02:17.189Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-11-19T14:27:29.503Z",
+    "checked_at": "2026-11-20T14:02:17.214Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,7 +41,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 629,
+      "latency_ms": 770,
       "headers": {
         "content-type": {
           "value": "text/html",
@@ -56,7 +56,7 @@
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-11-19T14:27:29.503Z",
+    "checked_at": "2026-11-20T14:02:17.214Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -64,13 +64,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-11-19T14:27:29.503Z",
+    "checked_at": "2026-11-20T14:02:17.214Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-11-19T14:27:29.503Z",
+    "checked_at": "2026-11-20T14:02:17.214Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
     "sample_size_30d": 30,
@@ -88,7 +88,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-11-19T14:27:29.503Z",
+      "attempted_at": "2026-11-20T14:02:17.214Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -98,10 +98,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-11-19T14:28:25.575Z",
+  "finished_at": "2026-11-20T14:03:10.624Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-11-19T14:27:29.503Z",
+      "checked_at": "2026-11-20T14:02:17.214Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
       "sample_size_30d": 30,
@@ -116,8 +116,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "uniqlo.com:2026-11-19T14:27:29.503Z:access:NO_DATA": {
-      "checked_at": "2026-11-19T14:27:29.503Z",
+    "uniqlo.com:2026-11-20T14:02:17.214Z:access:NO_DATA": {
+      "checked_at": "2026-11-20T14:02:17.214Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -134,7 +134,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 629,
+        "latency_ms": 770,
         "headers": {
           "content-type": {
             "value": "text/html",
@@ -148,42 +148,42 @@
       },
       "request_count": 1
     },
-    "uniqlo.com:2026-11-19T14:27:29.503Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-11-19T14:27:29.503Z",
+    "uniqlo.com:2026-11-20T14:02:17.214Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-20T14:02:17.214Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10188,
+      "domain_age_days": 10189,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10188,
-        "checked_at": "2026-11-19T14:27:29.503Z"
+        "domain_age_days": 10189,
+        "checked_at": "2026-11-20T14:02:17.214Z"
       },
-      "feed_checked_at": "2026-11-19T14:27:29.480Z",
+      "feed_checked_at": "2026-11-20T14:02:17.189Z",
       "listings": []
     },
-    "uniqlo.com:2026-11-19T14:27:29.503Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-11-19T14:27:29.503Z",
+    "uniqlo.com:2026-11-20T14:02:17.214Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-20T14:02:17.214Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10188,
+      "domain_age_days": 10189,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10188,
-        "checked_at": "2026-11-19T14:27:29.503Z"
+        "domain_age_days": 10189,
+        "checked_at": "2026-11-20T14:02:17.214Z"
       },
-      "feed_checked_at": "2026-11-19T14:27:29.480Z",
+      "feed_checked_at": "2026-11-20T14:02:17.189Z",
       "listings": []
     }
   }

@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "walmart.com:2026-11-19T14:27:29.503Z:access:NO_DATA",
+        "evidence_id": "walmart.com:2026-11-20T14:02:17.214Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-19T14:27:29.503Z",
+        "checked_at": "2026-11-20T14:02:17.214Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "walmart.com:2026-11-19T14:27:29.503Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "walmart.com:2026-11-20T14:02:17.214Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-19T14:27:29.503Z",
+        "checked_at": "2026-11-20T14:02:17.214Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "walmart.com:2026-11-19T14:27:29.503Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "walmart.com:2026-11-20T14:02:17.214Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-19T14:27:29.503Z",
+        "checked_at": "2026-11-20T14:02:17.214Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-19T14:27:29.480Z",
+      "feed_checked_at": "2026-11-20T14:02:17.189Z",
       "listed_on": [],
-      "domain_age_days": 11592,
+      "domain_age_days": 11593,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/walmart.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-19T14:27:29.503Z",
+    "generated_at": "2026-11-20T14:02:17.214Z",
     "signature": null,
-    "expires_at": "2026-11-20T14:27:29.503Z"
+    "expires_at": "2026-11-21T14:02:17.214Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "U05aoI4__y85RE-12-8K6-v1qxqJOxWD_WV-B3BivgSKcMi3PW1vbGVMMb34BgrdycMhI1PXbrQ0Z3bRVsHRDA",
-    "generated_at": "2026-11-19T14:27:29.503Z",
-    "expires_at": "2026-11-20T14:27:29.503Z"
+    "sig": "tgcpa9odzTH8uEj831jxW-iNB5oqmboGCgtAHaRQx1f4GlU29wF69p4nXRG-ezwJXri_XTMJptli5_7Ps2KNBA",
+    "generated_at": "2026-11-20T14:02:17.214Z",
+    "expires_at": "2026-11-21T14:02:17.214Z"
   }
 }
