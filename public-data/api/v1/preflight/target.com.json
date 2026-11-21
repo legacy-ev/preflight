@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "target.com:2026-11-20T14:02:17.214Z:access:NO_DATA",
+        "evidence_id": "target.com:2026-11-21T13:29:26.828Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-20T14:02:17.214Z",
+        "checked_at": "2026-11-21T13:29:26.828Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "target.com:2026-11-20T14:02:17.214Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "target.com:2026-11-21T13:29:26.828Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-20T14:02:17.214Z",
+        "checked_at": "2026-11-21T13:29:26.828Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "target.com:2026-11-20T14:02:17.214Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "target.com:2026-11-21T13:29:26.828Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-20T14:02:17.214Z",
+        "checked_at": "2026-11-21T13:29:26.828Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-20T14:02:17.189Z",
+      "feed_checked_at": "2026-11-21T13:29:26.809Z",
       "listed_on": [],
-      "domain_age_days": 10914,
+      "domain_age_days": 10915,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/target.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-20T14:02:17.214Z",
+    "generated_at": "2026-11-21T13:29:26.828Z",
     "signature": null,
-    "expires_at": "2026-11-21T14:02:17.214Z"
+    "expires_at": "2026-11-22T13:29:26.828Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "guKbCD1HboEwO1amZpayZy90Gsx3bVgpGwpCZGBMHpfl2L6W3-r0b4svno4os8I3cWvK_J9TTgSFop_9jgC0BA",
-    "generated_at": "2026-11-20T14:02:17.214Z",
-    "expires_at": "2026-11-21T14:02:17.214Z"
+    "sig": "viLDc2Wkddrtu-VdaZrcPL83JlTz8gaydD8qGsyEEMTsWlcNuT2a8QcBTQyTjtn1W7tUvDF_C4czHa9Ry39LAA",
+    "generated_at": "2026-11-21T13:29:26.828Z",
+    "expires_at": "2026-11-22T13:29:26.828Z"
   }
 }
