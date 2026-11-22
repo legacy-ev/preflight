@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "instacart.com:2026-11-21T13:29:26.828Z:access:NO_DATA",
+        "evidence_id": "instacart.com:2026-11-22T13:22:46.934Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "instacart.com:2026-11-21T13:29:26.828Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "instacart.com:2026-11-22T13:22:46.934Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "instacart.com:2026-11-21T13:29:26.828Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "instacart.com:2026-11-22T13:22:46.934Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-21T13:29:26.809Z",
+      "feed_checked_at": "2026-11-22T13:22:46.911Z",
       "listed_on": [],
-      "domain_age_days": 10978,
+      "domain_age_days": 10979,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/instacart.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-21T13:29:26.828Z",
+    "generated_at": "2026-11-22T13:22:46.934Z",
     "signature": null,
-    "expires_at": "2026-11-22T13:29:26.828Z"
+    "expires_at": "2026-11-23T13:22:46.934Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Ua4YU2C9p-ztkQLO_sIvzA79FYlQ4LP1sobh7yC6cnAKVRQ2KvWXDy_LCkzB4b0Xaj2vW_b6ZzCdGNZePUEjBw",
-    "generated_at": "2026-11-21T13:29:26.828Z",
-    "expires_at": "2026-11-22T13:29:26.828Z"
+    "sig": "ilyTYhDkA1bT0yZz4TKwkHojmQ29c2LpXHGQ0Y4rScF3YZTvvVgf9f1u-wBuk62UOIWBS9gD1R1c-9miB1DjAQ",
+    "generated_at": "2026-11-22T13:22:46.934Z",
+    "expires_at": "2026-11-23T13:22:46.934Z"
   }
 }

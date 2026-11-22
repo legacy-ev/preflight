@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "bhphotovideo.com:2026-11-21T13:29:26.828Z:access:NO_DATA",
+        "evidence_id": "bhphotovideo.com:2026-11-22T13:22:46.934Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "bhphotovideo.com:2026-11-21T13:29:26.828Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "bhphotovideo.com:2026-11-22T13:22:46.934Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "bhphotovideo.com:2026-11-21T13:29:26.828Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "bhphotovideo.com:2026-11-22T13:22:46.934Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-21T13:29:26.809Z",
+      "feed_checked_at": "2026-11-22T13:22:46.911Z",
       "listed_on": [],
-      "domain_age_days": 11148,
+      "domain_age_days": 11149,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/bhphotovideo.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-21T13:29:26.828Z",
+    "generated_at": "2026-11-22T13:22:46.934Z",
     "signature": null,
-    "expires_at": "2026-11-22T13:29:26.828Z"
+    "expires_at": "2026-11-23T13:22:46.934Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "JbjVkafgFBxaW9ADwCv2JA4KLNNxonFI3nlh0Uy_yBKBS7Z5Ui5JjHChsRCWTHSLQ78TeLu-Pzc5lwfvkWwuBg",
-    "generated_at": "2026-11-21T13:29:26.828Z",
-    "expires_at": "2026-11-22T13:29:26.828Z"
+    "sig": "MTA5ofLsTiCU8CgozrvZ0n8kTcpeG1G4Z1WlRM951Vr-b1r3YMV0_fIxcOpVVZszqekK1PEFy3TqL-vxIcDmAg",
+    "generated_at": "2026-11-22T13:22:46.934Z",
+    "expires_at": "2026-11-23T13:22:46.934Z"
   }
 }

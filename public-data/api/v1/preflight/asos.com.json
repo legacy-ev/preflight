@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "asos.com:2026-11-21T13:29:26.828Z:access:NO_DATA",
+        "evidence_id": "asos.com:2026-11-22T13:22:46.934Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "asos.com:2026-11-21T13:29:26.828Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "asos.com:2026-11-22T13:22:46.934Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "asos.com:2026-11-21T13:29:26.828Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "asos.com:2026-11-22T13:22:46.934Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-21T13:29:26.828Z",
+        "checked_at": "2026-11-22T13:22:46.934Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-21T13:29:26.809Z",
+      "feed_checked_at": "2026-11-22T13:22:46.911Z",
       "listed_on": [],
-      "domain_age_days": 9764,
+      "domain_age_days": 9765,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/asos.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-21T13:29:26.828Z",
+    "generated_at": "2026-11-22T13:22:46.934Z",
     "signature": null,
-    "expires_at": "2026-11-22T13:29:26.828Z"
+    "expires_at": "2026-11-23T13:22:46.934Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "SgJGGK378jS6rzFPbLeU7gX-XIlzOOKtRA25lP4yb9TCIuuHNCPAQg4OsCm6ai1sI_dhh-oo2ihk49CSRHjDBA",
-    "generated_at": "2026-11-21T13:29:26.828Z",
-    "expires_at": "2026-11-22T13:29:26.828Z"
+    "sig": "uIPPEBeDhVEUu-Gp71OT4ottT8IBQxoRwS8Gi8UZ8A9B6gxVZkzS5ZwNcLD2DgKRjYwgnGpH27n3cvVT_9z_CQ",
+    "generated_at": "2026-11-22T13:22:46.934Z",
+    "expires_at": "2026-11-23T13:22:46.934Z"
   }
 }
