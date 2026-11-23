@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "asda.com:2026-11-22T13:22:46.934Z:access:NO_DATA",
+        "evidence_id": "asda.com:2026-11-23T16:00:21.031Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-22T13:22:46.934Z",
+        "checked_at": "2026-11-23T16:00:21.031Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "asda.com:2026-11-22T13:22:46.934Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "asda.com:2026-11-23T16:00:21.031Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-22T13:22:46.934Z",
+        "checked_at": "2026-11-23T16:00:21.031Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "asda.com:2026-11-22T13:22:46.934Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "asda.com:2026-11-23T16:00:21.031Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-22T13:22:46.934Z",
+        "checked_at": "2026-11-23T16:00:21.031Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-22T13:22:46.911Z",
+      "feed_checked_at": "2026-11-23T16:00:21.012Z",
       "listed_on": [],
-      "domain_age_days": 10369,
+      "domain_age_days": 10370,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/asda.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-22T13:22:46.934Z",
+    "generated_at": "2026-11-23T16:00:21.031Z",
     "signature": null,
-    "expires_at": "2026-11-23T13:22:46.934Z"
+    "expires_at": "2026-11-24T16:00:21.031Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "LHrBaQ9sAIpjcfLQsA6jfGlEH9I5JNGxlAywIeLl6Soz2RODkVAQypPxHYysLbdpt2SpbZh4UBg2RUdTCtvQDg",
-    "generated_at": "2026-11-22T13:22:46.934Z",
-    "expires_at": "2026-11-23T13:22:46.934Z"
+    "sig": "iLE0g9cpXaMoy7jn1VTTj9AE39qpwDWomGwq7-ocuVktq3xZ4PLEq-0hVpcq2Sz0rZ1CoSVineB_YQyruJQ1Ag",
+    "generated_at": "2026-11-23T16:00:21.031Z",
+    "expires_at": "2026-11-24T16:00:21.031Z"
   }
 }
