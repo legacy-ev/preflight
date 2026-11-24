@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "britishairways.com:2026-11-23T16:00:21.031Z:access:NO_DATA",
+        "evidence_id": "britishairways.com:2026-11-24T15:54:23.249Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-23T16:00:21.031Z",
+        "checked_at": "2026-11-24T15:54:23.249Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "britishairways.com:2026-11-23T16:00:21.031Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "britishairways.com:2026-11-24T15:54:23.249Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-23T16:00:21.031Z",
+        "checked_at": "2026-11-24T15:54:23.249Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "britishairways.com:2026-11-23T16:00:21.031Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "britishairways.com:2026-11-24T15:54:23.249Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-23T16:00:21.031Z",
+        "checked_at": "2026-11-24T15:54:23.249Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-23T16:00:21.012Z",
+      "feed_checked_at": "2026-11-24T15:54:23.230Z",
       "listed_on": [],
-      "domain_age_days": 10358,
+      "domain_age_days": 10359,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/britishairways.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-23T16:00:21.031Z",
+    "generated_at": "2026-11-24T15:54:23.249Z",
     "signature": null,
-    "expires_at": "2026-11-24T16:00:21.031Z"
+    "expires_at": "2026-11-25T15:54:23.249Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Fs2M_fbIG_IxvreNixcVuHFll5andrY84SBWMPelT4zukJPr-2zqKytE0t-AvEG9mD-mzzHfBOtMWPjAxFx4Ag",
-    "generated_at": "2026-11-23T16:00:21.031Z",
-    "expires_at": "2026-11-24T16:00:21.031Z"
+    "sig": "bTXTpOay3P5-Nb56E7GsUnKP-8yhqsek6khP-lkjXJ5wjMv8SM-kiJ53ksucezH7nDATMEAtULbmPKL8TVyRDw",
+    "generated_at": "2026-11-24T15:54:23.249Z",
+    "expires_at": "2026-11-25T15:54:23.249Z"
   }
 }
