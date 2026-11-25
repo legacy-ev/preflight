@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "macys.com:2026-11-24T15:54:23.249Z:access:NO_DATA",
+        "evidence_id": "macys.com:2026-11-25T15:37:28.607Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-24T15:54:23.249Z",
+        "checked_at": "2026-11-25T15:37:28.607Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "macys.com:2026-11-24T15:54:23.249Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "macys.com:2026-11-25T15:37:28.607Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-24T15:54:23.249Z",
+        "checked_at": "2026-11-25T15:37:28.607Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "macys.com:2026-11-24T15:54:23.249Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "macys.com:2026-11-25T15:37:28.607Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-24T15:54:23.249Z",
+        "checked_at": "2026-11-25T15:37:28.607Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-24T15:54:23.230Z",
+      "feed_checked_at": "2026-11-25T15:37:28.593Z",
       "listed_on": [],
-      "domain_age_days": 11978,
+      "domain_age_days": 11979,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/macys.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-24T15:54:23.249Z",
+    "generated_at": "2026-11-25T15:37:28.607Z",
     "signature": null,
-    "expires_at": "2026-11-25T15:54:23.249Z"
+    "expires_at": "2026-11-26T15:37:28.607Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "w23SKroQP-F-KF2IZlYesyjytMXUr1rVihZ9jJVfhpGBTPDkPoZ7I2yhftHI8VjIa9ICnfXbt-84ottSNV_VCQ",
-    "generated_at": "2026-11-24T15:54:23.249Z",
-    "expires_at": "2026-11-25T15:54:23.249Z"
+    "sig": "YrcJpr5w_MtInao8wUijeiqLmvTgRrfrPLceJKXbi3kgU-Ev015cKco19bBgMU3OzDYhIegmU2QTRXgSS0ANAQ",
+    "generated_at": "2026-11-25T15:37:28.607Z",
+    "expires_at": "2026-11-26T15:37:28.607Z"
   }
 }

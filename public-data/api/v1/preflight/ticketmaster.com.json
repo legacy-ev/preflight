@@ -10,27 +10,27 @@
         "code": "NO_DATA",
         "severity": "caution",
         "text": "No homepage scan is available; retry after permission and access are available.",
-        "evidence_id": "ticketmaster.com:2026-11-24T15:54:23.249Z:access:NO_DATA",
+        "evidence_id": "ticketmaster.com:2026-11-25T15:37:28.607Z:access:NO_DATA",
         "source": "preflight_scan",
-        "checked_at": "2026-11-24T15:54:23.249Z",
+        "checked_at": "2026-11-25T15:37:28.607Z",
         "ttl_seconds": 86400
       },
       {
         "code": "DATA_INCOMPLETE",
         "severity": "caution",
         "text": "Required scan coverage is incomplete or unavailable.",
-        "evidence_id": "ticketmaster.com:2026-11-24T15:54:23.249Z:safety:DATA_INCOMPLETE",
+        "evidence_id": "ticketmaster.com:2026-11-25T15:37:28.607Z:safety:DATA_INCOMPLETE",
         "source": "preflight_scan",
-        "checked_at": "2026-11-24T15:54:23.249Z",
+        "checked_at": "2026-11-25T15:37:28.607Z",
         "ttl_seconds": 3600
       },
       {
         "code": "INDEPENDENT_SAFETY_UNVERIFIED",
         "severity": "caution",
         "text": "Independent safety agreement is unavailable; a clean heuristic scan alone cannot establish GO.",
-        "evidence_id": "ticketmaster.com:2026-11-24T15:54:23.249Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
+        "evidence_id": "ticketmaster.com:2026-11-25T15:37:28.607Z:safety:INDEPENDENT_SAFETY_UNVERIFIED",
         "source": "preflight_scan",
-        "checked_at": "2026-11-24T15:54:23.249Z",
+        "checked_at": "2026-11-25T15:37:28.607Z",
         "ttl_seconds": 3600
       }
     ],
@@ -46,9 +46,9 @@
     },
     "safety": {
       "feed_status": "ok",
-      "feed_checked_at": "2026-11-24T15:54:23.230Z",
+      "feed_checked_at": "2026-11-25T15:37:28.593Z",
       "listed_on": [],
-      "domain_age_days": 12010,
+      "domain_age_days": 12011,
       "lookalike_of": null,
       "injection_findings": []
     },
@@ -70,15 +70,15 @@
       "retry": "/preflight/api/v1/preflight/ticketmaster.com.json"
     },
     "ruleset_version": "0.1.0-static.3",
-    "generated_at": "2026-11-24T15:54:23.249Z",
+    "generated_at": "2026-11-25T15:37:28.607Z",
     "signature": null,
-    "expires_at": "2026-11-25T15:54:23.249Z"
+    "expires_at": "2026-11-26T15:37:28.607Z"
   },
   "signature": {
     "alg": "ed25519",
     "kid": "preflight-2026-10",
-    "sig": "Jw5fakbnbydXClm3mToRCAW94rXFDfZhwwF_LJKvFrMKQ2HcTkKMwkSBDpm21OWeYa1Zy6QDV8nhwafEaEwxBA",
-    "generated_at": "2026-11-24T15:54:23.249Z",
-    "expires_at": "2026-11-25T15:54:23.249Z"
+    "sig": "VSPUb1LefxZu0K1N3YARtIJH9U3gNVmyiQvmE5tfWgkgqJF3wJ5_IEHC24nW-IZ6ci5Jsi7t1LUFO5Mt2rPJCw",
+    "generated_at": "2026-11-25T15:37:28.607Z",
+    "expires_at": "2026-11-26T15:37:28.607Z"
   }
 }
