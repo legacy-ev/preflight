@@ -1,30 +1,30 @@
 {
   "domain": "aa.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-11-25T15:37:28.607Z",
+  "checked_at": "2026-11-26T15:19:50.043Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10554,
+    "domain_age_days": 10555,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10554,
-      "checked_at": "2026-11-25T15:37:28.607Z"
+      "domain_age_days": 10555,
+      "checked_at": "2026-11-26T15:19:50.043Z"
     },
-    "feed_checked_at": "2026-11-25T15:37:28.593Z",
+    "feed_checked_at": "2026-11-26T15:19:50.020Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 301,
@@ -41,13 +41,13 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 200,
+      "latency_ms": 86,
       "headers": {}
     },
     "request_count": 1
   },
   "route": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -55,13 +55,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
     "sample_size_30d": 30,
@@ -79,7 +79,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "aborted_safety",
-      "attempted_at": "2026-11-25T15:37:28.607Z",
+      "attempted_at": "2026-11-26T15:19:50.043Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -89,10 +89,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-11-25T15:40:10.539Z",
+  "finished_at": "2026-11-26T15:22:23.750Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
       "sample_size_30d": 30,
@@ -107,8 +107,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "aa.com:2026-11-25T15:37:28.607Z:access:NO_DATA": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+    "aa.com:2026-11-26T15:19:50.043Z:access:NO_DATA": {
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 301,
@@ -125,47 +125,47 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 200,
+        "latency_ms": 86,
         "headers": {}
       },
       "request_count": 1
     },
-    "aa.com:2026-11-25T15:37:28.607Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+    "aa.com:2026-11-26T15:19:50.043Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10554,
+      "domain_age_days": 10555,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10554,
-        "checked_at": "2026-11-25T15:37:28.607Z"
+        "domain_age_days": 10555,
+        "checked_at": "2026-11-26T15:19:50.043Z"
       },
-      "feed_checked_at": "2026-11-25T15:37:28.593Z",
+      "feed_checked_at": "2026-11-26T15:19:50.020Z",
       "listings": []
     },
-    "aa.com:2026-11-25T15:37:28.607Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+    "aa.com:2026-11-26T15:19:50.043Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10554,
+      "domain_age_days": 10555,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10554,
-        "checked_at": "2026-11-25T15:37:28.607Z"
+        "domain_age_days": 10555,
+        "checked_at": "2026-11-26T15:19:50.043Z"
       },
-      "feed_checked_at": "2026-11-25T15:37:28.593Z",
+      "feed_checked_at": "2026-11-26T15:19:50.020Z",
       "listings": []
     }
   }

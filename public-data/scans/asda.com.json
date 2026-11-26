@@ -1,30 +1,30 @@
 {
   "domain": "asda.com",
   "scanner_version": "0.1.0",
-  "checked_at": "2026-11-25T15:37:28.607Z",
+  "checked_at": "2026-11-26T15:19:50.043Z",
   "scanned": false,
   "signed_requests": true,
   "safety": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 3600,
     "complete": false,
     "independently_verified": false,
     "feed_status": "ok",
     "listed_on": [],
     "findings": [],
-    "domain_age_days": 10372,
+    "domain_age_days": 10373,
     "lookalike_of": null,
     "rdap": {
       "status": "ok",
       "http_status": 200,
-      "domain_age_days": 10372,
-      "checked_at": "2026-11-25T15:37:28.607Z"
+      "domain_age_days": 10373,
+      "checked_at": "2026-11-26T15:19:50.043Z"
     },
-    "feed_checked_at": "2026-11-25T15:37:28.593Z",
+    "feed_checked_at": "2026-11-26T15:19:50.020Z",
     "listings": []
   },
   "access": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 86400,
     "complete": false,
     "status": 302,
@@ -106,7 +106,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 18,
+        "latency_ms": 32,
         "headers": {
           "content-type": {
             "value": "text/html; charset=UTF-8",
@@ -117,7 +117,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a601be5ddc37acf6-MSP",
+            "value": "a609e1c71a9bcf2a-SJC",
             "untrusted_evidence": true
           }
         }
@@ -130,7 +130,7 @@
       "challenge": false,
       "block_page": false,
       "truncated": false,
-      "latency_ms": 73,
+      "latency_ms": 83,
       "headers": {
         "content-type": {
           "value": "text/plain; charset=utf-8",
@@ -141,7 +141,7 @@
           "untrusted_evidence": true
         },
         "cf-ray": {
-          "value": "a601be5769abacf6-MSP",
+          "value": "a609e1c0bab4cf2a-SJC",
           "untrusted_evidence": true
         }
       }
@@ -160,7 +160,7 @@
     "request_count": 2
   },
   "route": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 86400,
     "complete": false,
     "routes": [],
@@ -168,13 +168,13 @@
     "schema_org_product": false
   },
   "tos": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 604800,
     "class": "unknown",
     "classification": "not yet classified"
   },
   "outcomes": {
-    "checked_at": "2026-11-25T15:37:28.607Z",
+    "checked_at": "2026-11-26T15:19:50.043Z",
     "ttl_seconds": 86400,
     "sample_size_7d": 7,
     "sample_size_30d": 30,
@@ -192,7 +192,7 @@
       "intent": "read",
       "route_used": "browser",
       "result": "failed",
-      "attempted_at": "2026-11-25T15:37:28.607Z",
+      "attempted_at": "2026-11-26T15:19:50.043Z",
       "reporter": {
         "operator": "preflight",
         "agent_family": "preflight-synthetic",
@@ -202,10 +202,10 @@
       "signed_requests": true
     }
   ],
-  "finished_at": "2026-11-25T15:39:06.408Z",
+  "finished_at": "2026-11-26T15:21:22.575Z",
   "outcomes_by_intent": {
     "read": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 86400,
       "sample_size_7d": 7,
       "sample_size_30d": 30,
@@ -220,8 +220,8 @@
   },
   "retained_safety_reasons": [],
   "evidence": {
-    "asda.com:2026-11-25T15:37:28.607Z:access:NO_DATA": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+    "asda.com:2026-11-26T15:19:50.043Z:access:NO_DATA": {
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 86400,
       "complete": false,
       "status": 302,
@@ -303,7 +303,7 @@
           "challenge": false,
           "block_page": false,
           "truncated": false,
-          "latency_ms": 18,
+          "latency_ms": 32,
           "headers": {
             "content-type": {
               "value": "text/html; charset=UTF-8",
@@ -314,7 +314,7 @@
               "untrusted_evidence": true
             },
             "cf-ray": {
-              "value": "a601be5ddc37acf6-MSP",
+              "value": "a609e1c71a9bcf2a-SJC",
               "untrusted_evidence": true
             }
           }
@@ -327,7 +327,7 @@
         "challenge": false,
         "block_page": false,
         "truncated": false,
-        "latency_ms": 73,
+        "latency_ms": 83,
         "headers": {
           "content-type": {
             "value": "text/plain; charset=utf-8",
@@ -338,7 +338,7 @@
             "untrusted_evidence": true
           },
           "cf-ray": {
-            "value": "a601be5769abacf6-MSP",
+            "value": "a609e1c0bab4cf2a-SJC",
             "untrusted_evidence": true
           }
         }
@@ -356,42 +356,42 @@
       "pay_per_crawl": null,
       "request_count": 2
     },
-    "asda.com:2026-11-25T15:37:28.607Z:safety:DATA_INCOMPLETE": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+    "asda.com:2026-11-26T15:19:50.043Z:safety:DATA_INCOMPLETE": {
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10372,
+      "domain_age_days": 10373,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10372,
-        "checked_at": "2026-11-25T15:37:28.607Z"
+        "domain_age_days": 10373,
+        "checked_at": "2026-11-26T15:19:50.043Z"
       },
-      "feed_checked_at": "2026-11-25T15:37:28.593Z",
+      "feed_checked_at": "2026-11-26T15:19:50.020Z",
       "listings": []
     },
-    "asda.com:2026-11-25T15:37:28.607Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
-      "checked_at": "2026-11-25T15:37:28.607Z",
+    "asda.com:2026-11-26T15:19:50.043Z:safety:INDEPENDENT_SAFETY_UNVERIFIED": {
+      "checked_at": "2026-11-26T15:19:50.043Z",
       "ttl_seconds": 3600,
       "complete": false,
       "independently_verified": false,
       "feed_status": "ok",
       "listed_on": [],
       "findings": [],
-      "domain_age_days": 10372,
+      "domain_age_days": 10373,
       "lookalike_of": null,
       "rdap": {
         "status": "ok",
         "http_status": 200,
-        "domain_age_days": 10372,
-        "checked_at": "2026-11-25T15:37:28.607Z"
+        "domain_age_days": 10373,
+        "checked_at": "2026-11-26T15:19:50.043Z"
       },
-      "feed_checked_at": "2026-11-25T15:37:28.593Z",
+      "feed_checked_at": "2026-11-26T15:19:50.020Z",
       "listings": []
     }
   }
